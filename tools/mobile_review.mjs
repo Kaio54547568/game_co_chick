@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+const tabs=await(await fetch('http://127.0.0.1:9222/json/list')).json();
+const tab=tabs.find(t=>t.type==='page'&&t.url.startsWith('http://127.0.0.1:3000'));
+const ws=new WebSocket(tab.webSocketDebuggerUrl);
+await new Promise(r=>ws.addEventListener('open',r,{once:true}));
+let id=0;const waiting=new Map();
+ws.addEventListener('message',({data})=>{const m=JSON.parse(data);if(waiting.has(m.id)){waiting.get(m.id)(m.result);waiting.delete(m.id)}});
+const call=(method,params={})=>new Promise(resolve=>{const n=++id;waiting.set(n,resolve);ws.send(JSON.stringify({id:n,method,params}))});
+await call('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
+await new Promise(r=>setTimeout(r,900));
+const screenshot=await call('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});
+fs.writeFileSync('tools/game_mobile.png',Buffer.from(screenshot.data,'base64'));
+await call('Emulation.clearDeviceMetricsOverride');
+ws.close();

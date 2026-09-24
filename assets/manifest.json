@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "art": {
+    "player_male": {
+      "path": "assets/game/characters/player/male_idle.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_female": {
+      "path": "assets/game/characters/player/female_idle.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "fisherman": {
+      "path": "assets/game/characters/npc/fisherman.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "merchant": {
+      "path": "assets/game/characters/npc/merchant.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "bang_chu_ha_anh_phuong": {
+      "path": "assets/game/characters/npc/bang_chu_ha_anh_phuong.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "bang_chu_ha_anh_phuong_portrait": {
+      "path": "assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
+      "size": [
+        512,
+        640
+      ],
+      "origin": [
+        0.5,
+        1.0
+      ],
+      "frames": 1
+    },
+    "sword_disciple": {
+      "path": "assets/game/characters/enemies/sword_disciple.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "mist_demon": {
+      "path": "assets/game/characters/enemies/mist_demon.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "elite_disciple": {
+      "path": "assets/game/characters/enemies/elite_disciple.png",
+      "size": [
+        192,
+        224
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "boss_disorder": {
+      "path": "assets/game/characters/bosses/loan_ngu_kiem_ma.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.95
+      ],
+      "frames": 1
+    },
+    "boss_forgetting": {
+      "path": "assets/game/characters/bosses/vong_tu_quy_vuong.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.95
+      ],
+      "frames": 1
+    },
+    "boss_sound": {
+      "path": "assets/game/characters/bosses/me_am_yeu_co.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.95
+      ],
+      "frames": 1
+    },
+    "boss_illusion": {
+      "path": "assets/game/characters/bosses/thien_dien_huyen_su.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.95
+      ],
+      "frames": 1
+    },
+    "boss_silence": {
+      "path": "assets/game/characters/bosses/vo_ngon_ma_ton.png",
+      "size": [
+        288,
+        320
+      ],
+      "origin": [
+        0.5,
+        0.95
+      ],
+      "frames": 1
+    },
+    "sect_gate": {
+      "path": "assets/game/world/landmarks/son_mon.png",
+      "size": [
+        576,
+        448
+      ],
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "frames": 1
+    },
+    "library": {
+      "path": "assets/game/world/landmarks/tang_kinh_cac.png",
+      "size": [
+        576,
+        448
+      ],
+      "origin": [
+        0.5,
+        0.88
+      ],
+      "frames": 1
+    },
+    "bamboo_grove": {
+      "path": "assets/game/world/landmarks/truc_lam.png",
+      "size": [
+        512,
+        384
+      ],
+      "origin": [
+        0.5,
+        0.83
+      ],
+      "frames": 1
+    },
+    "boss_gate": {
+      "path": "assets/game/world/landmarks/ma_giao_cam_dia.png",
+      "size": [
+        576,
+        448
+      ],
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "frames": 1
+    },
+    "secret_manual": {
+      "path": "assets/game/items/anh_ngu_bi_dien.png",
+      "size": [
+        128,
+        128
+      ],
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "frames": 1
+    },
+    "novice_sword": {
+      "path": "assets/game/items/novice_sword.png",
+      "size": [
+        128,
+        128
+      ],
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "frames": 1
+    },
+    "loot_chest": {
+      "path": "assets/game/items/loot_chest.png",
+      "size": [
+        160,
+        128
+      ],
+      "origin": [
+        0.5,
+        0.85
+      ],
+      "frames": 1
+    },
+    "jade_amulet": {
+      "path": "assets/game/items/jade_amulet.png",
+      "size": [
+        128,
+        128
+      ],
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "frames": 1
+    },
+    "knowledge_seal": {
+      "path": "assets/game/world/props/knowledge_seal.png",
+      "size": [
+        192,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "frames": 1
+    },
+    "training_dummy": {
+      "path": "assets/game/world/props/training_dummy.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "red_lantern": {
+      "path": "assets/game/world/props/red_lantern.png",
+      "size": [
+        128,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.92
+      ],
+      "frames": 1
+    }
+  },
+  "directions": {
+    "player_male_down": {
+      "path": "assets/game/characters/player/directional/male/down.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_male_up": {
+      "path": "assets/game/characters/player/directional/male/up.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_male_left": {
+      "path": "assets/game/characters/player/directional/male/left.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_male_right": {
+      "path": "assets/game/characters/player/directional/male/right.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_male_4dir": {
+      "path": "assets/game/characters/player/directional/male_4dir.png",
+      "size": [
+        640,
+        192
+      ],
+      "frame_width": 160,
+      "frame_height": 192,
+      "frame_order": [
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ]
+    },
+    "player_female_down": {
+      "path": "assets/game/characters/player/directional/female/down.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_female_up": {
+      "path": "assets/game/characters/player/directional/female/up.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_female_left": {
+      "path": "assets/game/characters/player/directional/female/left.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_female_right": {
+      "path": "assets/game/characters/player/directional/female/right.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "player_female_4dir": {
+      "path": "assets/game/characters/player/directional/female_4dir.png",
+      "size": [
+        640,
+        192
+      ],
+      "frame_width": 160,
+      "frame_height": 192,
+      "frame_order": [
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ]
+    }
+  },
+  "scenes": {
+    "courtyard_stone": {
+      "path": "assets/game/world/ground/courtyard_stone.png",
+      "size": [
+        256,
+        256
+      ],
+      "tileable_claim": "generation prompt only; verify joins in target map"
+    },
+    "forest_earth": {
+      "path": "assets/game/world/ground/forest_earth.png",
+      "size": [
+        256,
+        256
+      ],
+      "tileable_claim": "generation prompt only; verify joins in target map"
+    },
+    "courtyard_arena": {
+      "path": "assets/game/combat/courtyard_arena.jpg",
+      "size": [
+        1280,
+        720
+      ]
+    }
+  },
+  "ui": {
+    "ui_map": {
+      "path": "assets/game/ui/icons/map.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_quest": {
+      "path": "assets/game/ui/icons/quest.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_inventory": {
+      "path": "assets/game/ui/icons/inventory.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_book": {
+      "path": "assets/game/ui/icons/book.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_friends": {
+      "path": "assets/game/ui/icons/friends.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_heart": {
+      "path": "assets/game/ui/icons/heart.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_xp": {
+      "path": "assets/game/ui/icons/xp.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_power": {
+      "path": "assets/game/ui/icons/power.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_sword": {
+      "path": "assets/game/ui/icons/sword.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_shield": {
+      "path": "assets/game/ui/icons/shield.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_audio": {
+      "path": "assets/game/ui/icons/audio.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_settings": {
+      "path": "assets/game/ui/icons/settings.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ui_panel": {
+      "path": "assets/game/ui/panel_9slice.png",
+      "size": [
+        128,
+        128
+      ],
+      "nine_slice_margin": 24
+    },
+    "joystick_base": {
+      "path": "assets/game/ui/controls/joystick_base.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "joystick_knob": {
+      "path": "assets/game/ui/controls/joystick_knob.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "attack_button": {
+      "path": "assets/game/ui/controls/attack_button.png",
+      "size": [
+        128,
+        128
+      ]
+    }
+  },
+  "vfx": {
+    "hit_spark": {
+      "path": "assets/game/vfx/hit_spark.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "critical_spark": {
+      "path": "assets/game/vfx/critical_spark.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "quest_glow": {
+      "path": "assets/game/vfx/quest_glow.png",
+      "size": [
+        128,
+        128
+      ]
+    }
+  }
+}

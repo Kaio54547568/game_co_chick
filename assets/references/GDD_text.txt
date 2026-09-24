@@ -1,0 +1,541 @@
+PHƯỢNG CHICK
+ENGLISH WULIN
+Tam Niên Anh Ngữ – Nhất Thống Võ Lâm
+GAME DESIGN & PRODUCT DOCUMENT
+Version 1.0  •  23/09/2026
+“Học tiếng Anh theo cách của một thiếu hiệp.”
+0. Mục đích tài liệu
+Tài liệu này tổng hợp mô tả sản phẩm, game design, learning design, hệ thống progression, combat, social, kỹ thuật và phạm vi MVP cho PHƯỢNG CHICK ENGLISH WULIN. Đây là bản GDD/Product Document nền tảng để dùng cho thiết kế, lập trình, tạo asset, thử nghiệm MVP và trao đổi với cộng tác viên.
+Nguồn nội dung gồm bản giới thiệu game ban đầu và các quyết định thiết kế đã chốt trong quá trình phát triển. Những phần còn chưa chốt được ghi rõ là “TBD/Chưa chốt” hoặc dưới dạng đề xuất.
+Thuộc tính
+Giá trị
+Tên game
+PHƯỢNG CHICK ENGLISH WULIN
+Tagline
+Tam Niên Anh Ngữ – Nhất Thống Võ Lâm
+Thể loại
+Educational RPG / Wuxia Fantasy / Top-down 2D
+Nền tảng
+Web, mobile-first; desktop hỗ trợ đầy đủ
+Đối tượng
+Học sinh lớp 10–12
+Chương trình học
+Global Success 10–11–12
+Session mục tiêu
+10–15 phút
+Thiết kế ưu tiên
+60% gameplay & retention / 40% learning effectiveness
+Mục tiêu MVP
+Người chơi tự nguyện chơi 10–15 phút mà không cảm thấy đang làm bài tập tiếng Anh
+Mục tiêu dài hạn
+Nhiều người chơi, retention tốt và tạo doanh thu bền vững
+Mục lục
+1. Tổng quan sản phẩm
+2. Vision, mục tiêu và game pillars
+3. Người chơi mục tiêu & bối cảnh sử dụng
+4. Thế giới, cốt truyện và phe phái
+5. Nhân vật
+6. Cấu trúc 30 Unit và bản đồ
+7. Core gameplay loop
+8. Exploration và hoạt động trên map
+9. Learning system
+10. Vocabulary & question data model
+11. Mastery và adaptive difficulty
+12. Combat system
+13. Boss design
+14. Player stats, Công Lực và progression
+15. Equipment, rarity và inventory
+16. Quest, daily, weekly và streak
+17. Social, bạn bè, bang hội, PvP và co-op
+18. Leaderboard và fairness
+19. Account, save và teacher features
+20. UI/UX & onboarding
+21. Art direction & asset pipeline
+22. Audio & game feel
+23. Technical architecture
+24. CMS, AI content và dữ liệu
+25. Analytics & KPI
+26. Monetization
+27. MVP / Vertical Slice
+28. Roadmap phát triển
+29. Rủi ro & nguyên tắc thiết kế
+30. Các quyết định còn mở
+1. Tổng quan sản phẩm
+PHƯỢNG CHICK ENGLISH WULIN là web game RPG kiếm hiệp dành cho học sinh lớp 10–12, trong đó nội dung học tiếng Anh của chương trình Global Success được biến thành bí kíp, nhiệm vụ, thử thách, trận chiến và progression trong một thế giới Võ Lâm.
+Game không định vị người chơi là đang “làm bài tập”. Fantasy cốt lõi là trở thành một thiếu hiệp: khám phá bản đồ, học bí kíp, gặp NPC, nhận nhiệm vụ, đánh quái, tăng cấp, trang bị, tích lũy Công Lực và đánh Boss.
+Trải nghiệm học nằm bên dưới gameplay: từ vựng, ngữ pháp, đọc hiểu, nghe, speaking và các dạng luyện tập được contextualize thành hoạt động trong thế giới game.
+Định hướng dài hạn là phát triển thành một educational RPG/live-service game có thể mở rộng social, bang hội, PvP, co-op Boss, leaderboard, cosmetic, pet, Battle Pass, season và event.
+2. Vision, mục tiêu và game pillars
+2.1 Product Vision
+Tạo một game học tiếng Anh mà học sinh chủ động mở để chơi, thay vì chỉ mở vì bị yêu cầu học. Người chơi cần có cảm giác “đang chơi RPG kiếm hiệp và tiện thể học tiếng Anh”.
+2.2 Mục tiêu thành công dài hạn
+Đạt được lượng người chơi lớn.
+Retention tốt, tạo thói quen quay lại hằng ngày.
+Có khả năng tạo doanh thu, ưu tiên cosmetic và engagement system hơn pay-to-win.
+Mở rộng nội dung đầy đủ cho Global Success lớp 10–11–12.
+Xây dựng được cộng đồng người chơi, social loop và cạnh tranh lành mạnh.
+2.3 Game pillars
+Pillar
+Ý nghĩa
+Game-first
+Mỗi hoạt động học phải được đóng gói thành quest, combat, exploration, puzzle hoặc reward.
+Short-session friendly
+Một session 10–15 phút vẫn phải tạo cảm giác có tiến triển.
+Visible progression
+Level, XP, equipment, Công Lực, mastery, quest và unlock phải phản hồi rõ ràng.
+Wuxia identity
+Thế giới, UI, combat, âm thanh và asset phải cùng một ngôn ngữ kiếm hiệp.
+Learning integrity
+Học đúng Global Success; theo dõi lỗi, mastery và adaptive review.
+Expandable architecture
+MVP nhỏ nhưng kiến trúc không chặn social, PvP, co-op, season và monetization sau này.
+3. Người chơi mục tiêu & bối cảnh sử dụng
+Người chơi chính: học sinh lớp 10–12.
+Use case chính: tự học ở nhà; vẫn có thể dùng trên lớp.
+Nội dung: bám đúng chương trình Global Success.
+Session lý tưởng: 10–15 phút.
+Thiết kế ưu tiên: 60% gameplay & retention, 40% learning effectiveness.
+Không bắt buộc giáo viên theo dõi để người chơi có thể tự quản lý tiến độ.
+Teacher features có thể tồn tại như một lớp mở rộng, không phải trọng tâm trải nghiệm học sinh.
+4. Thế giới, cốt truyện và phe phái
+4.1 Premise
+Từ nhiều năm trước, trong Võ Lâm xuất hiện một tà phái mang tên Vô Ngôn Ma Giáo. Chúng tu luyện một loại tà công có khả năng khiến con người quên từ ngữ, đảo loạn câu chữ, nghe mà không hiểu, đọc mà không nhớ.
+Mục tiêu của Ma Giáo là phá hủy Anh Ngữ Bí Điển, khiến toàn bộ Võ Lâm rơi vào cảnh “hữu khẩu nan ngôn” – muốn nói mà không thể nói.
+Người chơi là một thiếu hiệp trẻ bước vào Võ Lâm. Qua 30 Unit/cửa ải, người chơi phát triển tri thức, tu luyện năng lực và từng bước phá tan âm mưu của Vô Ngôn Ma Giáo.
+4.2 Phe chính
+Võ Lâm chính phái do Bang Chủ Hà Ánh Phượng dẫn dắt. Các Hộ Pháp phụ trách từng loại tri thức và xuất hiện khi người chơi tiếp cận kiến thức mới.
+4.3 Phe phản diện
+Vô Ngôn Ma Tôn – thủ lĩnh tối cao.
+Loạn Ngữ Kiếm Ma – Boss thiên về grammar/sentence disorder.
+Vong Từ Quỷ Vương – Boss thiên về vocabulary/forgetting.
+Mê Âm Yêu Cơ – Boss thiên về listening.
+Thiên Diện Huyễn Sư – Boss thiên về reading, deception và distractor.
+Các Ma Giáo Kiếm Đồ, Hắc Khí Yêu Ma và sinh vật phụ trợ khác.
+5. Nhân vật
+Nhân vật
+Vai trò
+Ngôn ngữ hình ảnh / chức năng
+Người chơi
+Playable character
+Tự tạo avatar; chọn nam/nữ/ngoại hình; phát triển stats, equipment, skill.
+Bang Chủ Hà Ánh Phượng
+NPC trung tâm
+Giao nhiệm vụ chính, dẫn dắt cốt truyện, hình ảnh đỏ–đen–vàng, khí chất lãnh đạo.
+Hộ Pháp
+Mentor NPC
+Xuất hiện khi học kiến thức mới; mỗi Hộ Pháp có game mode/skill riêng.
+Lão Ngư Phu và NPC phụ
+Side quest / world building
+Tạo nhịp nghỉ, quest phụ, lore, reward.
+Vô Ngôn Ma Giáo
+Enemy faction
+Nguồn gốc quái và Boss; motif đen, tím, đỏ, distortion/ngôn ngữ bị phá vỡ.
+Playable character là nhân vật riêng của người chơi, không phải các giáo viên. Giáo viên được stylize thành NPC/Hộ Pháp trong thế giới game.
+6. Cấu trúc 30 Unit và bản đồ
+Mỗi Unit của Global Success tương ứng một ải/vùng nội dung. Mỗi lớp có một map riêng. Tổng cấu trúc là 30 Unit chia theo lớp 10, 11 và 12.
+Khối
+Cảnh giới gợi ý
+Vai trò
+Lớp 10
+Sơ Nhập Giang Hồ
+Làm quen hệ thống, xây nền từ vựng/ngữ pháp và gameplay.
+Lớp 11
+Hành Tẩu Võ Lâm
+Nhiều quest, Boss và cơ chế phức tạp hơn.
+Lớp 12
+Nhất Đại Cao Thủ
+Tổng hợp kỹ năng, Boss khó, progression cao nhất.
+Mỗi Unit có khoảng 3–6 màn/khu vực nhỏ. Không cần hoàn thành 100% Unit để đi tiếp: khoảng 70% tiến độ là đủ mở cổng chuyển tiếp/Boss Gate. Người chơi có thể quay lại ải cũ để farm XP/Công Lực/tài nguyên và luyện lại kiến thức.
+Boss không xuất hiện ở mọi mốc nhỏ; Boss nằm ở các mốc quan trọng. Mỗi lớp có Final Boss riêng.
+7. Core gameplay loop
+Core loop cấp session:
+Đăng nhập và tiếp tục hành trình.
+Di chuyển tự do trên map bằng WASD/joystick.
+Nhận nhiệm vụ hoặc chọn hoạt động muốn làm.
+Tương tác NPC, học bí kíp/kiến thức mới hoặc khám phá khu vực.
+Làm challenge/quiz được contextualize thành gameplay.
+Đánh quái, nhận XP, tài nguyên, equipment.
+Nâng cấp nhân vật và tăng Công Lực.
+Tích lũy đủ Unit Progress để mở khu vực/Boss Gate.
+Đánh Boss hoặc hoàn thành mục tiêu session.
+Nhận reward, cập nhật mastery và lưu tiến độ.
+Tàng Kinh Các → Luyện Công → Bí Cảnh → Boss Battle → Nhận thưởng là chuỗi nội dung bắt buộc ở cấp Unit, nhưng thứ tự các quiz/challenge nhỏ có thể linh hoạt và người chơi được quyền quay lại.
+8. Exploration và hoạt động trên map
+Top-down 2D, di chuyển tự do bằng WASD/arrow trên desktop và virtual joystick trên mobile.
+Người chơi đi đến địa điểm để học, làm quest, thu thập tài nguyên, đánh quái và mở khu vực.
+Quiz không xuất hiện liên tục như worksheet; được đặt vào bối cảnh NPC, phong ấn, bí cảnh, combat hoặc puzzle.
+NPC dialogue và cutscene được sử dụng để tạo story context.
+Quest phụ được phép tồn tại song song với main quest.
+Map cần landmark rõ: Sơn Môn, Tàng Kinh Các, Trúc Lâm, Ma Giáo Cấm Địa...
+Camera follow gần nhân vật; không cho người chơi nhìn toàn bộ map cùng lúc.
+9. Learning system
+9.1 Nội dung học
+Vocabulary.
+Grammar.
+Reading.
+Listening.
+Speaking.
+Collocation, word formation, sentence ordering và tổng hợp.
+Prototype hiện dùng dữ liệu demo. Về production, người phát triển sẽ tự nhập nội dung; dữ liệu có thể được cập nhật qua CMS mà không cần sửa code.
+9.2 Nguyên tắc game hóa
+Một kiến thức không nên chỉ xuất hiện dưới dạng câu hỏi A/B/C/D. Ví dụ: NPC yêu cầu tìm từ liên quan Environment, sắp mảnh bí kíp để mở phong ấn, hoặc trả lời đúng để tung chiêu.
+9.3 Listening & Speaking
+Listening sử dụng audio do người phát triển nhập. Speaking có thể dùng speech-to-text/pronunciation API chi phí thấp hoặc model phù hợp. MVP không bắt buộc speaking để tránh làm chậm vertical slice.
+10. Vocabulary & question data model
+10.1 Vocabulary fields đề xuất
+Field
+Mô tả
+word
+Từ vựng.
+word_type
+Loại từ.
+ipa_uk / ipa_us
+IPA UK/US.
+meaning_vi
+Nghĩa tiếng Việt.
+definition_en
+Định nghĩa tiếng Anh.
+example_sentence
+Câu ví dụ.
+example_translation
+Dịch câu ví dụ.
+collocations[]
+Collocation.
+synonyms[] / antonyms[]
+Từ đồng/trái nghĩa.
+word_family[]
+Word family.
+common_phrases[]
+Cụm thường gặp.
+audio_url
+Audio phát âm.
+image_url
+Ảnh minh họa.
+difficulty
+Độ khó.
+grade / unit_id
+Khối và Unit.
+topic / tags[]
+Chủ đề và tag.
+10.2 Question fields đề xuất
+id, unit_id, lesson_id, type, skill, difficulty, question_text, options, correct_answer, explanation, time_limit, xp_reward, tags, knowledge_item_id.
+Các type chính: MULTIPLE_CHOICE, MATCHING, FILL_BLANK, SENTENCE_ORDER, READING.
+10.3 Question bank
+Chưa chốt số lượng production. Đề xuất MVP: 30–50 câu/Unit demo. Production có thể hướng đến 100–200 biến thể/Unit bằng câu gốc + template + AI generation.
+11. Mastery và adaptive difficulty
+Game lưu lịch sử đúng/sai theo knowledge item để ưu tiên ôn lại phần người chơi yếu.
+Mastery score
+Hành vi hệ thống
+< 50
+Xuất hiện thường xuyên.
+50–80
+Xuất hiện ở tần suất bình thường.
+80–89
+Xuất hiện ít hơn.
+>= 90
+Đánh dấu Mastered.
+Ngưỡng mastery đã chốt: 90% trở lên. Adaptive difficulty ban đầu dùng heuristic, chưa cần machine learning.
+12. Combat system
+Người chơi có nhân vật thật với HP, Attack, Defense, Speed, Critical Rate, Critical Damage và Skill. Công Lực là chỉ số tổng hợp để biểu diễn sức mạnh, không nên được cộng trực tiếp một lần nữa vào damage.
+Combat dựa trên việc chọn đáp án: trả lời đúng → nhân vật tấn công; trả lời sai → mất Sinh lực/địch tấn công. Người chơi được làm lại sau khi thất bại.
+12.1 Combo
+Chuỗi đúng
+Multiplier gợi ý
+1
+x1.0
+2
+x1.1
+3
+x1.2
+5
+x1.4–1.5
+10
+Kích hoạt special/ultimate
+12.2 Critical Hit
+Critical Hit được kích hoạt khi trả lời đúng trước mốc thời gian trên thanh thời gian. Một ví dụ: 0–3 giây = Critical; 3–7 giây = Normal; 7–10 giây = Weak Hit; hết giờ = Enemy attacks.
+12.3 Sinh lực
+HP ban đầu khoảng 100 và tăng dần theo progression. HP hồi theo thời gian, không hồi ngay toàn bộ sau trận. Số damage khi sai không cố định ở -1.
+12.4 Thua trận
+Nếu thua Boss, người chơi chơi lại riêng Boss; không restart toàn Unit. Hiện không có consumable hỗ trợ trước trận.
+13. Boss design
+Boss cần có mechanic riêng và có thể có nhiều phase. Boss là nơi kết hợp learning mechanic và combat fantasy.
+Boss
+Chủ đề
+Cơ chế gợi ý
+Loạn Ngữ Kiếm Ma
+Grammar / sentence order
+Đảo từ; giảm time limit ở phase sau.
+Vong Từ Quỷ Vương
+Vocabulary
+Xóa/che từ, buộc recall.
+Mê Âm Yêu Cơ
+Listening
+Audio nhiễu, tốc độ thay đổi, giới hạn lần nghe.
+Thiên Diện Huyễn Sư
+Reading / deception
+Distractor, synonym, câu gần đúng.
+Vô Ngôn Ma Tôn
+Final antagonist
+Tổng hợp nhiều kỹ năng và phase.
+MVP Boss nên có tối thiểu 2 phase, intro, HP bar, boss dialogue, mechanic đặc biệt và victory screen.
+14. Player stats, Công Lực và progression
+14.1 Stats
+HP
+Attack
+Defense
+Speed
+Critical Rate
+Critical Damage
+Skill Power
+14.2 XP, Level và Sao
+XP dùng để tăng cấp. Level tối đa toàn game là 30. Sao dùng trong cơ chế thăng cấp/đột phá khi đã đủ XP.
+Gợi ý flow: đầy XP → đủ Sao → Đột Phá → lên cấp. Cách gọi “Đột Phá” phù hợp với fantasy kiếm hiệp.
+14.3 Công Lực
+Công Lực là Power Score tổng quát tính từ Level, HP, Attack, Defense, Equipment, Skill và các yếu tố khác. Mục đích là giúp người chơi biết nhanh lực chiến tổng thể.
+14.4 Level vs Unit
+Level không đồng nhất với Unit vì người chơi có thể farm lại ải cũ. Điều này cho phép người chơi chăm chỉ bù khoảng cách với người chơi học nhanh.
+15. Equipment, rarity và inventory
+Hệ thống có trang bị, kiếm, trang phục và skills. Tiền tệ trong game dùng để mua nội dung cosmetic như skin/pet về sau; bản demo có thể chưa cần shop hoàn chỉnh.
+Slot/Loại
+Ví dụ
+Weapon
+Kiếm, vũ khí chính.
+Armor
+Trang phục/giáp.
+Accessory
+Ngọc bội, phù, bảo vật.
+Skill
+Kỹ năng chiến đấu.
+Cosmetic
+Skin, hiệu ứng, pet trong tương lai.
+Rarity: Common / Uncommon / Rare / Epic / Legendary / Mythic; MVP nên giới hạn 4 bậc Common / Rare / Epic / Legendary để dễ balance.
+Huy hiệu có thể dùng như currency/reward để đổi đồ cơ bản, đồng thời vẫn có giá trị collection.
+16. Quest, daily, weekly và streak
+Daily mission reset lúc 02:00 hằng ngày. Tạm thời dự kiến 10 nhiệm vụ/ngày và nhiệm vụ được random.
+Học từ mới.
+Hoàn thành bài luyện.
+Thắng quái/Boss.
+Gửi Tâm Ý.
+Hoàn thành challenge theo skill.
+Thu thập tài nguyên hoặc hoàn thành side quest.
+Streak không giới hạn. Nếu bỏ một ngày, streak bị mất; người chơi có thể dùng tiền trong game để bảo vệ chuỗi. Có weekly quest. Mốc 7/14/30 ngày có thể thưởng tiền, tài nguyên, XP, skin hoặc reward đặc biệt.
+17. Social, bạn bè, bang hội, PvP và co-op
+Hệ thống
+Quyết định hiện tại
+Kết bạn
+Nickname + Player ID.
+Giới hạn bạn bè
+50 người ban đầu.
+Tâm Ý
+Tối đa 10 Tâm Ý cho mỗi bạn/ngày theo quyết định hiện tại.
+Chat
+Có.
+Bang hội
+Có.
+PvP
+Có.
+Co-op Boss
+Có.
+Spam nhiều tài khoản
+Tạm thời chưa chặn ở giai đoạn đầu.
+Khuyến nghị production: cần giới hạn economy của Tâm Ý, chống multi-account và có moderation/chat safety ngay khi mở free chat. Với đối tượng học sinh, preset message hoặc profanity/report/block/rate-limit nên có trước khi public rộng.
+18. Leaderboard và fairness
+Leaderboard có thể lọc theo XP, Công Lực, số Boss đã hạ và điểm học tập. Có leaderboard theo trường/lớp.
+Reset chính theo ngày; có thể bổ sung Weekly, Season và All-time để vừa tạo cơ hội cho người mới vừa giữ giá trị dài hạn.
+Top ranking có thưởng. Thiết kế phải cho phép người chơi chăm chỉ cạnh tranh chứ không chỉ người có nền tảng tiếng Anh mạnh.
+Anti-cheat nâng cao có thể làm sau, nhưng reward quan trọng như XP, currency, item, level, Boss clear phải được validate server-side ngay từ kiến trúc.
+19. Account, save và teacher features
+Đăng nhập: email, Google, username/password.
+Tạm thời yêu cầu tài khoản; guest mode không phải ưu tiên hiện tại.
+Lưu lịch sử từng câu đúng/sai.
+Lưu level, XP, HP, equipment, inventory, quest, Unit Progress, mastery và Boss results.
+Có teacher dashboard về sau.
+Giáo viên có thể tạo lớp và mời học sinh.
+Refresh/browser/device flow không được làm mất progress.
+20. UI/UX & onboarding
+20.1 Home / HUD
+UI theo hướng minimalism, wuxia hiện đại: dark translucent panels, gold/brass border, warm parchment accent, icon gọn. Không dùng layout mobile MMORPG quá nhiều icon.
+Top HUD: Avatar, Level, HP, XP, Công Lực.
+Bottom navigation gọn: Võ Lâm/Map, Nhiệm Vụ, Hành Trang, Bằng Hữu hoặc Tàng Kinh Các tùy phase.
+NPC nameplate chỉ hiện khi player ở gần/hover; quest giver dùng dấu !.
+Joystick nhỏ, opacity thấp; action button riêng.
+Combat có scene/presentation riêng, tránh cảm giác modal quiz của website.
+20.2 Onboarding
+Tutorial khoảng 3–5 phút, dạy bằng hành động: Bang Chủ chào → di chuyển → nói chuyện NPC → học 3 từ → đánh 1 quái → nhận XP/item → mở map chính. Hạn chế popup dài.
+21. Art direction & asset pipeline
+Art direction: cinematic wuxia fantasy, realistic/semi-realistic, trang phục nhiều lớp, embroidery chi tiết, ánh sáng điện ảnh, tông đỏ–đen–vàng, jade, trắng/bạc và tím đậm. Ảnh tham chiếu hiện tại định hướng visual quality và khí chất kiếm hiệp.
+Gameplay là top-down 2D. Concept art full-body được dùng làm reference; actual game sprite cần chuyển thành 2D top-down 3/4, silhouette rõ, đọc được ở scale nhỏ.
+21.1 Asset classes
+Playable characters.
+Main NPC / Hộ Pháp.
+Mr. Đặng Trần Hà
+Xanh navy
+Hộ pháp; ngữ pháp / logic / thử thách
+Ms. Liên Phạm
+Tím
+Hộ pháp; giao tiếp / speaking
+Ms. Phương Tú
+Xanh lá
+Hộ pháp; từ vựng / phát triển
+Ms. Nguyệt Nguyễn
+Trắng / bạc / xanh nhạt
+Hộ pháp; đọc hiểu / trí tuệ
+Ms. Hoàng Vân
+Vàng / cam
+Hộ pháp; nghe / nhịp điệu / năng lượng
+Normal & elite enemies.
+Bosses.
+Buildings & landmarks.
+Environment props.
+Equipment & items.
+Combat/world VFX.
+UI icons.
+Top-down sprite sheets.
+21.2 Environment pipeline
+Không dùng procedural placeholder art làm final. Pipeline khuyến nghị: Tiled Map Editor + Phaser Tilemap + PNG/WebP sprite/tileset. Layer gồm Ground, Ground Details, Path, Water, Props, Collision, Foreground, Interaction và Spawn.
+21.3 Animation
+MVP animation cơ bản: idle, walk, attack, hit, death. Player hỗ trợ 4 hướng. Boss dùng template chung trước, sau đó có thể nâng lên animation riêng.
+22. Audio & game feel
+Có voice-over.
+Mỗi vùng có thể có nhạc nền riêng.
+SFX: sword slash, hit, critical, gong, level-up, item pickup, quest complete.
+Ambient: lá rơi, gió, nước, lantern, dark aura.
+Game feel: hit flash, floating damage, camera shake nhẹ, hit-stop ngắn, XP popup, item pickup animation, Công Lực count-up.
+23. Technical architecture
+Layer
+Công nghệ / trách nhiệm
+Frontend App
+React + TypeScript + Vite; UI, auth screens, inventory, leaderboard, CMS.
+Game
+Phaser 3; top-down world, movement, entities, collision, combat presentation.
+Styling
+Tailwind CSS cho application UI.
+Backend
+Supabase.
+Database
+PostgreSQL qua Supabase.
+Auth
+Supabase Auth; email/password, Google.
+Storage
+Audio, image, avatar, question assets.
+Realtime
+Friends, chat, leaderboard, notifications; không dùng làm authoritative realtime PvP phức tạp.
+Future realtime game server
+Node.js + Colyseus hoặc tương đương cho PvP/co-op nếu cần.
+Game không cần offline. Mobile là ưu tiên trải nghiệm nhưng desktop web phải chơi tốt. Thiết kế phải chạy được trên máy học sinh cấu hình thấp.
+24. CMS, AI content và dữ liệu
+Admin CMS cần cho phép nhập/chỉnh nội dung mà không sửa code: Vocabulary, Questions, Units, Lessons, NPC, Boss, Items, Quests, Dialogue và Audio.
+Giáo viên có thể tạo question bank trong phiên bản mở rộng.
+AI có thể generate câu hỏi. Quyết định hiện tại là tạm thời không yêu cầu giáo viên duyệt thủ công. Khuyến nghị production: thêm automatic validation về đáp án, grammar, curriculum fit, difficulty và duplicate trước khi publish.
+25. Analytics & KPI
+North Star của MVP: học sinh có tự chơi 10–15 phút mà không cảm thấy đang làm bài tập tiếng Anh hay không.
+Event/KPI
+Mục đích
+SESSION_START / SESSION_END
+Đo session duration.
+TUTORIAL_START / COMPLETE
+Đo onboarding drop-off.
+NPC_INTERACTION
+Đo exploration.
+LESSON_START / COMPLETE
+Đo engagement học.
+QUESTION_ANSWERED
+Accuracy, response time, difficulty.
+COMBAT_START / END
+Đo combat completion.
+BOSS_START / WIN / LOSE
+Đo boss funnel.
+UNIT_PROGRESS
+Đo progression.
+PLAYER_QUIT
+Xác định điểm bỏ cuộc.
+Các chỉ số quan trọng khi test: median session time, tutorial completion, % người chạm combat, % người thử Boss, repeat session, question accuracy, time-to-first-reward và điểm quit.
+26. Monetization
+Mục tiêu dài hạn là tạo doanh thu nhưng không làm MVP bị lệch. Các hướng phù hợp: cosmetic skin, weapon skin, pet, Battle Pass, season, limited event và các vật phẩm thể hiện cá tính.
+Không ưu tiên pay-to-win. Nếu có Battle Pass/season, reward gameplay phải cân bằng để người chơi không trả tiền vẫn có progression hợp lý.
+Login reward, daily/weekly quest và event là retention loop hỗ trợ monetization về sau.
+27. MVP / Vertical Slice
+27.1 Mục tiêu
+Chứng minh core fantasy và retention: người chơi đi vào thế giới, học thông qua gameplay, đánh quái, tăng sức mạnh và muốn tiếp tục tới Boss trong một session khoảng 10–15 phút.
+27.2 Scope đề xuất
+1 Unit demo.
+1 map top-down với 3–4 khu vực.
+1 playable character base + character creation đơn giản.
+1 Bang Chủ, 1 Hộ Pháp, 2 NPC thường.
+2 loại quái + 1 Boss 2-phase.
+20–30 vocabulary.
+30–50 questions.
+Account, save, XP, level, HP, Attack, Defense, Công Lực.
+Inventory + equipment cơ bản.
+Quest + dialogue + vocabulary + challenge + combat + Boss.
+Unit Progress >= 70% để mở Boss Gate.
+Analytics session.
+27.3 Chưa cần trong MVP
+PvP, Guild, Chat, Co-op, Battle Pass, Pet, Marketplace, Teacher Dashboard, AI Speaking, AI Question Generator production, full 30 Units và complex animation.
+27.4 Acceptance flow
+1. Đăng ký/đăng nhập.
+2. Tạo nhân vật.
+3. Vào thế giới và di chuyển bằng WASD/joystick.
+4. Nói chuyện Bang Chủ và nhận quest.
+5. Đi Tàng Kinh Các, học vocabulary và làm challenge.
+6. Gặp enemy, chiến đấu bằng câu hỏi.
+7. Nhận XP, lên level, nhận/equip item, Công Lực tăng.
+8. Hoàn thành đủ quest để đạt >=70% Unit Progress.
+9. Mở Boss Gate, đánh Boss 2 phase.
+10. Thắng Boss và nhận Unit Complete.
+11. Reload trình duyệt và toàn bộ tiến độ vẫn còn.
+28. Roadmap phát triển
+Giai đoạn
+Mục tiêu
+Phase A – Functional Prototype
+Core loop, quest, learning, combat, Boss, persistence.
+Phase B – Visual Vertical Slice
+Asset thật, tilemap, camera, character sprites, VFX, combat presentation.
+Phase C – Learning Quality
+Adaptive review, content validation, CMS, audio, speaking thử nghiệm.
+Phase D – Retention
+Daily/weekly, streak, login reward, leaderboard, achievements.
+Phase E – Social
+Friends, Tâm Ý, chat có moderation, guild.
+Phase F – Multiplayer
+PvP/co-op Boss với authoritative server.
+Phase G – Monetization
+Cosmetic, pet, Battle Pass, season/event.
+Phase H – Scale Content
+Mở rộng đầy đủ 30 Unit lớp 10–12.
+29. Rủi ro & nguyên tắc thiết kế
+Rủi ro
+Nguyên tắc xử lý
+Game trở thành quiz có skin
+Mọi learning activity phải gắn với quest/combat/exploration/reward.
+Scope quá lớn
+Giữ MVP nhỏ; không thêm social/monetization trước khi core loop vui.
+Visual thiếu đồng nhất
+Một art direction và asset pipeline thống nhất; bỏ procedural placeholder ở vertical slice.
+AI sinh câu sai
+Automatic validation trước production; lưu provenance/version.
+Chat với học sinh
+Moderation, report, block, rate limit; tránh mở free chat không kiểm soát.
+Cheat/economy bị phá
+Server-side validation cho reward, XP, currency, item.
+Người học yếu tụt quá xa
+Daily/season reset, reward cho consistency, adaptive practice.
+Performance mobile
+Asset compression, texture atlas, scene-based loading, particle hạn chế.
+30. Các quyết định còn mở
+Số lượng question bank production cho mỗi Unit.
+Công thức XP curve và số Sao cần để Đột Phá từng level.
+Công thức Công Lực chính thức và weight từng stat.
+Tốc độ hồi HP theo thời gian.
+Economy chính thức: nguồn/đích tiền tệ, giá skin/pet, reward cadence.
+Giới hạn Tâm Ý hợp lý và anti-farm.
+Leaderboard chính thức: Daily/Weekly/Season/All-time kết hợp thế nào.
+Hệ thống PvP cụ thể và matchmaking.
+Cơ chế co-op Boss.
+Danh sách 30 Unit, Boss/mốc cốt truyện của từng lớp.
+Model/API Speaking sẽ dùng.
+Mức độ teacher dashboard trong product chính.
+Monetization chi tiết và Battle Pass cadence.
+Kết luận
+PHƯỢNG CHICK ENGLISH WULIN được định vị là một educational wuxia RPG, không phải một ứng dụng quiz. Thành công của sản phẩm phụ thuộc vào việc core loop RPG đủ hấp dẫn để học sinh chủ động quay lại, trong khi hệ thống learning vẫn đảm bảo bám Global Success, theo dõi mastery và luyện lại điểm yếu.
+Ưu tiên phát triển hiện tại nên là: Visual Vertical Slice → Combat Presentation → Content Quality → Retention. Social, multiplayer và monetization chỉ nên mở rộng mạnh sau khi MVP chứng minh được hành vi chơi 10–15 phút tự nguyện.
