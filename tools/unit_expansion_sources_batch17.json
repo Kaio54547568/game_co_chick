@@ -1,0 +1,18 @@
+[
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "rumor-spreading town crier with blank broadsheets",
+    "generated": "exec-9dac4a5e-1102-4d74-b316-f8b84e803418.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "woodblock dart thrower carrying an ink-stained sling",
+    "generated": "exec-d6ed9a1a-58a4-424c-95c3-605ec35b4bc9.png"
+  }
+]

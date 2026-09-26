@@ -1,0 +1,122 @@
+[
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+    "generated": "exec-b9155f42-f779-4b5f-a32e-a058ea73cf7f.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+    "generated": "exec-8b6d57f2-c7a2-4ea7-93ac-5a2fe325ab5e.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+    "generated": "exec-4fea8a14-d285-4f7f-bc65-383a4894de1c.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+    "generated": "exec-3743f57e-b017-46db-9ce6-64397634658a.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+    "generated": "exec-01c072ae-9a10-4471-ac8b-fe1e5f611d88.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+    "generated": "exec-058a2f4c-f7ab-445d-9f9b-cd62389a1724.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+    "generated": "exec-7c0034f2-0a59-42e2-811e-a66c59e11e0d.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+    "generated": "exec-bb571473-0f09-44cd-a6c1-8af86ea4f5ca.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+    "generated": "exec-4d3808d4-05ee-4b26-89a7-b04c3f381d2c.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+    "generated": "exec-87ebcced-f1cc-4e06-a572-829dc6c03419.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+    "generated": "exec-78c2917a-be92-4ea7-b382-643edd2d3522.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+    "generated": "exec-235817e1-dde0-4da8-b9a6-d19d198af86a.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+    "generated": "exec-81e5ee92-5b26-4e44-b6d7-184f619e1074.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+    "generated": "exec-fce56146-d9d7-484f-a51e-8004cece6c54.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+    "generated": "exec-6cbc8494-bb3b-44d6-8f6e-a51682decdd9.png"
+  }
+]

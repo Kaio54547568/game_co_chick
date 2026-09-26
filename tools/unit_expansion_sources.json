@@ -1,0 +1,66 @@
+[
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "broom_raider",
+    "concept": "corrupted household-chores bandit with broom spear",
+    "generated": "exec-be792c45-fe10-49db-adaf-e5af6a9bc8b7.png"
+  },
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "smoke_wraith",
+    "concept": "cooking-smoke wraith with clay stove embers",
+    "generated": "exec-c1e92f14-a23b-4c5c-a2c9-d83bdef211e4.png"
+  },
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "water_jar_golem",
+    "concept": "cracked terracotta water jar guardian",
+    "generated": "exec-43b7d40a-dd40-4b57-8c2d-305cf63d490e.png"
+  },
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "basket_mimic",
+    "concept": "mischievous woven bamboo basket mimic",
+    "generated": "exec-b7a3cfd7-2fa5-4b04-a078-e3b3041c52c9.png"
+  },
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "lantern_archer",
+    "concept": "corrupted village lantern archer",
+    "generated": "exec-c8a60c94-73d7-4073-bdaf-bfa25d471549.png"
+  },
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "steward_elite",
+    "concept": "elite possessed household steward",
+    "generated": "exec-56b28614-56f0-482f-9959-72bd774c169f.png"
+  },
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "ground",
+    "id": "courtyard_brick",
+    "concept": "Vietnamese village terracotta courtyard",
+    "generated": "exec-9c03173e-4fe9-48e4-b1a6-dfd574f1e27d.png"
+  },
+  {
+    "grade": 10,
+    "unit": 1,
+    "kind": "prop",
+    "id": "rice_basket",
+    "concept": "Vietnamese bamboo basket with rice and herbs",
+    "generated": "exec-436a0798-02e1-430c-86db-ce99b608c3ce.png"
+  }
+]

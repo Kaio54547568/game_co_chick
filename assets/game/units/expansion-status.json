@@ -1,0 +1,739 @@
+{
+  "version": 1,
+  "expected": {
+    "enemies": 180,
+    "ground": 30,
+    "props": 30,
+    "newBosses": 6,
+    "reusedBosses": 3
+  },
+  "created": {
+    "enemies": 200,
+    "ground": 50,
+    "props": 50,
+    "newBosses": 6
+  },
+  "completeUnits": 30,
+  "units": [
+    {
+      "grade": 10,
+      "unit": 1,
+      "title": "FAMILY LIFE",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-01/enemies/broom_raider.png",
+        "/assets/game/units/grade-10/unit-01/enemies/smoke_wraith.png",
+        "/assets/game/units/grade-10/unit-01/enemies/water_jar_golem.png",
+        "/assets/game/units/grade-10/unit-01/enemies/basket_mimic.png",
+        "/assets/game/units/grade-10/unit-01/enemies/lantern_archer.png",
+        "/assets/game/units/grade-10/unit-01/enemies/steward_elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-01/ground/courtyard_brick.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-01/props/rice_basket.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "title": "HUMANS AND THE ENVIRONMENT",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-02/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-02/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-02/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-02/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-02/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-02/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-02/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-02/props/theme_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "title": "MUSIC",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-03/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-03/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-03/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-03/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-03/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-03/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-03/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-03/props/theme_prop.png"
+      ],
+      "boss": "/assets/game/characters/bosses/me_am_yeu_co.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "title": "FOR A BETTER COMMUNITY",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-04/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-04/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-04/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-04/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-04/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-04/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-04/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-04/props/theme_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "title": "INVENTIONS",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-05/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-05/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-05/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-05/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-05/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-05/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-05/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-05/props/theme_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "title": "GENDER EQUALITY",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-06/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-06/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-06/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-06/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-06/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-06/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-06/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-06/props/theme_prop.png"
+      ],
+      "boss": "/assets/game/units/grade-10/unit-06/bosses/balance_phantom.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "title": "VIET NAM AND INTERNATIONAL ORGANISATIONS",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-07/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-07/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-07/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-07/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-07/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-07/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-07/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-07/props/theme_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "title": "NEW WAYS TO LEARN",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-08/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-08/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-08/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-08/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-08/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-08/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-08/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-08/props/theme_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "title": "PROTECTING THE ENVIRONMENT",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-09/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-09/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-09/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-09/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-09/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-09/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-09/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-09/props/theme_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "title": "ECOTOURISM",
+      "enemies": [
+        "/assets/game/units/grade-10/unit-10/enemies/scout.png",
+        "/assets/game/units/grade-10/unit-10/enemies/ranged.png",
+        "/assets/game/units/grade-10/unit-10/enemies/brute.png",
+        "/assets/game/units/grade-10/unit-10/enemies/construct.png",
+        "/assets/game/units/grade-10/unit-10/enemies/spirit.png",
+        "/assets/game/units/grade-10/unit-10/enemies/elite.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-10/unit-10/ground/main_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-10/unit-10/props/theme_prop.png"
+      ],
+      "boss": "/assets/game/units/grade-10/unit-10/bosses/lost_trail_warlord.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "title": "A LONG AND HEALTHY LIFE",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-01/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-01/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-01/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-01/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-01/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-01/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-01/enemies/fever_miasma.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-01/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-01/ground/herbal_stone_path.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-01/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-01/props/herb_drying_rack.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "title": "THE GENERATION GAP",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-02/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-02/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-02/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-02/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-02/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-02/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-02/enemies/heirloom_mimic.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-02/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-02/ground/family_wood_floor.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-02/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-02/props/ancestor_lantern.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "title": "CITIES OF THE FUTURE",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-03/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-03/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-03/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-03/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-03/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-03/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-03/enemies/transit_drone.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-03/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-03/ground/eco_transit_paving.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-03/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-03/props/transit_marker.png"
+      ],
+      "boss": "/assets/game/units/grade-11/unit-03/bosses/hollow_city_engine.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "title": "ASEAN AND VIET NAM",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-04/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-04/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-04/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-04/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-04/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-04/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-04/enemies/harbor_junk_spirit.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-04/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-04/ground/wet_harbor_stone.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-04/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-04/props/festival_boat_lantern.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "title": "GLOBAL WARMING",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-05/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-05/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-05/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-05/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-05/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-05/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-05/enemies/heat_tide_beast.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-05/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-05/ground/salt_marsh_water.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-05/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-05/props/tide_gauge.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "title": "PRESERVING OUR HERITAGE",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-06/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-06/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-06/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-06/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-06/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-06/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-06/enemies/bronze_drum_guardian.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-06/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-06/ground/heritage_wood_floor.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-06/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-06/props/restoration_scaffold.png"
+      ],
+      "boss": "/assets/game/characters/bosses/thien_dien_huyen_su.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "title": "EDUCATION OPTIONS FOR SCHOOL-LEAVERS",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-07/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-07/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-07/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-07/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-07/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-07/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-07/enemies/false_certificate_wraith.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-07/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-07/ground/crossroads_cobbles.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-07/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-07/props/academy_signpost.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "title": "BECOMING INDEPENDENT",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-08/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-08/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-08/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-08/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-08/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-08/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-08/enemies/compass_golem.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-08/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-08/ground/mountain_trail_gravel.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-08/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-08/props/road_milestone.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "title": "SOCIAL ISSUES",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-09/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-09/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-09/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-09/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-09/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-09/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-09/enemies/isolation_chain_beast.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-09/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-09/ground/market_packed_dirt.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-09/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-09/props/aid_notice_board.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "title": "THE ECOSYSTEM",
+      "enemies": [
+        "/assets/game/units/grade-11/unit-10/enemies/scout.png",
+        "/assets/game/units/grade-11/unit-10/enemies/ranged.png",
+        "/assets/game/units/grade-11/unit-10/enemies/brute.png",
+        "/assets/game/units/grade-11/unit-10/enemies/construct.png",
+        "/assets/game/units/grade-11/unit-10/enemies/spirit.png",
+        "/assets/game/units/grade-11/unit-10/enemies/elite.png",
+        "/assets/game/units/grade-11/unit-10/enemies/invasive_root_predator.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-11/unit-10/ground/main_ground.png",
+        "/assets/game/units/grade-11/unit-10/ground/wetland_water.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-11/unit-10/props/theme_prop.png",
+        "/assets/game/units/grade-11/unit-10/props/mangrove_nest.png"
+      ],
+      "boss": "/assets/game/units/grade-11/unit-10/bosses/marsh_devourer.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "title": "LIFE STORIES WE ADMIRE",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-01/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-01/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-01/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-01/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-01/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-01/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-01/enemies/memory_chimera.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-01/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-01/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-01/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-01/props/secondary_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "title": "A MULTICULTURAL WORLD",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-02/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-02/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-02/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-02/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-02/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-02/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-02/enemies/sail_spirit.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-02/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-02/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-02/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-02/props/secondary_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "title": "GREEN LIVING",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-03/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-03/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-03/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-03/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-03/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-03/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-03/enemies/recycling_crab.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-03/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-03/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-03/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-03/props/secondary_prop.png"
+      ],
+      "boss": "/assets/game/units/grade-12/unit-03/bosses/smoke_sovereign.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "title": "URBANISATION",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-04/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-04/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-04/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-04/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-04/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-04/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-04/enemies/traffic_serpent.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-04/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-04/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-04/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-04/props/secondary_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "title": "THE WORLD OF WORK",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-05/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-05/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-05/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-05/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-05/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-05/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-05/enemies/tool_mimic.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-05/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-05/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-05/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-05/props/secondary_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "title": "ARTIFICIAL INTELLIGENCE",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-06/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-06/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-06/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-06/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-06/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-06/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-06/enemies/data_core.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-06/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-06/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-06/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-06/props/secondary_prop.png"
+      ],
+      "boss": "/assets/game/units/grade-12/unit-06/bosses/false_intellect.png",
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "title": "THE WORLD OF MASS MEDIA",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-07/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-07/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-07/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-07/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-07/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-07/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-07/enemies/rumor_swarm.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-07/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-07/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-07/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-07/props/secondary_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "title": "WILDLIFE CONSERVATION",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-08/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-08/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-08/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-08/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-08/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-08/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-08/enemies/snare_beast.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-08/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-08/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-08/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-08/props/secondary_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "title": "CAREER PATHS",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-09/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-09/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-09/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-09/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-09/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-09/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-09/enemies/crossroads_illusion.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-09/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-09/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-09/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-09/props/secondary_prop.png"
+      ],
+      "boss": null,
+      "missing": [],
+      "complete": true
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "title": "LIFELONG LEARNING",
+      "enemies": [
+        "/assets/game/units/grade-12/unit-10/enemies/scout.png",
+        "/assets/game/units/grade-12/unit-10/enemies/ranged.png",
+        "/assets/game/units/grade-12/unit-10/enemies/brute.png",
+        "/assets/game/units/grade-12/unit-10/enemies/construct.png",
+        "/assets/game/units/grade-12/unit-10/enemies/spirit.png",
+        "/assets/game/units/grade-12/unit-10/enemies/elite.png",
+        "/assets/game/units/grade-12/unit-10/enemies/ink_phoenix.png"
+      ],
+      "ground": [
+        "/assets/game/units/grade-12/unit-10/ground/main_ground.png",
+        "/assets/game/units/grade-12/unit-10/ground/side_ground.png"
+      ],
+      "props": [
+        "/assets/game/units/grade-12/unit-10/props/theme_prop.png",
+        "/assets/game/units/grade-12/unit-10/props/secondary_prop.png"
+      ],
+      "boss": "/assets/game/characters/bosses/vo_ngon_ma_ton.png",
+      "missing": [],
+      "complete": true
+    }
+  ]
+}

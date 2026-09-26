@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { TANG_KINH_CAC_CHALLENGE_QUESTIONS } from '../data/demoLearningData';
 import { CombatQuestion, Quest, KnowledgeMasteryState } from '../types/game';
+import { UnitContentService } from '../services/unitContentService';
 import { MasteryEngine } from '../services/masteryEngine';
 import { soundService } from '../services/sound';
-import { ShieldCheck, Timer, AlertCircle, X, ChevronRight, Award } from 'lucide-react';
+import { speechService } from '../services/speechService';
+import { ShieldCheck, Timer, AlertCircle, X, ChevronRight, Award, Volume2, Eye } from 'lucide-react';
 import { INITIAL_ITEMS } from '../data/itemsData';
 
 interface ChallengeModalProps {
   currentQuest: Quest | undefined;
   knowledgeMastery?: Record<string, KnowledgeMasteryState>;
+  selectedUnitId?: string;
   onCompleteChallenge: () => void;
   onAnswerKnowledge?: (knowledgeItemIds: string[], isCorrect: boolean, responseTimeSec: number) => void;
   onClose: () => void;
@@ -17,17 +20,19 @@ interface ChallengeModalProps {
 export const ChallengeModal: React.FC<ChallengeModalProps> = ({
   currentQuest,
   knowledgeMastery,
+  selectedUnitId,
   onCompleteChallenge,
   onAnswerKnowledge,
   onClose,
 }) => {
-  const [questions, setQuestions] = useState<CombatQuestion[]>(() =>
-    MasteryEngine.selectAdaptiveQuestions(
-      TANG_KINH_CAC_CHALLENGE_QUESTIONS,
-      knowledgeMastery || {},
-      3
-    )
-  );
+  const [questions, setQuestions] = useState<CombatQuestion[]>(() => {
+    const unitQuestions = selectedUnitId
+      ? UnitContentService.getUnitChallengeQuestions(selectedUnitId)
+      : TANG_KINH_CAC_CHALLENGE_QUESTIONS;
+    const pool = unitQuestions.length >= 3 ? unitQuestions : TANG_KINH_CAC_CHALLENGE_QUESTIONS;
+    return MasteryEngine.selectAdaptiveQuestions(pool, knowledgeMastery || {}, 3);
+  });
+
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [timeLeft, setTimeLeft] = useState(12);
@@ -37,12 +42,45 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
   const [correctCount, setCorrectCount] = useState(0);
   const [isSuccess, setIsSuccess] = useState(false);
   const [isFailed, setIsFailed] = useState(false);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
+  const [showTranscript, setShowTranscript] = useState(false);
 
   const question = questions[currentIdx] || questions[0];
 
-  // Timer countdown
+  // Dọn dẹp audio khi unmount
   useEffect(() => {
-    if (isAnswered || isSuccess || isFailed) return;
+    return () => {
+      speechService.stop();
+    };
+  }, []);
+
+  // Xử lý chuyển câu & phát âm thanh câu hỏi nghe
+  useEffect(() => {
+    speechService.stop();
+    setIsAudioPlaying(false);
+    setShowTranscript(false);
+
+    if (question?.listeningScript && !isAnswered && !isSuccess && !isFailed) {
+      const timer = setTimeout(() => {
+        handlePlayAudio(question.listeningScript!);
+      }, 400);
+      return () => clearTimeout(timer);
+    }
+  }, [currentIdx, question, isAnswered, isSuccess, isFailed]);
+
+  const handlePlayAudio = (text: string) => {
+    if (isAudioPlaying) return;
+    setIsAudioPlaying(true);
+    speechService.speak(text, {
+      onStart: () => setIsAudioPlaying(true),
+      onEnd: () => setIsAudioPlaying(false),
+      onError: () => setIsAudioPlaying(false),
+    });
+  };
+
+  // Timer countdown: tạm dừng khi audio đang phát
+  useEffect(() => {
+    if (isAnswered || isSuccess || isFailed || isAudioPlaying) return;
 
     if (timeLeft <= 0) {
       handleAnswerTimeout();
@@ -54,7 +92,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft, isAnswered, isSuccess, isFailed]);
+  }, [timeLeft, isAnswered, isSuccess, isFailed, isAudioPlaying]);
 
   const handleAnswerTimeout = () => {
     setIsAnswered(true);
@@ -87,6 +125,9 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
   };
 
   const handleNext = () => {
+    speechService.stop();
+    setIsAudioPlaying(false);
+    setShowTranscript(false);
     if (currentIdx + 1 < questions.length) {
       setCurrentIdx((prev) => prev + 1);
       setSelectedOption(null);
@@ -170,6 +211,47 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
               </p>
             </div>
 
+            {/* Audio controls for listening questions */}
+            {(question.listeningScript || question.combatMode === 'listening_pursuit') && (
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center justify-between p-3 rounded-xl bg-stone-950 border border-emerald-500/40">
+                  <button
+                    disabled={isAudioPlaying}
+                    onClick={() => handlePlayAudio(question.listeningScript || question.prompt)}
+                    className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 shadow transition active:scale-95 ${
+                      !isAudioPlaying
+                        ? 'bg-emerald-600 hover:bg-emerald-500 text-stone-950 font-bold'
+                        : 'bg-stone-800 text-stone-500 cursor-not-allowed'
+                    }`}
+                  >
+                    <Volume2 className={`w-4 h-4 ${isAudioPlaying ? 'animate-bounce text-emerald-300' : ''}`} />
+                    <span>{isAudioPlaying ? 'Đang Phát Khẩu Quyết...' : 'Phát Lại Khẩu Quyết'}</span>
+                  </button>
+
+                  {/* Transcript toggle */}
+                  {(question.transcriptFallback || question.hintText) && (
+                    <button
+                      onClick={() => {
+                        soundService.playClick();
+                        setShowTranscript(!showTranscript);
+                      }}
+                      className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-semibold border border-stone-700 flex items-center gap-1.5"
+                    >
+                      <Eye className="w-3.5 h-3.5 text-stone-400" />
+                      <span>{showTranscript ? 'Ẩn Lời Thoại' : 'Bản Chép Lời'}</span>
+                    </button>
+                  )}
+                </div>
+
+                {/* Transcript Box */}
+                {showTranscript && (question.transcriptFallback || question.hintText) && (
+                  <div className="p-3 rounded-xl bg-emerald-950/40 border border-emerald-600/40 text-emerald-200 text-xs italic animate-fadeIn">
+                    💡 <b>Lời thoại:</b> {question.transcriptFallback || question.hintText}
+                  </div>
+                )}
+              </div>
+            )}
+
             {/* Options */}
             <div className="grid grid-cols-1 gap-2.5">
               {question.options.map((opt, idx) => {
@@ -239,7 +321,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
 
             <div>
               <h3 className="text-2xl font-black text-red-400 font-wuxia">
-                CHƯA PHÁ ĐƯỢC PHONG ẤN
+                Chưa Phá Được Phong Ấn
               </h3>
               <p className="text-xs sm:text-sm text-stone-300 mt-2 max-w-sm">
                 Thiếu hiệp chỉ trả lời đúng <b className="text-amber-400">{correctCount}/3</b> câu.
@@ -250,13 +332,13 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
             <div className="flex flex-col sm:flex-row gap-3 w-full mt-2">
               <button
                 onClick={handleRetry}
-                className="flex-1 py-3 px-4 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs tracking-wider shadow active:scale-95 transition"
+                className="flex-1 py-3 px-4 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs shadow active:scale-95 transition"
               >
                 Thử Thách Lại
               </button>
               <button
                 onClick={onClose}
-                className="flex-1 py-3 px-4 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 font-bold text-xs tracking-wider border border-stone-600 active:scale-95 transition"
+                className="flex-1 py-3 px-4 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 font-bold text-xs border border-stone-600 active:scale-95 transition"
               >
                 Quay Lại Ôn Tập
               </button>
@@ -271,7 +353,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
 
             <div>
               <h3 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-amber-300 font-wuxia">
-                PHONG ẤN ĐÃ PHÁ GIẢI!
+                Phong Ấn Đã Giải Khai!
               </h3>
               <p className="text-xs sm:text-sm text-stone-300 mt-1">
                 Thiếu hiệp đã vượt qua khảo hạch ({correctCount}/3 câu đúng). Phong Ấn Thạch Trận mở ra và ban tặng bảo kiếm khởi đầu!
@@ -286,7 +368,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
                 className="w-16 h-16 object-contain bg-stone-900 rounded-lg border border-amber-600/50 p-1"
               />
               <div className="text-left flex-1">
-                <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-amber-400 block">
                   Vật Phẩm Thu Được
                 </span>
                 <h4 className="text-base font-bold text-amber-200">
@@ -300,7 +382,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
 
             <button
               onClick={handleFinish}
-              className="w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-sm tracking-wider shadow-lg flex items-center justify-center gap-2 transform active:scale-95 transition"
+              className="w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-sm shadow-lg flex items-center justify-center gap-2 transform active:scale-95 transition"
             >
               <span>Thu Nhận Kiếm &amp; Tiến Đến Trúc Lâm</span>
               <ChevronRight className="w-4 h-4" />

@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 2,
+    "unit_id": "g10-u02",
+    "title": "HUMANS AND THE ENVIRONMENT",
+    "topic": "Human Activities and Environmental Protection",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 18,
+    "book_page": 18,
+    "source_section": "Unit 2 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 18,
+        "book_page_end": 19,
+        "pdf_page_start": 18,
+        "pdf_page_end": 19,
+        "description": "Introduction to HUMANS AND THE ENVIRONMENT"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 20,
+        "book_page_end": 20,
+        "pdf_page_start": 20,
+        "pdf_page_end": 20,
+        "description": "Pronunciation (Consonant blends: /kl/, /pl/, /gr/, and /pr/), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 21,
+        "book_page_end": 22,
+        "pdf_page_start": 21,
+        "pdf_page_end": 22,
+        "description": "Living Green and Eco-habits"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 22,
+        "book_page_end": 22,
+        "pdf_page_start": 22,
+        "pdf_page_end": 22,
+        "description": "Discussing practical ways to adopt green habits"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 23,
+        "book_page_end": 23,
+        "pdf_page_start": 23,
+        "pdf_page_end": 23,
+        "description": "Listening for details in a Green Weekend announcement"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 24,
+        "book_page_end": 25,
+        "pdf_page_start": 24,
+        "pdf_page_end": 25,
+        "description": "Writing an article proposing local environmental solutions"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 26,
+        "book_page_end": 26,
+        "pdf_page_start": 26,
+        "pdf_page_end": 26,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 27,
+        "book_page_end": 27,
+        "pdf_page_start": 27,
+        "pdf_page_end": 27,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to human activities and environmental protection",
+      "grammar": [
+        "Will vs. Be Going To",
+        "The Passive Voice"
+      ],
+      "pronunciation": "Consonant blends: /kl/, /pl/, /gr/, and /pr/",
+      "reading": "Living Green and Eco-habits",
+      "speaking": "Discussing practical ways to adopt green habits",
+      "listening": "Listening for details in a Green Weekend announcement",
+      "writing": "Writing an article proposing local environmental solutions"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u02-vocab-001",
+      "unit_id": "g10-u02",
+      "word": "carbon footprint",
+      "word_type": "noun phrase",
+      "ipa": "/ˌkɑːbən ˈfʊtprɪnt/",
+      "meaning_vi": "dấu chân carbon, lượng phát thải khí nhà kính",
+      "definition_en": "the total amount of greenhouse gases produced by human activities",
+      "example_sentence": "Walking to school cuts down your personal carbon footprint.",
+      "example_translation": "Đi bộ đến trường cắt giảm dấu chân carbon cá nhân của bạn.",
+      "collocations": [
+        "reduce carbon footprint"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-vocab-002",
+      "unit_id": "g10-u02",
+      "word": "eco-friendly",
+      "word_type": "adjective",
+      "ipa": "/ˌiːkəʊ ˈfrendli/",
+      "meaning_vi": "thân thiện với môi trường",
+      "definition_en": "not harmful to the environment",
+      "example_sentence": "Solar lamps are an eco-friendly lighting solution.",
+      "example_translation": "Đèn năng lượng mặt trời là giải pháp chiếu sáng thân thiện môi trường.",
+      "collocations": [
+        "eco-friendly product"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-vocab-003",
+      "unit_id": "g10-u02",
+      "word": "appliance",
+      "word_type": "noun",
+      "ipa": "/əˈplaɪəns/",
+      "meaning_vi": "thiết bị gia dụng",
+      "definition_en": "a device or machine in the home",
+      "example_sentence": "Turn off household appliances before leaving the room.",
+      "example_translation": "Tắt các thiết bị gia dụng trước khi rời phòng.",
+      "collocations": [
+        "electrical appliance"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-vocab-004",
+      "unit_id": "g10-u02",
+      "word": "emission",
+      "word_type": "noun",
+      "ipa": "/iˈmɪʃn/",
+      "meaning_vi": "sự phát thải, khí thải",
+      "definition_en": "the production and discharge of gas",
+      "example_sentence": "Cutting vehicle emissions improves city air quality.",
+      "example_translation": "Cắt giảm khí thải phương tiện cải thiện chất lượng không khí thành phố.",
+      "collocations": [
+        "carbon emission"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-vocab-005",
+      "unit_id": "g10-u02",
+      "word": "sustainable",
+      "word_type": "adjective",
+      "ipa": "/səˈsteɪnəbl/",
+      "meaning_vi": "bền vững",
+      "definition_en": "able to be maintained without harming resources",
+      "example_sentence": "Wind energy provides sustainable electricity.",
+      "example_translation": "Năng lượng gió cung cấp nguồn điện bền vững.",
+      "collocations": [
+        "sustainable energy"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-vocab-006",
+      "unit_id": "g10-u02",
+      "word": "adopt",
+      "word_type": "verb",
+      "ipa": "/əˈdɒpt/",
+      "meaning_vi": "áp dụng lối sống, tiếp thu",
+      "definition_en": "to start to use or follow an idea or habit",
+      "example_sentence": "Young people are adopting greener consumption habits.",
+      "example_translation": "Giới trẻ đang áp dụng các thói quen tiêu dùng xanh hơn.",
+      "collocations": [
+        "adopt a green lifestyle"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u02-grammar-001",
+      "unit_id": "g10-u02",
+      "title": "Will vs. Be Going To",
+      "structure_name": "Tương lai đơn vs. Tương lai gần",
+      "rule_summary": "will: quyết định tức thì, dự đoán chủ quan; be going to: kế hoạch định trước, dự đoán có căn cứ.",
+      "formula": "will + V / be going to + V",
+      "example_sentences": [
+        {
+          "en": "I think scientists will develop new clean fuels.",
+          "vi": "Tôi nghĩ các nhà khoa học sẽ phát triển nhiên liệu sạch mới."
+        },
+        {
+          "en": "Look at the dark clouds! It is going to rain.",
+          "vi": "Nhìn mây đen kìa! Trời sắp mưa rồi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Look! The ladder will slip.",
+          "correction": "Look! The ladder is going to slip.",
+          "explanation": "Dấu hiệu trước mắt dùng be going to."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-grammar-002",
+      "unit_id": "g10-u02",
+      "title": "The Passive Voice",
+      "structure_name": "Thể bị động",
+      "rule_summary": "Dùng khi đối tượng chịu tác động được nhấn mạnh: S + be + V3/ed (+ by O).",
+      "formula": "S + am/is/are/will be + V3/ed",
+      "example_sentences": [
+        {
+          "en": "Rubbish is collected every morning.",
+          "vi": "Rác được thu gom mỗi sáng."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Plastic bottles was recycled.",
+          "correction": "Plastic bottles were recycled.",
+          "explanation": "Chủ ngữ số nhiều đi với were/are."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u02-reading-001",
+    "unit_id": "g10-u02",
+    "topic": "Living Green and Eco-habits",
+    "main_idea": "Sống xanh là giảm phát thải và bảo vệ tài nguyên.",
+    "reading_skills": [
+      "Scanning",
+      "Main ideas"
+    ],
+    "keywords": [
+      "eco-friendly",
+      "reduce",
+      "carbon footprint"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Hành động nào giúp trực tiếp giảm dấu chân carbon?",
+        "options": [
+          "Đi bộ hoặc xe đạp",
+          "Bật đèn cả ngày",
+          "Dùng đồ nhựa một lần",
+          "Đốt rác"
+        ],
+        "correctAnswer": "Đi bộ hoặc xe đạp",
+        "explanation": "Đi xe đạp không thải khí nhà kính."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 21,
+    "book_page": 21,
+    "source_section": "Unit 2 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening for details in a Green Weekend announcement",
+      "activity_types": [
+        "Gap-fill"
+      ],
+      "audio_source_note": "Audio CD1 Track 11",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 23,
+      "book_page": 23,
+      "source_section": "Unit 2 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Discussing practical ways to adopt green habits",
+      "activity_types": [
+        "Discussion"
+      ],
+      "prompts": [
+        "How can students reduce plastic waste?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Unit 2 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an article proposing local environmental solutions",
+      "task_type": "Article",
+      "sample_outline": [
+        "Problem",
+        "Solution",
+        "Action"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 24,
+      "book_page": 24,
+      "source_section": "Unit 2 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u02-question-001",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Thuật ngữ 'carbon footprint' biểu thị điều gì?",
+      "options": [
+        "Tổng lượng phát thải khí nhà kính do con người tạo ra",
+        "Vết chân dính than trên cát",
+        "Một loại nhiên liệu rắn mới",
+        "Dụng cụ đo năng lượng mặt trời"
+      ],
+      "correctAnswer": "Tổng lượng phát thải khí nhà kính do con người tạo ra",
+      "explanation": "Carbon footprint là thước đo lượng CO2 phát thải.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u02-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-002",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Sản phẩm không gây hại cho tự nhiên được gọi là:",
+      "options": [
+        "Eco-friendly",
+        "Destructive",
+        "Toxic",
+        "Industrial"
+      ],
+      "correctAnswer": "Eco-friendly",
+      "explanation": "Eco-friendly = thân thiện môi trường.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u02-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-003",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Điền từ: 'Always switch off electrical _______ when not needed.'",
+      "options": [
+        "appliances",
+        "emissions",
+        "footprints",
+        "laundries"
+      ],
+      "correctAnswer": "appliances",
+      "explanation": "Electrical appliances = thiết bị điện gia dụng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u02-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-004",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Chọn thì đúng: 'Look at that tree! It _______ fall.'",
+      "options": [
+        "is going to",
+        "will",
+        "was",
+        "has fallen"
+      ],
+      "correctAnswer": "is going to",
+      "explanation": "Có bằng chứng hiện hữu trước mắt dùng be going to.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u02-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-005",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Điền từ: 'I feel hungry. I _______ make a sandwich.'",
+      "options": [
+        "will",
+        "am going to",
+        "have",
+        "am making"
+      ],
+      "correctAnswer": "will",
+      "explanation": "Quyết định tức thì lúc nói dùng will.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u02-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-006",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Chuyển sang bị động: 'They recycle thousands of cans each day.'",
+      "options": [
+        "Thousands of cans are recycled each day.",
+        "Thousands of cans is recycled each day.",
+        "Thousands of cans were recycled each day.",
+        "Thousands of cans will recycled each day."
+      ],
+      "correctAnswer": "Thousands of cans are recycled each day.",
+      "explanation": "Bị động hiện tại đơn số nhiều: are + V3.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u02-grammar-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-007",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Nguồn năng lượng nào sau đây mang tính 'sustainable'?",
+      "options": [
+        "Năng lượng mặt trời",
+        "Than đá",
+        "Dầu thô",
+        "Khí gas"
+      ],
+      "correctAnswer": "Năng lượng mặt trời",
+      "explanation": "Mặt trời là năng lượng tái tạo bền vững.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u02-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-008",
+      "unit_id": "g10-u02",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Vehicles must meet strict standards to limit harmful exhaust _______.'",
+      "options": [
+        "emissions",
+        "appliances",
+        "chores",
+        "routines"
+      ],
+      "correctAnswer": "emissions",
+      "explanation": "Exhaust emissions = khí thải động cơ.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u02-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-009",
+      "unit_id": "g10-u02",
+      "type": "multiple_choice",
+      "prompt": "Cụm 'adopt a green lifestyle' có nghĩa là:",
+      "options": [
+        "Bắt đầu theo đuổi lối sống bảo vệ môi trường",
+        "Đi du lịch sinh thái hàng tuần",
+        "Bán bớt các thiết bị gia dụng",
+        "Mua sắm nhiều đồ mới"
+      ],
+      "correctAnswer": "Bắt đầu theo đuổi lối sống bảo vệ môi trường",
+      "explanation": "Adopt a lifestyle = tiếp nhận lối sống.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u02-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u02-question-010",
+      "unit_id": "g10-u02",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp câu về tiết kiệm năng lượng:",
+      "options": [
+        "We can protect the environment by saving electricity.",
+        "By saving electricity protect we the environment can.",
+        "The environment can protect we by saving electricity.",
+        "Electricity by saving we can protect the environment."
+      ],
+      "correctAnswer": "We can protect the environment by saving electricity.",
+      "explanation": "S + can + V + O + by + V-ing.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u02-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 20,
+      "book_page": 20,
+      "source_section": "Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "We",
+        "can",
+        "protect",
+        "the",
+        "environment",
+        "by",
+        "saving",
+        "electricity."
+      ]
+    }
+  ]
+}

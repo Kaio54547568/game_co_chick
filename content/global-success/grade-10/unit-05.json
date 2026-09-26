@@ -1,0 +1,614 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 5,
+    "unit_id": "g10-u05",
+    "title": "INVENTIONS",
+    "topic": "Science, Technology and Modern Inventions",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 52,
+    "book_page": 50,
+    "source_section": "Unit 5 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 50,
+        "book_page_end": 51,
+        "pdf_page_start": 52,
+        "pdf_page_end": 53,
+        "description": "Introduction to INVENTIONS"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 52,
+        "book_page_end": 52,
+        "pdf_page_start": 54,
+        "pdf_page_end": 54,
+        "description": "Pronunciation (Stress in three-syllable nouns), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 53,
+        "book_page_end": 54,
+        "pdf_page_start": 55,
+        "pdf_page_end": 56,
+        "description": "Inventions in Education"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 54,
+        "book_page_end": 54,
+        "pdf_page_start": 56,
+        "pdf_page_end": 56,
+        "description": "Talking about useful inventions and how they change our daily lives"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 55,
+        "book_page_end": 55,
+        "pdf_page_start": 57,
+        "pdf_page_end": 57,
+        "description": "Listening to operating instructions for a smart robotic vacuum cleaner"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 56,
+        "book_page_end": 57,
+        "pdf_page_start": 58,
+        "pdf_page_end": 59,
+        "description": "Writing a paragraph describing the key benefits of an invention"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 58,
+        "book_page_end": 58,
+        "pdf_page_start": 60,
+        "pdf_page_end": 60,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 59,
+        "book_page_end": 59,
+        "pdf_page_start": 61,
+        "pdf_page_end": 61,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to science, technology and modern inventions",
+      "grammar": [
+        "The Present Perfect Tense"
+      ],
+      "pronunciation": "Stress in three-syllable nouns",
+      "reading": "Inventions in Education",
+      "speaking": "Talking about useful inventions and how they change our daily lives",
+      "listening": "Listening to operating instructions for a smart robotic vacuum cleaner",
+      "writing": "Writing a paragraph describing the key benefits of an invention"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u05-vocab-001",
+      "unit_id": "g10-u05",
+      "word": "artificial intelligence",
+      "word_type": "noun phrase",
+      "ipa": "/ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/",
+      "meaning_vi": "trí tuệ nhân tạo (AI)",
+      "definition_en": "the study and development of computer systems that can copy human intelligent behavior",
+      "example_sentence": "Artificial intelligence helps doctors detect diseases more accurately.",
+      "example_translation": "Trí tuệ nhân tạo giúp các bác sĩ phát hiện bệnh chính xác hơn.",
+      "collocations": [
+        "AI application"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-vocab-002",
+      "unit_id": "g10-u05",
+      "word": "3D printing",
+      "word_type": "noun phrase",
+      "ipa": "/ˌθriː diː ˈprɪntɪŋ/",
+      "meaning_vi": "công nghệ in 3D",
+      "definition_en": "the process of making three-dimensional solid objects from a digital file",
+      "example_sentence": "3D printing allows engineers to make complex prototype parts quickly.",
+      "example_translation": "In 3D cho phép các kỹ sư tạo các bộ phận mẫu thử nghiệm phức tạp nhanh chóng.",
+      "collocations": [
+        "3D printing technology"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-vocab-003",
+      "unit_id": "g10-u05",
+      "word": "hardware",
+      "word_type": "noun",
+      "ipa": "/ˈhɑːdweə(r)/",
+      "meaning_vi": "phần cứng máy tính",
+      "definition_en": "the physical and electronic parts of a computer system",
+      "example_sentence": "Upgrading computer hardware can make the device run much faster.",
+      "example_translation": "Nâng cấp phần cứng máy tính có thể giúp thiết bị chạy nhanh hơn nhiều.",
+      "collocations": [
+        "computer hardware"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-vocab-004",
+      "unit_id": "g10-u05",
+      "word": "software",
+      "word_type": "noun",
+      "ipa": "/ˈsɒftweə(r)/",
+      "meaning_vi": "phần mềm",
+      "definition_en": "programs used by computers for doing specific tasks",
+      "example_sentence": "You need to update your antivirus software regularly.",
+      "example_translation": "Bạn cần cập nhật phần mềm diệt virus định kỳ.",
+      "collocations": [
+        "antivirus software"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-vocab-005",
+      "unit_id": "g10-u05",
+      "word": "portable",
+      "word_type": "adjective",
+      "ipa": "/ˈpɔːtəbl/",
+      "meaning_vi": "dễ mang theo, di động",
+      "definition_en": "light and easy to carry or move around",
+      "example_sentence": "Laptops are popular because they are compact and portable.",
+      "example_translation": "Máy tính xách tay rất được ưa chuộng vì nhỏ gọn và dễ mang theo.",
+      "collocations": [
+        "portable device"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-vocab-006",
+      "unit_id": "g10-u05",
+      "word": "versatile",
+      "word_type": "adjective",
+      "ipa": "/ˈvɜːsətaɪl/",
+      "meaning_vi": "đa năng, linh hoạt",
+      "definition_en": "able to adapt or be used for many different functions",
+      "example_sentence": "A smartphone is a versatile device that acts as a camera, phone, and computer.",
+      "example_translation": "Điện thoại thông minh là một thiết bị đa năng kiêm máy ảnh, điện thoại và máy tính.",
+      "collocations": [
+        "versatile tool"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u05-grammar-001",
+      "unit_id": "g10-u05",
+      "title": "The Present Perfect Tense",
+      "structure_name": "Thì Hiện tại hoàn thành",
+      "rule_summary": "Diễn tả hành động đã xảy ra ở quá khứ nhưng kết quả hoặc ảnh hưởng vẫn liên quan đến hiện tại, hoặc trải nghiệm tính đến nay (ever, never, just, already, yet, since, for).",
+      "formula": "S + have/has + Past Participle (V3/ed)",
+      "example_sentences": [
+        {
+          "en": "Scientists have invented many life-saving medical devices.",
+          "vi": "Các nhà khoa học đã phát minh ra nhiều thiết bị y tế cứu người."
+        },
+        {
+          "en": "She has used this educational software for two years.",
+          "vi": "Cô ấy đã sử dụng phần mềm giáo dục này được hai năm rồi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "I have seen that robot yesterday.",
+          "correction": "I saw that robot yesterday.",
+          "explanation": "Có mốc thời gian xác định trong quá khứ (yesterday) phải dùng Quá khứ đơn."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u05-reading-001",
+    "unit_id": "g10-u05",
+    "topic": "Inventions in Education",
+    "main_idea": "Cách các phát minh như máy tính bảng, bảng tương tác và AI đang đổi mới lớp học hiện đại.",
+    "reading_skills": [
+      "Fact retrieval",
+      "Inference"
+    ],
+    "keywords": [
+      "interactive board",
+      "digital devices",
+      "classroom"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Lợi ích lớn nhất của việc ứng dụng máy tính bảng vào lớp học là gì?",
+        "options": [
+          "Giúp học sinh truy cập tài liệu và tương tác sinh động hơn",
+          "Thay thế hoàn toàn vai trò của giáo viên",
+          "Giảm giờ học xuống còn 10 phút",
+          "Để học sinh chơi trò chơi điện tử"
+        ],
+        "correctAnswer": "Giúp học sinh truy cập tài liệu và tương tác sinh động hơn",
+        "explanation": "Thiết bị số hỗ trợ việc tìm kiếm thông tin và học tập trực quan."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 55,
+    "book_page": 53,
+    "source_section": "Unit 5 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to operating instructions for a smart robotic vacuum cleaner",
+      "activity_types": [
+        "Note completion",
+        "Ordering steps"
+      ],
+      "audio_source_note": "Audio CD1 Track 27",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 57,
+      "book_page": 55,
+      "source_section": "Unit 5 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Talking about useful inventions and how they change our daily lives",
+      "activity_types": [
+        "Pair presentation"
+      ],
+      "prompts": [
+        "Which invention cannot you live without?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 56,
+      "book_page": 54,
+      "source_section": "Unit 5 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a paragraph describing the key benefits of an invention",
+      "task_type": "Descriptive paragraph",
+      "sample_outline": [
+        "Topic sentence",
+        "Benefits with evidence",
+        "Conclusion"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 58,
+      "book_page": 56,
+      "source_section": "Unit 5 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u05-question-001",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Cụm 'Artificial Intelligence' (AI) thường được dịch sang tiếng Việt là gì?",
+      "options": [
+        "Trí tuệ nhân tạo",
+        "Mạng máy tính diện rộng",
+        "Hệ thống phần mềm độc hại",
+        "Thiết bị truyền phát sóng"
+      ],
+      "correctAnswer": "Trí tuệ nhân tạo",
+      "explanation": "AI = Artificial Intelligence = Trí tuệ nhân tạo.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u05-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-002",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Công nghệ tạo ra vật thể 3 chiều từ mô hình kỹ thuật số là:",
+      "options": [
+        "3D printing",
+        "Word processing",
+        "Audio streaming",
+        "Screen recording"
+      ],
+      "correctAnswer": "3D printing",
+      "explanation": "3D printing = in 3D.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u05-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-003",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Chuột máy tính, bàn phím và ổ cứng thuộc thành phần nào?",
+      "options": [
+        "Hardware",
+        "Software",
+        "Donation",
+        "Emission"
+      ],
+      "correctAnswer": "Hardware",
+      "explanation": "Hardware = phần cứng vật lý của máy tính.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u05-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-004",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Từ nào mô tả thiết bị nhỏ gọn, dễ dàng mang theo khi đi lại?",
+      "options": [
+        "Portable",
+        "Heavy",
+        "Stationary",
+        "Fragile"
+      ],
+      "correctAnswer": "Portable",
+      "explanation": "Portable = có thể mang theo, di động.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u05-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-005",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Chọn thì đúng: 'Engineers _______ a new smart sensor that detects gas leaks.'",
+      "options": [
+        "have developed",
+        "develops",
+        "was developed",
+        "are develop"
+      ],
+      "correctAnswer": "have developed",
+      "explanation": "Hành động vừa hoàn thành có kết quả ở hiện tại -> Hiện tại hoàn thành.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u05-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-006",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Điền từ: 'She has worked on this robotics project _______ six months.'",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "during"
+      ],
+      "correctAnswer": "for",
+      "explanation": "'For' đi với khoảng thời gian (six months) trong thì Hiện tại hoàn thành.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u05-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-007",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Từ 'versatile' đồng nghĩa nhất với tính từ nào sau đây?",
+      "options": [
+        "Multi-purpose",
+        "Narrow",
+        "Single-use",
+        "Broken"
+      ],
+      "correctAnswer": "Multi-purpose",
+      "explanation": "Versatile = đa năng, nhiều công dụng.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u05-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-008",
+      "unit_id": "g10-u05",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'You should install the latest security _______ to protect your files.'",
+      "options": [
+        "software",
+        "footprint",
+        "rubbish",
+        "appliance"
+      ],
+      "correctAnswer": "software",
+      "explanation": "Security software = phần mềm bảo mật.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u05-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-009",
+      "unit_id": "g10-u05",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu đúng ngữ pháp thì Hiện tại hoàn thành:",
+      "options": [
+        "Have you ever used a 3D printer before?",
+        "Did you ever used a 3D printer before?",
+        "Have you ever use a 3D printer before?",
+        "Are you ever used a 3D printer before?"
+      ],
+      "correctAnswer": "Have you ever used a 3D printer before?",
+      "explanation": "Cấu trúc hỏi trải nghiệm: Have you ever + V3/ed?",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u05-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u05-question-010",
+      "unit_id": "g10-u05",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu hoàn chỉnh về công nghệ AI:",
+      "options": [
+        "Smart devices have changed the way people live and work.",
+        "The way people live and work smart devices have changed.",
+        "Have changed smart devices the way people live and work.",
+        "People live and work smart devices have changed the way."
+      ],
+      "correctAnswer": "Smart devices have changed the way people live and work.",
+      "explanation": "S + have changed + O.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u05-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 54,
+      "book_page": 52,
+      "source_section": "Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Smart",
+        "devices",
+        "have",
+        "changed",
+        "the",
+        "way",
+        "people",
+        "live",
+        "and",
+        "work."
+      ]
+    }
+  ]
+}

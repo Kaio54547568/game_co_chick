@@ -83,7 +83,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
             {/* Total Stats */}
             <div className="bg-stone-900/80 border border-stone-800 rounded-xl p-3.5 space-y-2">
               <div className="flex justify-between items-center text-xs font-bold text-stone-400 border-b border-stone-800 pb-1.5">
-                <span>VÕ HỌC CĂN BẢN</span>
+                <span>Võ học căn bản</span>
                 <span className="text-amber-400">Lv.{profile.stats.level}</span>
               </div>
               <div className="grid grid-cols-2 gap-2 text-xs">
@@ -109,7 +109,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
               <div className="pt-2 border-t border-stone-800 flex items-center justify-between">
                 <span className="text-xs font-bold text-amber-400 flex items-center gap-1">
                   <Sparkles className="w-3.5 h-3.5" />
-                  CÔNG LỰC:
+                  Công Lực:
                 </span>
                 <span className="text-base font-extrabold text-amber-200">
                   {profile.stats.congLuc}
@@ -119,7 +119,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
 
             {/* 3 Equipment Slots */}
             <div className="space-y-2">
-              <span className="text-[11px] font-bold text-stone-400 uppercase tracking-wider block">
+              <span className="text-[11px] font-bold text-stone-400 block">
                 Trang Bị Trên Người
               </span>
 
@@ -219,7 +219,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
           <div className="md:col-span-2 p-4 sm:p-5 overflow-y-auto flex flex-col justify-between bg-stone-900/70">
             <div>
               <div className="flex items-center justify-between mb-3">
-                <span className="text-xs font-bold text-stone-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-stone-400">
                   Túi Đồ ({profile.inventory.length} vật phẩm)
                 </span>
               </div>
@@ -255,7 +255,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
                         </div>
                         <span className="text-xs font-bold text-stone-200 line-clamp-1">{item.name}</span>
                         <span className={`text-[10px] px-1.5 py-0.2 rounded border ${getRarityBadge(item.rarity)}`}>
-                          {item.rarity.toUpperCase()}
+                          {item.rarity === 'legendary' ? 'Truyền Thuyết' : item.rarity === 'epic' ? 'Sử Thi' : item.rarity === 'rare' ? 'Hiếm' : 'Căn Bản'}
                         </span>
                       </div>
                     );
@@ -296,7 +296,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
                 {selectedItem.slot !== 'loot' && (
                   <button
                     onClick={handleEquip}
-                    className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs tracking-wider shadow whitespace-nowrap active:scale-95 transition"
+                    className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs shadow whitespace-nowrap active:scale-95 transition"
                   >
                     {selectedItem.isEquipped ? 'Đổi Vị Trí' : 'Trang Bị Ngay'}
                   </button>

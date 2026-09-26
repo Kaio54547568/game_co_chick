@@ -1,0 +1,212 @@
+[
+  {
+    "grade": 10,
+    "unit": 1,
+    "expected_title": "FAMILY LIFE",
+    "pdf_page": 8,
+    "ocr_snippet": "includes: | This unit | LANGUAGE | Pronunciation"
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "expected_title": "HUMANS AND THE ENVIRONMENT",
+    "pdf_page": 18,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation | IKi/, [p\\/, gt. and fpr"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "expected_title": "MUSIC",
+    "pdf_page": 28,
+    "ocr_snippet": "28 | This unit includes: | LANGUAGE | Pronunciation"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "expected_title": "FOR A BETTER COMMUNITY",
+    "pdf_page": 42,
+    "ocr_snippet": "42 | This unit includes: | LANGUAGE | Pronunciation"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "expected_title": "INVENTIONS",
+    "pdf_page": 52,
+    "ocr_snippet": "52 | This unit includes: | LANGUAGE | Pronunciation"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "expected_title": "GENDER EQUALITY",
+    "pdf_page": 62,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "expected_title": "VIET NAM AND INTERNATIONAL ORGANISATIONS",
+    "pdf_page": 76,
+    "ocr_snippet": "76 | This unit includes: | LANGUAGE | Pronunciation"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "expected_title": "NEW WAYS TO LEARN",
+    "pdf_page": 86,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "expected_title": "PROTECTING THE ENVIRONMENT",
+    "pdf_page": 102,
+    "ocr_snippet": "102 | Vocabulary | Environment | ‘11 Match the words or phrases to their"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "expected_title": "ECOTOURISM",
+    "pdf_page": 110,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation | Intonation"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "expected_title": "A LONG AND HEALTHY LIFE",
+    "pdf_page": 7,
+    "ocr_snippet": "UNIT PRONUNCIATION | Unit 6: Intonation in | statements, | PRESERVING OUR commands, and lists"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "expected_title": "THE GENERATION GAP",
+    "pdf_page": 19,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation | Contracted forms"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "expected_title": "CITIES OF THE FUTURE",
+    "pdf_page": 29,
+    "ocr_snippet": "28 | Cities of the future | This unit includes: | LANGUAGE"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "expected_title": "ASEAN AND VIET NAM",
+    "pdf_page": 40,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "expected_title": "GLOBAL WARMING",
+    "pdf_page": 50,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "expected_title": "PRESERVING OUR HERITAGE",
+    "pdf_page": 64,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "expected_title": "EDUCATION OPTIONS FOR SCHOOL-LEAVERS",
+    "pdf_page": 74,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "expected_title": "BECOMING INDEPENDENT",
+    "pdf_page": 84,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "expected_title": "SOCIAL ISSUES",
+    "pdf_page": 96,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "expected_title": "THE ECOSYSTEM",
+    "pdf_page": 106,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "expected_title": "LIFE STORIES WE ADMIRE",
+    "pdf_page": 8,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation | Diphthongs /et/ and /au/"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "expected_title": "A MULTICULTURAL WORLD",
+    "pdf_page": 20,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "expected_title": "GREEN LIVING",
+    "pdf_page": 32,
+    "ocr_snippet": "32 | LANGUAGE | Diphthongs /Ta/, /ea/, and /ua/ | Words and phrases related to"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "expected_title": "URBANISATION",
+    "pdf_page": 48,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation | Unstressed words in"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "expected_title": "THE WORLD OF WORK",
+    "pdf_page": 60,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation | Stressing auxiliary and modal"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "expected_title": "ARTIFICIAL INTELLIGENCE",
+    "pdf_page": 76,
+    "ocr_snippet": "76 | This unit includes: | LANGUAGE | Pronunciation"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "expected_title": "THE WORLD OF MASS MEDIA",
+    "pdf_page": 88,
+    "ocr_snippet": ""
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "expected_title": "WILDLIFE CONSERVATION",
+    "pdf_page": 100,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation - | Assimilation"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "expected_title": "CAREER PATHS",
+    "pdf_page": 116,
+    "ocr_snippet": "This unit includes: | LANGUAGE | Pronunciation | Sentence stress and rhythm"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "expected_title": "LIFELONG LEARNING",
+    "pdf_page": 128,
+    "ocr_snippet": "LANGUAGE | Intonation in questions | (revision) | Phrases related to lifelong"
+  }
+]

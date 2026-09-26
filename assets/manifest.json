@@ -73,6 +73,102 @@
       ],
       "frames": 1
     },
+    "ho_phap_dang_tran_ha": {
+      "path": "assets/game/characters/npc/ho_phap_dang_tran_ha.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "ho_phap_dang_tran_ha_portrait": {
+      "path": "assets/game/characters/npc/portraits/ho_phap_dang_tran_ha.png",
+      "size": [
+        512,
+        640
+      ],
+      "origin": [
+        0.5,
+        1.0
+      ],
+      "frames": 1
+    },
+    "ho_phap_hoang_van": {
+      "path": "assets/game/characters/npc/ho_phap_hoang_van.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "ho_phap_hoang_van_portrait": {
+      "path": "assets/game/characters/npc/portraits/ho_phap_hoang_van.png",
+      "size": [
+        512,
+        640
+      ],
+      "origin": [
+        0.5,
+        1.0
+      ],
+      "frames": 1
+    },
+    "ho_phap_phuong_tu": {
+      "path": "assets/game/characters/npc/ho_phap_phuong_tu.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "ho_phap_phuong_tu_portrait": {
+      "path": "assets/game/characters/npc/portraits/ho_phap_phuong_tu.png",
+      "size": [
+        512,
+        640
+      ],
+      "origin": [
+        0.5,
+        1.0
+      ],
+      "frames": 1
+    },
+    "ho_phap_nguyet_nguyen": {
+      "path": "assets/game/characters/npc/ho_phap_nguyet_nguyen.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "frames": 1
+    },
+    "ho_phap_nguyet_nguyen_portrait": {
+      "path": "assets/game/characters/npc/portraits/ho_phap_nguyet_nguyen.png",
+      "size": [
+        512,
+        640
+      ],
+      "origin": [
+        0.5,
+        1.0
+      ],
+      "frames": 1
+    },
     "sword_disciple": {
       "path": "assets/game/characters/enemies/sword_disciple.png",
       "size": [

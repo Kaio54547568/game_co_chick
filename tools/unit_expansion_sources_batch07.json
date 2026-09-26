@@ -1,0 +1,74 @@
+[
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+    "generated": "exec-d3d5b144-c7c0-4ece-a28a-31040ba3d5b0.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+    "generated": "exec-fc67fb1a-ae91-41f1-859e-d3353a75d457.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+    "generated": "exec-f0d714fc-a1ca-4fc3-9619-a1fb65afc13e.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+    "generated": "exec-10249d32-d8c9-4867-bc45-848b162d988a.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+    "generated": "exec-c745ff5d-079f-41fe-bd4f-900201aaa283.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+    "generated": "exec-af6c5ea6-a6d6-4aad-baa7-eb684c8bf83d.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+    "generated": "exec-204adeed-2ecc-41e2-becd-57014377bb3d.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+    "generated": "exec-51be9b72-7361-4ad0-8fe1-428fce50c0f5.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+    "generated": "exec-1e053581-f74c-4ceb-97de-c9c40932a578.png"
+  }
+]

@@ -1,0 +1,9 @@
+src\components\CombatOverlay.tsx:532: PHÁ PHONG ẤN
+src\components\CombatOverlay.tsx:534: ĐOẠT LẠI VONG TỪ
+src\components\CombatOverlay.tsx:536: MÊ ÂM TRUY KÍCH
+src\components\CombatOverlay.tsx:538: THIÊN DIỆN PHÁ ẢO
+src\components\CombatOverlay.tsx:540: HỘ TỐNG HỘI THOẠI
+src\components\CombatOverlay.tsx:542: LIÊN HOÀN TAM CHIÊU
+src\components\CombatOverlay.tsx:580: CUỒNG NỘ
+src\components\CombatOverlay.tsx:580: TRẤN THỦ
+src\components\InventoryModal.tsx:86: VÕ HỌC CĂN BẢN

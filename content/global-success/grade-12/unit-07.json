@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 7,
+    "unit_id": "g12-u07",
+    "title": "THE WORLD OF MASS MEDIA",
+    "topic": "Digital Media, Social Networks, Journalism, Fake News and Media Literacy",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 88,
+    "book_page": 88,
+    "source_section": "Grade 12 Unit 7 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 88,
+        "book_page_end": 89,
+        "pdf_page_start": 88,
+        "pdf_page_end": 89,
+        "description": "Introduction dialogue for THE WORLD OF MASS MEDIA"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 90,
+        "book_page_end": 90,
+        "pdf_page_start": 90,
+        "pdf_page_end": 90,
+        "description": "Pronunciation (Linking /r/ between two vowel sounds), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 91,
+        "book_page_end": 92,
+        "pdf_page_start": 91,
+        "pdf_page_end": 92,
+        "description": "The Battle for Media Truth"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 92,
+        "book_page_end": 92,
+        "pdf_page_start": 92,
+        "pdf_page_end": 92,
+        "description": "Comparing digital news portals against traditional printed newspapers"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 93,
+        "book_page_end": 93,
+        "pdf_page_start": 93,
+        "pdf_page_end": 93,
+        "description": "Listening to an investigative report exposing how automated bots amplify viral fake news"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 94,
+        "book_page_end": 95,
+        "pdf_page_start": 94,
+        "pdf_page_end": 95,
+        "description": "Writing a data commentary analyzing consumer shifts illustrated in a media consumption pie chart"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 96,
+        "book_page_end": 96,
+        "pdf_page_start": 96,
+        "pdf_page_end": 96,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 97,
+        "book_page_end": 97,
+        "pdf_page_start": 97,
+        "pdf_page_end": 97,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to digital media, social networks, journalism, fake news and media literacy",
+      "grammar": [
+        "Adverbial Clauses of Manner and Result"
+      ],
+      "pronunciation": "Linking /r/ between two vowel sounds",
+      "reading": "The Battle for Media Truth",
+      "speaking": "Comparing digital news portals against traditional printed newspapers",
+      "listening": "Listening to an investigative report exposing how automated bots amplify viral fake news",
+      "writing": "Writing a data commentary analyzing consumer shifts illustrated in a media consumption pie chart"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u07-vocab-001",
+      "unit_id": "g12-u07",
+      "word": "mass media",
+      "word_type": "noun phrase",
+      "ipa": "/ˌmæs ˈmiːdiə/",
+      "meaning_vi": "phương tiện truyền thông đại chúng",
+      "definition_en": "the primary means of mass communication including television, radio, and internet",
+      "example_sentence": "Mass media plays a crucial role in informing citizens about public health.",
+      "example_translation": "Truyền thông đại chúng đóng vai trò quyết định trong việc thông tin cho người dân về y tế cộng đồng.",
+      "collocations": [
+        "power of mass media"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-vocab-002",
+      "unit_id": "g12-u07",
+      "word": "disinformation",
+      "word_type": "noun",
+      "ipa": "/ˌdɪsˌɪnfəˈmeɪʃn/",
+      "meaning_vi": "thông tin giả mạo có chủ đích",
+      "definition_en": "false information which is intended to mislead or deceive people",
+      "example_sentence": "Malicious actors spread disinformation to manipulate public election results.",
+      "example_translation": "Những kẻ xấu lan truyền thông tin sai lệch để thao túng kết quả bầu cử.",
+      "collocations": [
+        "combat disinformation"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-vocab-003",
+      "unit_id": "g12-u07",
+      "word": "verification",
+      "word_type": "noun",
+      "ipa": "/ˌverɪfɪˈkeɪʃn/",
+      "meaning_vi": "sự xác thực, kiểm chứng thông tin",
+      "definition_en": "the process of establishing the truth, accuracy, or validity of something",
+      "example_sentence": "Fact-checking requires thorough verification of primary news sources.",
+      "example_translation": "Kiểm tra sự thật đòi hỏi sự xác thực kỹ lưỡng các nguồn tin gốc.",
+      "collocations": [
+        "source verification"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-vocab-004",
+      "unit_id": "g12-u07",
+      "word": "censorship",
+      "word_type": "noun",
+      "ipa": "/ˈsensəʃɪp/",
+      "meaning_vi": "sự kiểm duyệt",
+      "definition_en": "the suppression or prohibition of speech or content deemed objectionable",
+      "example_sentence": "Strict censorship laws restrict misleading content and online violence.",
+      "example_translation": "Luật kiểm duyệt nghiêm ngặt hạn chế các nội dung sai lệch và bạo lực trên mạng.",
+      "collocations": [
+        "strict censorship"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-vocab-005",
+      "unit_id": "g12-u07",
+      "word": "influencer",
+      "word_type": "noun",
+      "ipa": "/ˈɪnfluənsə(r)/",
+      "meaning_vi": "người có tầm ảnh hưởng trên mạng",
+      "definition_en": "a person with the ability to influence potential buyers or followers on social media",
+      "example_sentence": "Social media influencers promote eco-friendly fashion to millions of youth.",
+      "example_translation": "Những người có tầm ảnh hưởng trên mạng quảng bá thời trang thân thiện môi trường tới hàng triệu thanh thiếu niên.",
+      "collocations": [
+        "social media influencer"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-vocab-006",
+      "unit_id": "g12-u07",
+      "word": "clickbait",
+      "word_type": "noun",
+      "ipa": "/ˈklɪkbeɪt/",
+      "meaning_vi": "nội dung câu tương tác (giật gân, câu view)",
+      "definition_en": "content whose main purpose is to attract attention and encourage visitors to click on a link",
+      "example_sentence": "Do not fall for sensational headlines that are just cheap clickbait.",
+      "example_translation": "Đừng mắc bẫy những tiêu đề giật gân rẻ tiền chỉ nhằm mục đích câu tương tác.",
+      "collocations": [
+        "sensational clickbait"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u07-grammar-001",
+      "unit_id": "g12-u07",
+      "title": "Adverbial Clauses of Manner and Result",
+      "structure_name": "Mệnh đề trạng ngữ chỉ cách thức và kết quả",
+      "rule_summary": "Manner: as, as if, as though (như thể là). Result: so + adj/adv + that (quá... đến nỗi mà); such + (a/an) + adj + noun + that (quá... đến nỗi mà).",
+      "formula": "as / as if + Clause | so + adj/adv + that + Clause | such + Noun phrase + that + Clause",
+      "example_sentences": [
+        {
+          "en": "The online news was so shocking that it trended within minutes.",
+          "vi": "Tin tức trên mạng gây sốc đến nỗi nó đã lên xu hướng chỉ trong vài phút."
+        },
+        {
+          "en": "She acted as if she had not read the fabricated rumors.",
+          "vi": "Cô ấy hành xử như thể cô chưa từng đọc những tin đồn bịa đặt đó."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "The news was such shocking that everyone shared it.",
+          "correction": "The news was so shocking that everyone shared it.",
+          "explanation": "Trước tính từ 'shocking' không có danh từ thì phải dùng 'so', không dùng 'such'."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u07-reading-001",
+    "unit_id": "g12-u07",
+    "topic": "The Battle for Media Truth",
+    "main_idea": "Sự trỗi dậy của tin giả (fake news) trên mạng xã hội và kỹ năng số cần thiết để trở thành người tiếp nhận tin tức thông thái.",
+    "reading_skills": [
+      "Critical thinking",
+      "Distinguishing fact vs opinion"
+    ],
+    "keywords": [
+      "fake news",
+      "media literacy",
+      "source check"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Bước quan trọng nhất khi đọc một tin gây sốc trên mạng xã hội là gì?",
+        "options": [
+          "Kiểm chứng thông tin từ các cơ quan báo chí chính thống trước khi chia sẻ",
+          "Bấm chia sẻ ngay lập tức để cảnh báo bạn bè",
+          "Bình luận chửi bới người đăng tin",
+          "Đăng tải lại lên các nhóm chat"
+        ],
+        "correctAnswer": "Kiểm chứng thông tin từ các cơ quan báo chí chính thống trước khi chia sẻ",
+        "explanation": "Xác thực nguồn tin là nguyên tắc vàng để ngăn chặn lan truyền tin giả."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 91,
+    "book_page": 91,
+    "source_section": "Grade 12 Unit 7 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an investigative report exposing how automated bots amplify viral fake news",
+      "activity_types": [
+        "Gap-fill",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G12 Track 32",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 93,
+      "book_page": 93,
+      "source_section": "Grade 12 Unit 7 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Comparing digital news portals against traditional printed newspapers",
+      "activity_types": [
+        "Pair debate"
+      ],
+      "prompts": [
+        "Will print newspapers completely disappear in the next decade?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 92,
+      "book_page": 92,
+      "source_section": "Grade 12 Unit 7 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a data commentary analyzing consumer shifts illustrated in a media consumption pie chart",
+      "task_type": "Pie chart analysis",
+      "sample_outline": [
+        "Introductory trend",
+        "Sector breakdown",
+        "Key contrasts",
+        "Summary"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 94,
+      "book_page": 94,
+      "source_section": "Grade 12 Unit 7 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u07-question-001",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Hệ thống truyền thông rộng rãi đến công chúng bao gồm báo chí, truyền hình và internet gọi là:",
+      "options": [
+        "Mass media",
+        "Nuclear family",
+        "Ecosystem",
+        "Compost pile"
+      ],
+      "correctAnswer": "Mass media",
+      "explanation": "Mass media = phương tiện truyền thông đại chúng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-002",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Thông tin sai lệch được cố tình bịa đặt để đánh lừa độc giả gọi là:",
+      "options": [
+        "Disinformation",
+        "Achievement",
+        "Solidarity",
+        "Infrastructure"
+      ],
+      "correctAnswer": "Disinformation",
+      "explanation": "Disinformation = thông tin sai lệch có chủ đích.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-003",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Quy trình đối chiếu để bảo đảm tính xác thực của nguồn tin gọi là:",
+      "options": [
+        "Verification",
+        "Assimilation",
+        "Urbanisation",
+        "Deforestation"
+      ],
+      "correctAnswer": "Verification",
+      "explanation": "Verification = sự xác thực, kiểm chứng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-004",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Chọn liên từ chỉ kết quả: 'The rumor spread _______ quickly that authorities had to intervene.'",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "as"
+      ],
+      "correctAnswer": "so",
+      "explanation": "Cấu trúc 'so + adv + that' (so quickly that).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-005",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Chọn liên từ chỉ kết quả với cụm danh từ: 'It was _______ a sensational headline that everyone clicked on it.'",
+      "options": [
+        "such",
+        "so",
+        "too",
+        "as"
+      ],
+      "correctAnswer": "such",
+      "explanation": "Cấu trúc 'such + a/an + adj + noun + that' (such a sensational headline).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-006",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Chọn mệnh đề cách thức: 'The reporter spoke _______ he had witnessed the incident in person.'",
+      "options": [
+        "as if",
+        "so that",
+        "because of",
+        "such that"
+      ],
+      "correctAnswer": "as if",
+      "explanation": "'As if' = như thể là (mệnh đề cách thức giả định).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-007",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Người có lượng người theo dõi đông đảo và tầm ảnh hưởng lớn trên mạng xã hội gọi là:",
+      "options": [
+        "Influencer",
+        "Bystander",
+        "Surgeon",
+        "Contestant"
+      ],
+      "correctAnswer": "Influencer",
+      "explanation": "Social media influencer = người có tầm ảnh hưởng trên mạng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-008",
+      "unit_id": "g12-u07",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Readers should be wary of sensational _______ designed solely to generate ad revenue.'",
+      "options": [
+        "clickbait",
+        "appliances",
+        "chores",
+        "curfews"
+      ],
+      "correctAnswer": "clickbait",
+      "explanation": "Sensational clickbait = mồi nhử câu view giật gân.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u07-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-009",
+      "unit_id": "g12-u07",
+      "type": "multiple_choice",
+      "prompt": "Việc cơ quan chức năng kiểm tra và ngăn chặn các nội dung độc hại trên truyền thông gọi là:",
+      "options": [
+        "Censorship",
+        "Preservation",
+        "Automation",
+        "Probation"
+      ],
+      "correctAnswer": "Censorship",
+      "explanation": "Censorship = sự kiểm duyệt truyền thông.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u07-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u07-question-010",
+      "unit_id": "g12-u07",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành thông điệp về tiếp nhận thông tin văn minh:",
+      "options": [
+        "Media literacy helps citizens recognize fake news and disinformation effectively.",
+        "Citizens recognize fake news and disinformation effectively media literacy helps.",
+        "Fake news and disinformation effectively media literacy helps citizens recognize.",
+        "Effectively recognize fake news and disinformation media literacy helps citizens."
+      ],
+      "correctAnswer": "Media literacy helps citizens recognize fake news and disinformation effectively.",
+      "explanation": "S + helps + O + V + adv.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u07-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 12 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Media",
+        "literacy",
+        "helps",
+        "citizens",
+        "recognize",
+        "fake",
+        "news",
+        "and",
+        "disinformation",
+        "effectively."
+      ]
+    }
+  ]
+}

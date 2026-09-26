@@ -5,8 +5,11 @@ import {
   KnowledgeMasteryState,
 } from '../types/game';
 import { ALL_COMBAT_QUESTIONS, ALL_KNOWLEDGE_ITEMS } from '../data/demoLearningData';
+import { UnitContentService } from '../services/unitContentService';
 import { MasteryEngine } from '../services/masteryEngine';
 import { soundService } from '../services/sound';
+import { speechService } from '../services/speechService';
+import { Volume2, Eye } from 'lucide-react';
 
 interface TrainingModalProps {
   profile: PlayerProfile;
@@ -43,16 +46,21 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [isSessionFinished, setIsSessionFinished] = useState<boolean>(false);
   const [masteryDiffs, setMasteryDiffs] = useState<ItemMasteryDiff[]>([]);
+  const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
+  const [showTranscript, setShowTranscript] = useState<boolean>(false);
 
   // Khởi tạo buổi luyện 5 câu thích ứng khi mở modal
   useEffect(() => {
     if (isOpen) {
+      const unitPool = UnitContentService.getUnitCombatQuestions(profile.selectedUnitId || 'g10-u01');
+      const questionPool = unitPool.length > 0 ? unitPool : ALL_COMBAT_QUESTIONS;
       const selected = MasteryEngine.selectAdaptiveQuestions(
-        ALL_COMBAT_QUESTIONS,
+        questionPool,
         profile.knowledgeMastery || {},
         5
       );
       setQuestions(selected);
+
       setCurrentIndex(0);
       setSelectedOption(null);
       setIsAnswered(false);
@@ -61,12 +69,49 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
       setStartTime(Date.now());
       setIsSessionFinished(false);
       setMasteryDiffs([]);
+      setIsAudioPlaying(false);
+      setShowTranscript(false);
+    } else {
+      speechService.stop();
+      setIsAudioPlaying(false);
     }
   }, [isOpen, profile]);
 
-  // Bộ đếm thời gian cho mỗi câu
+  // Dọn dẹp audio khi unmount
   useEffect(() => {
-    if (!isOpen || isAnswered || isSessionFinished || questions.length === 0) return;
+    return () => {
+      speechService.stop();
+    };
+  }, []);
+
+  // Xử lý chuyển câu & phát âm thanh câu hỏi nghe
+  useEffect(() => {
+    speechService.stop();
+    setIsAudioPlaying(false);
+    setShowTranscript(false);
+
+    const q = questions[currentIndex];
+    if (isOpen && !isSessionFinished && q?.listeningScript) {
+      const timer = setTimeout(() => {
+        handlePlayAudio(q.listeningScript!);
+      }, 400);
+      return () => clearTimeout(timer);
+    }
+  }, [currentIndex, isOpen, isSessionFinished, questions]);
+
+  const handlePlayAudio = (text: string) => {
+    if (isAudioPlaying) return;
+    setIsAudioPlaying(true);
+    speechService.speak(text, {
+      onStart: () => setIsAudioPlaying(true),
+      onEnd: () => setIsAudioPlaying(false),
+      onError: () => setIsAudioPlaying(false),
+    });
+  };
+
+  // Bộ đếm thời gian cho mỗi câu: TẠM DỪNG khi đang phát âm thanh
+  useEffect(() => {
+    if (!isOpen || isAnswered || isSessionFinished || questions.length === 0 || isAudioPlaying) return;
 
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
@@ -80,7 +125,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [isOpen, isAnswered, currentIndex, isSessionFinished, questions]);
+  }, [isOpen, isAnswered, currentIndex, isSessionFinished, questions, isAudioPlaying]);
 
   if (!isOpen) return null;
 
@@ -159,7 +204,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
             </div>
             <div>
               <h2 className="text-base sm:text-lg font-black text-amber-200 tracking-wide font-serif">
-                VÕ TRƯỜNG TRÚC LÂM — LUYỆN CÔNG
+                Võ Trường Trúc Lâm — Luyện Công
               </h2>
               <p className="text-[11px] sm:text-xs text-stone-400">
                 Ôn luyện 5 thức thích ứng theo sơ hở tri thức [DEMO]
@@ -204,7 +249,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
                 {/* Khung câu hỏi */}
                 <div className="p-4 rounded-xl bg-stone-950/70 border border-amber-600/40 shadow-inner">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-emerald-950/80 text-emerald-300 border border-emerald-600/40">
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-950/80 text-emerald-300 border border-emerald-600/40">
                       Điểm Yếu Cần Rèn
                     </span>
                     <span className="text-[11px] text-stone-400">
@@ -215,6 +260,47 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
                     {currentQ.prompt}
                   </p>
                 </div>
+
+                {/* Audio controls for listening questions */}
+                {(currentQ.listeningScript || currentQ.combatMode === 'listening_pursuit') && (
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-center justify-between p-3 rounded-xl bg-stone-950 border border-amber-500/40">
+                      <button
+                        disabled={isAudioPlaying}
+                        onClick={() => handlePlayAudio(currentQ.listeningScript || currentQ.prompt)}
+                        className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 shadow transition active:scale-95 ${
+                          !isAudioPlaying
+                            ? 'bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold'
+                            : 'bg-stone-800 text-stone-500 cursor-not-allowed'
+                        }`}
+                      >
+                        <Volume2 className={`w-4 h-4 ${isAudioPlaying ? 'animate-bounce text-amber-300' : ''}`} />
+                        <span>{isAudioPlaying ? 'Đang Phát Khẩu Quyết...' : 'Phát Lại Khẩu Quyết'}</span>
+                      </button>
+
+                      {/* Transcript toggle */}
+                      {(currentQ.transcriptFallback || currentQ.hintText) && (
+                        <button
+                          onClick={() => {
+                            soundService.playClick();
+                            setShowTranscript(!showTranscript);
+                          }}
+                          className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-semibold border border-stone-700 flex items-center gap-1.5"
+                        >
+                          <Eye className="w-3.5 h-3.5 text-stone-400" />
+                          <span>{showTranscript ? 'Ẩn Lời Thoại' : 'Bản Chép Lời'}</span>
+                        </button>
+                      )}
+                    </div>
+
+                    {/* Transcript Box */}
+                    {showTranscript && (currentQ.transcriptFallback || currentQ.hintText) && (
+                      <div className="p-3 rounded-xl bg-amber-950/40 border border-amber-600/40 text-amber-200 text-xs italic animate-fadeIn">
+                        💡 <b>Lời thoại:</b> {currentQ.transcriptFallback || currentQ.hintText}
+                      </div>
+                    )}
+                  </div>
+                )}
 
                 {/* Danh sách 4 phương án */}
                 <div className="grid grid-cols-1 gap-2.5">
@@ -282,7 +368,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
               </div>
               <div>
                 <h3 className="text-lg sm:text-xl font-black text-amber-200 font-serif">
-                  TU LUYỆN VIÊN MÃN!
+                  Tu Luyện Viên Mãn!
                 </h3>
                 <p className="text-xs text-stone-300 mt-1">
                   Đã hoàn thành 5 thức đối luyện tại Cọc Gỗ Trúc Lâm.
@@ -305,7 +391,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
 
               {/* Bảng so sánh biến chuyển Mastery */}
               <div className="text-left mt-1">
-                <h4 className="text-xs font-bold text-amber-300 mb-2 uppercase tracking-wider">
+                <h4 className="text-xs font-bold text-amber-300 mb-2">
                   Biến Chuyển Điểm Mastery Sau Buổi Luyện:
                 </h4>
                 <div className="flex flex-col gap-2 max-h-48 overflow-y-auto pr-1">
@@ -361,7 +447,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
             <button
               disabled={!isAnswered}
               onClick={handleNext}
-              className={`px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm tracking-wider transition ${
+              className={`px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition ${
                 isAnswered
                   ? 'bg-gradient-to-r from-amber-600 to-yellow-600 text-stone-950 shadow-lg shadow-amber-600/30 hover:brightness-110 active:scale-95'
                   : 'bg-stone-800 text-stone-500 cursor-not-allowed'
@@ -372,7 +458,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
           ) : (
             <button
               onClick={handleFinish}
-              className="w-full sm:w-auto px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm tracking-wider bg-gradient-to-r from-amber-600 to-yellow-600 text-stone-950 shadow-lg shadow-amber-600/40 hover:brightness-110 active:scale-95"
+              className="w-full sm:w-auto px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-amber-600 to-yellow-600 text-stone-950 shadow-lg shadow-amber-600/40 hover:brightness-110 active:scale-95"
             >
               Thu Kiếm Nhập Bao (Hoàn Tất)
             </button>

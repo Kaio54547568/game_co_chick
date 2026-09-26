@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 4,
+    "unit_id": "g11-u04",
+    "title": "ASEAN AND VIET NAM",
+    "topic": "Regional Integration, Cultural Exchange and Youth Cooperation",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 40,
+    "book_page": 40,
+    "source_section": "Grade 11 Unit 4 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 40,
+        "book_page_end": 41,
+        "pdf_page_start": 40,
+        "pdf_page_end": 41,
+        "description": "Introduction dialogue for ASEAN AND VIET NAM"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 42,
+        "book_page_end": 42,
+        "pdf_page_start": 42,
+        "pdf_page_end": 42,
+        "description": "Pronunciation (Elision of vowels in rapid speech), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 43,
+        "book_page_end": 44,
+        "pdf_page_start": 43,
+        "pdf_page_end": 44,
+        "description": "ASEAN Youth in Action"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 44,
+        "book_page_end": 44,
+        "pdf_page_start": 44,
+        "pdf_page_end": 44,
+        "description": "Discussing the skills and experience needed for the ASEAN Youth Programme"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 45,
+        "book_page_end": 45,
+        "pdf_page_start": 45,
+        "pdf_page_end": 45,
+        "description": "Listening to an audio overview of an educational ASEAN school tour programme"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 46,
+        "book_page_end": 47,
+        "pdf_page_start": 46,
+        "pdf_page_end": 47,
+        "description": "Writing an event proposal for welcoming international exchange students"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 48,
+        "book_page_end": 48,
+        "pdf_page_start": 48,
+        "pdf_page_end": 48,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 49,
+        "book_page_end": 49,
+        "pdf_page_start": 49,
+        "pdf_page_end": 49,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to regional integration, cultural exchange and youth cooperation",
+      "grammar": [
+        "Gerunds as Subjects and Objects"
+      ],
+      "pronunciation": "Elision of vowels in rapid speech",
+      "reading": "ASEAN Youth in Action",
+      "speaking": "Discussing the skills and experience needed for the ASEAN Youth Programme",
+      "listening": "Listening to an audio overview of an educational ASEAN school tour programme",
+      "writing": "Writing an event proposal for welcoming international exchange students"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u04-vocab-001",
+      "unit_id": "g11-u04",
+      "word": "solidarity",
+      "word_type": "noun",
+      "ipa": "/ˌsɒlɪˈdærəti/",
+      "meaning_vi": "sự đoàn kết, tinh thần tương trợ",
+      "definition_en": "unity or agreement of feeling or action among individuals with a common interest",
+      "example_sentence": "ASEAN nations stand together in regional solidarity and mutual respect.",
+      "example_translation": "Các quốc gia ASEAN kề vai sát cánh trong tinh thần đoàn kết khu vực và tôn trọng lẫn nhau.",
+      "collocations": [
+        "show solidarity"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-vocab-002",
+      "unit_id": "g11-u04",
+      "word": "member state",
+      "word_type": "noun phrase",
+      "ipa": "/ˈmembə steɪt/",
+      "meaning_vi": "quốc gia thành viên",
+      "definition_en": "a country that is a member of an international association",
+      "example_sentence": "Viet Nam became the seventh member state of ASEAN in 1995.",
+      "example_translation": "Việt Nam trở thành quốc gia thành viên thứ bảy của ASEAN vào năm 1995.",
+      "collocations": [
+        "ASEAN member states"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-vocab-003",
+      "unit_id": "g11-u04",
+      "word": "cultural exchange",
+      "word_type": "noun phrase",
+      "ipa": "/ˌkʌltʃərəl ɪksˈtʃeɪndʒ/",
+      "meaning_vi": "sự giao lưu văn hóa",
+      "definition_en": "the sharing of cultural ideas, music, and traditions between nations",
+      "example_sentence": "The annual youth festival promotes vibrant cultural exchange across Southeast Asia.",
+      "example_translation": "Lễ hội thanh niên thường niên thúc đẩy giao lưu văn hóa sống động khắp Đông Nam Á.",
+      "collocations": [
+        "promote cultural exchange"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-vocab-004",
+      "unit_id": "g11-u04",
+      "word": "summit",
+      "word_type": "noun",
+      "ipa": "/ˈsʌmɪt/",
+      "meaning_vi": "hội nghị thượng đỉnh",
+      "definition_en": "an official meeting or series of meetings between heads of government",
+      "example_sentence": "Leaders gathered in Jakarta for the annual regional ASEAN Summit.",
+      "example_translation": "Các nhà lãnh đạo tề tựu tại Jakarta để tham dự Hội nghị thượng đỉnh ASEAN thường niên.",
+      "collocations": [
+        "ASEAN Summit"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-vocab-005",
+      "unit_id": "g11-u04",
+      "word": "integrate",
+      "word_type": "verb",
+      "ipa": "/ˈɪntɪɡreɪt/",
+      "meaning_vi": "hội nhập, hòa nhập",
+      "definition_en": "to combine one thing with another so that they become a whole",
+      "example_sentence": "Viet Nam continues to integrate deeply into the regional economy.",
+      "example_translation": "Việt Nam tiếp tục hội nhập sâu rộng vào nền kinh tế khu vực.",
+      "collocations": [
+        "integrate into ASEAN"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-vocab-006",
+      "unit_id": "g11-u04",
+      "word": "bloc",
+      "word_type": "noun",
+      "ipa": "/blɒk/",
+      "meaning_vi": "khối liên minh (kinh tế/chính trị)",
+      "definition_en": "a group of countries or political parties with common interests",
+      "example_sentence": "ASEAN has emerged as an influential economic bloc in Asia.",
+      "example_translation": "ASEAN đã vươn lên thành một khối kinh tế có tầm ảnh hưởng tại châu Á.",
+      "collocations": [
+        "regional trade bloc"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u04-grammar-001",
+      "unit_id": "g11-u04",
+      "title": "Gerunds as Subjects and Objects",
+      "structure_name": "Danh động từ làm chủ ngữ và tân ngữ",
+      "rule_summary": "Danh động từ (V-ing) có thể đóng vai trò làm chủ ngữ số ít của câu (Learning English is useful) hoặc làm tân ngữ sau một số động từ (enjoy, suggest, avoid, practice) và sau giới từ.",
+      "formula": "V-ing + V(singular) | Verb + V-ing | Preposition + V-ing",
+      "example_sentences": [
+        {
+          "en": "Promoting peace is the primary mission of the association.",
+          "vi": "Thúc đẩy hòa bình là sứ mệnh hàng đầu của hiệp hội."
+        },
+        {
+          "en": "Students enjoy participating in cultural exchange programs.",
+          "vi": "Học sinh rất thích tham gia các chương trình giao lưu văn hóa."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Learn foreign languages is important.",
+          "correction": "Learning foreign languages is important.",
+          "explanation": "Động từ đứng đầu câu làm chủ ngữ phải ở dạng V-ing."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u04-reading-001",
+    "unit_id": "g11-u04",
+    "topic": "ASEAN Youth in Action",
+    "main_idea": "Các sáng kiến thanh niên thúc đẩy bảo vệ môi trường, văn hóa truyền thống và kỹ năng lãnh đạo trong khối ASEAN.",
+    "reading_skills": [
+      "Main themes",
+      "Fact matching"
+    ],
+    "keywords": [
+      "ASEAN",
+      "youth cooperation",
+      "solidarity"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Mục tiêu chính của các hội nghị giao lưu thanh niên ASEAN là gì?",
+        "options": [
+          "Tăng cường hiểu biết văn hóa và kết nối thế hệ trẻ trong khu vực",
+          "Buộc mọi học sinh phải học một ngôn ngữ duy nhất",
+          "Thi đấu thể thao chuyên nghiệp đỉnh cao",
+          "Xóa bỏ các trường học truyền thống"
+        ],
+        "correctAnswer": "Tăng cường hiểu biết văn hóa và kết nối thế hệ trẻ trong khu vực",
+        "explanation": "Thanh niên ASEAN giao lưu để thắt chặt tình đoàn kết và chia sẻ kinh nghiệm phát triển."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 43,
+    "book_page": 43,
+    "source_section": "Grade 11 Unit 4 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an audio overview of an educational ASEAN school tour programme",
+      "activity_types": [
+        "Gap-fill",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G11 Track 18",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 45,
+      "book_page": 45,
+      "source_section": "Grade 11 Unit 4 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Discussing the skills and experience needed for the ASEAN Youth Programme",
+      "activity_types": [
+        "Group discussion"
+      ],
+      "prompts": [
+        "What leadership skills make an outstanding youth ambassador?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 44,
+      "book_page": 44,
+      "source_section": "Grade 11 Unit 4 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an event proposal for welcoming international exchange students",
+      "task_type": "Proposal",
+      "sample_outline": [
+        "Event title",
+        "Objectives",
+        "Activities schedule",
+        "Budget and logistics"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 46,
+      "book_page": 46,
+      "source_section": "Grade 11 Unit 4 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u04-question-001",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Tinh thần đoàn kết, đồng lòng tương trợ giữa các quốc gia gọi là:",
+      "options": [
+        "Solidarity",
+        "Infrastructure",
+        "Lifespan",
+        "Discrimination"
+      ],
+      "correctAnswer": "Solidarity",
+      "explanation": "Solidarity = sự đoàn kết.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-002",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Việt Nam gia nhập ASEAN vào năm nào và là thành viên thứ mấy?",
+      "options": [
+        "Năm 1995 - thành viên thứ 7",
+        "Năm 1967 - thành viên sáng lập",
+        "Năm 2000 - thành viên thứ 10",
+        "Năm 1986 - thành viên thứ 5"
+      ],
+      "correctAnswer": "Năm 1995 - thành viên thứ 7",
+      "explanation": "Việt Nam gia nhập ASEAN ngày 28/7/1995, trở thành thành viên thứ 7.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-003",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Hoạt động chia sẻ âm nhạc, nghệ thuật và phong tục giữa các nước là:",
+      "options": [
+        "Cultural exchange",
+        "Household chore",
+        "3D printing",
+        "Heavy lifting"
+      ],
+      "correctAnswer": "Cultural exchange",
+      "explanation": "Cultural exchange = giao lưu văn hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-004",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Chọn danh động từ làm chủ ngữ: '_______ foreign languages opens doors to global careers.'",
+      "options": [
+        "Learning",
+        "Learn",
+        "Learned",
+        "To learning"
+      ],
+      "correctAnswer": "Learning",
+      "explanation": "Danh động từ V-ing (Learning) làm chủ ngữ.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-005",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Điền dạng đúng sau giới từ: 'Youth ambassadors are interested in _______ traditional crafts.'",
+      "options": [
+        "promoting",
+        "promote",
+        "promotes",
+        "to promote"
+      ],
+      "correctAnswer": "promoting",
+      "explanation": "Sau giới từ 'in' động từ ở dạng V-ing (promoting).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-006",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Hội nghị cấp cao giữa các nguyên thủ quốc gia được gọi là:",
+      "options": [
+        "Summit",
+        "Workout",
+        "Curfew",
+        "Sensor"
+      ],
+      "correctAnswer": "Summit",
+      "explanation": "Summit = hội nghị thượng đỉnh.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-007",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Từ 'bloc' trong kinh tế chính trị chỉ điều gì?",
+      "options": [
+        "Khối liên minh các nước cùng quyền lợi",
+        "Một ngôi nhà nhiều tầng",
+        "Một bức tường ngăn cách",
+        "Một loại máy bay trực thăng"
+      ],
+      "correctAnswer": "Khối liên minh các nước cùng quyền lợi",
+      "explanation": "Bloc = khối, liên minh quốc gia.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-008",
+      "unit_id": "g11-u04",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Viet Nam actively works to _______ regional trade barriers within the ASEAN community.'",
+      "options": [
+        "reduce",
+        "emit",
+        "distract",
+        "donate"
+      ],
+      "correctAnswer": "reduce",
+      "explanation": "Reduce trade barriers = cắt giảm rào cản thương mại.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u04-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-009",
+      "unit_id": "g11-u04",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu sử dụng danh động từ làm tân ngữ chính xác:",
+      "options": [
+        "They avoid discussing sensitive political disagreements.",
+        "They avoid to discuss sensitive political disagreements.",
+        "They avoid discuss sensitive political disagreements.",
+        "They avoid discussed sensitive political disagreements."
+      ],
+      "correctAnswer": "They avoid discussing sensitive political disagreements.",
+      "explanation": "Động từ 'avoid' đi với V-ing (discussing).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u04-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u04-question-010",
+      "unit_id": "g11-u04",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu về tình đoàn kết ASEAN:",
+      "options": [
+        "ASEAN member states work together to maintain regional peace and prosperity.",
+        "To maintain regional peace and prosperity ASEAN member states work together.",
+        "Peace and prosperity to maintain ASEAN member states work together regional.",
+        "Together work ASEAN member states to maintain regional peace and prosperity."
+      ],
+      "correctAnswer": "ASEAN member states work together to maintain regional peace and prosperity.",
+      "explanation": "S + work together + to V.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u04-vocab-001",
+        "g11-u04-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 42,
+      "book_page": 42,
+      "source_section": "Grade 11 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "ASEAN",
+        "member",
+        "states",
+        "work",
+        "together",
+        "to",
+        "maintain",
+        "regional",
+        "peace",
+        "and",
+        "prosperity."
+      ]
+    }
+  ]
+}

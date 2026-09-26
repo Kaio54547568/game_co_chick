@@ -1,0 +1,178 @@
+[
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "waste scavenger with patched indigo clothes and discarded metal blade",
+    "generated": "exec-e68329d6-6022-4c05-8569-4e677cd1289e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "soot archer firing smoky darts from a bamboo bow",
+    "generated": "exec-927bb836-5722-49d8-936f-c081bf727ca6.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "bulky landfill guardian wrapped in discarded pottery and cloth",
+    "generated": "exec-5bc2d697-f9e3-4ddc-8484-83c41ca73650.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "golem of glass bottles and bamboo waste bins",
+    "generated": "exec-898d5ef4-d223-4fe2-ac09-419e7eb9be96.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "dark smoke spirit with ember eyes and leaf edges",
+    "generated": "exec-727348e7-2292-45cf-8dc1-71d80c018f73.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "smog priest commanding polluted air with cracked green lantern",
+    "generated": "exec-f920af13-a5c6-40e3-8e57-699c37133128.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "recycling_crab",
+    "concept": "a bright-eyed crab-like construct built from salvaged bamboo and terracotta, corrupted by dark smoke",
+    "generated": "exec-013fced4-4d59-4e47-8381-ae55b288769b.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "sustainable village packed earth",
+    "generated": "exec-b2e52f2f-3b81-4433-a5e1-3f760db47afd.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "reclaimed garden earth with young grass",
+    "generated": "exec-d2fcf98d-4f9f-4f7e-9a9e-54c3fb6537c5.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "reusable woven market basket",
+    "generated": "exec-0a5f6eb6-cb1a-4853-865f-e85516a654dd.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "ceramic rainwater collection jar",
+    "generated": "exec-a6170454-e815-4d14-bec0-f6f8e95e780f.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "rooftop construction scout with short blade and rope",
+    "generated": "exec-77b7972a-a4b9-419a-9853-510750ea411f.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "masked signal slinger on a narrow urban platform",
+    "generated": "exec-654527b8-4176-408c-ab54-4cb43eda3c28.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "hulking construction debris bruiser with stone slab shield",
+    "generated": "exec-53f898f2-cc9c-4b69-b1aa-352efe650a65.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "concrete-and-bronze transit golem",
+    "generated": "exec-bccf1aed-3e2a-465c-b6b9-9b35015cf4d7.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "floating smog shade with street-lamp glow",
+    "generated": "exec-f6b9d1f0-4f6d-41b6-9393-0006e29bc52e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "corrupt riverfront transit captain in dark uniform",
+    "generated": "exec-7a2a1b90-0c19-46c0-9e83-1ab497b34d4d.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "traffic_serpent",
+    "concept": "a mechanical city transit serpent made of bamboo rails and bronze wheels",
+    "generated": "exec-a1795a05-2aa1-4c58-9b3b-8bf2f5743177.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "riverfront city paving",
+    "generated": "exec-80524a11-6c5b-44bf-8e82-fd9d8722e622.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "old riverfront cobbles beside new paving",
+    "generated": "exec-324a9772-0acd-4657-b3b4-c993bda6c6eb.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "urban tree planter",
+    "generated": "exec-8692672f-f9c9-48c0-9d47-d690b6126adb.png"
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "small urban tree planter with bamboo support",
+    "generated": "exec-90418f3a-e33b-42c7-9164-05053b8e4f61.png"
+  }
+]

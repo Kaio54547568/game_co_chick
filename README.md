@@ -57,7 +57,7 @@ game_co_chick/
 │   │   └── world/                   # Địa danh (Sơn Môn, Tàng Kinh Các, Trúc Lâm, Cấm Địa)
 │   ├── references/                  # GDD v1.0 và hình ảnh tham chiếu phong cách
 │   ├── manifest.json                # Thông số kích thước, origin, frame của từng asset
-│   └── NHAN_VAT_CHO_ANH_THAM_CHIEU.md # Bang Chủ đã có ảnh; 5 Hộ Pháp chờ ảnh thật
+│   └── NHAN_VAT_CHO_ANH_THAM_CHIEU.md # Bang Chủ và 4 Hộ Pháp đã có ảnh; Liên Phạm chờ ảnh thật
 ├── public/
 │   └── assets                       # Directory junction liên kết tới thư mục assets
 ├── src/
@@ -145,15 +145,15 @@ game_co_chick/
    - Tự động tổng hợp âm thanh bằng Web Audio API không phụ thuộc file MP3 bên ngoài: tiếng chém kiếm vút gió, tiếng trúng đòn, chuông đồng tông môn trầm hùng, tiếng bạo kích vang dội, tiếng thăng cấp và khúc khải hoàn.
    - Có nút bật/tắt âm thanh trong Cài Đặt.
 8. **Tuân Thủ Tuyệt Đối Quy Chuẩn Thiết Kế:**
-   - Bang Chủ Hà Ánh Phượng đã có portrait/sprite dựa trên ảnh mặt thật; game hiện vẫn dùng marker chữ và chờ tích hợp hai asset này. Năm Hộ Pháp còn lại chưa được tạo ảnh.
+   - Bang Chủ Hà Ánh Phượng đã có portrait/sprite dựa trên ảnh mặt thật và đã được tích hợp. Bốn Hộ Pháp Đặng Trần Hà, Hoàng Vân, Phương Tú, Nguyệt Nguyễn đã có asset theo phong cách Việt Nam; chưa được đặt vào map.
    - Dữ liệu học tập được gắn thẻ rõ ràng `[DEMO DATA - Dữ liệu thử nghiệm]`.
 
 ---
 
 ## 4. Phần Còn Chờ Asset & Dữ Liệu Về Sau
 
-1. **Tích hợp Bang Chủ và tạo hình 5 Hộ Pháp:**
-   - Sprite và portrait Bang Chủ đã nằm trong `assets/game/characters/npc/` nhưng chưa được nối vào WorldScene/DialogueModal. Năm Hộ Pháp sẽ cần ảnh mặt thật riêng trước khi tạo hình.
+1. **Tích hợp bốn Hộ Pháp và tạo hình Liên Phạm:**
+   - Sprite và portrait của bốn Hộ Pháp đã nằm trong `assets/game/characters/npc/` và `assets/manifest.json`, nhưng chưa được nối vào game. Hộ Pháp Liên Phạm vẫn cần ảnh mặt thật riêng trước khi tạo hình.
 2. **Dữ liệu 30 Unit chương trình Global Success:**
    - Hiện tại đang sử dụng bộ 8 từ vựng và 20 câu hỏi thử nghiệm Unit 1 Demo. Cần nhập liệu ngân hàng câu hỏi đầy đủ cho 30 Unit từ lớp 10 đến lớp 12 qua CMS.
 3. **Bộ Sprite Animation đi bộ & xuất chiêu:**

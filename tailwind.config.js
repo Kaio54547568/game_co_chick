@@ -24,7 +24,8 @@ export default {
         }
       },
       fontFamily: {
-        wuxia: ['Cinzel', 'Noto Serif SC', 'Playfair Display', 'serif'],
+        sans: ['"Be Vietnam Pro"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        wuxia: ['"Playfair Display"', '"Be Vietnam Pro"', 'serif'],
       },
       boxShadow: {
         'wuxia-gold': '0 0 15px rgba(230, 179, 73, 0.35)',

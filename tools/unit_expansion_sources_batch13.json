@@ -1,0 +1,162 @@
+[
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "ground",
+    "id": "herbal_stone_path",
+    "concept": "flat herbal-garden stone pavers with tiny medicinal leaves",
+    "generated": "exec-17413d9d-5c89-4af4-b604-2025324a5725.png"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "prop",
+    "id": "herb_drying_rack",
+    "concept": "bamboo rack with medicinal herbs drying",
+    "generated": "exec-e7d5cca7-dbff-4f3c-99f5-8ad33d3f5a36.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "ground",
+    "id": "family_wood_floor",
+    "concept": "aged Vietnamese family-house wooden floorboards",
+    "generated": "exec-89522ff7-1924-4c1e-b5b3-0e3dd69b2947.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "prop",
+    "id": "ancestor_lantern",
+    "concept": "small ancestral brass oil lantern, no symbols or writing",
+    "generated": "exec-5686d30f-6ad5-4049-b339-a65cb7ed69f0.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "ground",
+    "id": "eco_transit_paving",
+    "concept": "green-seamed eco-city transit pavement of Vietnamese design",
+    "generated": "exec-b2bbae06-cd76-4051-a091-541cfd1f1ce0.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "prop",
+    "id": "transit_marker",
+    "concept": "small bamboo-bronze transit wayfinding sculpture without text",
+    "generated": "exec-0b06ca9e-bc29-4fbf-bfb3-8f950eab7ad7.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "ground",
+    "id": "wet_harbor_stone",
+    "concept": "weathered coastal port stone with wet patches",
+    "generated": "exec-f7f0911c-30cb-484a-8bdb-b5a390dcb0f1.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "prop",
+    "id": "festival_boat_lantern",
+    "concept": "small colorful Southeast Asian festival boat lantern, no national flags",
+    "generated": "exec-c71b465b-003a-43f2-9ba1-8dc385fa4834.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "ground",
+    "id": "salt_marsh_water",
+    "concept": "shallow coastal salt-marsh water with mud and reflections",
+    "generated": "exec-7b8b2e6f-d2d3-41ac-8637-983e186b3e1e.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "prop",
+    "id": "tide_gauge",
+    "concept": "simple weathered bronze tide gauge, no numbers",
+    "generated": "exec-de526f12-4f20-40b3-b65d-fd18c1183adb.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "ground",
+    "id": "heritage_wood_floor",
+    "concept": "aged carved Vietnamese communal-house wood flooring",
+    "generated": "exec-e53b5cae-951e-4e9e-8046-6ffac3ee6417.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "prop",
+    "id": "restoration_scaffold",
+    "concept": "compact bamboo heritage-restoration scaffold with repair tools",
+    "generated": "exec-1955c5ea-f735-44f3-9319-5ad8e366d529.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "ground",
+    "id": "crossroads_cobbles",
+    "concept": "academy crossroads cobblestones",
+    "generated": "exec-db8ab2a9-75db-46df-bb9a-d53797fc7a13.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "prop",
+    "id": "academy_signpost",
+    "concept": "three-way wooden academy signpost with blank plaques",
+    "generated": "exec-46813d19-9d51-4d54-8049-00e85f1d26d6.png"
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "ground",
+    "id": "mountain_trail_gravel",
+    "concept": "Vietnamese upland trail gravel and sparse grass",
+    "generated": "exec-63762aee-b80b-448e-ba25-404dbeff189d.png"
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "prop",
+    "id": "road_milestone",
+    "concept": "small carved roadside stone milestone with no text",
+    "generated": "exec-d7eee9b6-a3ea-45eb-b3cf-ca8504fc93d7.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "ground",
+    "id": "market_packed_dirt",
+    "concept": "well-trodden Vietnamese market packed earth",
+    "generated": "exec-14e44062-f43b-43cf-ae90-d5aaff6d16d8.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "prop",
+    "id": "aid_notice_board",
+    "concept": "wooden public-aid notice board with blank paper sheets",
+    "generated": "exec-d03a1aa0-53c7-4fe0-9076-3bb787c4cccd.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "ground",
+    "id": "wetland_water",
+    "concept": "shallow marsh water with algae and tiny leaves",
+    "generated": "exec-a5415086-e625-4fd7-9f23-c0258bd59ddb.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "prop",
+    "id": "mangrove_nest",
+    "concept": "small mangrove-root shelter for wildlife",
+    "generated": "exec-63e81e84-2eba-4adc-835c-fd58e0fde4b1.png"
+  }
+]

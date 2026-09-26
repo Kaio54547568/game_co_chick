@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 6,
+    "unit_id": "g12-u06",
+    "title": "ARTIFICIAL INTELLIGENCE",
+    "topic": "AI Breakthroughs, Machine Learning, Automation and Ethical Questions",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 76,
+    "book_page": 76,
+    "source_section": "Grade 12 Unit 6 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 76,
+        "book_page_end": 77,
+        "pdf_page_start": 76,
+        "pdf_page_end": 77,
+        "description": "Introduction dialogue for ARTIFICIAL INTELLIGENCE"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 78,
+        "book_page_end": 78,
+        "pdf_page_start": 78,
+        "pdf_page_end": 78,
+        "description": "Pronunciation (Homophones in spoken English), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 79,
+        "book_page_end": 80,
+        "pdf_page_start": 79,
+        "pdf_page_end": 80,
+        "description": "AI Transforming Education"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 80,
+        "book_page_end": 80,
+        "pdf_page_start": 80,
+        "pdf_page_end": 80,
+        "description": "Debating whether generative AI will replace human creative writers and teachers"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 81,
+        "book_page_end": 81,
+        "pdf_page_start": 81,
+        "pdf_page_end": 81,
+        "description": "Listening to an engineer explaining safety operating guidelines for an AI home robot"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 82,
+        "book_page_end": 83,
+        "pdf_page_start": 82,
+        "pdf_page_end": 83,
+        "description": "Writing an evaluative essay exploring the potential benefits and societal risks of service robots"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 84,
+        "book_page_end": 84,
+        "pdf_page_start": 84,
+        "pdf_page_end": 84,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 85,
+        "book_page_end": 85,
+        "pdf_page_start": 85,
+        "pdf_page_end": 85,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to ai breakthroughs, machine learning, automation and ethical questions",
+      "grammar": [
+        "Active and Passive Causatives with Have and Get"
+      ],
+      "pronunciation": "Homophones in spoken English",
+      "reading": "AI Transforming Education",
+      "speaking": "Debating whether generative AI will replace human creative writers and teachers",
+      "listening": "Listening to an engineer explaining safety operating guidelines for an AI home robot",
+      "writing": "Writing an evaluative essay exploring the potential benefits and societal risks of service robots"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u06-vocab-001",
+      "unit_id": "g12-u06",
+      "word": "algorithm",
+      "word_type": "noun",
+      "ipa": "/ˈælɡərɪðəm/",
+      "meaning_vi": "thuật toán",
+      "definition_en": "a process or set of rules to be followed in calculations by a computer",
+      "example_sentence": "Search engines rely on complex ranking algorithms to display relevant web pages.",
+      "example_translation": "Các công cụ tìm kiếm dựa vào các thuật toán xếp hạng phức tạp để hiển thị trang web phù hợp.",
+      "collocations": [
+        "search algorithm"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-vocab-002",
+      "unit_id": "g12-u06",
+      "word": "machine learning",
+      "word_type": "noun phrase",
+      "ipa": "/məˈʃiːn ˌlɜːnɪŋ/",
+      "meaning_vi": "học máy",
+      "definition_en": "the use of computer systems that can learn and adapt without following explicit instructions",
+      "example_sentence": "Machine learning enables computers to identify speech patterns and translate texts.",
+      "example_translation": "Học máy cho phép máy tính nhận dạng mẫu giọng nói và dịch thuật văn bản.",
+      "collocations": [
+        "apply machine learning"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-vocab-003",
+      "unit_id": "g12-u06",
+      "word": "automation",
+      "word_type": "noun",
+      "ipa": "/ˌɔːtəˈmeɪʃn/",
+      "meaning_vi": "sự tự động hóa",
+      "definition_en": "the use of largely automatic equipment in a manufacturing or service system",
+      "example_sentence": "Factory automation increases productivity while reducing workplace physical hazards.",
+      "example_translation": "Tự động hóa nhà máy giúp tăng năng suất trong khi giảm nguy cơ tai nạn lao động.",
+      "collocations": [
+        "industrial automation"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-vocab-004",
+      "unit_id": "g12-u06",
+      "word": "autonomous",
+      "word_type": "adjective",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meaning_vi": "tự hành, tự chủ",
+      "definition_en": "having the freedom to act independently; self-governing",
+      "example_sentence": "Engineers are testing autonomous self-driving vehicles on highway corridors.",
+      "example_translation": "Các kỹ sư đang thử nghiệm các phương tiện xe tự hành trên các tuyến xa lộ.",
+      "collocations": [
+        "autonomous vehicle"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-vocab-005",
+      "unit_id": "g12-u06",
+      "word": "virtual assistant",
+      "word_type": "noun phrase",
+      "ipa": "/ˌvɜːtʃuəl əˈsɪstənt/",
+      "meaning_vi": "trợ lý ảo",
+      "definition_en": "an application that understands natural language voice commands and completes tasks",
+      "example_sentence": "Virtual assistants can schedule appointments and set morning alarm clocks.",
+      "example_translation": "Trợ lý ảo có thể lên lịch hẹn và cài đặt báo thức buổi sáng.",
+      "collocations": [
+        "voice-activated virtual assistant"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-vocab-006",
+      "unit_id": "g12-u06",
+      "word": "ethical dilemma",
+      "word_type": "noun phrase",
+      "ipa": "/ˈeθɪkl daɪˈlemə/",
+      "meaning_vi": "thế tiến thoái lưỡng nan về đạo đức",
+      "definition_en": "a complex situation that often involves an apparent mental conflict between moral imperatives",
+      "example_sentence": "The deployment of facial recognition raises serious ethical dilemmas regarding citizen privacy.",
+      "example_translation": "Việc triển khai công nghệ nhận diện khuôn mặt đặt ra những thế khó xử nghiêm trọng về đạo đức liên quan đến quyền riêng tư công dân.",
+      "collocations": [
+        "face an ethical dilemma"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u06-grammar-001",
+      "unit_id": "g12-u06",
+      "title": "Active and Passive Causatives with Have and Get",
+      "structure_name": "Cấu trúc truyền khiến chủ động và bị động với Have và Get",
+      "rule_summary": "Chủ động: S + have + someone + V(bare) (nhờ ai làm gì); S + get + someone + to-V (thuyết phục ai làm gì). Bị động: S + have/get + something + V3/ed (nhờ việc gì được làm bởi người khác).",
+      "formula": "have sb do sth / get sb to do sth | have/get sth done",
+      "example_sentences": [
+        {
+          "en": "I had an AI engineer fix my code.",
+          "vi": "Tôi đã nhờ một kỹ sư AI sửa mã nguồn của mình."
+        },
+        {
+          "en": "She got her computer upgraded with a faster processor.",
+          "vi": "Cô ấy đã nhờ nâng cấp chiếc máy tính của mình bằng một bộ vi xử lý nhanh hơn."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "I had my laptop to fix yesterday.",
+          "correction": "I had my laptop fixed yesterday.",
+          "explanation": "Bị động sau have + something phải dùng V3/ed (fixed)."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u06-reading-001",
+    "unit_id": "g12-u06",
+    "topic": "AI Transforming Education",
+    "main_idea": "Cách các gia sư AI thông minh phân tích tốc độ học của từng học sinh để cá nhân hóa bài tập và phản hồi tức thời.",
+    "reading_skills": [
+      "Identifying technological benefits",
+      "Evaluating concerns"
+    ],
+    "keywords": [
+      "smart tutor",
+      "adaptive learning",
+      "future classroom"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Lợi ích lớn nhất của việc ứng dụng trợ lý AI trong học tập là gì?",
+        "options": [
+          "Cá nhân hóa lộ trình học phù hợp với tốc độ riêng của từng học sinh",
+          "Làm thay toàn bộ bài kiểm tra cho học sinh",
+          "Xóa bỏ sự cần thiết của việc đọc sách",
+          "Khiến học sinh không cần suy nghĩ"
+        ],
+        "correctAnswer": "Cá nhân hóa lộ trình học phù hợp với tốc độ riêng của từng học sinh",
+        "explanation": "AI giúp học sinh học tập thích ứng theo năng lực cá nhân một cách tối ưu."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 79,
+    "book_page": 79,
+    "source_section": "Grade 12 Unit 6 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an engineer explaining safety operating guidelines for an AI home robot",
+      "activity_types": [
+        "Ordering instructions",
+        "Gap-fill"
+      ],
+      "audio_source_note": "Audio G12 Track 27",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 81,
+      "book_page": 81,
+      "source_section": "Grade 12 Unit 6 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Debating whether generative AI will replace human creative writers and teachers",
+      "activity_types": [
+        "Team debate"
+      ],
+      "prompts": [
+        "Can an algorithm ever experience genuine human empathy?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 80,
+      "book_page": 80,
+      "source_section": "Grade 12 Unit 6 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an evaluative essay exploring the potential benefits and societal risks of service robots",
+      "task_type": "Evaluative essay",
+      "sample_outline": [
+        "Introduction",
+        "Convenience & productivity gains",
+        "Job displacement & privacy risks",
+        "Conclusion"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 82,
+      "book_page": 82,
+      "source_section": "Grade 12 Unit 6 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u06-question-001",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Tập hợp các chỉ dẫn logic từng bước để máy tính giải quyết vấn đề gọi là:",
+      "options": [
+        "Algorithm",
+        "Slum",
+        "Curfew",
+        "Appliance"
+      ],
+      "correctAnswer": "Algorithm",
+      "explanation": "Algorithm = thuật toán máy tính.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-002",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Khả năng máy tính tự học hỏi dữ liệu và thích ứng mà không cần lập trình chi tiết gọi là:",
+      "options": [
+        "Machine learning",
+        "Heavy lifting",
+        "Nuclear family",
+        "Tuition fee"
+      ],
+      "correctAnswer": "Machine learning",
+      "explanation": "Machine learning = học máy.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-003",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Việc sử dụng máy móc tự động hóa thay thế thao tác thủ công của con người gọi là:",
+      "options": [
+        "Automation",
+        "Deforestation",
+        "Sanitation",
+        "Solidarity"
+      ],
+      "correctAnswer": "Automation",
+      "explanation": "Automation = sự tự động hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-004",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng đúng của causative chủ động với 'have': 'The teacher had the students _______ their assignments online.'",
+      "options": [
+        "submit",
+        "to submit",
+        "submitted",
+        "submitting"
+      ],
+      "correctAnswer": "submit",
+      "explanation": "Cấu trúc 'have + someone + V(bare)' (submit).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-005",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng đúng của causative chủ động với 'get': 'We got the software developer _______ the security bug.'",
+      "options": [
+        "to fix",
+        "fix",
+        "fixed",
+        "fixing"
+      ],
+      "correctAnswer": "to fix",
+      "explanation": "Cấu trúc 'get + someone + to-V' (to fix).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-006",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng bị động causative: 'I must have my computer _______ before the examination.'",
+      "options": [
+        "repaired",
+        "repair",
+        "to repair",
+        "repairing"
+      ],
+      "correctAnswer": "repaired",
+      "explanation": "Cấu trúc 'have + something + V3/ed' (repaired).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-007",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Phương tiện tự lái xe trên đường mà không cần tài xế con người điều khiển gọi là:",
+      "options": [
+        "Autonomous vehicle",
+        "Slow cart",
+        "Pedestrian zone",
+        "Bicycle"
+      ],
+      "correctAnswer": "Autonomous vehicle",
+      "explanation": "Autonomous vehicle = phương tiện tự hành.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-008",
+      "unit_id": "g12-u06",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Siri and Alexa are popular examples of voice-controlled _______ that assist daily tasks.'",
+      "options": [
+        "virtual assistants",
+        "landfills",
+        "appliances",
+        "curfews"
+      ],
+      "correctAnswer": "virtual assistants",
+      "explanation": "Virtual assistants = trợ lý ảo.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u06-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-009",
+      "unit_id": "g12-u06",
+      "type": "multiple_choice",
+      "prompt": "Tình huống phức tạp đặt ra sự xung đột giữa các nguyên tắc đạo đức gọi là:",
+      "options": [
+        "Ethical dilemma",
+        "Routine chore",
+        "Technical manual",
+        "Monuments"
+      ],
+      "correctAnswer": "Ethical dilemma",
+      "explanation": "Ethical dilemma = thế tiến thoái lưỡng nan về đạo đức.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u06-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u06-question-010",
+      "unit_id": "g12-u06",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu về tác động của tự động hóa:",
+      "options": [
+        "Artificial intelligence and automation will transform future labor markets significantly.",
+        "Future labor markets significantly artificial intelligence and automation will transform.",
+        "Will transform future labor markets significantly artificial intelligence and automation.",
+        "Significantly future labor markets artificial intelligence and automation will transform."
+      ],
+      "correctAnswer": "Artificial intelligence and automation will transform future labor markets significantly.",
+      "explanation": "S + will transform + O + adv.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u06-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 12 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Artificial",
+        "intelligence",
+        "and",
+        "automation",
+        "will",
+        "transform",
+        "future",
+        "labor",
+        "markets",
+        "significantly."
+      ]
+    }
+  ]
+}

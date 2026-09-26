@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 3,
+    "unit_id": "g12-u03",
+    "title": "GREEN LIVING",
+    "topic": "Zero Waste, Composting, Sustainable Consumption and Eco-habits",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 32,
+    "book_page": 32,
+    "source_section": "Grade 12 Unit 3 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 32,
+        "book_page_end": 33,
+        "pdf_page_start": 32,
+        "pdf_page_end": 33,
+        "description": "Introduction dialogue for GREEN LIVING"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 34,
+        "book_page_end": 34,
+        "pdf_page_start": 34,
+        "pdf_page_end": 34,
+        "description": "Pronunciation (Diphthongs: /ɪə/, /eə/, and /ʊə/), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 35,
+        "book_page_end": 36,
+        "pdf_page_start": 35,
+        "pdf_page_end": 36,
+        "description": "Young People Fighting Plastic Waste"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 36,
+        "book_page_end": 36,
+        "pdf_page_start": 36,
+        "pdf_page_end": 36,
+        "description": "Brainstorming and debating school initiatives to cut down paper and plastic waste"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 37,
+        "book_page_end": 37,
+        "pdf_page_start": 37,
+        "pdf_page_end": 37,
+        "description": "Listening to step-by-step instructions on setting up an odorless backyard compost pile"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 38,
+        "book_page_end": 39,
+        "pdf_page_start": 38,
+        "pdf_page_end": 39,
+        "description": "Writing a problem-solving report on practical green alternatives for the local campus"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 40,
+        "book_page_end": 40,
+        "pdf_page_start": 40,
+        "pdf_page_end": 40,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 41,
+        "book_page_end": 41,
+        "pdf_page_start": 41,
+        "pdf_page_end": 41,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to zero waste, composting, sustainable consumption and eco-habits",
+      "grammar": [
+        "Verbs with Prepositions & Sentence-referring Relative Clauses"
+      ],
+      "pronunciation": "Diphthongs: /ɪə/, /eə/, and /ʊə/",
+      "reading": "Young People Fighting Plastic Waste",
+      "speaking": "Brainstorming and debating school initiatives to cut down paper and plastic waste",
+      "listening": "Listening to step-by-step instructions on setting up an odorless backyard compost pile",
+      "writing": "Writing a problem-solving report on practical green alternatives for the local campus"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u03-vocab-001",
+      "unit_id": "g12-u03",
+      "word": "compost pile",
+      "word_type": "noun phrase",
+      "ipa": "/ˈkɒmpɒst paɪl/",
+      "meaning_vi": "đống ủ phân hữu cơ",
+      "definition_en": "a pile of decaying organic matter such as leaves and food scraps used to fertilize soil",
+      "example_sentence": "Adding vegetable peels to the compost pile enriches garden soil naturally.",
+      "example_translation": "Bỏ vỏ rau củ vào đống ủ phân hữu cơ giúp làm giàu đất vườn tự nhiên.",
+      "collocations": [
+        "build a compost pile"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-vocab-002",
+      "unit_id": "g12-u03",
+      "word": "single-use plastic",
+      "word_type": "noun phrase",
+      "ipa": "/ˌsɪŋɡl juːs ˈplæstɪk/",
+      "meaning_vi": "nhựa dùng một lần",
+      "definition_en": "plastic goods designed to be used only once before being discarded",
+      "example_sentence": "Many cafes have banned single-use plastic straws and cups.",
+      "example_translation": "Nhiều quán cà phê đã cấm ống hút và cốc nhựa dùng một lần.",
+      "collocations": [
+        "ban single-use plastic"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-vocab-003",
+      "unit_id": "g12-u03",
+      "word": "biodegradable",
+      "word_type": "adjective",
+      "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+      "meaning_vi": "có thể phân hủy sinh học",
+      "definition_en": "capable of being decomposed by bacteria or other biological means",
+      "example_sentence": "Biodegradable shopping bags break down within months without leaving toxins.",
+      "example_translation": "Túi mua hàng phân hủy sinh học tự tiêu hủy sau vài tháng mà không để lại độc tố.",
+      "collocations": [
+        "biodegradable material"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-vocab-004",
+      "unit_id": "g12-u03",
+      "word": "landfill",
+      "word_type": "noun",
+      "ipa": "/ˈlændfɪl/",
+      "meaning_vi": "bãi chôn lấp rác",
+      "definition_en": "a site for the disposal of waste materials by burial",
+      "example_sentence": "Recycling programs divert thousands of tons of cardboard from landfills.",
+      "example_translation": "Các chương trình tái chế giúp chuyển hướng hàng nghìn tấn bìa carton khỏi các bãi chôn lấp rác.",
+      "collocations": [
+        "overflowing landfill"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-vocab-005",
+      "unit_id": "g12-u03",
+      "word": "packaging",
+      "word_type": "noun",
+      "ipa": "/ˈpækɪdʒɪŋ/",
+      "meaning_vi": "bao bì đóng gói",
+      "definition_en": "materials used to wrap or protect goods",
+      "example_sentence": "Companies are redesigning their packaging to use minimal cardboard and zero plastic.",
+      "example_translation": "Các công ty đang thiết kế lại bao bì để dùng ít bìa carton nhất và không dùng nhựa.",
+      "collocations": [
+        "excessive packaging"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-vocab-006",
+      "unit_id": "g12-u03",
+      "word": "contamination",
+      "word_type": "noun",
+      "ipa": "/kənˌtæmɪˈneɪʃn/",
+      "meaning_vi": "sự làm ô nhiễm, vấy bẩn",
+      "definition_en": "the process of making something impure or unsuitable by polluting",
+      "example_sentence": "Chemical runoff causes severe groundwater contamination.",
+      "example_translation": "Dòng chảy hóa chất gây ô nhiễm nghiêm trọng nguồn nước ngầm.",
+      "collocations": [
+        "prevent contamination"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u03-grammar-001",
+      "unit_id": "g12-u03",
+      "title": "Verbs with Prepositions & Sentence-referring Relative Clauses",
+      "structure_name": "Động từ đi kèm giới từ & Mệnh đề quan hệ thay thế cả câu",
+      "rule_summary": "Một số động từ cố định: depend on, rely on, protect from/against, consist of, contribute to. Dùng 'which' có dấu phẩy đứng trước để bổ nghĩa/bình luận cho toàn bộ nội dung của mệnh đề đứng trước.",
+      "formula": "Verb + Preposition | Clause 1, which + V (singular)",
+      "example_sentences": [
+        {
+          "en": "Healthy crops depend on nutrient-rich soil.",
+          "vi": "Cây trồng khỏe mạnh phụ thuộc vào nguồn đất giàu dinh dưỡng."
+        },
+        {
+          "en": "The school banned single-use plastics, which surprised many students.",
+          "vi": "Nhà trường đã cấm đồ nhựa dùng một lần, điều này làm nhiều học sinh ngạc nhiên."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "They banned plastics, that was a good decision.",
+          "correction": "They banned plastics, which was a good decision.",
+          "explanation": "Mệnh đề quan hệ bổ nghĩa cho cả câu bắt buộc dùng 'which', không dùng 'that'."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u03-reading-001",
+    "unit_id": "g12-u03",
+    "topic": "Young People Fighting Plastic Waste",
+    "main_idea": "Các chiến dịch sinh viên khởi xướng tại trường học thay thế bao bì nhựa bằng lá chuối và túi sắn sinh học.",
+    "reading_skills": [
+      "Problem-solution",
+      "Scanning statistics"
+    ],
+    "keywords": [
+      "plastic pollution",
+      "biodegradable",
+      "zero waste"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Giải pháp thay thế túi nilon truyền thống được đánh giá cao nhất là gì?",
+        "options": [
+          "Vật liệu phân hủy sinh học từ thực vật như bã mía và tinh bột sắn",
+          "Túi nilon dày gấp đôi",
+          "Đốt rác nhựa ngay tại bếp",
+          "Chôn rác nhựa dưới lòng đất"
+        ],
+        "correctAnswer": "Vật liệu phân hủy sinh học từ thực vật như bã mía và tinh bột sắn",
+        "explanation": "Vật liệu tự nhiên có thể phân hủy sinh học mà không gây ô nhiễm môi trường đất."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 35,
+    "book_page": 35,
+    "source_section": "Grade 12 Unit 3 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to step-by-step instructions on setting up an odorless backyard compost pile",
+      "activity_types": [
+        "Sequencing steps",
+        "Note-taking"
+      ],
+      "audio_source_note": "Audio G12 Track 12",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 37,
+      "book_page": 37,
+      "source_section": "Grade 12 Unit 3 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Brainstorming and debating school initiatives to cut down paper and plastic waste",
+      "activity_types": [
+        "Team debate"
+      ],
+      "prompts": [
+        "Should the school cafeteria charge extra for disposable containers?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 36,
+      "book_page": 36,
+      "source_section": "Grade 12 Unit 3 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a problem-solving report on practical green alternatives for the local campus",
+      "task_type": "Formal report",
+      "sample_outline": [
+        "Statement of problem",
+        "Proposed green alternatives",
+        "Budget & Feasibility",
+        "Recommendations"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 38,
+      "book_page": 38,
+      "source_section": "Grade 12 Unit 3 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u03-question-001",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Đống rác hữu cơ thực vật được gom lại để tạo phân bón tự nhiên gọi là:",
+      "options": [
+        "Compost pile",
+        "Landfill",
+        "Sensor",
+        "Appliance"
+      ],
+      "correctAnswer": "Compost pile",
+      "explanation": "Compost pile = đống ủ phân hữu cơ.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-002",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Đồ dùng bằng nhựa chỉ xài một lần rồi vứt bỏ được gọi là:",
+      "options": [
+        "Single-use plastic",
+        "Biodegradable bag",
+        "Hardware",
+        "Instrument"
+      ],
+      "correctAnswer": "Single-use plastic",
+      "explanation": "Single-use plastic = nhựa dùng một lần.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-003",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Vật liệu có khả năng bị vi sinh vật phân hủy tự nhiên an toàn gọi là:",
+      "options": [
+        "Biodegradable",
+        "Toxic",
+        "Harmful",
+        "Persistent"
+      ],
+      "correctAnswer": "Biodegradable",
+      "explanation": "Biodegradable = có thể phân hủy sinh học.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-004",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Chọn giới từ đúng: 'Our future well-being depends _______ how we protect the environment today.'",
+      "options": [
+        "on",
+        "with",
+        "for",
+        "at"
+      ],
+      "correctAnswer": "on",
+      "explanation": "Cụm động từ cố định 'depend on' = phụ thuộc vào.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-005",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Chọn đại từ quan hệ bổ nghĩa cho cả câu trước: 'Students sorted trash properly, _______ pleased the principal.'",
+      "options": [
+        "which",
+        "that",
+        "who",
+        "whom"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Mệnh đề quan hệ bổ nghĩa cho toàn bộ sự việc phía trước dùng ', which'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-006",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Nơi chôn lấp và xử lý rác thải rắn đô thị được gọi là:",
+      "options": [
+        "Landfill",
+        "Citadel",
+        "Pedestrian zone",
+        "Wetland"
+      ],
+      "correctAnswer": "Landfill",
+      "explanation": "Landfill = bãi chôn lấp rác.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-007",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Sự xâm nhập của các chất độc hại làm ô nhiễm đất và nước gọi là:",
+      "options": [
+        "Contamination",
+        "Solidarity",
+        "Assimilation",
+        "Preservation"
+      ],
+      "correctAnswer": "Contamination",
+      "explanation": "Contamination = sự ô nhiễm, vấy bẩn.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-008",
+      "unit_id": "g12-u03",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Eco-conscious brands are switching to minimalist and recyclable _______.'",
+      "options": [
+        "packaging",
+        "appliances",
+        "chores",
+        "curfews"
+      ],
+      "correctAnswer": "packaging",
+      "explanation": "Recyclable packaging = bao bì có thể tái chế.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u03-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-009",
+      "unit_id": "g12-u03",
+      "type": "multiple_choice",
+      "prompt": "Chọn giới từ đi sau 'contribute': 'Tree-planting drives contribute directly _______ cleaner urban air.'",
+      "options": [
+        "to",
+        "in",
+        "with",
+        "from"
+      ],
+      "correctAnswer": "to",
+      "explanation": "Cấu trúc 'contribute to + N' = đóng góp vào điều gì.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u03-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u03-question-010",
+      "unit_id": "g12-u03",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu kêu gọi loại bỏ rác thải nhựa:",
+      "options": [
+        "We must replace single-use plastic with biodegradable materials immediately.",
+        "Single-use plastic we must replace with biodegradable materials immediately.",
+        "With biodegradable materials we must replace single-use plastic immediately.",
+        "Immediately replace single-use plastic we must with biodegradable materials."
+      ],
+      "correctAnswer": "We must replace single-use plastic with biodegradable materials immediately.",
+      "explanation": "S + must replace A with B + adv.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u03-vocab-002",
+        "g12-u03-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Grade 12 Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "We",
+        "must",
+        "replace",
+        "single-use",
+        "plastic",
+        "with",
+        "biodegradable",
+        "materials",
+        "immediately."
+      ]
+    }
+  ]
+}

@@ -31,10 +31,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
         <div className="pointer-events-auto animate-bounce-subtle">
           <button
             onClick={handleAction}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-amber-600 via-yellow-600 to-amber-500 text-stone-950 font-black text-sm tracking-wider shadow-2xl border-2 border-yellow-200 active:scale-95 transition transform"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-amber-600 via-yellow-600 to-amber-500 text-stone-950 font-black text-sm shadow-2xl border-2 border-yellow-200 active:scale-95 transition transform"
           >
             <img src="/assets/game/ui/controls/attack_button.png" alt="Interact" className="w-5 h-5" />
-            <span>{nearZonePrompt || 'TƯƠNG TÁC [E]'}</span>
+            <span>{nearZonePrompt || 'Tương tác [E]'}</span>
           </button>
         </div>
       )}

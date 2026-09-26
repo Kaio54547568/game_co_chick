@@ -11,6 +11,12 @@ export interface CombatTurnResult {
   feedbackText: string;
 }
 
+export interface CombatTurnModifiers {
+  hintUsed?: boolean;
+  damageMultiplier?: number;
+  enemyAttackMultiplier?: number;
+}
+
 export class CombatEngine {
   // Tính tổng chỉ số trang bị
   static getEquipmentBonus(equipment: EquipmentState) {
@@ -38,7 +44,8 @@ export class CombatEngine {
     currentCombo: number,
     playerStats: PlayerStats,
     equipment: EquipmentState,
-    enemy: CombatEnemy
+    enemy: CombatEnemy,
+    modifiers?: CombatTurnModifiers
   ): CombatTurnResult {
     const equipBonus = this.getEquipmentBonus(equipment);
     const totalAtk = playerStats.attack + equipBonus.atk;
@@ -46,7 +53,9 @@ export class CombatEngine {
 
     if (!isCorrect) {
       // Trả lời sai hoặc hết giờ: Kẻ địch đánh người chơi
-      const enemyDmg = Math.max(10, Math.round(enemy.attack * 1.2 - totalDef * 0.5));
+      const enemyMult = modifiers?.enemyAttackMultiplier ?? 1.0;
+      const baseEnemyDmg = Math.max(10, Math.round(enemy.attack * 1.2 - totalDef * 0.5));
+      const enemyDmg = Math.max(5, Math.round(baseEnemyDmg * enemyMult));
       return {
         isCorrect: false,
         isCritical: false,
@@ -57,6 +66,7 @@ export class CombatEngine {
         feedbackText: `Kiếm chiêu sai lạc! Kẻ địch phản công gây ${enemyDmg} sát thương!`,
       };
     }
+
 
     // Trả lời đúng: Tính toán Bạo Kích & Combo
     const nextCombo = currentCombo + 1;
@@ -81,16 +91,26 @@ export class CombatEngine {
 
     const baseDmg = totalAtk * 1.5;
     const finalEnemyDef = enemy.defense * 0.4;
-    const rawDamage = Math.max(15, (baseDmg - finalEnemyDef) * timeMultiplier * comboMultiplier);
+    const hintFactor = modifiers?.hintUsed ? 0.6 : 1.0;
+    const buffFactor = modifiers?.damageMultiplier ?? 1.0;
+    const rawDamage = Math.max(10, (baseDmg - finalEnemyDef) * timeMultiplier * comboMultiplier * hintFactor * buffFactor);
     const damageToEnemy = Math.round(rawDamage);
 
     let feedback = '';
     if (isCritical) {
-      feedback = `BẠO KÍCH XUẤT THẾ! Trả lời thần tốc trong ${responseTimeSec.toFixed(1)}s, gây ${damageToEnemy} sát thương!`;
+      feedback = `Bạo kích xuất thế! Trả lời thần tốc trong ${responseTimeSec.toFixed(1)}s, gây ${damageToEnemy} sát thương!`;
     } else if (isWeak) {
       feedback = `Kiếm thế chậm trễ (${responseTimeSec.toFixed(1)}s), gây ${damageToEnemy} sát thương.`;
     } else {
       feedback = `Trúng đích chuẩn xác! Gây ${damageToEnemy} sát thương.`;
+    }
+
+    if (modifiers?.hintUsed) {
+      feedback += ' (Đã dùng gợi ý: -40% uy lực)';
+    }
+
+    if (modifiers?.damageMultiplier && modifiers.damageMultiplier > 1) {
+      feedback += ' [Bộc Phát Kiếm Ý!]';
     }
 
     if (nextCombo >= 3) {

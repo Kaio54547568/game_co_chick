@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 5,
+    "unit_id": "g11-u05",
+    "title": "GLOBAL WARMING",
+    "topic": "Climate Change, Greenhouse Emissions and Planet Protection",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 50,
+    "book_page": 50,
+    "source_section": "Grade 11 Unit 5 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 50,
+        "book_page_end": 51,
+        "pdf_page_start": 50,
+        "pdf_page_end": 51,
+        "description": "Introduction dialogue for GLOBAL WARMING"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 52,
+        "book_page_end": 52,
+        "pdf_page_start": 52,
+        "pdf_page_end": 52,
+        "description": "Pronunciation (Sentence stress and rhythm), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 53,
+        "book_page_end": 54,
+        "pdf_page_start": 53,
+        "pdf_page_end": 54,
+        "description": "The UN Climate Summit"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 54,
+        "book_page_end": 54,
+        "pdf_page_start": 54,
+        "pdf_page_end": 54,
+        "description": "Presenting solutions to cut personal carbon emissions in everyday life"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 55,
+        "book_page_end": 55,
+        "pdf_page_start": 55,
+        "pdf_page_end": 55,
+        "description": "Listening to a scientific talk about how black carbon particles absorb solar heat"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 56,
+        "book_page_end": 57,
+        "pdf_page_start": 56,
+        "pdf_page_end": 57,
+        "description": "Writing a persuasive leaflet urging residents to adopt cleaner energy practices"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 58,
+        "book_page_end": 58,
+        "pdf_page_start": 58,
+        "pdf_page_end": 58,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 59,
+        "book_page_end": 59,
+        "pdf_page_start": 59,
+        "pdf_page_end": 59,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to climate change, greenhouse emissions and planet protection",
+      "grammar": [
+        "Participle Clauses (Present and Past)"
+      ],
+      "pronunciation": "Sentence stress and rhythm",
+      "reading": "The UN Climate Summit",
+      "speaking": "Presenting solutions to cut personal carbon emissions in everyday life",
+      "listening": "Listening to a scientific talk about how black carbon particles absorb solar heat",
+      "writing": "Writing a persuasive leaflet urging residents to adopt cleaner energy practices"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u05-vocab-001",
+      "unit_id": "g11-u05",
+      "word": "global warming",
+      "word_type": "noun phrase",
+      "ipa": "/ˌɡləʊbl ˈwɔːmɪŋ/",
+      "meaning_vi": "sự nóng lên toàn cầu",
+      "definition_en": "a gradual increase in the overall temperature of the Earth's atmosphere",
+      "example_sentence": "Global warming is causing polar ice caps to melt at alarming speeds.",
+      "example_translation": "Sự nóng lên toàn cầu đang khiến các tảng băng vùng cực tan chảy với tốc độ đáng báo động.",
+      "collocations": [
+        "combat global warming"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-vocab-002",
+      "unit_id": "g11-u05",
+      "word": "greenhouse gas",
+      "word_type": "noun phrase",
+      "ipa": "/ˈɡriːnhaʊs ɡæs/",
+      "meaning_vi": "khí nhà kính",
+      "definition_en": "a gas that contributes to the greenhouse effect by absorbing radiation",
+      "example_sentence": "Carbon dioxide and methane are the most prevalent greenhouse gases.",
+      "example_translation": "Khí CO2 và khí metan là những khí nhà kính phổ biến nhất.",
+      "collocations": [
+        "greenhouse gas emissions"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-vocab-003",
+      "unit_id": "g11-u05",
+      "word": "black carbon",
+      "word_type": "noun phrase",
+      "ipa": "/ˌblæk ˈkɑːbən/",
+      "meaning_vi": "carbon đen, muội than",
+      "definition_en": "fine particulate matter formed by the incomplete combustion of fossil fuels",
+      "example_sentence": "Black carbon settling on ice absorbs heat and speeds up melting.",
+      "example_translation": "Muội carbon đen bám vào băng hấp thụ nhiệt và đẩy nhanh tốc độ tan chảy.",
+      "collocations": [
+        "particles of black carbon"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-vocab-004",
+      "unit_id": "g11-u05",
+      "word": "deforestation",
+      "word_type": "noun",
+      "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+      "meaning_vi": "nạn phá rừng",
+      "definition_en": "the clearing or thinning of forests by humans",
+      "example_sentence": "Deforestation removes natural carbon sinks that absorb greenhouse gases.",
+      "example_translation": "Nạn phá rừng làm mất đi các bể chứa carbon tự nhiên hấp thụ khí nhà kính.",
+      "collocations": [
+        "massive deforestation"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-vocab-005",
+      "unit_id": "g11-u05",
+      "word": "extreme weather",
+      "word_type": "noun phrase",
+      "ipa": "/ɪkˌstriːm ˈweðə(r)/",
+      "meaning_vi": "thời tiết cực đoan",
+      "definition_en": "unusual, severe, or unseasonal weather phenomena",
+      "example_sentence": "Climate change is driving an increase in droughts, storms, and extreme weather.",
+      "example_translation": "Biến đổi khí hậu đang làm gia tăng các đợt hạn hán, bão tố và thời tiết cực đoan.",
+      "collocations": [
+        "face extreme weather"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-vocab-006",
+      "unit_id": "g11-u05",
+      "word": "catastrophic",
+      "word_type": "adjective",
+      "ipa": "/ˌkætəˈstrɒfɪk/",
+      "meaning_vi": "thảm khốc, tai họa nghiêm trọng",
+      "definition_en": "involving or causing sudden great damage or suffering",
+      "example_sentence": "Failure to act quickly on emissions could lead to catastrophic global consequences.",
+      "example_translation": "Không hành động nhanh chóng về khí thải có thể dẫn đến những hậu quả toàn cầu thảm khốc.",
+      "collocations": [
+        "catastrophic flood"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u05-grammar-001",
+      "unit_id": "g11-u05",
+      "title": "Participle Clauses (Present and Past)",
+      "structure_name": "Mệnh đề phân từ: Hiện tại và Quá khứ",
+      "rule_summary": "Mệnh đề phân từ dùng để rút gọn mệnh đề trạng ngữ chỉ nguyên nhân, thời gian hoặc điều kiện. Dùng Present Participle (V-ing) khi chủ ngữ ở thể chủ động; dùng Past Participle (V3/ed) khi ở thể bị động.",
+      "formula": "Active: V-ing, S + V | Passive: V3/ed, S + V",
+      "example_sentences": [
+        {
+          "en": "Knowing that climate change is serious, people are using renewable energy.",
+          "vi": "Ý thức được biến đổi khí hậu là nghiêm trọng, người dân đang sử dụng năng lượng tái tạo."
+        },
+        {
+          "en": "Heated by rising temperatures, polar ice is melting fast.",
+          "vi": "Bị làm nóng bởi nhiệt độ gia tăng, băng ở các cực đang tan rất nhanh."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Burn fossil fuels, factories cause smog.",
+          "correction": "Burning fossil fuels, factories cause smog.",
+          "explanation": "Mệnh đề chủ động rút gọn phải dùng dạng V-ing (Burning)."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u05-reading-001",
+    "unit_id": "g11-u05",
+    "topic": "The UN Climate Summit",
+    "main_idea": "Thỏa thuận quốc tế về kiểm soát nhiệt độ toàn cầu không vượt quá 1.5 độ C so với thời kỳ tiền công nghiệp.",
+    "reading_skills": [
+      "Scanning for targets",
+      "Understanding causes"
+    ],
+    "keywords": [
+      "climate summit",
+      "emissions target",
+      "greenhouse gas"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Mục tiêu cốt lõi của thỏa thuận khí hậu toàn cầu là gì?",
+        "options": [
+          "Giới hạn mức tăng nhiệt độ Trái Đất dưới 1.5 độ C",
+          "Khuyến khích đốt thêm than đá",
+          "Hủy bỏ các dự án điện mặt trời",
+          "Cho phép xả rác thoải mái ra đại dương"
+        ],
+        "correctAnswer": "Giới hạn mức tăng nhiệt độ Trái Đất dưới 1.5 độ C",
+        "explanation": "Mục tiêu 1.5°C là ngưỡng an toàn để tránh thảm họa khí hậu."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 53,
+    "book_page": 53,
+    "source_section": "Grade 11 Unit 5 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a scientific talk about how black carbon particles absorb solar heat",
+      "activity_types": [
+        "Note-taking",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G11 Track 23",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 55,
+      "book_page": 55,
+      "source_section": "Grade 11 Unit 5 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Presenting solutions to cut personal carbon emissions in everyday life",
+      "activity_types": [
+        "Pair presentation"
+      ],
+      "prompts": [
+        "How can schools reduce their environmental footprint?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 54,
+      "book_page": 54,
+      "source_section": "Grade 11 Unit 5 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a persuasive leaflet urging residents to adopt cleaner energy practices",
+      "task_type": "Persuasive leaflet",
+      "sample_outline": [
+        "Catchy headline",
+        "Key facts",
+        "Actionable steps",
+        "Contact"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 56,
+      "book_page": 56,
+      "source_section": "Grade 11 Unit 5 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u05-question-001",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Hiện tượng nhiệt độ bề mặt Trái Đất tăng dần do khí nhà kính gọi là:",
+      "options": [
+        "Global warming",
+        "Cultural exchange",
+        "Generation gap",
+        "Lifespan"
+      ],
+      "correctAnswer": "Global warming",
+      "explanation": "Global warming = sự nóng lên toàn cầu.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u05-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-002",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Khí CO2 và khí mê-tan được phân loại vào nhóm khí nào?",
+      "options": [
+        "Greenhouse gases",
+        "Medical antibiotics",
+        "Sensors",
+        "Household appliances"
+      ],
+      "correctAnswer": "Greenhouse gases",
+      "explanation": "Greenhouse gases = khí nhà kính.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u05-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-003",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Hạt muội than sinh ra do đốt không hết nhiên liệu hóa thạch gọi là:",
+      "options": [
+        "Black carbon",
+        "Green energy",
+        "Solar panel",
+        "Flora"
+      ],
+      "correctAnswer": "Black carbon",
+      "explanation": "Black carbon = carbon đen / muội than.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u05-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-004",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Rút gọn câu chủ động: 'Because they realized the danger, scientists warned governments.'",
+      "options": [
+        "Realizing the danger, scientists warned governments.",
+        "Realized the danger, scientists warned governments.",
+        "Having realize the danger, scientists warned governments.",
+        "To realize the danger, scientists warned governments."
+      ],
+      "correctAnswer": "Realizing the danger, scientists warned governments.",
+      "explanation": "Mệnh đề chủ động rút gọn dùng Present Participle (Realizing).",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u05-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-005",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Rút gọn câu bị động: 'Because it was damaged by the hurricane, the forest lost many ancient trees.'",
+      "options": [
+        "Damaged by the hurricane, the forest lost many ancient trees.",
+        "Damaging by the hurricane, the forest lost many ancient trees.",
+        "Being damage by the hurricane, the forest lost many ancient trees.",
+        "Damage by the hurricane, the forest lost many ancient trees."
+      ],
+      "correctAnswer": "Damaged by the hurricane, the forest lost many ancient trees.",
+      "explanation": "Mệnh đề bị động rút gọn dùng Past Participle (Damaged).",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u05-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-006",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Bão lũ lịch sử, hạn hán gay gắt và sóng nhiệt bất thường được gọi chung là:",
+      "options": [
+        "Extreme weather",
+        "Gentle rain",
+        "Spring breeze",
+        "Cold drink"
+      ],
+      "correctAnswer": "Extreme weather",
+      "explanation": "Extreme weather = thời tiết cực đoan.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u05-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-007",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Từ 'catastrophic' đồng nghĩa với từ nào sau đây?",
+      "options": [
+        "Disastrous",
+        "Pleasant",
+        "Helpful",
+        "Minor"
+      ],
+      "correctAnswer": "Disastrous",
+      "explanation": "Catastrophic = thảm khốc, mang tính thảm họa (disastrous).",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u05-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-008",
+      "unit_id": "g11-u05",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Tropical _______ not only destroys animal homes but also releases stored carbon.'",
+      "options": [
+        "deforestation",
+        "solidarity",
+        "workout",
+        "curfew"
+      ],
+      "correctAnswer": "deforestation",
+      "explanation": "Deforestation = nạn phá rừng.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u05-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-009",
+      "unit_id": "g11-u05",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu dùng mệnh đề phân từ chính xác:",
+      "options": [
+        "Burning coal for energy, power plants release tons of CO2.",
+        "Burn coal for energy, power plants release tons of CO2.",
+        "Burned coal for energy, power plants release tons of CO2.",
+        "For burning coal, power plants release tons of CO2."
+      ],
+      "correctAnswer": "Burning coal for energy, power plants release tons of CO2.",
+      "explanation": "Chủ động: Burning coal for energy...",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u05-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u05-question-010",
+      "unit_id": "g11-u05",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành thông điệp khẩn cấp về biến đổi khí hậu:",
+      "options": [
+        "Urgent global action is required to fight catastrophic climate change.",
+        "To fight catastrophic climate change urgent global action is required.",
+        "Climate change catastrophic to fight urgent global action is required.",
+        "Is required urgent global action to fight catastrophic climate change."
+      ],
+      "correctAnswer": "Urgent global action is required to fight catastrophic climate change.",
+      "explanation": "S + is required + to V.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u05-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 11 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Urgent",
+        "global",
+        "action",
+        "is",
+        "required",
+        "to",
+        "fight",
+        "catastrophic",
+        "climate",
+        "change."
+      ]
+    }
+  ]
+}

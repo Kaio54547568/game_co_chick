@@ -1,0 +1,840 @@
+[
+  {
+    "grade": 10,
+    "unit_number": 1,
+    "unit_id": "g10-u01",
+    "title": "FAMILY LIFE",
+    "topic": "Family Life and Household Responsibilities",
+    "book_pages": [
+      8,
+      17
+    ],
+    "pdf_pages": [
+      8,
+      17
+    ],
+    "pronunciation": "Consonant blends: /br/, /kr/, and /tr/",
+    "vocab_focus": "Words and phrases related to family life (breadwinner, homemaker, household chores, groceries, heavy lifting, laundry, rubbish, responsibility, routine, gratitude, strengthen, bond, spotlessly)",
+    "grammar_points": [
+      [
+        "Present simple vs. present continuous",
+        "Present Simple: habits/routines; Present Continuous: actions now/temporary; Stative verbs non-continuous"
+      ],
+      [
+        "Collocations with household tasks",
+        "do the laundry/washing-up/heavy lifting vs make the bed/breakfast vs put out the rubbish"
+      ]
+    ],
+    "reading_topic": "Benefits of doing housework for children",
+    "speaking_topic": "Explaining why children should or shouldn't do housework",
+    "listening_topic": "Family support: talk show about family routines",
+    "writing_topic": "Writing an email about family routines to strengthen family bonds"
+  },
+  {
+    "grade": 10,
+    "unit_number": 2,
+    "unit_id": "g10-u02",
+    "title": "HUMANS AND THE ENVIRONMENT",
+    "topic": "Human Activities and Environmental Protection",
+    "book_pages": [
+      18,
+      27
+    ],
+    "pdf_pages": [
+      18,
+      27
+    ],
+    "pronunciation": "Consonant blends: /kl/, /pl/, /gr/, and /pr/",
+    "vocab_focus": "Words and phrases related to human activities and the environment (carbon footprint, eco-friendly, appliance, emission, organic, sustainable, energy, clean up, adopt, reduce waste, plastic)",
+    "grammar_points": [
+      [
+        "The future with will and be going to",
+        "will for sudden decisions/predictions without evidence; be going to for plans/intentions/predictions with evidence"
+      ],
+      [
+        "The passive voice",
+        "Passive form: S + be + past participle; used to emphasize the action/recipient rather than the doer"
+      ]
+    ],
+    "reading_topic": "Green living and eco-friendly lifestyle choices",
+    "speaking_topic": "Talking about ways to live green and conserve resources",
+    "listening_topic": "Announcement about a Go Green weekend event",
+    "writing_topic": "Writing an article about ways to improve the environment"
+  },
+  {
+    "grade": 10,
+    "unit_number": 3,
+    "unit_id": "g10-u03",
+    "title": "MUSIC",
+    "topic": "Music, Art and Famous Talent Shows",
+    "book_pages": [
+      28,
+      37
+    ],
+    "pdf_pages": [
+      28,
+      37
+    ],
+    "pronunciation": "Stress in two-syllable words",
+    "vocab_focus": "Words and phrases related to music (audience, celebrity, idol, instrument, perform, stage, fan, single, talented, convey)",
+    "grammar_points": [
+      [
+        "Compound sentences with coordinating conjunctions",
+        "Connecting independent clauses with and, or, but, so"
+      ],
+      [
+        "To-infinitives and bare infinitives",
+        "Verbs followed by to-inf (decide, hope, want) vs bare inf (make, let, hear, see)"
+      ]
+    ],
+    "reading_topic": "A famous TV music talent show and inspirational singers",
+    "speaking_topic": "Talking about a favorite music show or concert",
+    "listening_topic": "An interview about an international music festival",
+    "writing_topic": "Writing a blog post about personal experiences at a music event"
+  },
+  {
+    "grade": 10,
+    "unit_number": 4,
+    "unit_id": "g10-u04",
+    "title": "FOR A BETTER COMMUNITY",
+    "topic": "Community Development and Volunteer Work",
+    "book_pages": [
+      40,
+      49
+    ],
+    "pdf_pages": [
+      42,
+      51
+    ],
+    "pronunciation": "Stress in two-syllable words with the same spelling",
+    "vocab_focus": "Words related to community development and adjective suffixes -ed vs -ing, -ful vs -less (volunteer, donate, needy, non-profit, generous, remote, endless, hopeful)",
+    "grammar_points": [
+      [
+        "Past simple vs. past continuous with when and while",
+        "Long continuous action in progress (past continuous) interrupted by a shorter action (past simple)"
+      ]
+    ],
+    "reading_topic": "A volunteer club and community service activities",
+    "speaking_topic": "Talking about the benefits of volunteering and youth projects",
+    "listening_topic": "An announcement calling for student volunteers in local charity",
+    "writing_topic": "Writing a formal application letter for volunteer work"
+  },
+  {
+    "grade": 10,
+    "unit_number": 5,
+    "unit_id": "g10-u05",
+    "title": "INVENTIONS",
+    "topic": "Science, Technology and Modern Inventions",
+    "book_pages": [
+      50,
+      59
+    ],
+    "pdf_pages": [
+      52,
+      61
+    ],
+    "pronunciation": "Stress in three-syllable nouns",
+    "vocab_focus": "Words related to inventions and tech devices (3D printing, artificial intelligence, device, hardware, software, portable, versatile, smartphone, vacuum cleaner)",
+    "grammar_points": [
+      [
+        "The present perfect tense",
+        "Experiences, actions occurring at unspecified past time with present relevance: have/has + V3/ed"
+      ],
+      [
+        "Gerunds and to-infinitives",
+        "Verbs followed by V-ing or to-V with purpose or usage distinctions"
+      ]
+    ],
+    "reading_topic": "Inventions that changed the classroom and modern life",
+    "speaking_topic": "Talking about useful inventions and their practical applications",
+    "listening_topic": "Instructions on how to operate and maintain an electronic device",
+    "writing_topic": "Writing a paragraph describing the benefits of a modern invention"
+  },
+  {
+    "grade": 10,
+    "unit_number": 6,
+    "unit_id": "g10-u06",
+    "title": "GENDER EQUALITY",
+    "topic": "Gender Equality in Education, Career, and Society",
+    "book_pages": [
+      62,
+      73
+    ],
+    "pdf_pages": [
+      62,
+      73
+    ],
+    "pronunciation": "Stress in three-syllable adjectives and verbs",
+    "vocab_focus": "Words and phrases related to gender equality (equal opportunities, wage gap, career choice, discrimination, pilot, surgeon, parity, eliminate)",
+    "grammar_points": [
+      [
+        "Passive voice with modal verbs",
+        "S + modal (can, should, must, may) + be + V3/ed"
+      ]
+    ],
+    "reading_topic": "Gender equality in career choices and breaking traditional stereotypes",
+    "speaking_topic": "Talking about career choices and challenging gender roles",
+    "listening_topic": "A talk about the first woman in space and pioneer female aviators",
+    "writing_topic": "Writing an essay about jobs and equal employment rights for men and women"
+  },
+  {
+    "grade": 10,
+    "unit_number": 7,
+    "unit_id": "g10-u07",
+    "title": "VIET NAM AND INTERNATIONAL ORGANISATIONS",
+    "topic": "International Cooperation and Global Partnerships",
+    "book_pages": [
+      76,
+      85
+    ],
+    "pdf_pages": [
+      76,
+      85
+    ],
+    "pronunciation": "Stress in words with more than three syllables",
+    "vocab_focus": "Words related to international organisations (UN, UNICEF, UNESCO, WTO, partnership, promote, commitment, peacekeeping, economic growth)",
+    "grammar_points": [
+      [
+        "Comparative and superlative adjectives",
+        "Short and long adjectives comparison: -er/more and -est/most with irregular forms (good, bad, far)"
+      ]
+    ],
+    "reading_topic": "UNICEF's support for Viet Nam's education and child welfare",
+    "speaking_topic": "Talking about international aid programmes and their positive impact",
+    "listening_topic": "A conversation about Viet Nam's active role in international organisations",
+    "writing_topic": "Writing a short article about Viet Nam's integration into global bodies"
+  },
+  {
+    "grade": 10,
+    "unit_number": 8,
+    "unit_id": "g10-u08",
+    "title": "NEW WAYS TO LEARN",
+    "topic": "Digital Education, Blended Learning and Modern Study Tools",
+    "book_pages": [
+      86,
+      95
+    ],
+    "pdf_pages": [
+      86,
+      95
+    ],
+    "pronunciation": "Sentence stress",
+    "vocab_focus": "Words related to digital and online learning (blended learning, face-to-face, digital device, upload, download, online platform, interactive, distraction)",
+    "grammar_points": [
+      [
+        "Relative clauses: Defining and non-defining",
+        "Relative pronouns who, which, that, whose to add essential or extra information about nouns"
+      ]
+    ],
+    "reading_topic": "Online learning vs. traditional face-to-face classroom learning",
+    "speaking_topic": "Discussing the advantages and disadvantages of online study",
+    "listening_topic": "Instructions on preparing for a blended learning class session",
+    "writing_topic": "Writing an essay about the benefits and challenges of blended learning"
+  },
+  {
+    "grade": 10,
+    "unit_number": 9,
+    "unit_id": "g10-u09",
+    "title": "PROTECTING THE ENVIRONMENT",
+    "topic": "Environmental Issues, Climate Action and Biodiversity",
+    "book_pages": [
+      100,
+      109
+    ],
+    "pdf_pages": [
+      102,
+      111
+    ],
+    "pronunciation": "Rhythm in English sentences",
+    "vocab_focus": "Words related to environmental protection (biodiversity, deforestation, illegal hunting, habitat loss, endangered species, global warming, conservation)",
+    "grammar_points": [
+      [
+        "Reported speech: Statements",
+        "Tense shifting, pronoun changes, and time/place adverb adjustments in indirect speech"
+      ]
+    ],
+    "reading_topic": "Major environmental challenges: habitat loss and wildlife decline",
+    "speaking_topic": "Talking about practical solutions to local and national environmental issues",
+    "listening_topic": "A conversation about ways to protect endangered wildlife species",
+    "writing_topic": "Writing an overview report about a wildlife conservation organization"
+  },
+  {
+    "grade": 10,
+    "unit_number": 10,
+    "unit_id": "g10-u10",
+    "title": "ECOTOURISM",
+    "topic": "Sustainable Travel, Eco-tours and Cultural Respect",
+    "book_pages": [
+      110,
+      119
+    ],
+    "pdf_pages": [
+      110,
+      119
+    ],
+    "pronunciation": "Intonation in questions and statements",
+    "vocab_focus": "Words related to ecotourism (sustainable tourism, destination, souvenir, flora, fauna, ecology, conservation area, travel responsibly)",
+    "grammar_points": [
+      [
+        "Conditional sentences Type 1 and Type 2",
+        "Type 1 for real present/future possibilities; Type 2 for unreal or hypothetical situations: If + S + V2/ed, S + would + V"
+      ]
+    ],
+    "reading_topic": "Brochure for an eco-tour in a pristine natural reserve",
+    "speaking_topic": "Talking about how to behave as a responsible ecotourist",
+    "listening_topic": "Tour guide welcoming eco-tourists to the Mekong Delta",
+    "writing_topic": "Writing a promotional website advertisement for a local ecotour"
+  },
+  {
+    "grade": 11,
+    "unit_number": 1,
+    "unit_id": "g11-u01",
+    "title": "A LONG AND HEALTHY LIFE",
+    "topic": "Health, Nutrition, Fitness and Disease Prevention",
+    "book_pages": [
+      8,
+      17
+    ],
+    "pdf_pages": [
+      8,
+      17
+    ],
+    "pronunciation": "Strong and weak forms of auxiliary verbs",
+    "vocab_focus": "Health, fitness, bacteria, virus, antibiotic, immune system, lifespan, exercise routine, nutritious diet",
+    "grammar_points": [
+      [
+        "Past simple vs. Present perfect",
+        "Past Simple for finished actions with specific time; Present Perfect for experiences and actions connected to the present"
+      ]
+    ],
+    "reading_topic": "Secrets to living a long and healthy lifestyle",
+    "speaking_topic": "Giving step-by-step instructions for an effective workout routine",
+    "listening_topic": "A TV chat show discussing nutrition, mental health and physical fitness",
+    "writing_topic": "Writing a short advice message on maintaining balanced daily habits"
+  },
+  {
+    "grade": 11,
+    "unit_number": 2,
+    "unit_id": "g11-u02",
+    "title": "THE GENERATION GAP",
+    "topic": "Generational Differences and Family Communication",
+    "book_pages": [
+      18,
+      27
+    ],
+    "pdf_pages": [
+      18,
+      27
+    ],
+    "pronunciation": "Contracted forms of verbs",
+    "vocab_focus": "Generations, Gen X, Gen Y, Gen Z, nuclear family, extended family, curiosity, open-minded, viewpoint, curfew",
+    "grammar_points": [
+      [
+        "Modal verbs: must, have to, and should",
+        "Must for personal obligation; have to for external rules; should for sound advice"
+      ]
+    ],
+    "reading_topic": "Different generations living under one roof: perspectives and compromises",
+    "speaking_topic": "Talking about generational conflicts and ways to bridge the gap",
+    "listening_topic": "A discussion on common family conflicts regarding curfews and social media",
+    "writing_topic": "Writing an opinion essay about whether parents should limit teenagers' screen time"
+  },
+  {
+    "grade": 11,
+    "unit_number": 3,
+    "unit_id": "g11-u03",
+    "title": "CITIES OF THE FUTURE",
+    "topic": "Smart Cities, Sustainable Urban Life and Green Infrastructure",
+    "book_pages": [
+      28,
+      37
+    ],
+    "pdf_pages": [
+      28,
+      37
+    ],
+    "pronunciation": "Linking final consonants to initial vowels",
+    "vocab_focus": "Smart city, sensor, infrastructure, pedestrian zone, high-rise, renewable energy, liveable, automated transit",
+    "grammar_points": [
+      [
+        "Stative verbs in continuous forms",
+        "Verbs of senses and thinking with dynamic meanings in continuous tenses"
+      ],
+      [
+        "Linking verbs",
+        "Verbs like look, seem, sound, taste, smell followed by adjectives instead of adverbs"
+      ]
+    ],
+    "reading_topic": "Key characteristics and technological features of future smart cities",
+    "speaking_topic": "Discussing the ideal city of the future and asking follow-up Wh-questions",
+    "listening_topic": "An interview analyzing potential disadvantages of living in a smart city",
+    "writing_topic": "Writing an article examining the pros and cons of smart city living"
+  },
+  {
+    "grade": 11,
+    "unit_number": 4,
+    "unit_id": "g11-u04",
+    "title": "ASEAN AND VIET NAM",
+    "topic": "Regional Integration, Cultural Exchange and Youth Cooperation",
+    "book_pages": [
+      40,
+      49
+    ],
+    "pdf_pages": [
+      40,
+      49
+    ],
+    "pronunciation": "Elision of vowels in rapid speech",
+    "vocab_focus": "ASEAN charter, solidarity, cultural heritage, member state, community, youth programme, bloc, summit",
+    "grammar_points": [
+      [
+        "Gerunds as subjects and objects",
+        "Using V-ing as grammatical subject (Learning foreign languages is useful) or direct object"
+      ]
+    ],
+    "reading_topic": "News reports on cultural exchanges and youth cooperation across ASEAN",
+    "speaking_topic": "Discussing skills and volunteer experience needed for the ASEAN Youth Programme",
+    "listening_topic": "A conversation about an ASEAN educational school exchange tour",
+    "writing_topic": "Writing a formal proposal for an ASEAN student cultural exchange event"
+  },
+  {
+    "grade": 11,
+    "unit_number": 5,
+    "unit_id": "g11-u05",
+    "title": "GLOBAL WARMING",
+    "topic": "Climate Change, Greenhouse Emissions and Planet Protection",
+    "book_pages": [
+      50,
+      59
+    ],
+    "pdf_pages": [
+      50,
+      59
+    ],
+    "pronunciation": "Sentence stress and rhythm",
+    "vocab_focus": "Global warming, greenhouse gases, black carbon, soot, deforestation, extreme weather, renewable power, footprint",
+    "grammar_points": [
+      [
+        "Participle clauses: Present and past participles",
+        "Reducing subordinate clauses using V-ing (active) or V3/ed (passive) to express cause, time, or condition"
+      ]
+    ],
+    "reading_topic": "Outcomes and resolutions from the United Nations Climate Change Conference",
+    "speaking_topic": "Presenting ideas clearly on reducing personal and community greenhouse gas emissions",
+    "listening_topic": "A scientific talk about the dangerous effects of black carbon on glaciers",
+    "writing_topic": "Writing a persuasive leaflet encouraging citizens to cut down carbon emissions"
+  },
+  {
+    "grade": 11,
+    "unit_number": 6,
+    "unit_id": "g11-u06",
+    "title": "PRESERVING OUR HERITAGE",
+    "topic": "Tangible, Intangible and Natural Cultural Heritage Preservation",
+    "book_pages": [
+      64,
+      73
+    ],
+    "pdf_pages": [
+      64,
+      73
+    ],
+    "pronunciation": "Intonation in statements, commands, and lists",
+    "vocab_focus": "Cultural heritage, historical monument, tangible, intangible, restoration, preservation, landscape complex, ancient citadel",
+    "grammar_points": [
+      [
+        "To-infinitive clauses",
+        "Reducing relative clauses or expressing purpose/result using to-infinitive (the first site to be recognized)"
+      ]
+    ],
+    "reading_topic": "Young people's innovative ideas for promoting and preserving local heritage",
+    "speaking_topic": "Discussing practical methods to engage youth in protecting national landmarks",
+    "listening_topic": "A guided audio presentation of Trang An Scenic Landscape Complex",
+    "writing_topic": "Writing an informational leaflet to promote heritage conservation at a historic site"
+  },
+  {
+    "grade": 11,
+    "unit_number": 7,
+    "unit_id": "g11-u07",
+    "title": "EDUCATION OPTIONS FOR SCHOOL-LEAVERS",
+    "topic": "Higher Education, Vocational Training and Apprenticeships",
+    "book_pages": [
+      74,
+      83
+    ],
+    "pdf_pages": [
+      74,
+      83
+    ],
+    "pronunciation": "Intonation in Wh- and Yes/No questions",
+    "vocab_focus": "Higher education, vocational school, apprenticeship, degree, certificate, qualification, career path, school-leaver, practical skill",
+    "grammar_points": [
+      [
+        "Perfect gerunds and perfect participle clauses",
+        "Having + V3/ed used as gerund or participle clause to emphasize that an action occurred prior to another"
+      ]
+    ],
+    "reading_topic": "Comparing academic university study vs. hands-on vocational career pathways",
+    "speaking_topic": "Evaluating the benefits of learning a skilled trade vs. pursuing an academic degree",
+    "listening_topic": "A dialogue with an admissions officer about vocational training programs",
+    "writing_topic": "Writing a formal letter of inquiry requesting course details from a technical institute"
+  },
+  {
+    "grade": 11,
+    "unit_number": 8,
+    "unit_id": "g11-u08",
+    "title": "BECOMING INDEPENDENT",
+    "topic": "Life Skills, Self-reliance, Decision Making and Personal Discipline",
+    "book_pages": [
+      84,
+      93
+    ],
+    "pdf_pages": [
+      84,
+      93
+    ],
+    "pronunciation": "Intonation in invitations, suggestions, and polite requests",
+    "vocab_focus": "Independence, self-reliant, time management, budget, interpersonal skills, problem-solving, cope with, self-discipline",
+    "grammar_points": [
+      [
+        "Cleft sentences with 'It is / was ... that / who ...'",
+        "Emphasizing a specific element of the sentence: It was [focus] that [rest of sentence]"
+      ]
+    ],
+    "reading_topic": "Essential life skills teenagers must acquire to thrive when living independently",
+    "speaking_topic": "Sharing personal strategies for managing study time, stress, and domestic chores",
+    "listening_topic": "A conversation between students on becoming self-motivated, autonomous learners",
+    "writing_topic": "Writing an essay on the advantages and challenges of independent self-study"
+  },
+  {
+    "grade": 11,
+    "unit_number": 9,
+    "unit_id": "g11-u09",
+    "title": "SOCIAL ISSUES",
+    "topic": "Peer Pressure, Bullying, Cyberbullying and Teen Mental Health",
+    "book_pages": [
+      96,
+      105
+    ],
+    "pdf_pages": [
+      96,
+      105
+    ],
+    "pronunciation": "Intonation in choice questions",
+    "vocab_focus": "Peer pressure, cyberbullying, body shaming, anxiety, depression, victim, bully, bystander, campaign, mental health",
+    "grammar_points": [
+      [
+        "Linking words and phrases of cause, contrast, and result",
+        "Using connectors: because of, despite, in spite of, as a result, furthermore, however"
+      ]
+    ],
+    "reading_topic": "Understanding peer pressure and strategies for young people to stand their ground",
+    "speaking_topic": "Discussing ways to support classmates facing bullying or negative peer influence",
+    "listening_topic": "A counselling session analyzing different forms of cyberbullying and online safety",
+    "writing_topic": "Writing a school campaign proposal against cyberbullying and digital harassment"
+  },
+  {
+    "grade": 11,
+    "unit_number": 10,
+    "unit_id": "g11-u10",
+    "title": "THE ECOSYSTEM",
+    "topic": "Ecosystems, Biodiversity, Food Chains and Conservation",
+    "book_pages": [
+      106,
+      115
+    ],
+    "pdf_pages": [
+      106,
+      115
+    ],
+    "pronunciation": "Intonation in question tags",
+    "vocab_focus": "Ecosystem, biodiversity, food chain, habitat, marine life, wetland, restore, species extinction, coral reef",
+    "grammar_points": [
+      [
+        "Compound nouns",
+        "Forming compound nouns (noun+noun, adj+noun, verb+noun) and their pluralization"
+      ]
+    ],
+    "reading_topic": "Flora and fauna conservation inside a renowned national biosphere reserve",
+    "speaking_topic": "Suggesting local conservation projects to restore degraded wetland habitats",
+    "listening_topic": "An environmental scientist discussing human impact on marine and forest ecosystems",
+    "writing_topic": "Writing an opinion essay debating whether government funds should prioritize restoring local ecosystems"
+  },
+  {
+    "grade": 12,
+    "unit_number": 1,
+    "unit_id": "g12-u01",
+    "title": "LIFE STORIES WE ADMIRE",
+    "topic": "Biographies, Role Models, Overcoming Adversity and Great Achievements",
+    "book_pages": [
+      8,
+      19
+    ],
+    "pdf_pages": [
+      8,
+      19
+    ],
+    "pronunciation": "Diphthongs: /eɪ/ and /aʊ/",
+    "vocab_focus": "Biography, visionary, determination, inspire, overcome, innovation, persistence, dedication, pioneer, achievement",
+    "grammar_points": [
+      [
+        "Past simple vs. Past continuous in narrative contexts",
+        "Describing background scenes vs. main narrative events in biographies"
+      ]
+    ],
+    "reading_topic": "Steve Jobs: early vision, struggles, leadership, and revolutionary technological breakthroughs",
+    "speaking_topic": "Presenting the life stories and heroic contributions of national Vietnamese figures",
+    "listening_topic": "A radio documentary detailing Walt Disney's creative journey and early failures",
+    "writing_topic": "Synthesising biographical facts to write a concise life story profile of a creative leader"
+  },
+  {
+    "grade": 12,
+    "unit_number": 2,
+    "unit_id": "g12-u02",
+    "title": "A MULTICULTURAL WORLD",
+    "topic": "Cultural Diversity, Traditions, Globalisation and Intercultural Respect",
+    "book_pages": [
+      20,
+      31
+    ],
+    "pdf_pages": [
+      20,
+      31
+    ],
+    "pronunciation": "Diphthongs: /ɔɪ/, /aɪ/, and /aʊ/",
+    "vocab_focus": "Multiculturalism, cultural diversity, assimilation, identity, globalization, festival, tradition, cuisine, heritage",
+    "grammar_points": [
+      [
+        "Articles: Definite (the), Indefinite (a/an), and Zero article",
+        "Rules and nuances for articles with abstract nouns, unique entities, geographical terms, and categories"
+      ]
+    ],
+    "reading_topic": "Globalisation and the preservation of distinct cultural identities in modern cities",
+    "speaking_topic": "Planning and presenting an interactive Cultural Diversity Day exhibition",
+    "listening_topic": "An interview exploring how young people celebrate international cultural festivals like Halloween in Viet Nam",
+    "writing_topic": "Writing an argumentative essay on the cultural and economic impact of foreign festivals in Viet Nam"
+  },
+  {
+    "grade": 12,
+    "unit_number": 3,
+    "unit_id": "g12-u03",
+    "title": "GREEN LIVING",
+    "topic": "Zero Waste, Composting, Sustainable Consumption and Eco-habits",
+    "book_pages": [
+      32,
+      43
+    ],
+    "pdf_pages": [
+      32,
+      43
+    ],
+    "pronunciation": "Diphthongs: /ɪə/, /eə/, and /ʊə/",
+    "vocab_focus": "Compost pile, single-use plastic, circular economy, biodegradable, reuse, landfill, packaging, green consumer",
+    "grammar_points": [
+      [
+        "Verbs followed by specific prepositions",
+        "Verbs paired with prepositions: consist of, contribute to, protect from, depend on"
+      ],
+      [
+        "Relative clauses referring to a whole sentence",
+        "Using 'which' with a preceding comma to comment on the entire previous clause"
+      ]
+    ],
+    "reading_topic": "Youth initiatives and digital campaigns to replace disposable plastics with biodegradable items",
+    "speaking_topic": "Brainstorming and debating feasible school policies to reduce paper and single-use packaging",
+    "listening_topic": "Step-by-step practical guide on how to build and maintain an odorless organic compost pile",
+    "writing_topic": "Writing a problem-solving report recommending green alternatives for community waste reduction"
+  },
+  {
+    "grade": 12,
+    "unit_number": 4,
+    "unit_id": "g12-u04",
+    "title": "URBANISATION",
+    "topic": "Urban Migration, Megacities, Slums and Infrastructure Modernisation",
+    "book_pages": [
+      48,
+      59
+    ],
+    "pdf_pages": [
+      48,
+      59
+    ],
+    "pronunciation": "Unstressed words in connected speech (weak forms)",
+    "vocab_focus": "Urbanisation, rural-to-urban migration, densely populated, high-rise apartment, slum, congestion, public transit, sanitation",
+    "grammar_points": [
+      [
+        "Present perfect (review and extension)",
+        "Focusing on actions with ongoing consequences and duration markers (since, for, recently)"
+      ],
+      [
+        "Double comparatives to show continuous change",
+        "The + comparative, the + comparative (The more people move into cities, the more congested roads become)"
+      ]
+    ],
+    "reading_topic": "The rapid urban transformation and historical modernization of Ha Noi capital",
+    "speaking_topic": "Describing positive and negative changes in living conditions due to suburban development",
+    "listening_topic": "A sociological radio program discussing housing and unemployment challenges in megacities",
+    "writing_topic": "Describing and interpreting a line graph illustrating long-term urbanisation demographic trends"
+  },
+  {
+    "grade": 12,
+    "unit_number": 5,
+    "unit_id": "g12-u05",
+    "title": "THE WORLD OF WORK",
+    "topic": "Modern Workplace, Career Requirements, Freelancing and Job Interviews",
+    "book_pages": [
+      60,
+      71
+    ],
+    "pdf_pages": [
+      60,
+      71
+    ],
+    "pronunciation": "Stressing auxiliary and modal verbs for emphasis or contrast",
+    "vocab_focus": "Job applicant, curriculum vitae, probation, qualifications, soft skills, full-time, freelancer, employer, job vacancy",
+    "grammar_points": [
+      [
+        "Sentence structures: Simple, compound, and complex sentences",
+        "Recognizing and forming compound sentences (FANBOYS) and complex sentences with adverbial/noun clauses"
+      ]
+    ],
+    "reading_topic": "Analyzing real-world job postings to identify key qualifications and hidden requirements",
+    "speaking_topic": "Discussing the changing nature of jobs and debating the merits of telecommuting vs. office work",
+    "listening_topic": "A telephone interview between a human resources recruiter and a promising candidate",
+    "writing_topic": "Drafting a professional job application cover letter tailored to a specific vacancy"
+  },
+  {
+    "grade": 12,
+    "unit_number": 6,
+    "unit_id": "g12-u06",
+    "title": "ARTIFICIAL INTELLIGENCE",
+    "topic": "AI Breakthroughs, Machine Learning, Automation and Ethical Questions",
+    "book_pages": [
+      76,
+      87
+    ],
+    "pdf_pages": [
+      76,
+      87
+    ],
+    "pronunciation": "Homophones in spoken English",
+    "vocab_focus": "Artificial intelligence, machine learning, algorithm, neural network, autonomous robot, automation, virtual assistant, ethical dilemma",
+    "grammar_points": [
+      [
+        "Active and passive causatives with have and get",
+        "Have someone do something / have something done; Get someone to do something / get something done"
+      ]
+    ],
+    "reading_topic": "Transformative applications of intelligent tutoring systems and generative AI in personalized education",
+    "speaking_topic": "Debating whether artificial intelligence will replace teachers and human creative workers",
+    "listening_topic": "An interview with a roboticist giving instructions on deploying household AI assistive robots",
+    "writing_topic": "Writing an evaluative essay analyzing the societal advantages and risks of autonomous service robots"
+  },
+  {
+    "grade": 12,
+    "unit_number": 7,
+    "unit_id": "g12-u07",
+    "title": "THE WORLD OF MASS MEDIA",
+    "topic": "Digital Media, Social Networks, Journalism, Fake News and Media Literacy",
+    "book_pages": [
+      88,
+      99
+    ],
+    "pdf_pages": [
+      88,
+      99
+    ],
+    "pronunciation": "Linking /r/ between two vowel sounds",
+    "vocab_focus": "Mass media, broadcast, digital tabloid, social network, disinformation, verification, censorship, influencer, clickbait",
+    "grammar_points": [
+      [
+        "Adverbial clauses of manner and result",
+        "Clauses of manner with as, as if, as though; Clauses of result with so... that and such... that"
+      ]
+    ],
+    "reading_topic": "Contrasting digital news outlets with traditional print and broadcast journalism",
+    "speaking_topic": "Comparing preferences for getting news via social media feeds vs. verified investigative portals",
+    "listening_topic": "An investigative podcast analyzing how misleading fake news propagates across online platforms",
+    "writing_topic": "Analyzing and describing demographic data presented in a pie chart on media consumption habits"
+  },
+  {
+    "grade": 12,
+    "unit_number": 8,
+    "unit_id": "g12-u08",
+    "title": "WILDLIFE CONSERVATION",
+    "topic": "Endangered Species, IUCN Red List, Anti-poaching and Nature Sanctuaries",
+    "book_pages": [
+      100,
+      111
+    ],
+    "pdf_pages": [
+      100,
+      111
+    ],
+    "pronunciation": "Assimilation in connected speech",
+    "vocab_focus": "Endangered, vulnerable, extinct, IUCN Red List, habitat destruction, poaching, sanctuary, captivity, biodiversity corridor",
+    "grammar_points": [
+      [
+        "Adverbial clauses of condition and comparison",
+        "Condition clauses with unless, provided that, as long as; Comparison clauses with as... as, comparative + than"
+      ]
+    ],
+    "reading_topic": "Global wildlife conservation status updates and urgent protection measures for rare species",
+    "speaking_topic": "Proposing an engaging interactive school campaign to raise funds for an endangered tiger sanctuary",
+    "listening_topic": "A conservationist lecture detailing the grave threats confronting wild tiger populations in Southeast Asia",
+    "writing_topic": "Writing a structured problem-solving report recommending rigorous interventions against illegal wildlife trade"
+  },
+  {
+    "grade": 12,
+    "unit_number": 9,
+    "unit_id": "g12-u09",
+    "title": "CAREER PATHS",
+    "topic": "Career Planning, Market Trends, Emerging Occupations and Professional Development",
+    "book_pages": [
+      116,
+      127
+    ],
+    "pdf_pages": [
+      116,
+      127
+    ],
+    "pronunciation": "Sentence stress and rhythm in complex sentences",
+    "vocab_focus": "Career path, vocational guidance, employability, job market, apprentice, upskilling, promotion, passion, career ladder",
+    "grammar_points": [
+      [
+        "Three-word phrasal verbs",
+        "Three-part verbs: look forward to, catch up with, cut down on, run out of, get on with"
+      ]
+    ],
+    "reading_topic": "Critical factors to evaluate when choosing a long-term professional career pathway",
+    "speaking_topic": "Discussing the balance between pursuing personal passions versus high-demand job security",
+    "listening_topic": "A conversation with a senior high school teacher reflecting on the teaching profession",
+    "writing_topic": "Writing an effective, professionally formatted Curriculum Vitae (CV) for entry-level positions"
+  },
+  {
+    "grade": 12,
+    "unit_number": 10,
+    "unit_id": "g12-u10",
+    "title": "LIFELONG LEARNING",
+    "topic": "Continuous Education, Self-directed Learning, Digital Upskilling and Personal Growth",
+    "book_pages": [
+      128,
+      139
+    ],
+    "pdf_pages": [
+      128,
+      139
+    ],
+    "pronunciation": "Intonation in questions (revision and advanced patterns)",
+    "vocab_focus": "Lifelong learning, self-directed, formal education, informal learning, intellectual growth, adaptability, curiosity, distance learning",
+    "grammar_points": [
+      [
+        "Reported speech: Reporting orders, requests, offers, and advice",
+        "Verbs of reporting + to-infinitive: advise someone to, encourage someone to, offer to, warn someone not to"
+      ]
+    ],
+    "reading_topic": "A principal's commencement speech advising graduates on maintaining lifelong learning mindsets",
+    "speaking_topic": "Discussing admirable elderly scholars and famous role models who continued learning throughout life",
+    "listening_topic": "An educational podcast exploring common psychological barriers to adult continuous learning",
+    "writing_topic": "Writing a synthesized article on the tangible personal and economic advantages of lifelong learning"
+  }
+]

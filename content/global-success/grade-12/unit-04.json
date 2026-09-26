@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 4,
+    "unit_id": "g12-u04",
+    "title": "URBANISATION",
+    "topic": "Urban Migration, Megacities, Slums and Infrastructure Modernisation",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 48,
+    "book_page": 48,
+    "source_section": "Grade 12 Unit 4 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 48,
+        "book_page_end": 49,
+        "pdf_page_start": 48,
+        "pdf_page_end": 49,
+        "description": "Introduction dialogue for URBANISATION"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 50,
+        "book_page_end": 50,
+        "pdf_page_start": 50,
+        "pdf_page_end": 50,
+        "description": "Pronunciation (Unstressed words in connected speech (weak forms)), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 51,
+        "book_page_end": 52,
+        "pdf_page_start": 51,
+        "pdf_page_end": 52,
+        "description": "The Transformation of Ha Noi"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 52,
+        "book_page_end": 52,
+        "pdf_page_start": 52,
+        "pdf_page_end": 52,
+        "description": "Describing positive infrastructural enhancements in your neighborhood"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 53,
+        "book_page_end": 53,
+        "pdf_page_start": 53,
+        "pdf_page_end": 53,
+        "description": "Listening to an urban sociology radio broadcast discussing migrant integration"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 54,
+        "book_page_end": 55,
+        "pdf_page_start": 54,
+        "pdf_page_end": 55,
+        "description": "Writing an academic paragraph describing and analyzing trends shown in an urbanisation line graph"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 56,
+        "book_page_end": 56,
+        "pdf_page_start": 56,
+        "pdf_page_end": 56,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 57,
+        "book_page_end": 57,
+        "pdf_page_start": 57,
+        "pdf_page_end": 57,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to urban migration, megacities, slums and infrastructure modernisation",
+      "grammar": [
+        "Double Comparatives (The more..., the more...)"
+      ],
+      "pronunciation": "Unstressed words in connected speech (weak forms)",
+      "reading": "The Transformation of Ha Noi",
+      "speaking": "Describing positive infrastructural enhancements in your neighborhood",
+      "listening": "Listening to an urban sociology radio broadcast discussing migrant integration",
+      "writing": "Writing an academic paragraph describing and analyzing trends shown in an urbanisation line graph"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u04-vocab-001",
+      "unit_id": "g12-u04",
+      "word": "urbanisation",
+      "word_type": "noun",
+      "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+      "meaning_vi": "sự đô thị hóa",
+      "definition_en": "the process of making an area more urban, with people moving into cities",
+      "example_sentence": "Rapid urbanisation creates high demand for public housing and clean water.",
+      "example_translation": "Đô thị hóa nhanh chóng tạo ra nhu cầu lớn về nhà ở xã hội và nước sạch.",
+      "collocations": [
+        "rapid urbanisation"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-vocab-002",
+      "unit_id": "g12-u04",
+      "word": "rural-to-urban migration",
+      "word_type": "noun phrase",
+      "ipa": "/ˌrʊərəl tə ˌɜːbən maɪˈɡreɪʃn/",
+      "meaning_vi": "sự di cư từ nông thôn ra thành thị",
+      "definition_en": "the movement of people from the countryside to cities in search of work",
+      "example_sentence": "Rural-to-urban migration puts massive strain on municipal transit systems.",
+      "example_translation": "Di cư từ nông thôn ra thành thị tạo áp lực khổng lồ lên hệ thống giao thông thành phố.",
+      "collocations": [
+        "flows of rural-to-urban migration"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-vocab-003",
+      "unit_id": "g12-u04",
+      "word": "densely populated",
+      "word_type": "adjective phrase",
+      "ipa": "/ˌdensli ˈpɒpjuleɪtɪd/",
+      "meaning_vi": "mật độ dân số đông đúc, dày đặc",
+      "definition_en": "crowded with a large number of people per unit area",
+      "example_sentence": "Megacities in Asia are among the most densely populated places on Earth.",
+      "example_translation": "Các siêu đô thị ở châu Á nằm trong số những nơi có mật độ dân số đông đúc nhất Trái Đất.",
+      "collocations": [
+        "densely populated city"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-vocab-004",
+      "unit_id": "g12-u04",
+      "word": "slum",
+      "word_type": "noun",
+      "ipa": "/slʌm/",
+      "meaning_vi": "khu ổ chuột",
+      "definition_en": "a squalid and overcrowded urban street or district inhabited by very poor people",
+      "example_sentence": "City officials launched housing programs to replace dilapidated slums.",
+      "example_translation": "Chính quyền thành phố đã phát động các chương trình nhà ở để thay thế các khu ổ chuột tồi tàn.",
+      "collocations": [
+        "urban slum"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-vocab-005",
+      "unit_id": "g12-u04",
+      "word": "congestion",
+      "word_type": "noun",
+      "ipa": "/kənˈdʒestʃən/",
+      "meaning_vi": "sự tắc nghẽn (giao thông)",
+      "definition_en": "the state of being extremely crowded and blocked with traffic",
+      "example_sentence": "Traffic congestion during rush hours costs commuters hours of lost time.",
+      "example_translation": "Tắc nghẽn giao thông vào giờ cao điểm cướp đi hàng giờ đồng hồ của người đi lại.",
+      "collocations": [
+        "traffic congestion"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-vocab-006",
+      "unit_id": "g12-u04",
+      "word": "sanitation",
+      "word_type": "noun",
+      "ipa": "/ˌsænɪˈteɪʃn/",
+      "meaning_vi": "điều kiện vệ sinh dịch tễ",
+      "definition_en": "conditions relating to public health, especially clean drinking water and sewage disposal",
+      "example_sentence": "Improving urban sanitation prevents outbreaks of infectious waterborne illnesses.",
+      "example_translation": "Cải thiện điều kiện vệ sinh đô thị ngăn ngừa bùng phát các bệnh truyền nhiễm qua đường nước.",
+      "collocations": [
+        "basic sanitation"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u04-grammar-001",
+      "unit_id": "g12-u04",
+      "title": "Double Comparatives (The more..., the more...)",
+      "structure_name": "Cấu trúc so sánh kép",
+      "rule_summary": "Dùng để diễn tả hai sự việc thay đổi tương quan song song cùng nhau: càng... thì càng...",
+      "formula": "The + comparative (+ S + V), the + comparative (+ S + V)",
+      "example_sentences": [
+        {
+          "en": "The more populated a city becomes, the more difficult traffic congestion is to manage.",
+          "vi": "Thành phố càng trở nên đông đúc, tình trạng tắc nghẽn giao thông càng khó quản lý hơn."
+        },
+        {
+          "en": "The faster the city grows, the higher the housing costs become.",
+          "vi": "Thành phố phát triển càng nhanh, chi phí nhà ở càng trở nên đắt đỏ hơn."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "More we study, more we know.",
+          "correction": "The more we study, the more we know.",
+          "explanation": "Cấu trúc so sánh kép bắt buộc phải có mạo từ 'The' ở cả hai vế."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u04-reading-001",
+    "unit_id": "g12-u04",
+    "topic": "The Transformation of Ha Noi",
+    "main_idea": "Quá trình mở rộng địa giới hành chính và xây dựng các tuyến đường sắt trên cao hiện đại hóa thủ đô Hà Nội.",
+    "reading_skills": [
+      "Chronological progress",
+      "Scanning demographic figures"
+    ],
+    "keywords": [
+      "Ha Noi expansion",
+      "metro lines",
+      "population shift"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Biện pháp then chốt để giải quyết nạn kẹt xe ở các thành phố lớn như Hà Nội là gì?",
+        "options": [
+          "Phát triển hệ thống giao thông công cộng sức chở lớn như tàu điện trên cao và xe buýt nhanh",
+          "Cấm tất cả người dân ra khỏi nhà vào ban ngày",
+          "Xóa bỏ toàn bộ các trường học trong nội thành",
+          "Chỉ cho phép người giàu đi lại bằng ô tô"
+        ],
+        "correctAnswer": "Phát triển hệ thống giao thông công cộng sức chở lớn như tàu điện trên cao và xe buýt nhanh",
+        "explanation": "Phát triển giao thông công cộng hiện đại là giải pháp căn cơ giảm ùn tắc đô thị."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 51,
+    "book_page": 51,
+    "source_section": "Grade 12 Unit 4 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an urban sociology radio broadcast discussing migrant integration",
+      "activity_types": [
+        "Sentence completion",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G12 Track 17",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 53,
+      "book_page": 53,
+      "source_section": "Grade 12 Unit 4 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Describing positive infrastructural enhancements in your neighborhood",
+      "activity_types": [
+        "Pair interview"
+      ],
+      "prompts": [
+        "How has your town changed over the last five years?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 52,
+      "book_page": 52,
+      "source_section": "Grade 12 Unit 4 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an academic paragraph describing and analyzing trends shown in an urbanisation line graph",
+      "task_type": "Graph analysis",
+      "sample_outline": [
+        "Overview trend",
+        "Key data comparisons",
+        "Concluding summary"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 54,
+      "book_page": 54,
+      "source_section": "Grade 12 Unit 4 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u04-question-001",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Quá trình chuyển dịch dân cư và phát triển nông thôn thành thành thị gọi là:",
+      "options": [
+        "Urbanisation",
+        "Deforestation",
+        "Assimilation",
+        "Apprenticeship"
+      ],
+      "correctAnswer": "Urbanisation",
+      "explanation": "Urbanisation = đô thị hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-002",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Hiện tượng người dân rời quê hương ra các đô thị lớn tìm việc làm gọi là:",
+      "options": [
+        "Rural-to-urban migration",
+        "Ecotourism",
+        "Cultural diversity",
+        "Curfew"
+      ],
+      "correctAnswer": "Rural-to-urban migration",
+      "explanation": "Rural-to-urban migration = di cư nông thôn ra thành thị.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-003",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Cụm 'traffic congestion' đồng nghĩa với hiện tượng nào?",
+      "options": [
+        "Tắc nghẽn giao thông giờ cao điểm",
+        "Đường cao tốc vắng bóng xe cộ",
+        "Lối đi bộ thưa thớt người",
+        "Bãi đỗ xe trống rỗng"
+      ],
+      "correctAnswer": "Tắc nghẽn giao thông giờ cao điểm",
+      "explanation": "Traffic congestion = kẹt xe, tắc nghẽn giao thông.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-004",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Chọn cấu trúc so sánh kép đúng: 'The bigger the city is, _______ the housing prices are.'",
+      "options": [
+        "the higher",
+        "higher",
+        "the highest",
+        "highest"
+      ],
+      "correctAnswer": "the higher",
+      "explanation": "So sánh kép: The + comp ..., the + comp ... (the higher).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-005",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Hoàn thành so sánh kép: 'The _______ people use public transit, the _______ traffic jams we experience.'",
+      "options": [
+        "more / fewer",
+        "most / least",
+        "many / few",
+        "more / fewest"
+      ],
+      "correctAnswer": "more / fewer",
+      "explanation": "The more ... the fewer (càng nhiều người đi xe buýt thì càng ít kẹt xe).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-006",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Khu dân cư tồi tàn, chật chội và thiếu thốn điều kiện vệ sinh trong thành phố là:",
+      "options": [
+        "Slum",
+        "Citadel",
+        "Monument",
+        "High-rise"
+      ],
+      "correctAnswer": "Slum",
+      "explanation": "Slum = khu ổ chuột.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-007",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Hệ thống nước sạch, thoát nước thải và xử lý rác để bảo vệ sức khỏe cộng đồng là:",
+      "options": [
+        "Sanitation",
+        "Emissions",
+        "Appliances",
+        "Chores"
+      ],
+      "correctAnswer": "Sanitation",
+      "explanation": "Sanitation = điều kiện vệ sinh dịch tễ.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-008",
+      "unit_id": "g12-u04",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Hong Kong and Singapore are among the most _______ populated territories on the continent.'",
+      "options": [
+        "densely",
+        "quietly",
+        "remotely",
+        "rarely"
+      ],
+      "correctAnswer": "densely",
+      "explanation": "Densely populated = mật độ dân số đông đúc.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u04-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-009",
+      "unit_id": "g12-u04",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu so sánh kép chính xác hoàn toàn:",
+      "options": [
+        "The more we invest in public trains, the cleaner our air becomes.",
+        "More we invest in public trains, more clean our air becomes.",
+        "The more we invest in public trains, the cleaner becomes our air.",
+        "The most we invest in public trains, the cleanest our air becomes."
+      ],
+      "correctAnswer": "The more we invest in public trains, the cleaner our air becomes.",
+      "explanation": "The more + S + V, the cleaner + S + V.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u04-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u04-question-010",
+      "unit_id": "g12-u04",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu so sánh kép về sự phát triển đô thị:",
+      "options": [
+        "The more cities modernise their public transport, the more liveable they become.",
+        "The more liveable they become the more cities modernise their public transport.",
+        "Modernise their public transport the more cities the more liveable they become.",
+        "They become the more liveable the more cities modernise their public transport."
+      ],
+      "correctAnswer": "The more cities modernise their public transport, the more liveable they become.",
+      "explanation": "The more + S + V, the more + S + V.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u04-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 50,
+      "book_page": 50,
+      "source_section": "Grade 12 Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "The",
+        "more",
+        "cities",
+        "modernise",
+        "their",
+        "public",
+        "transport,",
+        "the",
+        "more",
+        "liveable",
+        "they",
+        "become."
+      ]
+    }
+  ]
+}

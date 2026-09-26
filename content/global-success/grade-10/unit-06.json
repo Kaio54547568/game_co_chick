@@ -1,0 +1,613 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 6,
+    "unit_id": "g10-u06",
+    "title": "GENDER EQUALITY",
+    "topic": "Gender Equality in Education, Career, and Society",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 62,
+    "book_page": 62,
+    "source_section": "Unit 6 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 62,
+        "book_page_end": 63,
+        "pdf_page_start": 62,
+        "pdf_page_end": 63,
+        "description": "Introduction to GENDER EQUALITY"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 64,
+        "book_page_end": 64,
+        "pdf_page_start": 64,
+        "pdf_page_end": 64,
+        "description": "Pronunciation (Stress in three-syllable adjectives and verbs), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 65,
+        "book_page_end": 66,
+        "pdf_page_start": 65,
+        "pdf_page_end": 66,
+        "description": "Career Choices and Gender Roles"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 66,
+        "book_page_end": 66,
+        "pdf_page_start": 66,
+        "pdf_page_end": 66,
+        "description": "Discussing career choices and tackling gender prejudices"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 67,
+        "book_page_end": 67,
+        "pdf_page_start": 67,
+        "pdf_page_end": 67,
+        "description": "Listening to a biography of Valentina Tereshkova - the first woman in space"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 68,
+        "book_page_end": 69,
+        "pdf_page_start": 68,
+        "pdf_page_end": 69,
+        "description": "Writing an opinion essay about equal employment rights for men and women"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 70,
+        "book_page_end": 70,
+        "pdf_page_start": 70,
+        "pdf_page_end": 70,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 71,
+        "book_page_end": 71,
+        "pdf_page_start": 71,
+        "pdf_page_end": 71,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to gender equality in education, career, and society",
+      "grammar": [
+        "Passive Voice with Modal Verbs"
+      ],
+      "pronunciation": "Stress in three-syllable adjectives and verbs",
+      "reading": "Career Choices and Gender Roles",
+      "speaking": "Discussing career choices and tackling gender prejudices",
+      "listening": "Listening to a biography of Valentina Tereshkova - the first woman in space",
+      "writing": "Writing an opinion essay about equal employment rights for men and women"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u06-vocab-001",
+      "unit_id": "g10-u06",
+      "word": "gender equality",
+      "word_type": "noun phrase",
+      "ipa": "/ˈdʒendə iˈkwɒləti/",
+      "meaning_vi": "bình đẳng giới",
+      "definition_en": "the state in which access to rights or opportunities is unaffected by gender",
+      "example_sentence": "Gender equality ensures fair career prospects for everyone.",
+      "example_translation": "Bình đẳng giới đảm bảo cơ hội nghề nghiệp công bằng cho tất cả mọi người.",
+      "collocations": [
+        "promote gender equality"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-vocab-002",
+      "unit_id": "g10-u06",
+      "word": "equal opportunity",
+      "word_type": "noun phrase",
+      "ipa": "/ˈiːkwəl ˌɒpəˈtjuːnəti/",
+      "meaning_vi": "cơ hội bình đẳng",
+      "definition_en": "the principle of treating all people equally regardless of gender or background",
+      "example_sentence": "Both men and women deserve equal opportunity in the workplace.",
+      "example_translation": "Cả nam và nữ đều xứng đáng có cơ hội bình đẳng tại nơi làm việc.",
+      "collocations": [
+        "equal opportunities"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-vocab-003",
+      "unit_id": "g10-u06",
+      "word": "wage gap",
+      "word_type": "noun phrase",
+      "ipa": "/ˈweɪdʒ ɡæp/",
+      "meaning_vi": "khoảng cách thu nhập",
+      "definition_en": "the difference in average pay between different groups of workers",
+      "example_sentence": "Governments are enacting laws to eliminate the gender wage gap.",
+      "example_translation": "Chính phủ đang ban hành luật nhằm xóa bỏ khoảng cách thu nhập theo giới tính.",
+      "collocations": [
+        "gender wage gap"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-vocab-004",
+      "unit_id": "g10-u06",
+      "word": "discrimination",
+      "word_type": "noun",
+      "ipa": "/dɪˌskrɪmɪˈneɪʃn/",
+      "meaning_vi": "sự phân biệt đối xử",
+      "definition_en": "the unjust or prejudicial treatment of different categories of people",
+      "example_sentence": "Any form of discrimination against female workers must be prohibited.",
+      "example_translation": "Mọi hình thức phân biệt đối xử với lao động nữ đều phải bị nghiêm cấm.",
+      "collocations": [
+        "gender discrimination"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-vocab-005",
+      "unit_id": "g10-u06",
+      "word": "surgeon",
+      "word_type": "noun",
+      "ipa": "/ˈsɜːdʒən/",
+      "meaning_vi": "bác sĩ phẫu thuật",
+      "definition_en": "a doctor who is specially trained to perform medical operations",
+      "example_sentence": "She broke stereotypes to become one of the top brain surgeons in the country.",
+      "example_translation": "Cô đã phá bỏ các định kiến để trở thành một trong những bác sĩ phẫu thuật não hàng đầu cả nước.",
+      "collocations": [
+        "female surgeon"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-vocab-006",
+      "unit_id": "g10-u06",
+      "word": "eliminate",
+      "word_type": "verb",
+      "ipa": "/ɪˈlɪmɪneɪt/",
+      "meaning_vi": "loại bỏ, xóa bỏ",
+      "definition_en": "to completely remove or get rid of something",
+      "example_sentence": "Education is the most powerful tool to eliminate gender stereotypes.",
+      "example_translation": "Giáo dục là công cụ đắc lực nhất để xóa bỏ các định kiến giới.",
+      "collocations": [
+        "eliminate discrimination"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u06-grammar-001",
+      "unit_id": "g10-u06",
+      "title": "Passive Voice with Modal Verbs",
+      "structure_name": "Câu bị động với động từ khuyết thiếu",
+      "rule_summary": "Nhấn mạnh hành động cần phải làm hoặc có thể làm: S + modal verb (must, should, can, may) + be + V3/ed.",
+      "formula": "S + can/must/should/may + be + V3/ed",
+      "example_sentences": [
+        {
+          "en": "Equal rights must be guaranteed for all citizens.",
+          "vi": "Quyền bình đẳng phải được bảo đảm cho mọi công dân."
+        },
+        {
+          "en": "Gender discrimination should be eliminated in modern workplaces.",
+          "vi": "Sự phân biệt đối xử theo giới tính cần phải bị loại bỏ trong môi trường làm việc hiện đại."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Equal pay must provide for everyone.",
+          "correction": "Equal pay must be provided for everyone.",
+          "explanation": "Bị động với modal verbs bắt buộc phải có 'be + V3/ed'."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u06-reading-001",
+    "unit_id": "g10-u06",
+    "topic": "Career Choices and Gender Roles",
+    "main_idea": "Phá vỡ định kiến nghề nghiệp truyền thống để nam nữ tự do lựa chọn công việc yêu thích.",
+    "reading_skills": [
+      "Specific detail",
+      "Vocabulary in context"
+    ],
+    "keywords": [
+      "equal rights",
+      "career choice",
+      "stereotypes"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Thông điệp cốt lõi của bài đọc về lựa chọn nghề nghiệp là gì?",
+        "options": [
+          "Mọi người nên được tự do theo đuổi nghề nghiệp phù hợp năng lực mà không bị giới tính cản trở",
+          "Phụ nữ chỉ nên làm nội trợ và giáo viên",
+          "Đàn ông không được phép làm điều dưỡng",
+          "Chỉ chọn nghề có lương cao nhất"
+        ],
+        "correctAnswer": "Mọi người nên được tự do theo đuổi nghề nghiệp phù hợp năng lực mà không bị giới tính cản trở",
+        "explanation": "Bài đọc khuyến khích xóa bỏ định kiến phân chia nghề theo giới tính."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 65,
+    "book_page": 65,
+    "source_section": "Unit 6 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a biography of Valentina Tereshkova - the first woman in space",
+      "activity_types": [
+        "Sentence completion"
+      ],
+      "audio_source_note": "Audio CD1 Track 32",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 67,
+      "book_page": 67,
+      "source_section": "Unit 6 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Discussing career choices and tackling gender prejudices",
+      "activity_types": [
+        "Group talk"
+      ],
+      "prompts": [
+        "Can men become great kindergarten teachers?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Unit 6 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an opinion essay about equal employment rights for men and women",
+      "task_type": "Opinion essay",
+      "sample_outline": [
+        "Introduction",
+        "Arguments with evidence",
+        "Conclusion"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 68,
+      "book_page": 68,
+      "source_section": "Unit 6 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u06-question-001",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Khái niệm 'gender equality' có nghĩa là gì?",
+      "options": [
+        "Bình đẳng giới trong xã hội",
+        "Phân chia công việc theo giới tính",
+        "Khoảng cách tuổi tác trong gia đình",
+        "Sự đối lập giữa các thế hệ"
+      ],
+      "correctAnswer": "Bình đẳng giới trong xã hội",
+      "explanation": "Gender equality = bình đẳng giới.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u06-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-002",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Sự khác biệt về mức lương giữa nam và nữ làm cùng công việc được gọi là:",
+      "options": [
+        "Gender wage gap",
+        "Equal opportunity",
+        "Career choice",
+        "Volunteer fund"
+      ],
+      "correctAnswer": "Gender wage gap",
+      "explanation": "Wage gap = khoảng cách thu nhập.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u06-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-003",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Từ nào có nghĩa là 'sự phân biệt đối xử bất công'?",
+      "options": [
+        "Discrimination",
+        "Appliance",
+        "Donation",
+        "Equality"
+      ],
+      "correctAnswer": "Discrimination",
+      "explanation": "Discrimination = phân biệt đối xử.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u06-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-004",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng bị động đúng với modal verb: 'More educational opportunities _______ for rural girls.'",
+      "options": [
+        "should be provided",
+        "should provide",
+        "should being provided",
+        "should be provide"
+      ],
+      "correctAnswer": "should be provided",
+      "explanation": "Modal passive: should + be + V3 (provided).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u06-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-005",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Điền từ: 'Gender discrimination must _______ to build a fair society.'",
+      "options": [
+        "be eliminated",
+        "eliminate",
+        "is eliminated",
+        "eliminating"
+      ],
+      "correctAnswer": "be eliminated",
+      "explanation": "Must be + V3/ed (eliminated).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u06-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-006",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Bác sĩ được đào tạo chuyên sâu để thực hiện các ca mổ được gọi là:",
+      "options": [
+        "Surgeon",
+        "Pilot",
+        "Engineer",
+        "Scientist"
+      ],
+      "correctAnswer": "Surgeon",
+      "explanation": "Surgeon = bác sĩ phẫu thuật.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u06-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-007",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Động từ 'eliminate' đồng nghĩa với từ nào sau đây?",
+      "options": [
+        "Get rid of",
+        "Increase",
+        "Encourage",
+        "Protect"
+      ],
+      "correctAnswer": "Get rid of",
+      "explanation": "Eliminate = loại bỏ hoàn toàn.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u06-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-008",
+      "unit_id": "g10-u06",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'All job applicants must receive _______ opportunities during interviews.'",
+      "options": [
+        "equal",
+        "remote",
+        "harmful",
+        "fragile"
+      ],
+      "correctAnswer": "equal",
+      "explanation": "Equal opportunities = cơ hội bình đẳng.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u06-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-009",
+      "unit_id": "g10-u06",
+      "type": "multiple_choice",
+      "prompt": "Chuyển sang bị động: 'We must respect women's rights.'",
+      "options": [
+        "Women's rights must be respected.",
+        "Women's rights must respected.",
+        "Women's rights are respected must.",
+        "Women's rights must being respected."
+      ],
+      "correctAnswer": "Women's rights must be respected.",
+      "explanation": "Bị động với must: must be respected.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u06-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u06-question-010",
+      "unit_id": "g10-u06",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu kêu gọi bình đẳng:",
+      "options": [
+        "Equal pay for equal work must be guaranteed by law.",
+        "By law equal pay for equal work must be guaranteed.",
+        "Guaranteed by law equal pay must be for equal work.",
+        "Must be guaranteed equal pay for equal work by law."
+      ],
+      "correctAnswer": "Equal pay for equal work must be guaranteed by law.",
+      "explanation": "S + must be guaranteed + by law.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u06-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Equal",
+        "pay",
+        "for",
+        "equal",
+        "work",
+        "must",
+        "be",
+        "guaranteed",
+        "by",
+        "law."
+      ]
+    }
+  ]
+}

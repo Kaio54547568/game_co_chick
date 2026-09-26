@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 10,
+    "unit_id": "g10-u10",
+    "title": "ECOTOURISM",
+    "topic": "Sustainable Travel, Eco-tours and Cultural Respect",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 110,
+    "book_page": 110,
+    "source_section": "Unit 10 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 110,
+        "book_page_end": 111,
+        "pdf_page_start": 110,
+        "pdf_page_end": 111,
+        "description": "Introduction to ECOTOURISM"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 112,
+        "book_page_end": 112,
+        "pdf_page_start": 112,
+        "pdf_page_end": 112,
+        "description": "Pronunciation (Intonation in questions and statements), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 113,
+        "book_page_end": 114,
+        "pdf_page_start": 113,
+        "pdf_page_end": 114,
+        "description": "A Green Ecotour Brochure"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 114,
+        "book_page_end": 114,
+        "pdf_page_start": 114,
+        "pdf_page_end": 114,
+        "description": "Explaining how to become a responsible ecotourist"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 115,
+        "book_page_end": 115,
+        "pdf_page_start": 115,
+        "pdf_page_end": 115,
+        "description": "Listening to a tour guide welcoming ecotourists in the Mekong Delta mangrove forest"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 116,
+        "book_page_end": 117,
+        "pdf_page_start": 116,
+        "pdf_page_end": 117,
+        "description": "Writing a promotional website advertisement for a local community ecotour"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 118,
+        "book_page_end": 118,
+        "pdf_page_start": 118,
+        "pdf_page_end": 118,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 119,
+        "book_page_end": 119,
+        "pdf_page_start": 119,
+        "pdf_page_end": 119,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to sustainable travel, eco-tours and cultural respect",
+      "grammar": [
+        "Conditional Sentences Type 1 and Type 2"
+      ],
+      "pronunciation": "Intonation in questions and statements",
+      "reading": "A Green Ecotour Brochure",
+      "speaking": "Explaining how to become a responsible ecotourist",
+      "listening": "Listening to a tour guide welcoming ecotourists in the Mekong Delta mangrove forest",
+      "writing": "Writing a promotional website advertisement for a local community ecotour"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u10-vocab-001",
+      "unit_id": "g10-u10",
+      "word": "ecotourism",
+      "word_type": "noun",
+      "ipa": "/ˈiːkəʊtʊərɪzəm/",
+      "meaning_vi": "du lịch sinh thái",
+      "definition_en": "responsible travel to natural areas that conserves the environment",
+      "example_sentence": "Ecotourism provides income for local villagers while protecting the forest.",
+      "example_translation": "Du lịch sinh thái mang lại thu nhập cho dân làng trong khi vẫn bảo vệ được khu rừng.",
+      "collocations": [
+        "promote ecotourism"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-vocab-002",
+      "unit_id": "g10-u10",
+      "word": "destination",
+      "word_type": "noun",
+      "ipa": "/ˌdestɪˈneɪʃn/",
+      "meaning_vi": "điểm đến, nơi đến",
+      "definition_en": "the place to which someone is going or being sent",
+      "example_sentence": "The biosphere reserve has become a popular ecotourism destination.",
+      "example_translation": "Khu dự trữ sinh quyển đã trở thành điểm đến du lịch sinh thái nổi tiếng.",
+      "collocations": [
+        "tourist destination"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-vocab-003",
+      "unit_id": "g10-u10",
+      "word": "flora",
+      "word_type": "noun",
+      "ipa": "/ˈflɔːrə/",
+      "meaning_vi": "hệ thực vật",
+      "definition_en": "the plants of a particular region or period",
+      "example_sentence": "The national park boasts diverse and rare flora.",
+      "example_translation": "Vườn quốc gia sở hữu hệ thực vật quý hiếm và phong phú.",
+      "collocations": [
+        "flora and fauna"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-vocab-004",
+      "unit_id": "g10-u10",
+      "word": "fauna",
+      "word_type": "noun",
+      "ipa": "/ˈfɔːnə/",
+      "meaning_vi": "hệ động vật",
+      "definition_en": "the animals of a particular region or period",
+      "example_sentence": "Scientists visited the valley to document its native fauna.",
+      "example_translation": "Các nhà khoa học đã đến thung lũng để ghi chép về hệ động vật bản địa.",
+      "collocations": [
+        "native fauna"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-vocab-005",
+      "unit_id": "g10-u10",
+      "word": "responsible",
+      "word_type": "adjective",
+      "ipa": "/rɪˈspɒnsəbl/",
+      "meaning_vi": "có trách nhiệm, văn minh",
+      "definition_en": "having an obligation to do something; sensible and reliable",
+      "example_sentence": "A responsible traveler leaves nothing behind except footprints.",
+      "example_translation": "Một du khách có trách nhiệm không để lại gì ngoài những dấu chân.",
+      "collocations": [
+        "responsible tourism"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-vocab-006",
+      "unit_id": "g10-u10",
+      "word": "impact",
+      "word_type": "noun",
+      "ipa": "/ˈɪmpækt/",
+      "meaning_vi": "tác động, ảnh hưởng",
+      "definition_en": "the effect or influence of one thing on another",
+      "example_sentence": "We should minimize the negative impact of tourism on fragile ecosystems.",
+      "example_translation": "Chúng ta nên giảm thiểu tác động tiêu cực của du lịch lên các hệ sinh thái mỏng manh.",
+      "collocations": [
+        "environmental impact"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u10-grammar-001",
+      "unit_id": "g10-u10",
+      "title": "Conditional Sentences Type 1 and Type 2",
+      "structure_name": "Câu điều kiện Loại 1 và Loại 2",
+      "rule_summary": "Loại 1: Điều kiện có thật ở hiện tại/tương lai (If + S + V(hiện tại đơn), S + will + V). Loại 2: Giả định trái với hiện tại hoặc không có thật (If + S + V2/ed / were, S + would + V).",
+      "formula": "Type 1: If + V(s/es), will + V | Type 2: If + V2/ed, would + V",
+      "example_sentences": [
+        {
+          "en": "If people travel responsibly, nature will be protected.",
+          "vi": "Nếu mọi người du lịch có trách nhiệm, thiên nhiên sẽ được bảo vệ."
+        },
+        {
+          "en": "If I were an ecotour guide, I would show visitors rare birds.",
+          "vi": "Nếu tôi là hướng dẫn viên du lịch sinh thái, tôi sẽ chỉ cho du khách xem các loài chim hiếm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "If I am you, I would visit that park.",
+          "correction": "If I were you, I would visit that park.",
+          "explanation": "Câu điều kiện loại 2 dùng 'were' cho tất cả các ngôi."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u10-reading-001",
+    "unit_id": "g10-u10",
+    "topic": "A Green Ecotour Brochure",
+    "main_idea": "Giới thiệu tour thám hiểm hang động và rừng ngập mặn kết hợp trải nghiệm văn hóa bản địa.",
+    "reading_skills": [
+      "Specific itineraries",
+      "Scanning for rules"
+    ],
+    "keywords": [
+      "ecotour",
+      "biosphere reserve",
+      "local culture"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Quy tắc ứng xử hàng đầu của du khách tham gia tour du lịch sinh thái là gì?",
+        "options": [
+          "Không xả rác và không tự ý ngắt hoa, hái cành quý hiếm",
+          "Mua thật nhiều động vật hoang dã làm quà",
+          "Mở nhạc lớn trong rừng để xua thú dữ",
+          "Chặt cây để nhóm lửa trại tùy thích"
+        ],
+        "correctAnswer": "Không xả rác và không tự ý ngắt hoa, hái cành quý hiếm",
+        "explanation": "Du lịch sinh thái tôn trọng tuyệt đối cảnh quan và sự yên bình của tự nhiên."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 113,
+    "book_page": 113,
+    "source_section": "Unit 10 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a tour guide welcoming ecotourists in the Mekong Delta mangrove forest",
+      "activity_types": [
+        "Note-taking",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio CD2 Track 17",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 115,
+      "book_page": 115,
+      "source_section": "Unit 10 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Explaining how to become a responsible ecotourist",
+      "activity_types": [
+        "Pair talk"
+      ],
+      "prompts": [
+        "What should you pack for a green camping trip?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 114,
+      "book_page": 114,
+      "source_section": "Unit 10 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a promotional website advertisement for a local community ecotour",
+      "task_type": "Web ad",
+      "sample_outline": [
+        "Destination highlights",
+        "Eco activities",
+        "Booking information"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 116,
+      "book_page": 116,
+      "source_section": "Unit 10 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u10-question-001",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Loại hình du lịch vừa ngắm cảnh vừa tôn trọng và bảo tồn thiên nhiên gọi là:",
+      "options": [
+        "Ecotourism",
+        "Mass tourism",
+        "Space travel",
+        "Industrial tour"
+      ],
+      "correctAnswer": "Ecotourism",
+      "explanation": "Ecotourism = du lịch sinh thái.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u10-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-002",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Địa điểm du lịch thu hút khách tham quan được gọi là:",
+      "options": [
+        "Destination",
+        "Appliance",
+        "Emission",
+        "Chore"
+      ],
+      "correctAnswer": "Destination",
+      "explanation": "Destination = điểm đến.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u10-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-003",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Cặp từ 'flora and fauna' chỉ hai yếu tố nào của tự nhiên?",
+      "options": [
+        "Hệ thực vật và hệ động vật",
+        "Thời tiết và khí hậu",
+        "Sông ngòi và núi non",
+        "Đất đai và khoáng sản"
+      ],
+      "correctAnswer": "Hệ thực vật và hệ động vật",
+      "explanation": "Flora = thực vật; fauna = động vật.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u10-vocab-003",
+        "g10-u10-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-004",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng đúng của câu điều kiện Loại 1: 'If tourists _______ litter in the park, they will be fined.'",
+      "options": [
+        "drop",
+        "dropped",
+        "would drop",
+        "will drop"
+      ],
+      "correctAnswer": "drop",
+      "explanation": "Mệnh đề If loại 1 chia Hiện tại đơn (drop).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u10-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-005",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Chọn phương án đúng cho câu điều kiện Loại 2: 'If I _______ more money, I would travel to Cuc Phuong National Park.'",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Mệnh đề If loại 2 chia Quá khứ đơn (had).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u10-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-006",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu điều kiện loại 2 đúng dạng của to be: 'If I _______ you, I would choose an eco-friendly holiday.'",
+      "options": [
+        "were",
+        "am",
+        "was to be",
+        "will be"
+      ],
+      "correctAnswer": "were",
+      "explanation": "If loại 2 dùng 'were' cho mọi ngôi.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u10-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-007",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Một du khách có thái độ 'responsible' sẽ làm gì?",
+      "options": [
+        "Mang rác về phân loại và không phá hoại cây cối",
+        "Khắc tên kỷ niệm lên thân cây cổ thụ",
+        "Bật loa kẹo kéo hò hét trong hang động",
+        "Mua các loài chim rừng bị bắt trộm"
+      ],
+      "correctAnswer": "Mang rác về phân loại và không phá hoại cây cối",
+      "explanation": "Responsible traveler = du khách có trách nhiệm.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u10-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-008",
+      "unit_id": "g10-u10",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Building big luxury resorts can cause severe negative _______ on fragile coastal wildlife.'",
+      "options": [
+        "impact",
+        "emission",
+        "contestant",
+        "breadwinner"
+      ],
+      "correctAnswer": "impact",
+      "explanation": "Negative impact = tác động tiêu cực.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u10-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-009",
+      "unit_id": "g10-u10",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu điều kiện loại 1 chính xác:",
+      "options": [
+        "If we protect the coral reefs, marine life will flourish.",
+        "If we will protect the coral reefs, marine life flourishes.",
+        "If we protected the coral reefs, marine life will flourish.",
+        "If we protect the coral reefs, marine life would flourish."
+      ],
+      "correctAnswer": "If we protect the coral reefs, marine life will flourish.",
+      "explanation": "Công thức loại 1: If + V(present), will + V.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u10-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u10-question-010",
+      "unit_id": "g10-u10",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu châm ngôn của du lịch sinh thái:",
+      "options": [
+        "Take only pictures and leave only footprints when visiting nature.",
+        "Leave only footprints and take only pictures when visiting nature.",
+        "When visiting nature take only pictures and leave only footprints.",
+        "Pictures take only and footprints leave only when visiting nature."
+      ],
+      "correctAnswer": "Take only pictures and leave only footprints when visiting nature.",
+      "explanation": "Khẩu hiệu du lịch sinh thái nổi tiếng thế giới.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u10-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Take",
+        "only",
+        "pictures",
+        "and",
+        "leave",
+        "only",
+        "footprints",
+        "when",
+        "visiting",
+        "nature."
+      ]
+    }
+  ]
+}

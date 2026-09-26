@@ -1,14 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { ALL_KNOWLEDGE_ITEMS, DEMO_VOCABULARY } from '../data/demoLearningData';
 import { KnowledgeItem, Quest, KnowledgeMasteryState } from '../types/game';
+import { UnitContentService } from '../services/unitContentService';
 import { MasteryEngine } from '../services/masteryEngine';
 import { soundService } from '../services/sound';
+import { speechService } from '../services/speechService';
 import { BookOpen, Volume2, CheckCircle2, ChevronRight, X, Sparkles, Filter, Award, AlertCircle } from 'lucide-react';
 
 interface VocabularyModalProps {
   currentQuest: Quest | undefined;
   learnedVocabIds: string[];
   knowledgeMastery: Record<string, KnowledgeMasteryState>;
+  selectedUnitId?: string;
   onLearnVocab: (vocabId: string) => void;
   onAdvanceQuest: (questId: string) => void;
   onStartChallenge: () => void;
@@ -21,31 +24,43 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
   currentQuest,
   learnedVocabIds,
   knowledgeMastery,
+  selectedUnitId,
   onLearnVocab,
   onStartChallenge,
   onClose,
 }) => {
-  const [selectedItem, setSelectedItem] = useState<KnowledgeItem>(ALL_KNOWLEDGE_ITEMS[0]);
+  const knowledgeItems = useMemo(() => {
+    const items = selectedUnitId ? UnitContentService.getUnitKnowledgeItems(selectedUnitId) : ALL_KNOWLEDGE_ITEMS;
+    return items.length > 0 ? items : ALL_KNOWLEDGE_ITEMS;
+  }, [selectedUnitId]);
+
+  const vocabList = useMemo(() => {
+    return knowledgeItems.filter((i) => i.type === 'vocabulary');
+  }, [knowledgeItems]);
+
+  const [selectedItem, setSelectedItem] = useState<KnowledgeItem>(knowledgeItems[0]);
   const [activeTab, setActiveTab] = useState<FilterTab>('all');
 
-  const handleSpeak = (text: string) => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'en-US';
-      utterance.rate = 0.9;
-      window.speechSynthesis.speak(utterance);
-    } else {
-      soundService.playClick();
+  useEffect(() => {
+    if (knowledgeItems.length > 0) {
+      setSelectedItem(knowledgeItems[0]);
     }
+  }, [knowledgeItems]);
+
+  const handleSpeak = (text: string) => {
+    soundService.playClick();
+    speechService.speak(text, {
+      rate: 0.88,
+    });
   };
 
   // Tự động ghi nhận từ đầu tiên vào Quest 2 nếu chưa học
-  React.useEffect(() => {
-    if (DEMO_VOCABULARY[0] && !learnedVocabIds.includes(DEMO_VOCABULARY[0].id)) {
-      onLearnVocab(DEMO_VOCABULARY[0].id);
+  useEffect(() => {
+    const firstVocab = vocabList[0];
+    if (firstVocab && !learnedVocabIds.includes(firstVocab.id)) {
+      onLearnVocab(firstVocab.id);
     }
-  }, []);
+  }, [vocabList, learnedVocabIds]);
 
   const handleSelectItem = (item: KnowledgeItem) => {
     setSelectedItem(item);
@@ -56,7 +71,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
   };
 
   // Lọc danh sách theo tab
-  const filteredItems = ALL_KNOWLEDGE_ITEMS.filter((item) => {
+  const filteredItems = knowledgeItems.filter((item) => {
     const state = knowledgeMastery[item.id];
     const mastery = state ? state.mastery : 0;
     const tier = MasteryEngine.getMasteryTier(mastery);
@@ -69,23 +84,23 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
 
   // Đếm số lượng theo nhóm
   const counts = {
-    all: ALL_KNOWLEDGE_ITEMS.length,
-    needs_review: ALL_KNOWLEDGE_ITEMS.filter((i) => {
+    all: knowledgeItems.length,
+    needs_review: knowledgeItems.filter((i) => {
       const m = knowledgeMastery[i.id]?.mastery || 0;
       return MasteryEngine.getMasteryTier(m) === 'needs_review';
     }).length,
-    developing: ALL_KNOWLEDGE_ITEMS.filter((i) => {
+    developing: knowledgeItems.filter((i) => {
       const m = knowledgeMastery[i.id]?.mastery || 0;
       const t = MasteryEngine.getMasteryTier(m);
       return t === 'developing' || t === 'proficient';
     }).length,
-    mastered: ALL_KNOWLEDGE_ITEMS.filter((i) => {
+    mastered: knowledgeItems.filter((i) => {
       const m = knowledgeMastery[i.id]?.mastery || 0;
       return MasteryEngine.getMasteryTier(m) === 'mastered';
     }).length,
   };
 
-  const allInitialLearned = DEMO_VOCABULARY.slice(0, 6).every((v) => learnedVocabIds.includes(v.id));
+  const allInitialLearned = vocabList.slice(0, 6).every((v) => learnedVocabIds.includes(v.id));
   const isQuest3Completed = currentQuest ? currentQuest.step > 3 : false;
 
   const currentMasteryState = knowledgeMastery[selectedItem.id];
@@ -104,10 +119,10 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h2 className="text-base sm:text-lg font-black text-emerald-200 font-wuxia">
-                  BÍ ĐIỂN TRI THỨC — VÕ LÂM ANH NGỮ
+                  Bí Điển Tri Thức — Võ Lâm Anh Ngữ
                 </h2>
-                <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                  DEMO DATA
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                  {selectedUnitId ? selectedUnitId.toUpperCase() : 'Unit 1'}
                 </span>
               </div>
               <p className="text-[11px] sm:text-xs text-stone-400">
@@ -272,11 +287,11 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
               {/* Mastery Indicator Card */}
               <div className="p-3.5 rounded-xl bg-stone-950/80 border border-stone-800 space-y-2">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-stone-300 uppercase tracking-wider flex items-center gap-1.5">
+                  <span className="text-xs font-bold text-stone-300 flex items-center gap-1.5">
                     Mức Độ Thông Thạo (Mastery):
                   </span>
                   <span
-                    className={`px-2 py-0.5 rounded text-[11px] font-black uppercase tracking-wider ${
+                    className={`px-2 py-0.5 rounded text-[11px] font-bold ${
                       currentTier === 'mastered'
                         ? 'bg-yellow-950 text-yellow-300 border border-yellow-500'
                         : currentTier === 'proficient'
@@ -342,7 +357,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
 
               {/* Meaning VN */}
               <div>
-                <span className="text-[11px] font-bold text-stone-400 uppercase tracking-wider block mb-1">
+                <span className="text-[11px] font-bold text-stone-400 block mb-1">
                   Nghĩa Tiếng Việt:
                 </span>
                 <p className="text-sm sm:text-base font-bold text-emerald-300">
@@ -353,7 +368,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
               {/* Definition EN */}
               {selectedItem.definitionEn && (
                 <div>
-                  <span className="text-[11px] font-bold text-stone-400 uppercase tracking-wider block mb-1">
+                  <span className="text-[11px] font-bold text-stone-400 block mb-1">
                     Định Nghĩa Tiếng Anh:
                   </span>
                   <p className="text-xs sm:text-sm text-stone-300 italic">
@@ -365,7 +380,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
               {/* Example Sentence */}
               {selectedItem.exampleSentence && (
                 <div className="bg-stone-950/80 border border-stone-800 rounded-xl p-3 space-y-1">
-                  <span className="text-[11px] font-bold text-amber-400 uppercase tracking-wider block">
+                  <span className="text-[11px] font-bold text-amber-400 block">
                     Ví Dụ Ngữ Cảnh:
                   </span>
                   <p className="text-xs sm:text-sm font-semibold text-stone-100">

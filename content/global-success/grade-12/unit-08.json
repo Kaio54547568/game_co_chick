@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 8,
+    "unit_id": "g12-u08",
+    "title": "WILDLIFE CONSERVATION",
+    "topic": "Endangered Species, IUCN Red List, Anti-poaching and Nature Sanctuaries",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 100,
+    "book_page": 100,
+    "source_section": "Grade 12 Unit 8 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 100,
+        "book_page_end": 101,
+        "pdf_page_start": 100,
+        "pdf_page_end": 101,
+        "description": "Introduction dialogue for WILDLIFE CONSERVATION"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 102,
+        "book_page_end": 102,
+        "pdf_page_start": 102,
+        "pdf_page_end": 102,
+        "description": "Pronunciation (Assimilation in connected speech), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 103,
+        "book_page_end": 104,
+        "pdf_page_start": 103,
+        "pdf_page_end": 104,
+        "description": "Saving the Wild Tigers"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 104,
+        "book_page_end": 104,
+        "pdf_page_start": 104,
+        "pdf_page_end": 104,
+        "description": "Brainstorming a fundraising initiative for an endangered animal sanctuary"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 105,
+        "book_page_end": 105,
+        "pdf_page_start": 105,
+        "pdf_page_end": 105,
+        "description": "Listening to an interview with a wildlife ranger discussing anti-poaching camera traps"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 106,
+        "book_page_end": 107,
+        "pdf_page_start": 106,
+        "pdf_page_end": 107,
+        "description": "Writing a problem-solving action proposal outlining measures to stop illicit wildlife trafficking"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 108,
+        "book_page_end": 108,
+        "pdf_page_start": 108,
+        "pdf_page_end": 108,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 109,
+        "book_page_end": 109,
+        "pdf_page_start": 109,
+        "pdf_page_end": 109,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to endangered species, iucn red list, anti-poaching and nature sanctuaries",
+      "grammar": [
+        "Adverbial Clauses of Condition and Comparison"
+      ],
+      "pronunciation": "Assimilation in connected speech",
+      "reading": "Saving the Wild Tigers",
+      "speaking": "Brainstorming a fundraising initiative for an endangered animal sanctuary",
+      "listening": "Listening to an interview with a wildlife ranger discussing anti-poaching camera traps",
+      "writing": "Writing a problem-solving action proposal outlining measures to stop illicit wildlife trafficking"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u08-vocab-001",
+      "unit_id": "g12-u08",
+      "word": "endangered",
+      "word_type": "adjective",
+      "ipa": "/ɪnˈdeɪndʒəd/",
+      "meaning_vi": "bị đe dọa, có nguy cơ tuyệt chủng",
+      "definition_en": "seriously at risk of extinction in the wild",
+      "example_sentence": "The Indochinese tiger is one of the most endangered predators in the region.",
+      "example_translation": "Hổ Đông Dương là một trong những loài săn mồi nguy cấp nhất trong khu vực.",
+      "collocations": [
+        "critically endangered"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-vocab-002",
+      "unit_id": "g12-u08",
+      "word": "IUCN Red List",
+      "word_type": "noun phrase",
+      "ipa": "/ˌaɪ juː siː ˈen ˌred ˈlɪst/",
+      "meaning_vi": "Sách Đỏ IUCN",
+      "definition_en": "the world's most comprehensive inventory of the global conservation status of biological species",
+      "example_sentence": "Scientists consult the IUCN Red List to prioritize emergency animal rescue funding.",
+      "example_translation": "Các nhà khoa học tham khảo Sách Đỏ IUCN để ưu tiên ngân sách cứu trợ khẩn cấp động vật.",
+      "collocations": [
+        "listed on the IUCN Red List"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-vocab-003",
+      "unit_id": "g12-u08",
+      "word": "poaching",
+      "word_type": "noun",
+      "ipa": "/ˈpəʊtʃɪŋ/",
+      "meaning_vi": "nạn săn bắt trộm động vật hoang dã",
+      "definition_en": "the illegal hunting, capturing, or killing of wild animals",
+      "example_sentence": "Armed poachers kill elephants for their valuable ivory tusks.",
+      "example_translation": "Những kẻ săn trộm có vũ trang sát hại voi để lấy ngà quý giá.",
+      "collocations": [
+        "combat illegal poaching"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-vocab-004",
+      "unit_id": "g12-u08",
+      "word": "sanctuary",
+      "word_type": "noun",
+      "ipa": "/ˈsæŋktʃuəri/",
+      "meaning_vi": "khu bảo tồn động vật hoang dã",
+      "definition_en": "a place of safety where animals are protected from hunting and danger",
+      "example_sentence": "Rescued moon bears are rehabilitated inside a tranquil mountain sanctuary.",
+      "example_translation": "Những chú gấu ngựa được giải cứu được hồi phục trong một khu bảo tồn núi non yên tĩnh.",
+      "collocations": [
+        "wildlife sanctuary"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-vocab-005",
+      "unit_id": "g12-u08",
+      "word": "captivity",
+      "word_type": "noun",
+      "ipa": "/kæpˈtɪvəti/",
+      "meaning_vi": "tình trạng bị giam cầm, nuôi nhốt",
+      "definition_en": "the condition of being imprisoned or confined",
+      "example_sentence": "Breeding endangered animals in captivity helps prevent absolute extinction.",
+      "example_translation": "Nhân giống động vật có nguy cơ tuyệt chủng trong điều kiện nuôi nhốt giúp ngăn chặn sự tuyệt chủng hoàn toàn.",
+      "collocations": [
+        "breed in captivity"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-vocab-006",
+      "unit_id": "g12-u08",
+      "word": "thrive",
+      "word_type": "verb",
+      "ipa": "/θraɪv/",
+      "meaning_vi": "phát triển mạnh, sinh sôi tốt",
+      "definition_en": "to grow or develop vigorously; flourish",
+      "example_sentence": "When protected from human disturbance, native deer populations thrive.",
+      "example_translation": "Khi được bảo vệ khỏi sự quấy nhiễu của con người, các quần thể hươu bản địa sinh sôi rất tốt.",
+      "collocations": [
+        "thrive in natural habitat"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u08-grammar-001",
+      "unit_id": "g12-u08",
+      "title": "Adverbial Clauses of Condition and Comparison",
+      "structure_name": "Mệnh đề trạng ngữ chỉ điều kiện và so sánh",
+      "rule_summary": "Condition: unless (= if not), provided that, as long as (miễn là). Comparison: as... as (bằng), more/less + adj + than (hơn/kém).",
+      "formula": "unless + Clause | provided that + Clause | as + adj + as",
+      "example_sentences": [
+        {
+          "en": "Endangered species will vanish unless we take bold conservation steps.",
+          "vi": "Các loài có nguy cơ tuyệt chủng sẽ biến mất trừ khi chúng ta thực hiện các bước bảo tồn táo bạo."
+        },
+        {
+          "en": "Animals will survive as long as their habitats remain undisturbed.",
+          "vi": "Các loài động vật sẽ sinh tồn miễn là môi trường sống của chúng không bị xâm phạm."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Unless you don't stop poaching, tigers will die.",
+          "correction": "Unless you stop poaching, tigers will die.",
+          "explanation": "Trong mệnh đề 'Unless' không dùng thể phủ định."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u08-reading-001",
+    "unit_id": "g12-u08",
+    "topic": "Saving the Wild Tigers",
+    "main_idea": "Những thách thức sinh tồn của các quần thể hổ hoang dã tại Đông Nam Á trước bẫy dây thép và nạn buôn bán xương hổ phi pháp.",
+    "reading_skills": [
+      "Identifying conservation bottlenecks",
+      "Evaluating patrol measures"
+    ],
+    "keywords": [
+      "tiger sanctuary",
+      "anti-poaching patrols",
+      "IUCN status"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Mối đe dọa sinh tử lớn nhất đối với loài hổ hoang dã hiện nay là gì?",
+        "options": [
+          "Nạn đặt bẫy săn trộm để buôn lậu xương và da hổ",
+          "Hổ thiếu cỏ để ăn",
+          "Hổ không thích nghi được với rừng nhiệt đới",
+          "Mùa mưa kéo dài quá nhiều tuần"
+        ],
+        "correctAnswer": "Nạn đặt bẫy săn trộm để buôn lậu xương và da hổ",
+        "explanation": "Săn bắn trộm phi pháp là nguyên nhân trực tiếp đẩy loài hổ đến bờ vực tuyệt chủng."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 103,
+    "book_page": 103,
+    "source_section": "Grade 12 Unit 8 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an interview with a wildlife ranger discussing anti-poaching camera traps",
+      "activity_types": [
+        "Note-taking",
+        "Sentence completion"
+      ],
+      "audio_source_note": "Audio G12 Track 37",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 105,
+      "book_page": 105,
+      "source_section": "Grade 12 Unit 8 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Brainstorming a fundraising initiative for an endangered animal sanctuary",
+      "activity_types": [
+        "Team planning"
+      ],
+      "prompts": [
+        "How to engage high school students in wildlife protection?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 104,
+      "book_page": 104,
+      "source_section": "Grade 12 Unit 8 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a problem-solving action proposal outlining measures to stop illicit wildlife trafficking",
+      "task_type": "Action proposal",
+      "sample_outline": [
+        "Context and urgency",
+        "Strict law enforcement proposals",
+        "Public education",
+        "Expected milestones"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 106,
+      "book_page": 106,
+      "source_section": "Grade 12 Unit 8 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u08-question-001",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Danh mục quốc tế theo dõi tình trạng bảo tồn và mức độ nguy cấp của các loài sinh vật là:",
+      "options": [
+        "IUCN Red List",
+        "Billboard chart",
+        "Curriculum vitae",
+        "Apprenticeship"
+      ],
+      "correctAnswer": "IUCN Red List",
+      "explanation": "IUCN Red List = Sách Đỏ IUCN.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-002",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Hành vi săn bắn hoặc bẫy bắt động vật rừng trái phép gọi là:",
+      "options": [
+        "Poaching",
+        "Restoration",
+        "Preservation",
+        "Composting"
+      ],
+      "correctAnswer": "Poaching",
+      "explanation": "Poaching = nạn săn trộm.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-003",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Khu vực an toàn được thành lập để chăm sóc và bảo vệ động vật hoang dã gọi là:",
+      "options": [
+        "Sanctuary",
+        "Landfill",
+        "Slum",
+        "Citadel"
+      ],
+      "correctAnswer": "Sanctuary",
+      "explanation": "Sanctuary = khu bảo tồn, nơi trú ẩn an toàn.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-004",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn liên từ điều kiện đúng nghĩa: 'Rhinos will become extinct _______ governments stop horn trafficking.'",
+      "options": [
+        "unless",
+        "if",
+        "because",
+        "although"
+      ],
+      "correctAnswer": "unless",
+      "explanation": "Unless = nếu không / trừ khi (trừ khi chính phủ ngăn chặn buôn lậu sừng tê giác).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-005",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Điền từ chỉ điều kiện: 'Elephants can flourish _______ their natural migration corridors are kept safe.'",
+      "options": [
+        "as long as",
+        "unless",
+        "although",
+        "despite"
+      ],
+      "correctAnswer": "as long as",
+      "explanation": "As long as = miễn là.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-006",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Tình trạng động vật bị nhốt trong lồng hoặc sở thú gọi là:",
+      "options": [
+        "Captivity",
+        "Solidarity",
+        "Biodiversity",
+        "Sanitation"
+      ],
+      "correctAnswer": "Captivity",
+      "explanation": "In captivity = trong tình trạng bị giam cầm / nuôi nhốt.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-007",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Động từ 'thrive' đồng nghĩa với từ nào sau đây?",
+      "options": [
+        "Flourish",
+        "Decline",
+        "Die out",
+        "Suffer"
+      ],
+      "correctAnswer": "Flourish",
+      "explanation": "Thrive = phát triển thịnh vượng, sinh sôi mạnh mẽ (flourish).",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-008",
+      "unit_id": "g12-u08",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'The Asian elephant is classified as an _______ species under international law.'",
+      "options": [
+        "endangered",
+        "affordable",
+        "portable",
+        "excessive"
+      ],
+      "correctAnswer": "endangered",
+      "explanation": "Endangered species = loài nguy cấp.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u08-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-009",
+      "unit_id": "g12-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu điều kiện dùng 'provided that' chính xác:",
+      "options": [
+        "Rare species will recover provided that illegal poaching is halted.",
+        "Rare species will recover unless illegal poaching is halted.",
+        "Rare species recovers provided that illegal poaching will be halted.",
+        "Rare species would recover provided that illegal poaching is halt."
+      ],
+      "correctAnswer": "Rare species will recover provided that illegal poaching is halted.",
+      "explanation": "S + will recover + provided that + S + V(present).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u08-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u08-question-010",
+      "unit_id": "g12-u08",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu kêu gọi bảo vệ loài thú quý hiếm:",
+      "options": [
+        "Strict law enforcement must be implemented to eliminate illegal wildlife poaching.",
+        "To eliminate illegal wildlife poaching strict law enforcement must be implemented.",
+        "Illegal wildlife poaching to eliminate must be implemented strict law enforcement.",
+        "Must be implemented to eliminate illegal wildlife poaching strict law enforcement."
+      ],
+      "correctAnswer": "Strict law enforcement must be implemented to eliminate illegal wildlife poaching.",
+      "explanation": "S + must be implemented + to V.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u08-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 12 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Strict",
+        "law",
+        "enforcement",
+        "must",
+        "be",
+        "implemented",
+        "to",
+        "eliminate",
+        "illegal",
+        "wildlife",
+        "poaching."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 6,
+    "unit_id": "g11-u06",
+    "title": "PRESERVING OUR HERITAGE",
+    "topic": "Tangible, Intangible and Natural Cultural Heritage Preservation",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 64,
+    "book_page": 64,
+    "source_section": "Grade 11 Unit 6 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 64,
+        "book_page_end": 65,
+        "pdf_page_start": 64,
+        "pdf_page_end": 65,
+        "description": "Introduction dialogue for PRESERVING OUR HERITAGE"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 66,
+        "book_page_end": 66,
+        "pdf_page_start": 66,
+        "pdf_page_end": 66,
+        "description": "Pronunciation (Intonation in statements, commands, and lists), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 67,
+        "book_page_end": 68,
+        "pdf_page_start": 67,
+        "pdf_page_end": 68,
+        "description": "Youth Ideas for Heritage"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 68,
+        "book_page_end": 68,
+        "pdf_page_start": 68,
+        "pdf_page_end": 68,
+        "description": "Discussing proactive youth initiatives to safeguard local historical sites"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 69,
+        "book_page_end": 69,
+        "pdf_page_start": 69,
+        "pdf_page_end": 69,
+        "description": "Listening to a tour guide's talk about the Trang An Landscape Complex"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 70,
+        "book_page_end": 71,
+        "pdf_page_start": 70,
+        "pdf_page_end": 71,
+        "description": "Writing an informational leaflet introducing the scenic and cultural values of Trang An"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 72,
+        "book_page_end": 72,
+        "pdf_page_start": 72,
+        "pdf_page_end": 72,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 73,
+        "book_page_end": 73,
+        "pdf_page_start": 73,
+        "pdf_page_end": 73,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to tangible, intangible and natural cultural heritage preservation",
+      "grammar": [
+        "To-infinitive Clauses (Reduced Relative Clauses)"
+      ],
+      "pronunciation": "Intonation in statements, commands, and lists",
+      "reading": "Youth Ideas for Heritage",
+      "speaking": "Discussing proactive youth initiatives to safeguard local historical sites",
+      "listening": "Listening to a tour guide's talk about the Trang An Landscape Complex",
+      "writing": "Writing an informational leaflet introducing the scenic and cultural values of Trang An"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u06-vocab-001",
+      "unit_id": "g11-u06",
+      "word": "heritage",
+      "word_type": "noun",
+      "ipa": "/ˈherɪtɪdʒ/",
+      "meaning_vi": "di sản văn hóa hoặc tự nhiên",
+      "definition_en": "features belonging to the culture of a society, such as traditions and monuments",
+      "example_sentence": "Preserving cultural heritage is essential for national identity.",
+      "example_translation": "Bảo tồn di sản văn hóa là điều cốt lõi cho bản sắc dân tộc.",
+      "collocations": [
+        "cultural heritage",
+        "world heritage"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-vocab-002",
+      "unit_id": "g11-u06",
+      "word": "monument",
+      "word_type": "noun",
+      "ipa": "/ˈmɒnjumənt/",
+      "meaning_vi": "đài tưởng niệm, di tích lịch sử",
+      "definition_en": "a statue, building, or other structure built to remember a notable person or event",
+      "example_sentence": "The ancient monument attracts scholars and tourists from across the globe.",
+      "example_translation": "Khu di tích cổ kính thu hút các học giả và du khách từ khắp nơi trên thế giới.",
+      "collocations": [
+        "historic monument"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-vocab-003",
+      "unit_id": "g11-u06",
+      "word": "tangible",
+      "word_type": "adjective",
+      "ipa": "/ˈtændʒəbl/",
+      "meaning_vi": "hữu thể, hữu hình (sờ thấy được)",
+      "definition_en": "perceptible by touch; clear and definite",
+      "example_sentence": "Ancient temples and citadels represent tangible cultural heritage.",
+      "example_translation": "Đền đài và thành quách cổ đại đại diện cho di sản văn hóa hữu hình.",
+      "collocations": [
+        "tangible heritage"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-vocab-004",
+      "unit_id": "g11-u06",
+      "word": "intangible",
+      "word_type": "adjective",
+      "ipa": "/ɪnˈtændʒəbl/",
+      "meaning_vi": "phi vật thể, vô hình",
+      "definition_en": "not having physical presence, such as folklore and traditional music",
+      "example_sentence": "Folk singing and culinary arts are precious forms of intangible heritage.",
+      "example_translation": "Dân ca và nghệ thuật ẩm thực là những dạng di sản phi vật thể quý giá.",
+      "collocations": [
+        "intangible cultural heritage"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-vocab-005",
+      "unit_id": "g11-u06",
+      "word": "preservation",
+      "word_type": "noun",
+      "ipa": "/ˌprezəˈveɪʃn/",
+      "meaning_vi": "sự gìn giữ, bảo tồn",
+      "definition_en": "the act of keeping something in its original state or good condition",
+      "example_sentence": "Experts specialize in the scientific preservation of historic manuscripts.",
+      "example_translation": "Các chuyên gia chuyên tâm vào công tác bảo tồn khoa học các bản thảo lịch sử.",
+      "collocations": [
+        "heritage preservation"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-vocab-006",
+      "unit_id": "g11-u06",
+      "word": "citadel",
+      "word_type": "noun",
+      "ipa": "/ˈsɪtədəl/",
+      "meaning_vi": "thành trì, hoàng thành",
+      "definition_en": "a fortress protecting or dominating a city",
+      "example_sentence": "The Imperial Citadel of Thang Long is a renowned UNESCO World Heritage site.",
+      "example_translation": "Hoàng thành Thăng Long là di sản thế giới UNESCO nổi tiếng.",
+      "collocations": [
+        "ancient citadel"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u06-grammar-001",
+      "unit_id": "g11-u06",
+      "title": "To-infinitive Clauses (Reduced Relative Clauses)",
+      "structure_name": "Mệnh đề to-infinitive rút gọn mệnh đề quan hệ",
+      "rule_summary": "Dùng to-infinitive để rút gọn mệnh đề quan hệ sau the first, the second, the only, the last, hoặc các cấu trúc so sánh hơn nhất.",
+      "formula": "the first / the last / the only + N + to-V (chủ động) / to be V3 (bị động)",
+      "example_sentences": [
+        {
+          "en": "Ha Long Bay was the first site in Viet Nam to be recognized by UNESCO.",
+          "vi": "Vịnh Hạ Long là địa danh đầu tiên ở Việt Nam được UNESCO công nhận."
+        },
+        {
+          "en": "He was the only student to propose an innovative heritage app.",
+          "vi": "Cậu ấy là học sinh duy nhất đề xuất một ứng dụng di sản sáng tạo."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "He was the first person who arriving there.",
+          "correction": "He was the first person to arrive there.",
+          "explanation": "Sau 'the first person' dùng 'to arrive'."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u06-reading-001",
+    "unit_id": "g11-u06",
+    "topic": "Youth Ideas for Heritage",
+    "main_idea": "Cuộc thi sáng kiến thanh niên áp dụng thực tế ảo (VR) và mạng xã hội để quảng bá di tích lịch sử.",
+    "reading_skills": [
+      "Main proposals",
+      "Detail retrieval"
+    ],
+    "keywords": [
+      "heritage app",
+      "virtual reality",
+      "youth ideas"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Giải pháp sáng tạo nào được thanh niên đề xuất để quảng bá di tích?",
+        "options": [
+          "Ứng dụng công nghệ thực tế ảo và tour số hóa",
+          "Đóng cửa tất cả các di tích để tránh hư hại",
+          "Bán đấu giá cổ vật quý",
+          "Thay thế di tích bằng các tòa nhà hiện đại"
+        ],
+        "correctAnswer": "Ứng dụng công nghệ thực tế ảo và tour số hóa",
+        "explanation": "Công nghệ số hóa giúp giới trẻ dễ tiếp cận và trân trọng di sản hơn."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 67,
+    "book_page": 67,
+    "source_section": "Grade 11 Unit 6 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a tour guide's talk about the Trang An Landscape Complex",
+      "activity_types": [
+        "Ordering events",
+        "Gap-fill"
+      ],
+      "audio_source_note": "Audio G11 Track 28",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 69,
+      "book_page": 69,
+      "source_section": "Grade 11 Unit 6 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Discussing proactive youth initiatives to safeguard local historical sites",
+      "activity_types": [
+        "Pair discussion"
+      ],
+      "prompts": [
+        "How can young people help restore ancient pagodas?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 68,
+      "book_page": 68,
+      "source_section": "Grade 11 Unit 6 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an informational leaflet introducing the scenic and cultural values of Trang An",
+      "task_type": "Information leaflet",
+      "sample_outline": [
+        "Site introduction",
+        "Cultural importance",
+        "Visitor guidelines"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 70,
+      "book_page": 70,
+      "source_section": "Grade 11 Unit 6 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u06-question-001",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Di sản văn hóa bao gồm đền đài, thành quách sờ nắm được thuộc loại:",
+      "options": [
+        "Tangible heritage",
+        "Intangible heritage",
+        "Greenhouse gas",
+        "Antibiotic"
+      ],
+      "correctAnswer": "Tangible heritage",
+      "explanation": "Tangible heritage = di sản hữu hình / vật thể.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u06-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-002",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Ca trù, quan họ và nhã nhạc cung đình Huế thuộc nhóm di sản nào?",
+      "options": [
+        "Intangible cultural heritage",
+        "Tangible heritage",
+        "Hardware component",
+        "Urban appliance"
+      ],
+      "correctAnswer": "Intangible cultural heritage",
+      "explanation": "Intangible heritage = di sản văn hóa phi vật thể.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u06-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-003",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Công trình phòng thủ kiên cố bảo vệ kinh đô thời xưa gọi là:",
+      "options": [
+        "Citadel",
+        "Pedestrian zone",
+        "Curfew",
+        "Sensor"
+      ],
+      "correctAnswer": "Citadel",
+      "explanation": "Citadel = hoàng thành, thành trì.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u06-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-004",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Rút gọn mệnh đề: 'Yuri Gagarin was the first human who flew into space.'",
+      "options": [
+        "Yuri Gagarin was the first human to fly into space.",
+        "Yuri Gagarin was the first human flying into space.",
+        "Yuri Gagarin was the first human fly into space.",
+        "Yuri Gagarin was the first human to flying into space."
+      ],
+      "correctAnswer": "Yuri Gagarin was the first human to fly into space.",
+      "explanation": "Sau 'the first + N' rút gọn bằng to-infinitive (to fly).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u06-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-005",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Rút gọn bị động: 'Trang An was the second destination in the country that was recognized as mixed heritage.'",
+      "options": [
+        "Trang An was the second destination in the country to be recognized as mixed heritage.",
+        "Trang An was the second destination in the country recognizing as mixed heritage.",
+        "Trang An was the second destination in the country to recognize as mixed heritage.",
+        "Trang An was the second destination in the country recognized to be as mixed heritage."
+      ],
+      "correctAnswer": "Trang An was the second destination in the country to be recognized as mixed heritage.",
+      "explanation": "Bị động sau the second: to be + V3/ed.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u06-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-006",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Từ 'monument' trong bảo tồn lịch sử có nghĩa là:",
+      "options": [
+        "Di tích, đài tưởng niệm lịch sử",
+        "Thiết bị điện tử cầm tay",
+        "Khoảng cách tuổi tác",
+        "Loài động vật quý hiếm"
+      ],
+      "correctAnswer": "Di tích, đài tưởng niệm lịch sử",
+      "explanation": "Monument = công trình tưởng niệm, di tích.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u06-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-007",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Sự bảo tồn và gìn giữ nguyên trạng di sản gọi là:",
+      "options": [
+        "Preservation",
+        "Deforestation",
+        "Discrimination",
+        "Emission"
+      ],
+      "correctAnswer": "Preservation",
+      "explanation": "Preservation = sự bảo tồn.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u06-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-008",
+      "unit_id": "g11-u06",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Young people must join hands in the _______ of traditional folk customs.'",
+      "options": [
+        "preservation",
+        "curfew",
+        "appliance",
+        "emission"
+      ],
+      "correctAnswer": "preservation",
+      "explanation": "Heritage preservation = bảo tồn di sản.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u06-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-009",
+      "unit_id": "g11-u06",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu rút gọn mệnh đề quan hệ chính xác:",
+      "options": [
+        "She was the last candidate to submit the heritage essay.",
+        "She was the last candidate submitting the heritage essay.",
+        "She was the last candidate submit the heritage essay.",
+        "She was the last candidate to submitted the heritage essay."
+      ],
+      "correctAnswer": "She was the last candidate to submit the heritage essay.",
+      "explanation": "Sau 'the last candidate' dùng to-infinitive.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u06-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u06-question-010",
+      "unit_id": "g11-u06",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu kêu gọi bảo vệ di sản dân tộc:",
+      "options": [
+        "Preserving our cultural heritage is the shared responsibility of all generations.",
+        "Of all generations cultural heritage preserving our is the shared responsibility.",
+        "The shared responsibility of all generations is preserving our cultural heritage.",
+        "Our cultural heritage preserving is the shared responsibility of all generations."
+      ],
+      "correctAnswer": "Preserving our cultural heritage is the shared responsibility of all generations.",
+      "explanation": "V-ing (Preserving...) + is + complement.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u06-vocab-001",
+        "g11-u06-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 11 Unit 6 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Preserving",
+        "our",
+        "cultural",
+        "heritage",
+        "is",
+        "the",
+        "shared",
+        "responsibility",
+        "of",
+        "all",
+        "generations."
+      ]
+    }
+  ]
+}

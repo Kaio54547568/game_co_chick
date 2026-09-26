@@ -3,21 +3,37 @@ import {
   PlayerProfile,
   CombatEnemy,
   CombatQuestion,
+  CombatMode,
+  DialogueTacticalChoice,
+  ComboStepItem,
 } from '../types/game';
-import {
-  MOB_SWORD_DISCIPLE_QUESTIONS,
-  MOB_MIST_DEMON_QUESTIONS,
-  BOSS_PHASE_1_QUESTIONS,
-  BOSS_PHASE_2_QUESTIONS,
-} from '../data/demoLearningData';
+import { UnitContentService } from '../services/unitContentService';
 import { soundService } from '../services/sound';
-import { CombatEngine, CombatTurnResult } from '../services/combatEngine';
+import { speechService } from '../services/speechService';
+import { CombatEngine, CombatTurnResult, CombatTurnModifiers } from '../services/combatEngine';
 import { MasteryEngine } from '../services/masteryEngine';
-import { Timer, Zap, Flame, Shield, X, RotateCcw, Award } from 'lucide-react';
+import {
+  Timer,
+  Zap,
+  Flame,
+  Shield,
+  X,
+  RotateCcw,
+  Award,
+  Volume2,
+  Eye,
+  HelpCircle,
+  Lightbulb,
+  CheckCircle2,
+  AlertTriangle,
+  Sparkles,
+} from 'lucide-react';
 
 interface CombatOverlayProps {
   profile: PlayerProfile;
-  enemyType: 'sword_disciple' | 'mist_demon' | 'boss_disorder';
+  enemyType: 'sword_disciple' | 'mist_demon' | 'boss_disorder' | string;
+  combatEnemy?: CombatEnemy | null;
+  encounterId?: string;
   onCombatVictory: (enemy: CombatEnemy, isBossPhase2Defeated: boolean, remainingPlayerHp: number) => void;
   onPlayerTakeDamage: (damage: number) => void;
   onSyncHp: (hp: number) => void;
@@ -28,85 +44,87 @@ interface CombatOverlayProps {
 export const CombatOverlay: React.FC<CombatOverlayProps> = ({
   profile,
   enemyType,
+  combatEnemy,
+  encounterId,
   onCombatVictory,
   onPlayerTakeDamage,
   onSyncHp,
   onAnswerKnowledge,
   onClose,
 }) => {
-  // Xác định cấu hình kẻ địch ban đầu
-  const isBoss = enemyType === 'boss_disorder';
+  const isBoss = combatEnemy
+    ? Boolean(combatEnemy.isBoss)
+    : enemyType === 'boss_disorder' || enemyType.startsWith('boss');
+  const activeUnitId = profile.selectedUnitId || 'g10-u01';
+
+  // Load enemies customized for this active unit
+  const unitEnemies = useRef(UnitContentService.getUnitEnemies(activeUnitId)).current;
 
   const [bossPhase, setBossPhase] = useState<number>(1);
   const [isPhaseTransitioning, setIsPhaseTransitioning] = useState<boolean>(false);
 
   const initialEnemy = useRef<CombatEnemy>(
-    isBoss
-      ? {
-          id: 'boss_disorder',
-          name: 'Loạn Ngữ Kiếm Ma',
-          title: 'Ma Đầu Trấn Giữ Cấm Địa',
-          spriteKey: '/assets/game/characters/bosses/loan_ngu_kiem_ma.png',
-          hp: 280,
-          maxHp: 280,
-          attack: 28,
-          defense: 10,
-          xpReward: 350,
-          isBoss: true,
-          bossPhase: 1,
-        }
-      : enemyType === 'sword_disciple'
-      ? {
-          id: 'sword_disciple',
-          name: 'Ma Giáo Kiếm Đồ',
-          title: 'Đệ tử tiền trạm',
-          spriteKey: '/assets/game/characters/enemies/sword_disciple.png',
-          hp: 120,
-          maxHp: 120,
-          attack: 16,
-          defense: 6,
-          xpReward: 80,
-        }
-      : {
-          id: 'mist_demon',
-          name: 'Hắc Khí Yêu Ma',
-          title: 'Yêu vật tà phái',
-          spriteKey: '/assets/game/characters/enemies/mist_demon.png',
-          hp: 160,
-          maxHp: 160,
-          attack: 22,
-          defense: 8,
-          xpReward: 120,
-        }
+    combatEnemy ||
+      (isBoss
+        ? unitEnemies.boss
+        : unitEnemies.allMobs?.find((m) => m.id === enemyType) ||
+          (enemyType === 'mist_demon' ? unitEnemies.mob2 : unitEnemies.mob1))
   ).current;
 
   const [enemyHp, setEnemyHp] = useState<number>(initialEnemy.hp);
   const [enemyMaxHp, setEnemyMaxHp] = useState<number>(initialEnemy.maxHp);
   const [playerHp, setPlayerHp] = useState<number>(profile.stats.hp);
 
-  // Danh sách câu hỏi thích ứng theo đối thủ và điểm yếu của người chơi
+  // Question pool from active unit
+  const allUnitQuestions = useRef(UnitContentService.getUnitCombatQuestions(activeUnitId)).current;
   const questionPool = useRef<CombatQuestion[]>(
     MasteryEngine.selectAdaptiveQuestions(
-      isBoss
-        ? BOSS_PHASE_1_QUESTIONS
-        : enemyType === 'sword_disciple'
-        ? MOB_SWORD_DISCIPLE_QUESTIONS
-        : MOB_MIST_DEMON_QUESTIONS,
+      allUnitQuestions,
       profile.knowledgeMastery || {},
       10
     )
   );
 
   const [questionIdx, setQuestionIdx] = useState<number>(0);
-  const currentQuestion = questionPool.current[questionIdx % questionPool.current.length];
+  const currentQuestion: CombatQuestion =
+    questionPool.current[questionIdx % questionPool.current.length] || allUnitQuestions[0];
+
+  const currentMode: CombatMode = currentQuestion.combatMode || 'standard';
 
   // Combat State
-  const [timeLeft, setTimeLeft] = useState<number>(currentQuestion.timeLimit);
+  const [timeLeft, setTimeLeft] = useState<number>(currentQuestion.timeLimit || 15);
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [turnResult, setTurnResult] = useState<CombatTurnResult | null>(null);
   const [combo, setCombo] = useState<number>(0);
+
+  // Mode 1: Phá Phong Ấn (Unseal) Word Tiles State
+  const [availableWords, setAvailableWords] = useState<string[]>([]);
+  const [orderedWords, setOrderedWords] = useState<string[]>([]);
+
+  // Mode 2: Đoạt Lại Vong Từ (Hint State)
+  const [isHintUsed, setIsHintUsed] = useState<boolean>(false);
+  const [showHintText, setShowHintText] = useState<boolean>(false);
+
+  // Mode 3: Mê Âm Truy Kích (Listening State)
+  const [replaysLeft, setReplaysLeft] = useState<number>(currentQuestion.maxReplays || 3);
+  const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
+  const [showTranscript, setShowTranscript] = useState<boolean>(false);
+
+  // Mode 4: Thiên Diện Phá Ảo (Evidence Anchor State)
+  const [selectedEvidenceIndex, setSelectedEvidenceIndex] = useState<number | null>(null);
+  const [deceptionError, setDeceptionError] = useState<string | null>(null);
+
+  // Mode 5: Hộ Tống Hội Thoại (Tactical Dialogue State)
+  const [tacticalBuffNotice, setTacticalBuffNotice] = useState<string | null>(null);
+  const [damageMultiplier, setDamageMultiplier] = useState<number>(1.0);
+  const [enemyAttackMultiplier, setEnemyAttackMultiplier] = useState<number>(1.0);
+
+  // Mode 6: Liên Hoàn Tam Chiêu (3-Phase Combo State)
+  const [comboStepIndex, setComboStepIndex] = useState<number>(0);
+  const [comboStepOrderedWords, setComboStepOrderedWords] = useState<string[]>([]);
+  const [comboStepAvailWords, setComboStepAvailWords] = useState<string[]>([]);
 
   // Visual Effects
   const [vfxSpark, setVfxSpark] = useState<'critical' | 'hit' | null>(null);
@@ -118,9 +136,93 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
   // Game End State
   const [combatOutcome, setCombatOutcome] = useState<'victory' | 'defeat' | null>(null);
 
-  // Timer Countdown
+  // Setup per-question mode state whenever currentQuestion changes
   useEffect(() => {
-    if (isAnswered || combatOutcome || isPhaseTransitioning) return;
+    setIsAnswered(false);
+    setSelectedOption(null);
+    setTurnResult(null);
+    setDeceptionError(null);
+    setTacticalBuffNotice(null);
+    setIsHintUsed(false);
+    setShowHintText(false);
+    setShowTranscript(false);
+    setSelectedEvidenceIndex(null);
+    setComboStepIndex(0);
+
+    const initialTime = bossPhase === 2 ? 8 : currentQuestion.timeLimit || 15;
+    setTimeLeft(initialTime);
+    setStartTime(Date.now());
+
+    // Word order setup for Mode 1
+    if (currentMode === 'unseal' && currentQuestion.wordsToOrder) {
+      setAvailableWords([...currentQuestion.wordsToOrder].sort(() => Math.random() - 0.5));
+      setOrderedWords([]);
+    }
+
+    // Stop any previous speech synthesis
+    speechService.stop();
+    setIsAudioPlaying(false);
+
+    // Audio setup for Mode 3
+    if (currentMode === 'listening_pursuit') {
+      setReplaysLeft(currentQuestion.maxReplays || 3);
+      // Auto-play initial listening clip (courtesy play, doesn't deduct replay)
+      if (currentQuestion.listeningScript) {
+        setTimeout(() => {
+          handlePlayAudio(currentQuestion.listeningScript!, false);
+        }, 500);
+      }
+    }
+
+    // Combo steps setup for Mode 6
+    if (currentMode === 'triple_combo' && currentQuestion.comboSteps?.[0]) {
+      setComboStepIndex(0);
+      setReplaysLeft(3);
+      const s1 = currentQuestion.comboSteps[0];
+      if (s1.wordsToOrder) {
+        setComboStepAvailWords([...s1.wordsToOrder].sort(() => Math.random() - 0.5));
+        setComboStepOrderedWords([]);
+      }
+      if (s1.stepType === 'listen' && s1.listeningScript) {
+        setTimeout(() => {
+          handlePlayAudio(s1.listeningScript!, false);
+        }, 500);
+      }
+    }
+  }, [questionIdx, bossPhase]);
+
+  // Cleanup speech synthesis on component unmount
+  useEffect(() => {
+    return () => {
+      speechService.stop();
+    };
+  }, []);
+
+  // Audio Playback handler (Web Speech API via speechService)
+  const handlePlayAudio = (text: string, isReplay: boolean = true) => {
+    if (isAudioPlaying) return;
+    if (isReplay && replaysLeft <= 0) return;
+    if (isReplay) {
+      setReplaysLeft((prev) => Math.max(0, prev - 1));
+    }
+    setIsAudioPlaying(true);
+
+    speechService.speak(text, {
+      onStart: () => {
+        setIsAudioPlaying(true);
+      },
+      onEnd: () => {
+        setIsAudioPlaying(false);
+      },
+      onError: () => {
+        setIsAudioPlaying(false);
+      },
+    });
+  };
+
+  // Timer Countdown: PAUSES while audio is playing (Crucial requirement!)
+  useEffect(() => {
+    if (isAnswered || combatOutcome || isPhaseTransitioning || isAudioPlaying) return;
 
     if (timeLeft <= 0) {
       handleTimeout();
@@ -132,28 +234,226 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft, isAnswered, combatOutcome, isPhaseTransitioning]);
+  }, [timeLeft, isAnswered, combatOutcome, isPhaseTransitioning, isAudioPlaying]);
 
   const handleTimeout = () => {
     processAnswerResult(false, currentQuestion.timeLimit, null);
   };
 
+  // --- MODE 1: Phá Phong Ấn (Unseal) Handlers ---
+  const handleAddWordToOrder = (word: string, index: number) => {
+    soundService.playClick();
+    const newAvail = [...availableWords];
+    newAvail.splice(index, 1);
+    setAvailableWords(newAvail);
+    setOrderedWords((prev) => [...prev, word]);
+  };
+
+  const handleRemoveWordFromOrder = (word: string, index: number) => {
+    soundService.playClick();
+    const newOrdered = [...orderedWords];
+    newOrdered.splice(index, 1);
+    setOrderedWords(newOrdered);
+    setAvailableWords((prev) => [...prev, word]);
+  };
+
+  const handleResetWords = () => {
+    soundService.playClick();
+    if (currentQuestion.wordsToOrder) {
+      setAvailableWords([...currentQuestion.wordsToOrder]);
+      setOrderedWords([]);
+    }
+  };
+
+  const handleUndoWord = () => {
+    if (orderedWords.length === 0) return;
+    soundService.playClick();
+    const lastWord = orderedWords[orderedWords.length - 1];
+    setOrderedWords((prev) => prev.slice(0, -1));
+    setAvailableWords((prev) => [...prev, lastWord]);
+  };
+
+  const handleSubmitUnseal = () => {
+    if (orderedWords.length === 0 || isAnswered) return;
+    const responseTimeSec = Math.max(0.5, (Date.now() - startTime) / 1000);
+    const formedSentence = orderedWords.join(' ');
+
+    const cleanFormed = formedSentence.replace(/[.,!?]/g, '').trim().toLowerCase();
+    const cleanTarget = currentQuestion.correctAnswer.replace(/[.,!?]/g, '').trim().toLowerCase();
+    const isCorrect = cleanFormed === cleanTarget;
+
+    setSelectedOption(formedSentence);
+    processAnswerResult(isCorrect, responseTimeSec, formedSentence);
+  };
+
+  // --- MODE 4: Thiên Diện Phá Ảo (Evidence Anchor) Submit ---
+  const handleSubmitDeception = () => {
+    if (!selectedOption || selectedEvidenceIndex === null || isAnswered) return;
+    const responseTimeSec = Math.max(0.5, (Date.now() - startTime) / 1000);
+
+    const isOptCorrect = selectedOption === currentQuestion.correctAnswer;
+    const isEvCorrect = selectedEvidenceIndex === currentQuestion.evidenceSentenceIndex;
+    const isBothCorrect = isOptCorrect && isEvCorrect;
+
+    if (!isBothCorrect) {
+      if (!isOptCorrect) {
+        setDeceptionError('Đáp án chưa chuẩn xác, bị ảo ảnh mê hoặc!');
+      } else {
+        setDeceptionError(
+          currentQuestion.trapExplanation ||
+            'Đáp án đúng nhưng chọn sai câu dẫn chứng! Khiên ảo ảnh chưa phá vỡ!'
+        );
+      }
+    }
+
+    processAnswerResult(isBothCorrect, responseTimeSec, selectedOption);
+  };
+
+  // --- MODE 5: Hộ Tống Hội Thoại Handler ---
+  const handleSelectTacticalChoice = (choice: DialogueTacticalChoice) => {
+    if (isAnswered || combatOutcome || isPhaseTransitioning) return;
+    const responseTimeSec = Math.max(0.5, (Date.now() - startTime) / 1000);
+
+    setSelectedOption(choice.text);
+    setTacticalBuffNotice(choice.buffDescription);
+
+    let dMult = 1.0;
+    let eMult = 1.0;
+
+    if (choice.buffEffect === 'shield') {
+      const newHp = Math.min(profile.stats.maxHp, playerHp + choice.buffValue);
+      setPlayerHp(newHp);
+      onSyncHp(newHp);
+    } else if (choice.buffEffect === 'atk_boost') {
+      dMult = 1.5;
+      setDamageMultiplier(1.5);
+    } else if (choice.buffEffect === 'weaken') {
+      eMult = 0.8;
+      setEnemyAttackMultiplier(0.8);
+    }
+
+    const isCorrect = choice.isOptimal !== false;
+    processAnswerResult(isCorrect, responseTimeSec, choice.text, {
+      damageMultiplier: dMult,
+      enemyAttackMultiplier: eMult,
+    });
+  };
+
+  // --- MODE 6: Liên Hoàn Tam Chiêu Handler ---
+  const handleComboStepSelectOption = (opt: string) => {
+    if (isAnswered || !currentQuestion.comboSteps) return;
+    const steps = currentQuestion.comboSteps;
+    const activeStep = steps[comboStepIndex];
+
+    const isCorrect = opt === activeStep.correctAnswer;
+    if (isCorrect) {
+      soundService.playHit();
+      if (comboStepIndex + 1 < steps.length) {
+        speechService.stop();
+        setIsAudioPlaying(false);
+        setShowTranscript(false);
+        setComboStepIndex((prev) => prev + 1);
+        const nextStep = steps[comboStepIndex + 1];
+        if (nextStep.wordsToOrder) {
+          setComboStepAvailWords([...nextStep.wordsToOrder].sort(() => Math.random() - 0.5));
+          setComboStepOrderedWords([]);
+        }
+        if (nextStep.stepType === 'listen' && nextStep.listeningScript) {
+          setReplaysLeft(3);
+          setTimeout(() => {
+            handlePlayAudio(nextStep.listeningScript!, false);
+          }, 400);
+        }
+      } else {
+        // Hoàn thành cả 3 chiêu!
+        speechService.stop();
+        setIsAudioPlaying(false);
+        const responseTimeSec = Math.max(0.5, (Date.now() - startTime) / 1000);
+        processAnswerResult(true, responseTimeSec, 'Tam Chiêu Hoàn Hảo');
+      }
+    } else {
+      soundService.playError();
+      const responseTimeSec = Math.max(0.5, (Date.now() - startTime) / 1000);
+      processAnswerResult(false, responseTimeSec, opt);
+    }
+  };
+
+  const handleAddComboWord = (word: string, index: number) => {
+    soundService.playClick();
+    const newAvail = [...comboStepAvailWords];
+    newAvail.splice(index, 1);
+    setComboStepAvailWords(newAvail);
+    setComboStepOrderedWords((prev) => [...prev, word]);
+  };
+
+  const handleRemoveComboWord = (word: string, index: number) => {
+    soundService.playClick();
+    const newOrdered = [...comboStepOrderedWords];
+    newOrdered.splice(index, 1);
+    setComboStepOrderedWords(newOrdered);
+    setComboStepAvailWords((prev) => [...prev, word]);
+  };
+
+  const handleResetComboWords = () => {
+    soundService.playClick();
+    const activeStep = currentQuestion.comboSteps?.[comboStepIndex];
+    if (activeStep?.wordsToOrder) {
+      setComboStepAvailWords([...activeStep.wordsToOrder]);
+      setComboStepOrderedWords([]);
+    }
+  };
+
+  const handleSubmitComboWords = () => {
+    if (comboStepOrderedWords.length === 0 || isAnswered || !currentQuestion.comboSteps) return;
+    const activeStep = currentQuestion.comboSteps[comboStepIndex];
+    const formedSentence = comboStepOrderedWords.join(' ');
+    const cleanFormed = formedSentence.replace(/[.,!?]/g, '').trim().toLowerCase();
+    const cleanTarget = activeStep.correctAnswer.replace(/[.,!?]/g, '').trim().toLowerCase();
+    const isCorrect = cleanFormed === cleanTarget;
+
+    if (isCorrect) {
+      soundService.playHit();
+      speechService.stop();
+      setIsAudioPlaying(false);
+      const responseTimeSec = Math.max(0.5, (Date.now() - startTime) / 1000);
+      processAnswerResult(true, responseTimeSec, 'Tam Chiêu Hoàn Hảo');
+    } else {
+      soundService.playError();
+      const responseTimeSec = Math.max(0.5, (Date.now() - startTime) / 1000);
+      processAnswerResult(false, responseTimeSec, formedSentence);
+    }
+  };
+
+  // --- Standard Multiple Choice Handler ---
   const handleSelectOption = (opt: string) => {
     if (isAnswered || combatOutcome || isPhaseTransitioning) return;
-
     const responseTimeSec = Math.max(0.2, (Date.now() - startTime) / 1000);
     setSelectedOption(opt);
 
     const isCorrect = opt === currentQuestion.correctAnswer;
-    processAnswerResult(isCorrect, responseTimeSec, opt);
+    processAnswerResult(isCorrect, responseTimeSec, opt, {
+      hintUsed: isHintUsed,
+    });
   };
 
-  const processAnswerResult = (isCorrect: boolean, responseTimeSec: number, selected: string | null) => {
+  // Core Combat Processing
+  const processAnswerResult = (
+    isCorrect: boolean,
+    responseTimeSec: number,
+    selected: string | null,
+    extraMods?: CombatTurnModifiers
+  ) => {
     setIsAnswered(true);
 
     if (onAnswerKnowledge && currentQuestion.knowledgeItemIds) {
       onAnswerKnowledge(currentQuestion.knowledgeItemIds, isCorrect, responseTimeSec);
     }
+
+    const mods: CombatTurnModifiers = {
+      hintUsed: isHintUsed || extraMods?.hintUsed,
+      damageMultiplier: extraMods?.damageMultiplier ?? damageMultiplier,
+      enemyAttackMultiplier: extraMods?.enemyAttackMultiplier ?? enemyAttackMultiplier,
+    };
 
     const result = CombatEngine.processTurn(
       isCorrect,
@@ -161,14 +461,14 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
       combo,
       profile.stats,
       profile.equipment,
-      { ...initialEnemy, hp: enemyHp, maxHp: enemyMaxHp }
+      { ...initialEnemy, hp: enemyHp, maxHp: enemyMaxHp },
+      mods
     );
 
     setTurnResult(result);
     setCombo(result.comboCount);
 
     if (result.isCorrect) {
-      // Đòn đánh trúng địch
       if (result.isCritical) {
         soundService.playCritical();
         setVfxSpark('critical');
@@ -193,14 +493,11 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
         isPlayer: false,
       });
 
-      // Kiểm tra địch chết
       if (nextEnemyHp <= 0) {
         if (isBoss && bossPhase === 1) {
-          // Boss chuyển dạng Phase 2!
           handleBossPhaseTransition();
           return;
         } else {
-          // Kết thúc trận chiến thắng!
           setTimeout(() => {
             soundService.playVictory();
             setCombatOutcome('victory');
@@ -209,7 +506,6 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
         }
       }
     } else {
-      // Địch đánh người chơi
       soundService.playError();
       setPlayerFlashRed(true);
       setShakeScreen(true);
@@ -228,7 +524,6 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
         isPlayer: true,
       });
 
-      // Kiểm tra người chơi thua
       if (nextPlayerHp <= 0) {
         setTimeout(() => {
           setCombatOutcome('defeat');
@@ -242,26 +537,21 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     }, 1200);
   };
 
-  // Chuyển sang Phase 2 của Boss
+  // Boss Phase Transition
   const handleBossPhaseTransition = () => {
     setIsPhaseTransitioning(true);
     soundService.playGong();
 
     setTimeout(() => {
       setBossPhase(2);
-      setEnemyMaxHp(340);
-      setEnemyHp(340);
-      questionPool.current = MasteryEngine.selectAdaptiveQuestions(
-        BOSS_PHASE_2_QUESTIONS,
-        profile.knowledgeMastery || {},
-        10
-      );
-      setQuestionIdx(0);
+      setEnemyMaxHp(initialEnemy.maxHp + 80);
+      setEnemyHp(initialEnemy.maxHp + 80);
+      setQuestionIdx((prev) => prev + 1);
       setIsPhaseTransitioning(false);
       setIsAnswered(false);
       setSelectedOption(null);
       setTurnResult(null);
-      setTimeLeft(7); // Rút ngắn còn 7s ở Phase 2
+      setTimeLeft(8);
       setStartTime(Date.now());
       soundService.playCritical();
     }, 2400);
@@ -273,12 +563,11 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     setTurnResult(null);
     setVfxSpark(null);
     setFloatingDamage(null);
+    setDamageMultiplier(1.0);
+    setEnemyAttackMultiplier(1.0);
 
     const nextIdx = questionIdx + 1;
     setQuestionIdx(nextIdx);
-    const nextQ = questionPool.current[nextIdx % questionPool.current.length];
-    setTimeLeft(bossPhase === 2 ? 7 : nextQ.timeLimit);
-    setStartTime(Date.now());
   };
 
   const handleClaimVictory = () => {
@@ -292,28 +581,43 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
   };
 
   const handleRetry = () => {
-    // Phục hồi đầy đủ sinh lực để tái đấu và đồng bộ vào profile
     onSyncHp(profile.stats.maxHp);
     setPlayerHp(profile.stats.maxHp);
     setEnemyHp(initialEnemy.hp);
     setBossPhase(1);
-    questionPool.current = isBoss
-      ? [...BOSS_PHASE_1_QUESTIONS]
-      : enemyType === 'sword_disciple'
-      ? [...MOB_SWORD_DISCIPLE_QUESTIONS]
-      : [...MOB_MIST_DEMON_QUESTIONS];
     setQuestionIdx(0);
     setCombatOutcome(null);
     setIsAnswered(false);
     setSelectedOption(null);
     setTurnResult(null);
     setCombo(0);
-    setTimeLeft(questionPool.current[0].timeLimit);
+    setTimeLeft(currentQuestion.timeLimit || 15);
     setStartTime(Date.now());
   };
 
   const enemyHpPercent = Math.min(100, Math.max(0, (enemyHp / enemyMaxHp) * 100));
   const playerHpPercent = Math.min(100, Math.max(0, (playerHp / profile.stats.maxHp) * 100));
+
+  const getModeBadge = (mode: CombatMode) => {
+    switch (mode) {
+      case 'unseal':
+        return { label: 'Phá phong ấn', color: 'bg-amber-500/20 text-amber-300 border-amber-500/50' };
+      case 'lost_word':
+        return { label: 'Đoạt lại vong từ', color: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/50' };
+      case 'listening_pursuit':
+        return { label: 'Mê âm truy kích', color: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/50' };
+      case 'deception_pierce':
+        return { label: 'Thiên diện phá ảo', color: 'bg-purple-500/20 text-purple-300 border-purple-500/50' };
+      case 'escort_dialogue':
+        return { label: 'Hộ tống hội thoại', color: 'bg-blue-500/20 text-blue-300 border-blue-500/50' };
+      case 'triple_combo':
+        return { label: 'Liên hoàn tam chiêu', color: 'bg-rose-500/20 text-rose-300 border-rose-500/50' };
+      default:
+        return { label: 'Quyết đấu tri thức', color: 'bg-stone-800 text-stone-300 border-stone-600' };
+    }
+  };
+
+  const modeBadge = getModeBadge(currentMode);
 
   return (
     <div
@@ -330,23 +634,25 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
 
       {/* Main Combat Stage */}
       <div className="relative z-10 w-full max-w-4xl h-full max-h-[96vh] flex flex-col justify-between">
-        {/* Top Header: Combat Info & Close */}
+        {/* Top Header: Combat Mode & Info */}
         <div className="flex items-center justify-between px-2 pt-1">
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-bold px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/40">
-              DEMO COMBAT
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className={`text-xs font-bold px-2 py-0.5 rounded border ${modeBadge.color}`}>
+              {modeBadge.label}
             </span>
+
             {isBoss && (
               <span
-                className={`text-xs font-extrabold px-2.5 py-0.5 rounded border ${
+                className={`text-xs font-bold px-2.5 py-0.5 rounded border ${
                   bossPhase === 2
                     ? 'bg-red-950/90 border-red-500 text-red-300 animate-pulse'
                     : 'bg-amber-950/90 border-amber-500 text-amber-300'
                 }`}
               >
-                BOSS PHASE {bossPhase}: {bossPhase === 2 ? 'CUỒNG NỘ MA KIẾM' : 'MA KIẾM LOẠN NGỮ'}
+                Boss giai đoạn {bossPhase}: {bossPhase === 2 ? 'Cuồng nộ' : 'Trấn thủ'}
               </span>
             )}
+
             {combo >= 2 && (
               <div className="flex items-center gap-1 text-xs font-black text-amber-300 bg-amber-950/80 px-2 py-0.5 rounded-full border border-amber-400 shadow-wuxia-gold animate-bounce-subtle">
                 <Flame className="w-3.5 h-3.5 text-orange-400 fill-current" />
@@ -367,7 +673,6 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
         <div className="relative flex items-center justify-between px-4 sm:px-12 my-auto">
           {/* Left Fighter: Player */}
           <div className="flex flex-col items-center">
-            {/* HP Bar */}
             <div className="w-32 sm:w-44 mb-2 bg-stone-950/90 border border-amber-600/50 rounded-lg p-1.5 shadow-lg">
               <div className="flex justify-between text-[11px] font-bold text-amber-200 mb-0.5">
                 <span>{profile.name}</span>
@@ -383,7 +688,6 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
               </div>
             </div>
 
-            {/* Sprite */}
             <div
               className={`relative transition duration-200 ${
                 playerFlashRed ? 'filter drop-shadow-[0_0_15px_rgba(255,0,0,0.8)] scale-95' : ''
@@ -435,7 +739,6 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
 
           {/* Right Fighter: Enemy / Boss */}
           <div className="flex flex-col items-center">
-            {/* Enemy HP Bar */}
             <div className="w-32 sm:w-48 mb-2 bg-stone-950/90 border border-red-700/60 rounded-lg p-1.5 shadow-lg">
               <div className="flex justify-between text-[11px] font-bold text-red-200 mb-0.5">
                 <span className="truncate max-w-[100px]">{initialEnemy.name}</span>
@@ -451,7 +754,6 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
               </div>
             </div>
 
-            {/* Sprite */}
             <div
               className={`relative transition duration-200 ${
                 enemyFlashRed ? 'filter drop-shadow-[0_0_20px_rgba(255,0,0,0.9)] scale-95' : ''
@@ -460,6 +762,9 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
               <img
                 src={initialEnemy.spriteKey}
                 alt={initialEnemy.name}
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = '/assets/game/characters/bosses/loan_ngu_kiem_ma.png';
+                }}
                 className={`object-contain filter drop-shadow-2xl ${
                   isBoss ? 'w-36 sm:w-52 h-44 sm:h-56' : 'w-28 sm:w-36 h-36 sm:h-44'
                 }`}
@@ -472,87 +777,513 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
         {isPhaseTransitioning && (
           <div className="absolute inset-0 z-30 flex items-center justify-center bg-black/85 backdrop-blur-md animate-fadeIn">
             <div className="text-center p-6 space-y-3">
-              <div className="text-red-500 text-sm font-extrabold tracking-widest uppercase animate-pulse">
-                CẢNH BÁO: HẮC KHÍ BÙNG NỔ!
+              <div className="text-red-500 text-sm font-extrabold animate-pulse">
+                Cảnh báo: Hắc khí bùng nổ!
               </div>
               <h3 className="text-2xl sm:text-4xl font-black text-red-400 font-wuxia drop-shadow-md">
-                "Khá khen tiểu bối! Hãy nếm thử Cuồng Nộ Ma Kiếm!"
+                "{initialEnemy.dialoguePhase2 || 'Khá khen tiểu bối! Hãy nếm thử Cuồng Nộ Ma Kiếm!'}"
               </h3>
               <p className="text-stone-300 text-sm italic">
-                Loạn Ngữ Kiếm Ma tiến vào Phase 2: Thời gian thi triển chiêu thức chỉ còn 7 giây!
+                Tiến vào Phase 2: Thời gian thi triển chiêu thức chỉ còn 8 giây!
               </p>
             </div>
           </div>
         )}
 
-        {/* Bottom Question & Controls Area */}
+        {/* Bottom Question & Interactive Mode Controls */}
         {!combatOutcome && !isPhaseTransitioning && (
           <div className="bg-stone-900/95 border-t-2 border-amber-600/70 rounded-t-2xl p-3 sm:p-5 shadow-2xl flex flex-col gap-3">
-            {/* Timer bar & Critical Strike Window Indicator */}
+            {/* Timer Bar & Audio playback banner */}
             <div className="flex items-center justify-between gap-3">
               <div className="flex items-center gap-1.5 text-xs text-amber-400 font-bold">
                 <Timer className="w-4 h-4 text-amber-400" />
                 <span>Thời gian: {timeLeft}s</span>
-                <span className="text-[10px] text-stone-400 ml-2 hidden sm:inline">
-                  (Trả lời &lt; 3s = Bạo Kích 1.8x sát thương!)
-                </span>
+                {isAudioPlaying && (
+                  <span className="text-cyan-400 text-[11px] animate-pulse ml-2 font-bold">
+                    🔊 Đang truyền khẩu quyết... (Đồng hồ tạm dừng)
+                  </span>
+                )}
               </div>
 
-              {/* Visual Timer Progress */}
               <div className="flex-1 max-w-xs h-2 bg-stone-950 rounded-full overflow-hidden border border-stone-700">
                 <div
                   className={`h-full transition-all duration-300 ${
-                    timeLeft <= 3
-                      ? 'bg-red-500'
-                      : timeLeft <= 6
-                      ? 'bg-yellow-500'
-                      : 'bg-emerald-500'
+                    timeLeft <= 3 ? 'bg-red-500' : timeLeft <= 6 ? 'bg-yellow-500' : 'bg-emerald-500'
                   }`}
                   style={{
-                    width: `${(timeLeft / (bossPhase === 2 ? 7 : currentQuestion.timeLimit)) * 100}%`,
+                    width: `${(timeLeft / (bossPhase === 2 ? 8 : currentQuestion.timeLimit || 15)) * 100}%`,
                   }}
                 />
               </div>
             </div>
 
-            {/* Question Prompt */}
+            {/* Prompt Box */}
             <div className="bg-stone-950/90 border border-stone-800 rounded-xl p-3 sm:p-4">
-              <p className="text-sm sm:text-base font-bold text-amber-100">
+              <p className="text-sm sm:text-base font-bold text-amber-100 whitespace-pre-line">
                 {currentQuestion.prompt}
               </p>
             </div>
 
-            {/* Options Grid (4 Buttons) */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-              {currentQuestion.options.map((opt, idx) => {
-                let btnStyle =
-                  'bg-stone-800/90 border-stone-700 hover:border-amber-400 hover:bg-stone-800 text-stone-100';
-                if (isAnswered) {
-                  if (opt === currentQuestion.correctAnswer) {
-                    btnStyle =
-                      'bg-emerald-950 border-emerald-400 text-emerald-200 shadow-wuxia-jade font-bold';
-                  } else if (selectedOption === opt) {
-                    btnStyle = 'bg-red-950 border-red-500 text-red-200';
-                  } else {
-                    btnStyle = 'bg-stone-900/60 border-stone-800 text-stone-500 opacity-50';
-                  }
-                }
+            {/* ----------------- MODE 1: PHÁ PHONG ẤN UI ----------------- */}
+            {currentMode === 'unseal' && (
+              <div className="flex flex-col gap-2.5">
+                {/* Sentence assembly drop slot */}
+                <div className="min-h-12 p-2.5 rounded-xl border-2 border-dashed border-amber-500/60 bg-stone-950/70 flex flex-wrap gap-2 items-center">
+                  {orderedWords.length === 0 ? (
+                    <span className="text-xs text-stone-500 italic">
+                      Nhấn vào các mảnh từ bên dưới để sắp xếp kiếm quyết...
+                    </span>
+                  ) : (
+                    orderedWords.map((word, idx) => (
+                      <button
+                        key={idx}
+                        disabled={isAnswered}
+                        onClick={() => handleRemoveWordFromOrder(word, idx)}
+                        className="px-3 py-1.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs shadow transition active:scale-95 flex items-center gap-1"
+                      >
+                        <span>{word}</span>
+                        <X className="w-3 h-3 text-stone-900" />
+                      </button>
+                    ))
+                  )}
+                </div>
 
-                return (
+                {/* Available word tiles pool */}
+                <div className="p-2 rounded-xl bg-stone-950/50 border border-stone-800 flex flex-wrap gap-2 min-h-10 items-center">
+                  {availableWords.map((word, idx) => (
+                    <button
+                      key={idx}
+                      disabled={isAnswered}
+                      onClick={() => handleAddWordToOrder(word, idx)}
+                      className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-amber-200 border border-amber-500/40 font-semibold text-xs transition active:scale-95"
+                    >
+                      {word}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Action buttons: Reset, Undo, Submit */}
+                <div className="flex gap-2 justify-end pt-1">
+                  <button
+                    disabled={isAnswered || orderedWords.length === 0}
+                    onClick={handleUndoWord}
+                    className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-bold border border-stone-700 transition"
+                  >
+                    Hoàn Tác
+                  </button>
+                  <button
+                    disabled={isAnswered || orderedWords.length === 0}
+                    onClick={handleResetWords}
+                    className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-bold border border-stone-700 transition"
+                  >
+                    Làm Lại
+                  </button>
+                  <button
+                    disabled={isAnswered || orderedWords.length === 0}
+                    onClick={handleSubmitUnseal}
+                    className="px-5 py-1.5 rounded-lg bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 text-xs font-black shadow transition active:scale-95"
+                  >
+                    Xuất Chiêu Phá Ấn ⚡
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* ----------------- MODE 2: ĐOẠT LẠI VONG TỪ UI ----------------- */}
+            {currentMode === 'lost_word' && (
+              <div className="flex flex-col gap-2.5">
+                {/* Hint Toggle Button & Warning */}
+                <div className="flex items-center justify-between">
+                  <button
+                    onClick={() => {
+                      soundService.playClick();
+                      setShowHintText(!showHintText);
+                      setIsHintUsed(true);
+                    }}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 border transition ${
+                      isHintUsed
+                        ? 'bg-amber-950/80 border-amber-500 text-amber-300'
+                        : 'bg-stone-800/80 border-stone-700 text-stone-300 hover:border-amber-400'
+                    }`}
+                  >
+                    <Lightbulb className="w-3.5 h-3.5 text-yellow-400" />
+                    <span>{showHintText ? 'Ẩn Gợi Ý' : 'Dùng Gợi Ý Chiêu Thức (-40% Sát Thương)'}</span>
+                  </button>
+
+                  {isHintUsed && (
+                    <span className="text-[11px] text-amber-400 italic">
+                      ⚠️ Đang kích hoạt gợi ý: Giảm 40% sát thương đòn đánh!
+                    </span>
+                  )}
+                </div>
+
+                {/* Hint Box */}
+                {showHintText && currentQuestion.hintText && (
+                  <div className="p-2.5 rounded-xl bg-amber-950/40 border border-amber-500/40 text-amber-200 text-xs animate-fadeIn">
+                    {currentQuestion.hintText}
+                  </div>
+                )}
+
+                {/* Options */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {currentQuestion.options.map((opt, idx) => (
+                    <button
+                      key={idx}
+                      disabled={isAnswered}
+                      onClick={() => handleSelectOption(opt)}
+                      className="w-full p-2.5 sm:p-3 rounded-xl border text-left text-xs sm:text-sm font-semibold transition flex items-center justify-between bg-stone-800/90 border-stone-700 hover:border-amber-400 text-stone-100"
+                    >
+                      <span>{opt}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* ----------------- MODE 3: MÊ ÂM TRUY KÍCH UI ----------------- */}
+            {currentMode === 'listening_pursuit' && (
+              <div className="flex flex-col gap-2.5">
+                {/* Audio controls banner */}
+                <div className="flex items-center justify-between p-3 rounded-xl bg-stone-950 border border-cyan-500/40">
+                  <div className="flex items-center gap-3">
+                    <button
+                      disabled={replaysLeft <= 0 || isAudioPlaying}
+                      onClick={() =>
+                        handlePlayAudio(
+                          currentQuestion.listeningScript || currentQuestion.prompt,
+                          true
+                        )
+                      }
+                      className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 shadow transition active:scale-95 ${
+                        replaysLeft > 0 && !isAudioPlaying
+                          ? 'bg-cyan-600 hover:bg-cyan-500 text-stone-950 font-bold'
+                          : 'bg-stone-800 text-stone-500 cursor-not-allowed'
+                      }`}
+                    >
+                      <Volume2 className={`w-4 h-4 ${isAudioPlaying ? 'animate-bounce text-amber-300' : ''}`} />
+                      <span>{isAudioPlaying ? 'Đang Truyền Khẩu Quyết...' : 'Phát Lại Khẩu Quyết'}</span>
+                    </button>
+
+                    <span className="text-xs text-stone-300 font-semibold">
+                      Lượt nghe còn lại: <b className="text-cyan-400">{replaysLeft}/3</b>
+                    </span>
+                  </div>
+
+                  {/* Transcript Fallback Toggle */}
+                  <button
+                    onClick={() => {
+                      soundService.playClick();
+                      setShowTranscript(!showTranscript);
+                    }}
+                    className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-semibold border border-stone-700 flex items-center gap-1.5"
+                  >
+                    <Eye className="w-3.5 h-3.5 text-stone-400" />
+                    <span>{showTranscript ? 'Ẩn Lời Thoại' : 'Bản Chép Lời'}</span>
+                  </button>
+                </div>
+
+                {/* Transcript Box */}
+                {showTranscript && currentQuestion.transcriptFallback && (
+                  <div className="p-3 rounded-xl bg-cyan-950/40 border border-cyan-600/40 text-cyan-200 text-xs italic animate-fadeIn">
+                    {currentQuestion.transcriptFallback}
+                  </div>
+                )}
+
+                {/* Multiple choice options */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {currentQuestion.options.map((opt, idx) => (
+                    <button
+                      key={idx}
+                      disabled={isAnswered}
+                      onClick={() => handleSelectOption(opt)}
+                      className="w-full p-2.5 sm:p-3 rounded-xl border text-left text-xs sm:text-sm font-semibold transition flex items-center justify-between bg-stone-800/90 border-stone-700 hover:border-cyan-400 text-stone-100"
+                    >
+                      <span>{opt}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* ----------------- MODE 4: THIÊN DIỆN PHÁ ẢO UI ----------------- */}
+            {currentMode === 'deception_pierce' && (
+              <div className="flex flex-col gap-2.5">
+                {/* Passage with clickable numbered sentences */}
+                <div className="p-3 rounded-xl bg-stone-950 border border-purple-500/40 space-y-2">
+                  <div className="flex items-center justify-between text-[11px] font-bold text-purple-300">
+                    <span>Văn bản trích đoạn (Bấm vào câu chứa dẫn chứng xác thực):</span>
+                    {selectedEvidenceIndex !== null && (
+                      <span className="text-emerald-400">Đã chọn dẫn chứng: Câu [{selectedEvidenceIndex}]</span>
+                    )}
+                  </div>
+
+                  <div className="text-xs text-stone-200 leading-relaxed flex flex-wrap gap-1.5">
+                    {currentQuestion.passageSentences ? (
+                      currentQuestion.passageSentences.map((sent, idx) => {
+                        const sNum = idx + 1;
+                        const isSelected = selectedEvidenceIndex === sNum;
+                        return (
+                          <span
+                            key={idx}
+                            onClick={() => {
+                              soundService.playClick();
+                              setSelectedEvidenceIndex(sNum);
+                            }}
+                            className={`p-1 rounded cursor-pointer transition ${
+                              isSelected
+                                ? 'bg-purple-900/90 border border-purple-400 text-purple-200 font-bold'
+                                : 'hover:bg-stone-800/80 text-stone-300'
+                            }`}
+                          >
+                            <b className="text-purple-400 mr-1">[{sNum}]</b>
+                            {sent}
+                          </span>
+                        );
+                      })
+                    ) : (
+                      <span>{currentQuestion.readingPassage}</span>
+                    )}
+                  </div>
+                </div>
+
+                {/* Error distractor explanation if failed */}
+                {deceptionError && (
+                  <div className="p-2.5 rounded-xl bg-red-950/70 border border-red-500 text-red-200 text-xs flex items-center gap-2 animate-fadeIn">
+                    <AlertTriangle className="w-4 h-4 text-red-400 flex-shrink-0" />
+                    <span>{deceptionError}</span>
+                  </div>
+                )}
+
+                {/* Option Choice Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {currentQuestion.options.map((opt, idx) => {
+                    const isSelected = selectedOption === opt;
+                    return (
+                      <button
+                        key={idx}
+                        disabled={isAnswered}
+                        onClick={() => setSelectedOption(opt)}
+                        className={`w-full p-2.5 sm:p-3 rounded-xl border text-left text-xs sm:text-sm font-semibold transition flex items-center justify-between ${
+                          isSelected
+                            ? 'bg-purple-950 border-purple-400 text-purple-200 shadow-wuxia-gold'
+                            : 'bg-stone-800/90 border-stone-700 hover:border-purple-400 text-stone-100'
+                        }`}
+                      >
+                        <span>{opt}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Confirm Button */}
+                <button
+                  disabled={!selectedOption || selectedEvidenceIndex === null || isAnswered}
+                  onClick={handleSubmitDeception}
+                  className="w-full py-2.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 text-stone-100 font-bold text-xs shadow transition disabled:opacity-50"
+                >
+                  Phá Khiên Ảo Ảnh (Xác Nhận Cả Đáp Án & Dẫn Chứng) 🗡️
+                </button>
+              </div>
+            )}
+
+            {/* ----------------- MODE 5: HỘ TỐNG HỘI THOẠI UI ----------------- */}
+            {currentMode === 'escort_dialogue' && (
+              <div className="flex flex-col gap-2.5">
+                {tacticalBuffNotice && (
+                  <div className="p-2.5 rounded-xl bg-emerald-950/80 border border-emerald-500 text-emerald-300 text-xs font-bold animate-fadeIn">
+                    {tacticalBuffNotice}
+                  </div>
+                )}
+
+                <div className="flex flex-col gap-2">
+                  {currentQuestion.dialogueChoices?.map((choice, idx) => (
+                    <button
+                      key={idx}
+                      disabled={isAnswered}
+                      onClick={() => handleSelectTacticalChoice(choice)}
+                      className="w-full p-3 rounded-xl border border-stone-700 hover:border-blue-400 bg-stone-800/90 hover:bg-stone-800 text-left text-xs sm:text-sm transition flex flex-col sm:flex-row justify-between sm:items-center gap-1.5"
+                    >
+                      <span className="font-semibold text-stone-100">{choice.text}</span>
+                      <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-blue-950 border border-blue-500 text-blue-300 self-start sm:self-auto">
+                        {choice.buffDescription}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* ----------------- MODE 6: LIÊN HOÀN TAM CHIÊU UI ----------------- */}
+            {currentMode === 'triple_combo' && currentQuestion.comboSteps && (
+              <div className="flex flex-col gap-2.5">
+                {/* 3 Steps Pipeline Indicator */}
+                <div className="flex items-center justify-between p-2 rounded-xl bg-stone-950 border border-rose-500/40">
+                  {currentQuestion.comboSteps.map((step, idx) => (
+                    <div
+                      key={idx}
+                      className={`flex-1 text-center text-xs font-bold py-1 px-2 rounded-lg transition ${
+                        comboStepIndex === idx
+                          ? 'bg-rose-950 border border-rose-500 text-rose-300'
+                          : comboStepIndex > idx
+                          ? 'bg-emerald-950/80 text-emerald-400'
+                          : 'text-stone-500'
+                      }`}
+                    >
+                      {step.title}
+                    </div>
+                  ))}
+                </div>
+
+                {/* Active Step Question */}
+                {(() => {
+                  const activeStep = currentQuestion.comboSteps[comboStepIndex];
+                  if (!activeStep) return null;
+                  return (
+                    <div className="p-3 rounded-xl bg-stone-950/80 border border-stone-800 space-y-3">
+                      <p className="text-xs sm:text-sm font-bold text-rose-200">{activeStep.prompt}</p>
+
+                      {/* Audio Controls for Listen Step */}
+                      {(activeStep.stepType === 'listen' || activeStep.listeningScript) && (
+                        <div className="p-3 rounded-xl bg-stone-950 border border-rose-500/40 flex flex-col sm:flex-row items-center justify-between gap-2.5">
+                          <div className="flex items-center gap-3 w-full sm:w-auto">
+                            <button
+                              disabled={replaysLeft <= 0 || isAudioPlaying}
+                              onClick={() =>
+                                handlePlayAudio(
+                                  activeStep.listeningScript || activeStep.prompt,
+                                  true
+                                )
+                              }
+                              className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 shadow transition active:scale-95 ${
+                                replaysLeft > 0 && !isAudioPlaying
+                                  ? 'bg-rose-600 hover:bg-rose-500 text-stone-950 font-bold'
+                                  : 'bg-stone-800 text-stone-500 cursor-not-allowed'
+                              }`}
+                            >
+                              <Volume2 className={`w-4 h-4 ${isAudioPlaying ? 'animate-bounce text-amber-300' : ''}`} />
+                              <span>{isAudioPlaying ? 'Đang Truyền Khẩu Quyết...' : 'Phát Lại Khẩu Quyết'}</span>
+                            </button>
+
+                            <span className="text-xs text-stone-300 font-semibold whitespace-nowrap">
+                              Lượt nghe: <b className="text-rose-400">{replaysLeft}/3</b>
+                            </span>
+                          </div>
+
+                          {/* Hint / Transcript Fallback Toggle */}
+                          <button
+                            onClick={() => {
+                              soundService.playClick();
+                              setShowTranscript(!showTranscript);
+                            }}
+                            className="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-semibold border border-stone-700 flex items-center gap-1.5 self-end sm:self-auto"
+                          >
+                            <Eye className="w-3.5 h-3.5 text-stone-400" />
+                            <span>{showTranscript ? 'Ẩn Gợi Ý' : 'Gợi Ý / Khẩu Quyết'}</span>
+                          </button>
+                        </div>
+                      )}
+
+                      {/* Hint / Transcript Box */}
+                      {showTranscript && (activeStep.hint || activeStep.listeningScript) && (
+                        <div className="p-3 rounded-xl bg-rose-950/40 border border-rose-600/40 text-rose-200 text-xs italic animate-fadeIn">
+                          💡 <b>Gợi ý:</b> {activeStep.hint || `Từ phát âm: "${activeStep.listeningScript}"`}
+                        </div>
+                      )}
+
+                      {/* Step 3 Word Unseal Puzzle (if activeStep has wordsToOrder) */}
+                      {activeStep.wordsToOrder && comboStepAvailWords && comboStepAvailWords.length > 0 ? (
+                        <div className="space-y-3">
+                          {/* Assembled Sentence Area */}
+                          <div className="min-h-[50px] p-3 rounded-xl bg-stone-900 border-2 border-dashed border-rose-500/50 flex flex-wrap gap-1.5 items-center">
+                            {comboStepOrderedWords.length === 0 ? (
+                              <span className="text-xs text-stone-500 italic">
+                                Bấm các từ bên dưới để ghép thành kiếm chiêu hoàn chỉnh...
+                              </span>
+                            ) : (
+                              comboStepOrderedWords.map((word, wIdx) => (
+                                <button
+                                  key={wIdx}
+                                  disabled={isAnswered}
+                                  onClick={() => handleRemoveComboWord(word, wIdx)}
+                                  className="px-2.5 py-1 rounded-lg bg-rose-900/80 border border-rose-500 text-rose-200 text-xs font-semibold hover:bg-rose-800 transition"
+                                >
+                                  {word} ✕
+                                </button>
+                              ))
+                            )}
+                          </div>
+
+                          {/* Available Word Pool */}
+                          <div className="flex flex-wrap gap-2">
+                            {comboStepAvailWords.map((word, wIdx) => (
+                              <button
+                                key={wIdx}
+                                disabled={isAnswered}
+                                onClick={() => handleAddComboWord(word, wIdx)}
+                                className="px-3 py-1.5 rounded-lg bg-stone-800 border border-stone-700 hover:border-rose-400 hover:bg-stone-700 text-stone-200 text-xs font-semibold transition active:scale-95"
+                              >
+                                {word}
+                              </button>
+                            ))}
+                          </div>
+
+                          {/* Action controls for Unseal Step */}
+                          <div className="flex items-center justify-between pt-1">
+                            <button
+                              disabled={comboStepOrderedWords.length === 0 || isAnswered}
+                              onClick={handleResetComboWords}
+                              className="px-3 py-1 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-400 text-xs"
+                            >
+                              Xếp lại từ đầu
+                            </button>
+
+                            <button
+                              disabled={comboStepOrderedWords.length === 0 || isAnswered}
+                              onClick={handleSubmitComboWords}
+                              className="px-4 py-2 rounded-xl bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 text-stone-950 font-bold text-xs shadow active:scale-95 transition"
+                            >
+                              Xuất Chiêu Phá Trận ⚔️
+                            </button>
+                          </div>
+                        </div>
+                      ) : (
+                        /* Options fallback for non-unseal steps or multiple choice */
+                        activeStep.options && (
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {activeStep.options.map((opt, oIdx) => (
+                              <button
+                                key={oIdx}
+                                disabled={isAnswered}
+                                onClick={() => handleComboStepSelectOption(opt)}
+                                className="w-full p-2.5 rounded-xl border border-stone-700 hover:border-rose-400 bg-stone-800 text-left text-xs sm:text-sm font-semibold text-stone-100 transition"
+                              >
+                                {opt}
+                              </button>
+                            ))}
+                          </div>
+                        )
+                      )}
+                    </div>
+                  );
+                })()}
+              </div>
+            )}
+
+            {/* ----------------- STANDARD MODE / FALLBACK ----------------- */}
+            {currentMode === 'standard' && (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {currentQuestion.options.map((opt, idx) => (
                   <button
                     key={idx}
                     disabled={isAnswered}
                     onClick={() => handleSelectOption(opt)}
-                    className={`w-full p-2.5 sm:p-3 rounded-xl border text-left text-xs sm:text-sm font-semibold transition flex items-center justify-between active:scale-98 ${btnStyle}`}
+                    className="w-full p-2.5 sm:p-3 rounded-xl border text-left text-xs sm:text-sm font-semibold transition flex items-center justify-between bg-stone-800/90 border-stone-700 hover:border-amber-400 text-stone-100"
                   >
                     <span>{opt}</span>
-                    {isAnswered && opt === currentQuestion.correctAnswer && (
-                      <span className="text-xs text-emerald-400 font-bold">✓ Đúng</span>
-                    )}
                   </button>
-                );
-              })}
-            </div>
+                ))}
+              </div>
+            )}
 
             {/* Turn Feedback & Next Button */}
             {isAnswered && turnResult && (
@@ -565,14 +1296,14 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
                   >
                     {turnResult.feedbackText}
                   </span>
-                  <span className="text-[11px] text-stone-400 italic">
+                  <span className="text-[11px] text-stone-400 italic block mt-0.5">
                     {currentQuestion.explanation}
                   </span>
                 </div>
 
                 <button
                   onClick={handleNextQuestion}
-                  className="px-5 py-2 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs tracking-wider shadow whitespace-nowrap active:scale-95 transition"
+                  className="px-5 py-2 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs shadow whitespace-nowrap active:scale-95 transition"
                 >
                   Kiếm Chiêu Tiếp Theo &gt;
                 </button>
@@ -591,12 +1322,23 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
 
               <div>
                 <h3 className="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 font-wuxia">
-                  ĐẠI THẮNG QUYẾT ĐẤU!
+                  Đại Thắng Quyết Đấu!
                 </h3>
                 <p className="text-xs text-stone-300 mt-1">
                   Đã tiêu diệt thành công <b>{initialEnemy.name}</b>. Khí thế ngút trời, võ công tăng tiến!
                 </p>
               </div>
+
+              {/* Weakness analysis summary if Boss / Triple Combo */}
+              {currentQuestion.weaknessAnalysis && (
+                <div className="w-full p-2.5 rounded-xl bg-amber-950/40 border border-amber-500/40 text-left text-xs text-amber-200">
+                  <div className="font-bold flex items-center gap-1.5 mb-1 text-amber-300">
+                    <Sparkles className="w-3.5 h-3.5" />
+                    <span>Tổng Kết Điểm Yếu & Yếu Quyết:</span>
+                  </div>
+                  <p className="text-[11px] text-stone-300 italic">{currentQuestion.weaknessAnalysis}</p>
+                </div>
+              )}
 
               <div className="w-full bg-stone-950/80 border border-stone-800 rounded-xl p-3 flex justify-around text-xs">
                 <div>
@@ -606,14 +1348,14 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
                 {isBoss && (
                   <div>
                     <span className="text-stone-400 block">Chiến Lợi Phẩm</span>
-                    <span className="font-bold text-emerald-400">Rương Ma Giáo</span>
+                    <span className="font-bold text-emerald-400">Rương Cấm Địa</span>
                   </div>
                 )}
               </div>
 
               <button
                 onClick={handleClaimVictory}
-                className="w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-sm tracking-wider shadow-lg active:scale-95 transition"
+                className="w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-sm shadow-lg active:scale-95 transition"
               >
                 Thu Nhận Chiến Lợi Phẩm
               </button>
@@ -631,7 +1373,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
 
               <div>
                 <h3 className="text-2xl font-black text-red-400 font-wuxia">
-                  KIẾM THẾ BỊ BẺ GÃY!
+                  Kiếm Thế Bị Bẻ Gãy!
                 </h3>
                 <p className="text-xs text-stone-300 mt-1">
                   Sinh lực đã cạn kiệt trước tà công của đối thủ. Hãy dưỡng sức và thử thách lại một lần nữa!
@@ -641,14 +1383,14 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
               <div className="flex gap-3 w-full">
                 <button
                   onClick={handleRetry}
-                  className="flex-1 py-3 px-4 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs tracking-wider shadow flex items-center justify-center gap-1.5 active:scale-95 transition"
+                  className="flex-1 py-3 px-4 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs shadow flex items-center justify-center gap-1.5 active:scale-95 transition"
                 >
                   <RotateCcw className="w-4 h-4" />
                   <span>Quyết Đấu Lại</span>
                 </button>
                 <button
                   onClick={handleRetreat}
-                  className="flex-1 py-3 px-4 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 font-bold text-xs tracking-wider border border-stone-600 active:scale-95 transition"
+                  className="flex-1 py-3 px-4 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 font-bold text-xs border border-stone-600 active:scale-95 transition"
                 >
                   Tạm Rút Lui
                 </button>
@@ -660,3 +1402,4 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     </div>
   );
 };
+export default CombatOverlay;

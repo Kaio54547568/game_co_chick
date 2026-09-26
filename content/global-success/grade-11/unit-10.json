@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 10,
+    "unit_id": "g11-u10",
+    "title": "THE ECOSYSTEM",
+    "topic": "Ecosystems, Biodiversity, Food Chains and Conservation",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 106,
+    "book_page": 106,
+    "source_section": "Grade 11 Unit 10 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 106,
+        "book_page_end": 107,
+        "pdf_page_start": 106,
+        "pdf_page_end": 107,
+        "description": "Introduction dialogue for THE ECOSYSTEM"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 108,
+        "book_page_end": 108,
+        "pdf_page_start": 108,
+        "pdf_page_end": 108,
+        "description": "Pronunciation (Intonation in question tags), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 109,
+        "book_page_end": 110,
+        "pdf_page_start": 109,
+        "pdf_page_end": 110,
+        "description": "Restoring Marine Biospheres"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 110,
+        "book_page_end": 110,
+        "pdf_page_start": 110,
+        "pdf_page_end": 110,
+        "description": "Proposing practical steps to clean and preserve local river basins"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 111,
+        "book_page_end": 111,
+        "pdf_page_start": 111,
+        "pdf_page_end": 111,
+        "description": "Listening to an ecology lecture analyzing human impacts on wetland ecosystems"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 112,
+        "book_page_end": 113,
+        "pdf_page_start": 112,
+        "pdf_page_end": 113,
+        "description": "Writing an opinion essay debating whether the state should spend more money restoring local ecosystems"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 114,
+        "book_page_end": 114,
+        "pdf_page_start": 114,
+        "pdf_page_end": 114,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 115,
+        "book_page_end": 115,
+        "pdf_page_start": 115,
+        "pdf_page_end": 115,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to ecosystems, biodiversity, food chains and conservation",
+      "grammar": [
+        "Compound Nouns"
+      ],
+      "pronunciation": "Intonation in question tags",
+      "reading": "Restoring Marine Biospheres",
+      "speaking": "Proposing practical steps to clean and preserve local river basins",
+      "listening": "Listening to an ecology lecture analyzing human impacts on wetland ecosystems",
+      "writing": "Writing an opinion essay debating whether the state should spend more money restoring local ecosystems"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u10-vocab-001",
+      "unit_id": "g11-u10",
+      "word": "ecosystem",
+      "word_type": "noun",
+      "ipa": "/ˈiːkəʊsɪstəm/",
+      "meaning_vi": "hệ sinh thái",
+      "definition_en": "a biological community of interacting organisms and their physical environment",
+      "example_sentence": "Mangrove forests form a vital coastal ecosystem protecting against tsunamis.",
+      "example_translation": "Rừng ngập mặn tạo nên hệ sinh thái ven biển thiết yếu chống lại sóng thần.",
+      "collocations": [
+        "fragile ecosystem"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-vocab-002",
+      "unit_id": "g11-u10",
+      "word": "food chain",
+      "word_type": "noun phrase",
+      "ipa": "/ˈfuːd tʃeɪn/",
+      "meaning_vi": "chuỗi thức ăn",
+      "definition_en": "a hierarchical series of organisms each dependent on the next as a source of food",
+      "example_sentence": "Plankton forms the foundation of the marine food chain.",
+      "example_translation": "Sinh vật phù du tạo thành nền tảng của chuỗi thức ăn biển cả.",
+      "collocations": [
+        "marine food chain"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-vocab-003",
+      "unit_id": "g11-u10",
+      "word": "wetland",
+      "word_type": "noun",
+      "ipa": "/ˈwetlənd/",
+      "meaning_vi": "vùng đất ngập nước",
+      "definition_en": "land consisting of marshes or swamps; saturated with water",
+      "example_sentence": "Migratory birds stop at the wetland reserve to rest and feed.",
+      "example_translation": "Các loài chim di cư dừng chân tại khu bảo tồn đất ngập nước để nghỉ và kiếm ăn.",
+      "collocations": [
+        "protect wetlands"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-vocab-004",
+      "unit_id": "g11-u10",
+      "word": "coral reef",
+      "word_type": "noun phrase",
+      "ipa": "/ˈkɒrəl riːf/",
+      "meaning_vi": "rạn san hô",
+      "definition_en": "an underwater ecosystem characterized by reef-building corals",
+      "example_sentence": "Pollution and warm sea temperatures bleach and kill coral reefs.",
+      "example_translation": "Ô nhiễm và nước biển nóng lên làm tẩy trắng và hủy hoại các rạn san hô.",
+      "collocations": [
+        "vibrant coral reef"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-vocab-005",
+      "unit_id": "g11-u10",
+      "word": "marine life",
+      "word_type": "noun phrase",
+      "ipa": "/məˈriːn laɪf/",
+      "meaning_vi": "sinh vật biển",
+      "definition_en": "the plants, animals, and other organisms that live in oceans and seas",
+      "example_sentence": "Plastic waste thrown into the ocean poses a lethal threat to marine life.",
+      "example_translation": "Rác thải nhựa ném xuống đại dương tạo mối đe dọa chết chóc cho sinh vật biển.",
+      "collocations": [
+        "protect marine life"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-vocab-006",
+      "unit_id": "g11-u10",
+      "word": "restore",
+      "word_type": "verb",
+      "ipa": "/rɪˈstɔː(r)/",
+      "meaning_vi": "phục hồi, khôi phục",
+      "definition_en": "to bring back something to its former good condition",
+      "example_sentence": "Volunteers planted thousands of mangroves to restore the damaged coastline.",
+      "example_translation": "Tình nguyện viên đã trồng hàng nghìn cây đước để phục hồi đường bờ biển bị tàn phá.",
+      "collocations": [
+        "restore the ecosystem"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u10-grammar-001",
+      "unit_id": "g11-u10",
+      "title": "Compound Nouns",
+      "structure_name": "Danh từ ghép",
+      "rule_summary": "Danh từ ghép được tạo thành bằng cách kết hợp: Danh từ + Danh từ (rainforest, food chain), Tính từ + Danh từ (greenhouse, wildlife), hoặc Động từ-ing + Danh từ (washing machine). Dạng số nhiều thường thêm vào danh từ chính phía sau.",
+      "formula": "Noun + Noun / Adj + Noun / V-ing + Noun",
+      "example_sentences": [
+        {
+          "en": "Coral reefs support thousands of marine species.",
+          "vi": "Các rạn san hô nuôi dưỡng hàng nghìn loài sinh vật biển."
+        },
+        {
+          "en": "The food chain in the tropical rainforest is highly intricate.",
+          "vi": "Chuỗi thức ăn trong rừng mưa nhiệt đới vô cùng phức tạp."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Food chains is essential.",
+          "correction": "Food chains are essential.",
+          "explanation": "Danh từ ghép số nhiều 'Food chains' đi với động từ số nhiều 'are'."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u10-reading-001",
+    "unit_id": "g11-u10",
+    "topic": "Restoring Marine Biospheres",
+    "main_idea": "Các chương trình phục hồi rạn san hô nhân tạo và tái sinh rừng phòng hộ ven biển tại Việt Nam.",
+    "reading_skills": [
+      "Cause and effect",
+      "Scanning for species"
+    ],
+    "keywords": [
+      "coral restoration",
+      "marine sanctuary",
+      "biodiversity"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Hành động nào giúp trực tiếp phục hồi các rạn san hô bị hư hại?",
+        "options": [
+          "Cấy ghép các nhánh san hô con lên giàn nhân tạo",
+          "Đánh bắt cá bằng thuốc nổ",
+          "Khai thác san hô làm đồ lưu niệm",
+          "Xả nước thải chưa qua xử lý xuống biển"
+        ],
+        "correctAnswer": "Cấy ghép các nhánh san hô con lên giàn nhân tạo",
+        "explanation": "Cấy ghép san hô nhân tạo giúp tái sinh rạn san hô nhanh chóng."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 109,
+    "book_page": 109,
+    "source_section": "Grade 11 Unit 10 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an ecology lecture analyzing human impacts on wetland ecosystems",
+      "activity_types": [
+        "Note-taking",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G11 Track 48",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 111,
+      "book_page": 111,
+      "source_section": "Grade 11 Unit 10 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Proposing practical steps to clean and preserve local river basins",
+      "activity_types": [
+        "Pair talk"
+      ],
+      "prompts": [
+        "What can students do to protect urban canals?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 110,
+      "book_page": 110,
+      "source_section": "Grade 11 Unit 10 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an opinion essay debating whether the state should spend more money restoring local ecosystems",
+      "task_type": "Opinion essay",
+      "sample_outline": [
+        "Introduction",
+        "Arguments on biodiversity & tourism",
+        "Counterarguments",
+        "Conclusion"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 112,
+      "book_page": 112,
+      "source_section": "Grade 11 Unit 10 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u10-question-001",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Quần thể sinh vật cùng tương tác với môi trường vật lý xung quanh gọi là:",
+      "options": [
+        "Ecosystem",
+        "Budget",
+        "Curfew",
+        "Appliance"
+      ],
+      "correctAnswer": "Ecosystem",
+      "explanation": "Ecosystem = hệ sinh thái.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-002",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Mối quan hệ dinh dưỡng sinh vật này ăn sinh vật khác trong tự nhiên gọi là:",
+      "options": [
+        "Food chain",
+        "Generation gap",
+        "Workout",
+        "Peer pressure"
+      ],
+      "correctAnswer": "Food chain",
+      "explanation": "Food chain = chuỗi thức ăn.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-003",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Vùng đất đầm lầy ngập nước nơi sinh sống của nhiều loài chim nước gọi là:",
+      "options": [
+        "Wetland",
+        "Citadel",
+        "High-rise",
+        "Monument"
+      ],
+      "correctAnswer": "Wetland",
+      "explanation": "Wetland = vùng đất ngập nước.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-004",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Các loài sinh vật sinh sống dưới đại dương được gọi chung là:",
+      "options": [
+        "Marine life",
+        "Household chores",
+        "Digital devices",
+        "Hardware"
+      ],
+      "correctAnswer": "Marine life",
+      "explanation": "Marine life = sinh vật biển.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-005",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Từ nào là một 'Compound Noun' (Danh từ ghép)?",
+      "options": [
+        "Rainforest",
+        "Quickly",
+        "Destroy",
+        "Dangerous"
+      ],
+      "correctAnswer": "Rainforest",
+      "explanation": "Rainforest (Rain + Forest) là danh từ ghép.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-006",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Dạng số nhiều chính xác của danh từ ghép 'coral reef' là:",
+      "options": [
+        "Coral reefs",
+        "Corals reef",
+        "Corals reefs",
+        "Coral reefes"
+      ],
+      "correctAnswer": "Coral reefs",
+      "explanation": "Thêm 's' vào danh từ chính phía sau (reefs).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-007",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Động từ 'restore' trong bảo tồn thiên nhiên mang ý nghĩa gì?",
+      "options": [
+        "Phục hồi về trạng thái tốt ban đầu",
+        "Khai thác kiệt quệ tài nguyên",
+        "Đốt phá rừng lấy đất",
+        "Xây dựng khu công nghiệp nặng"
+      ],
+      "correctAnswer": "Phục hồi về trạng thái tốt ban đầu",
+      "explanation": "Restore = phục hồi, khôi phục.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-008",
+      "unit_id": "g11-u10",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Rising ocean temperatures cause extensive bleaching of vibrant _______.'",
+      "options": [
+        "coral reefs",
+        "high-rises",
+        "appliances",
+        "chores"
+      ],
+      "correctAnswer": "coral reefs",
+      "explanation": "Bleaching of coral reefs = hiện tượng tẩy trắng rạn san hô.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u10-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-009",
+      "unit_id": "g11-u10",
+      "type": "multiple_choice",
+      "prompt": "Danh từ ghép nào sau đây được tạo thành từ 'Adjective + Noun'?",
+      "options": [
+        "Greenhouse",
+        "Seafood",
+        "Toothbrush",
+        "Classroom"
+      ],
+      "correctAnswer": "Greenhouse",
+      "explanation": "Green (adj) + House (noun) = Greenhouse (nhà kính).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u10-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u10-question-010",
+      "unit_id": "g11-u10",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành thông điệp bảo vệ hệ sinh thái:",
+      "options": [
+        "Protecting wetland ecosystems preserves biodiversity and prevents severe floods.",
+        "Preserves biodiversity and prevents severe floods protecting wetland ecosystems.",
+        "Severe floods prevents and preserves biodiversity protecting wetland ecosystems.",
+        "Biodiversity preserves and prevents severe floods protecting wetland ecosystems."
+      ],
+      "correctAnswer": "Protecting wetland ecosystems preserves biodiversity and prevents severe floods.",
+      "explanation": "V-ing + preserves O1 and prevents O2.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u10-vocab-001",
+        "g11-u10-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 108,
+      "book_page": 108,
+      "source_section": "Grade 11 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Protecting",
+        "wetland",
+        "ecosystems",
+        "preserves",
+        "biodiversity",
+        "and",
+        "prevents",
+        "severe",
+        "floods."
+      ]
+    }
+  ]
+}

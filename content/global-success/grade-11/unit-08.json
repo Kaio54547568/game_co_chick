@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 8,
+    "unit_id": "g11-u08",
+    "title": "BECOMING INDEPENDENT",
+    "topic": "Life Skills, Self-reliance, Decision Making and Personal Discipline",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 84,
+    "book_page": 84,
+    "source_section": "Grade 11 Unit 8 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 84,
+        "book_page_end": 85,
+        "pdf_page_start": 84,
+        "pdf_page_end": 85,
+        "description": "Introduction dialogue for BECOMING INDEPENDENT"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 86,
+        "book_page_end": 86,
+        "pdf_page_start": 86,
+        "pdf_page_end": 86,
+        "description": "Pronunciation (Intonation in invitations, suggestions, and polite requests), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 87,
+        "book_page_end": 88,
+        "pdf_page_start": 87,
+        "pdf_page_end": 88,
+        "description": "Road to Teen Independence"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 88,
+        "book_page_end": 88,
+        "pdf_page_start": 88,
+        "pdf_page_end": 88,
+        "description": "Giving detailed instructions on practicing a fundamental life skill"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 89,
+        "book_page_end": 89,
+        "pdf_page_start": 89,
+        "pdf_page_end": 89,
+        "description": "Listening to students sharing advice on becoming autonomous self-regulated learners"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 90,
+        "book_page_end": 91,
+        "pdf_page_start": 90,
+        "pdf_page_end": 91,
+        "description": "Writing an article on the pros and cons of studying and living away from home"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 92,
+        "book_page_end": 92,
+        "pdf_page_start": 92,
+        "pdf_page_end": 92,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 93,
+        "book_page_end": 93,
+        "pdf_page_start": 93,
+        "pdf_page_end": 93,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to life skills, self-reliance, decision making and personal discipline",
+      "grammar": [
+        "Cleft Sentences with 'It is / was ... that / who ...'"
+      ],
+      "pronunciation": "Intonation in invitations, suggestions, and polite requests",
+      "reading": "Road to Teen Independence",
+      "speaking": "Giving detailed instructions on practicing a fundamental life skill",
+      "listening": "Listening to students sharing advice on becoming autonomous self-regulated learners",
+      "writing": "Writing an article on the pros and cons of studying and living away from home"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u08-vocab-001",
+      "unit_id": "g11-u08",
+      "word": "self-reliant",
+      "word_type": "adjective",
+      "ipa": "/ˌself rɪˈlaɪənt/",
+      "meaning_vi": "tự lực cánh sinh, tự lập",
+      "definition_en": "relying on one's own abilities rather than depending on others",
+      "example_sentence": "Living alone in college teaches students to be truly self-reliant.",
+      "example_translation": "Sống một mình thời đại học dạy sinh viên biết tự lực cánh sinh thực sự.",
+      "collocations": [
+        "become self-reliant"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-vocab-002",
+      "unit_id": "g11-u08",
+      "word": "time management",
+      "word_type": "noun phrase",
+      "ipa": "/ˈtaɪm ˌmænɪdʒmənt/",
+      "meaning_vi": "sự quản lý thời gian",
+      "definition_en": "the ability to use one's time effectively and productively",
+      "example_sentence": "Good time management prevents cramming before important examinations.",
+      "example_translation": "Quản lý thời gian tốt giúp tránh việc học dồn ép trước các kỳ thi quan trọng.",
+      "collocations": [
+        "master time management"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-vocab-003",
+      "unit_id": "g11-u08",
+      "word": "budget",
+      "word_type": "noun",
+      "ipa": "/ˈbʌdʒɪt/",
+      "meaning_vi": "ngân sách, kế hoạch chi tiêu",
+      "definition_en": "an estimate of income and expenditure for a set period",
+      "example_sentence": "Learning to balance a weekly budget prevents unnecessary debts.",
+      "example_translation": "Học cách cân đối ngân sách hàng tuần giúp tránh những khoản nợ không đáng có.",
+      "collocations": [
+        "keep a budget",
+        "tight budget"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-vocab-004",
+      "unit_id": "g11-u08",
+      "word": "interpersonal skill",
+      "word_type": "noun phrase",
+      "ipa": "/ˌɪntəˈpɜːsənl skɪl/",
+      "meaning_vi": "kỹ năng giao tiếp và ứng xử giữa người với người",
+      "definition_en": "the skills used by a person to interact with others properly",
+      "example_sentence": "Strong interpersonal skills help young workers collaborate smoothly.",
+      "example_translation": "Kỹ năng giao tiếp ứng xử tốt giúp lao động trẻ phối hợp nhịp nhàng trong tập thể.",
+      "collocations": [
+        "develop interpersonal skills"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-vocab-005",
+      "unit_id": "g11-u08",
+      "word": "cope with",
+      "word_type": "verb phrase",
+      "ipa": "/kəʊp wɪð/",
+      "meaning_vi": "đối phó, vượt qua (khó khăn)",
+      "definition_en": "to deal effectively with something difficult",
+      "example_sentence": "Counselors teach students how to cope with academic stress.",
+      "example_translation": "Các chuyên gia tâm lý dạy học sinh cách đương đầu với căng thẳng học tập.",
+      "collocations": [
+        "cope with stress"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-vocab-006",
+      "unit_id": "g11-u08",
+      "word": "self-discipline",
+      "word_type": "noun",
+      "ipa": "/ˌself ˈdɪsəplɪn/",
+      "meaning_vi": "tính tự kỷ luật",
+      "definition_en": "the ability to control oneself and make oneself work hard",
+      "example_sentence": "Without self-discipline, freedom at university can lead to failure.",
+      "example_translation": "Nếu thiếu tính tự kỷ luật, sự tự do ở trường đại học có thể dẫn đến thất bại.",
+      "collocations": [
+        "maintain self-discipline"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u08-grammar-001",
+      "unit_id": "g11-u08",
+      "title": "Cleft Sentences with 'It is / was ... that / who ...'",
+      "structure_name": "Câu chẻ nhấn mạnh",
+      "rule_summary": "Dùng câu chẻ để nhấn mạnh một thành phần cụ thể trong câu (chủ ngữ, tân ngữ hoặc trạng ngữ).",
+      "formula": "It is/was + [Thành phần nhấn mạnh] + that/who + [Mệnh đề còn lại]",
+      "example_sentences": [
+        {
+          "en": "It was my mother who taught me how to manage money.",
+          "vi": "Chính mẹ tôi là người đã dạy tôi cách quản lý tiền bạc."
+        },
+        {
+          "en": "It is by practicing daily that teenagers develop self-reliance.",
+          "vi": "Chính bằng cách rèn luyện hàng ngày mà thanh thiếu niên phát triển tính tự lập."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "It was my mother which taught me.",
+          "correction": "It was my mother who/that taught me.",
+          "explanation": "Nhấn mạnh người dùng 'who' hoặc 'that', không dùng 'which'."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u08-reading-001",
+    "unit_id": "g11-u08",
+    "topic": "Road to Teen Independence",
+    "main_idea": "Các kỹ năng sinh tồn thiết yếu: nấu nướng cơ bản, quản lý cảm xúc, lập kế hoạch chi tiêu và quản lý thời gian.",
+    "reading_skills": [
+      "Identifying core advice",
+      "Matching life skills"
+    ],
+    "keywords": [
+      "independence",
+      "self-reliance",
+      "budgeting"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Kỹ năng nào được xem là nền tảng để sống tự lập thành công?",
+        "options": [
+          "Biết quản lý chi tiêu và tự kỷ luật với thời gian",
+          "Dựa dẫm hoàn toàn vào cha mẹ gửi tiền",
+          "Tránh né mọi áp lực xã hội",
+          "Chỉ làm những việc mình thích"
+        ],
+        "correctAnswer": "Biết quản lý chi tiêu và tự kỷ luật với thời gian",
+        "explanation": "Tự lập đòi hỏi trách nhiệm với tài chính và thời gian biểu cá nhân."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 87,
+    "book_page": 87,
+    "source_section": "Grade 11 Unit 8 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to students sharing advice on becoming autonomous self-regulated learners",
+      "activity_types": [
+        "Gap-fill",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G11 Track 38",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 89,
+      "book_page": 89,
+      "source_section": "Grade 11 Unit 8 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Giving detailed instructions on practicing a fundamental life skill",
+      "activity_types": [
+        "Pair presentation"
+      ],
+      "prompts": [
+        "How to manage study time during exam week?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Grade 11 Unit 8 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an article on the pros and cons of studying and living away from home",
+      "task_type": "Discussion article",
+      "sample_outline": [
+        "Introduction",
+        "Gains in maturity",
+        "Challenges of loneliness",
+        "Conclusion"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Grade 11 Unit 8 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u08-question-001",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Khả năng tự mình lo liệu cuộc sống mà không phải phụ thuộc người khác gọi là:",
+      "options": [
+        "Self-reliant",
+        "Catastrophic",
+        "Needy",
+        "Portable"
+      ],
+      "correctAnswer": "Self-reliant",
+      "explanation": "Self-reliant = tự lực cánh sinh, tự lập.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u08-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-002",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Kỹ năng phân bổ và sử dụng quỹ thời gian hợp lý hiệu quả được gọi là:",
+      "options": [
+        "Time management",
+        "Global warming",
+        "Cultural exchange",
+        "Household chore"
+      ],
+      "correctAnswer": "Time management",
+      "explanation": "Time management = quản lý thời gian.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u08-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-003",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Bản kế hoạch chi tiêu thu nhập hợp lý để tránh thiếu hụt tiền gọi là:",
+      "options": [
+        "Budget",
+        "Curfew",
+        "Emission",
+        "Citadel"
+      ],
+      "correctAnswer": "Budget",
+      "explanation": "Budget = ngân sách tài chính.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u08-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-004",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu chẻ nhấn mạnh đúng chủ ngữ: 'My sister solved the problem.'",
+      "options": [
+        "It was my sister who solved the problem.",
+        "It was my sister which solved the problem.",
+        "It is my sister whom solved the problem.",
+        "It was my sister what solved the problem."
+      ],
+      "correctAnswer": "It was my sister who solved the problem.",
+      "explanation": "Nhấn mạnh người làm chủ ngữ: It was + person + who/that + V.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u08-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-005",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Nhấn mạnh nơi chốn: 'They learned to cook in the school kitchen.'",
+      "options": [
+        "It was in the school kitchen that they learned to cook.",
+        "It was in the school kitchen where that they learned to cook.",
+        "It was in the school kitchen which they learned to cook.",
+        "It is the school kitchen that they learned to cook in there."
+      ],
+      "correctAnswer": "It was in the school kitchen that they learned to cook.",
+      "explanation": "Nhấn mạnh trạng ngữ: It was + Adverbial + that + S + V.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u08-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-006",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Kỹ năng giao tiếp và tạo dựng mối quan hệ hòa đồng với người khác là:",
+      "options": [
+        "Interpersonal skills",
+        "Computer hardware",
+        "Passive voice",
+        "Solar energy"
+      ],
+      "correctAnswer": "Interpersonal skills",
+      "explanation": "Interpersonal skills = kỹ năng giao tiếp tương tác giữa người với người.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u08-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-007",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Cụm 'cope with' đồng nghĩa với cụm động từ nào?",
+      "options": [
+        "Deal with",
+        "Run away from",
+        "Depend on",
+        "Laugh at"
+      ],
+      "correctAnswer": "Deal with",
+      "explanation": "Cope with = đương đầu, đối phó xử lý (deal with).",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u08-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-008",
+      "unit_id": "g11-u08",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Developing strong _______ enables students to study consistently without constant supervision.'",
+      "options": [
+        "self-discipline",
+        "pollution",
+        "rubbish",
+        "appliance"
+      ],
+      "correctAnswer": "self-discipline",
+      "explanation": "Self-discipline = tính tự kỷ luật.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u08-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-009",
+      "unit_id": "g11-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu chẻ nhấn mạnh tân ngữ chính xác: 'Nam bought a dictionary yesterday.'",
+      "options": [
+        "It was a dictionary that Nam bought yesterday.",
+        "It was a dictionary which Nam bought yesterday it.",
+        "It was yesterday that a dictionary bought Nam.",
+        "It was Nam who bought yesterday a dictionary."
+      ],
+      "correctAnswer": "It was a dictionary that Nam bought yesterday.",
+      "explanation": "Nhấn mạnh tân ngữ 'a dictionary': It was a dictionary that + S + V.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u08-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u08-question-010",
+      "unit_id": "g11-u08",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu nhấn mạnh kỹ năng tự lập:",
+      "options": [
+        "It is self-discipline that helps teenagers achieve long-term success.",
+        "That helps teenagers achieve long-term success it is self-discipline.",
+        "Teenagers achieve long-term success it is self-discipline that helps.",
+        "Long-term success it is self-discipline that helps teenagers achieve."
+      ],
+      "correctAnswer": "It is self-discipline that helps teenagers achieve long-term success.",
+      "explanation": "It is + focus + that + V.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u08-grammar-001",
+        "g11-u08-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 86,
+      "book_page": 86,
+      "source_section": "Grade 11 Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "It",
+        "is",
+        "self-discipline",
+        "that",
+        "helps",
+        "teenagers",
+        "achieve",
+        "long-term",
+        "success."
+      ]
+    }
+  ]
+}

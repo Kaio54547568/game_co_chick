@@ -232,10 +232,12 @@ export class ProgressionEngine {
     profile: PlayerProfile,
     enemy: CombatEnemy,
     isBossPhase2Defeated: boolean,
-    remainingPlayerHp: number
+    remainingPlayerHp: number,
+    encounterId?: string
   ): CombatVictoryResult {
-    // Chặn farm: nếu kẻ địch này đã bị hạ trước đó, không cấp thêm thưởng
-    if (profile.defeatedEnemyIds.includes(enemy.id)) {
+    const encKey = encounterId || enemy.id;
+    // Chặn farm: nếu kẻ địch hoặc encounterId này đã bị hạ trước đó, không cấp thêm thưởng
+    if (profile.defeatedEnemyIds.includes(encKey) || profile.defeatedEnemyIds.includes(enemy.id)) {
       return {
         profile,
         didLevelUp: false,
@@ -246,7 +248,10 @@ export class ProgressionEngine {
       };
     }
 
-    const defeatedEnemyIds = [...profile.defeatedEnemyIds, enemy.id];
+    const defeatedEnemyIds = [...profile.defeatedEnemyIds, encKey];
+    if (!defeatedEnemyIds.includes(enemy.id)) {
+      defeatedEnemyIds.push(enemy.id);
+    }
     let quests = [...profile.quests];
     let stats = {
       ...profile.stats,

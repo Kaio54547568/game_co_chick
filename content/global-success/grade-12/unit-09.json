@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 9,
+    "unit_id": "g12-u09",
+    "title": "CAREER PATHS",
+    "topic": "Career Planning, Market Trends, Emerging Occupations and Professional Development",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 116,
+    "book_page": 116,
+    "source_section": "Grade 12 Unit 9 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 116,
+        "book_page_end": 117,
+        "pdf_page_start": 116,
+        "pdf_page_end": 117,
+        "description": "Introduction dialogue for CAREER PATHS"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 118,
+        "book_page_end": 118,
+        "pdf_page_start": 118,
+        "pdf_page_end": 118,
+        "description": "Pronunciation (Sentence stress and rhythm in complex sentences), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 119,
+        "book_page_end": 120,
+        "pdf_page_start": 119,
+        "pdf_page_end": 120,
+        "description": "Navigating the Future Job Market"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 120,
+        "book_page_end": 120,
+        "pdf_page_start": 120,
+        "pdf_page_end": 120,
+        "description": "Discussing personal career aspirations and debating passion versus practical salary"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 121,
+        "book_page_end": 121,
+        "pdf_page_start": 121,
+        "pdf_page_end": 121,
+        "description": "Listening to an interview with a high school careers advisor on emerging digital occupations"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 122,
+        "book_page_end": 123,
+        "pdf_page_start": 122,
+        "pdf_page_end": 123,
+        "description": "Writing a polished, professionally formatted Curriculum Vitae (CV) for entry-level positions"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 124,
+        "book_page_end": 124,
+        "pdf_page_start": 124,
+        "pdf_page_end": 124,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 125,
+        "book_page_end": 125,
+        "pdf_page_start": 125,
+        "pdf_page_end": 125,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to career planning, market trends, emerging occupations and professional development",
+      "grammar": [
+        "Three-word Phrasal Verbs"
+      ],
+      "pronunciation": "Sentence stress and rhythm in complex sentences",
+      "reading": "Navigating the Future Job Market",
+      "speaking": "Discussing personal career aspirations and debating passion versus practical salary",
+      "listening": "Listening to an interview with a high school careers advisor on emerging digital occupations",
+      "writing": "Writing a polished, professionally formatted Curriculum Vitae (CV) for entry-level positions"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u09-vocab-001",
+      "unit_id": "g12-u09",
+      "word": "career path",
+      "word_type": "noun phrase",
+      "ipa": "/kəˈrɪə pɑːθ/",
+      "meaning_vi": "con đường sự nghiệp",
+      "definition_en": "a planned sequence of jobs through which you progress in your working life",
+      "example_sentence": "Choosing the right career path requires assessing your personal talents and passions.",
+      "example_translation": "Chọn đúng con đường sự nghiệp đòi hỏi việc đánh giá tài năng và đam mê cá nhân.",
+      "collocations": [
+        "choose a career path"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-vocab-002",
+      "unit_id": "g12-u09",
+      "word": "employability",
+      "word_type": "noun",
+      "ipa": "/ɪmˌplɔɪəˈbɪləti/",
+      "meaning_vi": "khả năng tìm kiếm việc làm",
+      "definition_en": "the skills and capabilities that make an individual attractive to employers",
+      "example_sentence": "Internship experience and language fluency enhance your employability immensely.",
+      "example_translation": "Kinh nghiệm thực tập và sự lưu loát ngôn ngữ nâng cao đáng kể khả năng tìm việc của bạn.",
+      "collocations": [
+        "boost employability"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-vocab-003",
+      "unit_id": "g12-u09",
+      "word": "upskilling",
+      "word_type": "noun",
+      "ipa": "/ˌʌpˈskɪlɪŋ/",
+      "meaning_vi": "sự nâng cao kỹ năng nghề nghiệp",
+      "definition_en": "the process of learning new skills or of teaching workers new skills",
+      "example_sentence": "Continuous upskilling is necessary in an automated, technology-driven job market.",
+      "example_translation": "Nâng cao kỹ năng liên tục là điều thiết yếu trong thị trường lao động tự động hóa và định hướng công nghệ.",
+      "collocations": [
+        "professional upskilling"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-vocab-004",
+      "unit_id": "g12-u09",
+      "word": "vocational guidance",
+      "word_type": "noun phrase",
+      "ipa": "/vəʊˈkeɪʃənl ˈɡaɪdns/",
+      "meaning_vi": "sự tư vấn hướng nghiệp",
+      "definition_en": "advice given to people to help them choose a career suitable for their abilities",
+      "example_sentence": "Schools should provide comprehensive vocational guidance to secondary students.",
+      "example_translation": "Nhà trường nên cung cấp dịch vụ tư vấn hướng nghiệp toàn diện cho học sinh phổ thông.",
+      "collocations": [
+        "seek vocational guidance"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-vocab-005",
+      "unit_id": "g12-u09",
+      "word": "career ladder",
+      "word_type": "noun phrase",
+      "ipa": "/kəˈrɪə ˈlædə(r)/",
+      "meaning_vi": "nấc thang thăng tiến sự nghiệp",
+      "definition_en": "a sequence of job positions in which each offers higher status and pay",
+      "example_sentence": "She worked diligently for ten years to climb the corporate career ladder.",
+      "example_translation": "Cô đã làm việc chăm chỉ suốt mười năm để leo lên từng nấc thang sự nghiệp của tập đoàn.",
+      "collocations": [
+        "climb the career ladder"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-vocab-006",
+      "unit_id": "g12-u09",
+      "word": "promotion",
+      "word_type": "noun",
+      "ipa": "/prəˈməʊʃn/",
+      "meaning_vi": "sự thăng chức, đề bạt",
+      "definition_en": "the advancement of an employee to a higher job rank or position",
+      "example_sentence": "His exceptional leadership during the tech crisis earned him a promotion to director.",
+      "example_translation": "Năng lực lãnh đạo xuất sắc trong cuộc khủng hoảng công nghệ đã mang lại cho anh sự thăng chức lên giám đốc.",
+      "collocations": [
+        "earn a promotion"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u09-grammar-001",
+      "unit_id": "g12-u09",
+      "title": "Three-word Phrasal Verbs",
+      "structure_name": "Cụm động từ ba từ",
+      "rule_summary": "Các cụm động từ gồm: Verb + Adverb + Preposition đi liền nhau và luôn đi kèm tân ngữ: look forward to (trông đợi), catch up with (đuổi kịp), cut down on (cắt giảm), run out of (hết sạch), get on with (hòa thuận với), keep up with (theo kịp).",
+      "formula": "Verb + Particle 1 + Particle 2 + Object",
+      "example_sentences": [
+        {
+          "en": "I am looking forward to starting my summer internship.",
+          "vi": "Tôi rất mong chờ được bắt đầu kỳ thực tập mùa hè của mình."
+        },
+        {
+          "en": "Young workers must keep up with rapid technological changes.",
+          "vi": "Lao động trẻ phải bắt kịp với những thay đổi công nghệ nhanh chóng."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "I am looking forward to meet you.",
+          "correction": "I am looking forward to meeting you.",
+          "explanation": "Sau cụm 'look forward to' phải đi với V-ing (meeting)."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u09-reading-001",
+    "unit_id": "g12-u09",
+    "topic": "Navigating the Future Job Market",
+    "main_idea": "Xu hướng việc làm trong kỷ nguyên chuyển đổi số: các ngành nghề mới nổi và tầm quan trọng của tính linh hoạt.",
+    "reading_skills": [
+      "Career self-assessment",
+      "Scanning market statistics"
+    ],
+    "keywords": [
+      "career path",
+      "upskilling",
+      "market trends"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Để thành công trên con đường sự nghiệp hiện đại, người lao động cần chuẩn bị tâm thế nào?",
+        "options": [
+          "Chủ động học hỏi, nâng cao kỹ năng và thích ứng linh hoạt với thị trường",
+          "Học một lần ở trường và giữ nguyên kỹ năng cả đời",
+          "Chờ đợi sự sắp xếp hoàn toàn từ người khác",
+          "Không bao giờ tiếp cận công nghệ mới"
+        ],
+        "correctAnswer": "Chủ động học hỏi, nâng cao kỹ năng và thích ứng linh hoạt với thị trường",
+        "explanation": "Thị trường việc làm biến động liên tục đòi hỏi tinh thần chủ động nâng cao năng lực."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 119,
+    "book_page": 119,
+    "source_section": "Grade 12 Unit 9 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an interview with a high school careers advisor on emerging digital occupations",
+      "activity_types": [
+        "Gap-fill",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G12 Track 42",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 121,
+      "book_page": 121,
+      "source_section": "Grade 12 Unit 9 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Discussing personal career aspirations and debating passion versus practical salary",
+      "activity_types": [
+        "Pair talk"
+      ],
+      "prompts": [
+        "Should you follow your passion or choose an in-demand profession?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 120,
+      "book_page": 120,
+      "source_section": "Grade 12 Unit 9 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a polished, professionally formatted Curriculum Vitae (CV) for entry-level positions",
+      "task_type": "Professional CV",
+      "sample_outline": [
+        "Personal profile",
+        "Education background",
+        "Technical & Soft skills",
+        "Extracurriculars"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 122,
+      "book_page": 122,
+      "source_section": "Grade 12 Unit 9 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u09-question-001",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Lộ trình thăng tiến và phát triển công việc theo thời gian được gọi là:",
+      "options": [
+        "Career path",
+        "Curfew",
+        "Sanctuary",
+        "Wetland"
+      ],
+      "correctAnswer": "Career path",
+      "explanation": "Career path = con đường / lộ trình sự nghiệp.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-002",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Khả năng đáp ứng yêu cầu tuyển dụng và dễ dàng tìm được việc làm tốt gọi là:",
+      "options": [
+        "Employability",
+        "Contamination",
+        "Deforestation",
+        "Superstition"
+      ],
+      "correctAnswer": "Employability",
+      "explanation": "Employability = khả năng tìm việc làm.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-003",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Quá trình học thêm kỹ năng mới để đáp ứng yêu cầu công nghệ hiện đại là:",
+      "options": [
+        "Upskilling",
+        "Poaching",
+        "Assimilation",
+        "Recycling"
+      ],
+      "correctAnswer": "Upskilling",
+      "explanation": "Upskilling = sự nâng cao kỹ năng nghề nghiệp.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-004",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Chọn cụm động từ ba từ có nghĩa là 'trông mong, chờ đợi': 'She is really looking _______ hearing from the hiring committee.'",
+      "options": [
+        "forward to",
+        "out of",
+        "up with",
+        "down on"
+      ],
+      "correctAnswer": "forward to",
+      "explanation": "Look forward to + V-ing = trông mong, chờ đợi điều gì.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-005",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Chọn cụm ba từ có nghĩa là 'bắt kịp, theo kịp': 'Workers need to keep _______ new automated software.'",
+      "options": [
+        "up with",
+        "out of",
+        "down to",
+        "forward on"
+      ],
+      "correctAnswer": "up with",
+      "explanation": "Keep up with = theo kịp, bắt kịp.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-006",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Chọn cụm ba từ có nghĩa là 'cắt giảm bớt': 'Companies must cut _______ unnecessary office expenses.'",
+      "options": [
+        "down on",
+        "up with",
+        "away from",
+        "forward to"
+      ],
+      "correctAnswer": "down on",
+      "explanation": "Cut down on = cắt giảm bớt.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-007",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Hoạt động tư vấn giúp học sinh chọn nghề nghiệp thích hợp gọi là:",
+      "options": [
+        "Vocational guidance",
+        "Cultural exchange",
+        "Single-use plastic",
+        "Marine life"
+      ],
+      "correctAnswer": "Vocational guidance",
+      "explanation": "Vocational guidance = tư vấn hướng nghiệp.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-008",
+      "unit_id": "g12-u09",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Hard work and continuous innovation earned him a well-deserved _______ to senior manager.'",
+      "options": [
+        "promotion",
+        "appliance",
+        "chores",
+        "curfew"
+      ],
+      "correctAnswer": "promotion",
+      "explanation": "Promotion = sự thăng chức.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u09-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-009",
+      "unit_id": "g12-u09",
+      "type": "multiple_choice",
+      "prompt": "Cụm 'climb the career ladder' mang ý nghĩa gì?",
+      "options": [
+        "Từng bước thăng tiến lên các vị trí cao hơn trong sự nghiệp",
+        "Tập thể dục leo thang trong văn phòng",
+        "Chuyển việc sang ngành nghề chân tay",
+        "Bị giáng chức sau thời gian thử việc"
+      ],
+      "correctAnswer": "Từng bước thăng tiến lên các vị trí cao hơn trong sự nghiệp",
+      "explanation": "Climb the career ladder = leo lên các nấc thang sự nghiệp.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u09-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u09-question-010",
+      "unit_id": "g12-u09",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành lời khuyên phát triển nghề nghiệp bền vững:",
+      "options": [
+        "Continuous upskilling enhances your employability in a competitive job market.",
+        "In a competitive job market continuous upskilling enhances your employability.",
+        "Your employability enhances continuous upskilling in a competitive job market.",
+        "Competitive job market in a enhances continuous upskilling your employability."
+      ],
+      "correctAnswer": "Continuous upskilling enhances your employability in a competitive job market.",
+      "explanation": "S + enhances + O + in PP.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u09-vocab-002",
+        "g12-u09-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 118,
+      "book_page": 118,
+      "source_section": "Grade 12 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Continuous",
+        "upskilling",
+        "enhances",
+        "your",
+        "employability",
+        "in",
+        "a",
+        "competitive",
+        "job",
+        "market."
+      ]
+    }
+  ]
+}

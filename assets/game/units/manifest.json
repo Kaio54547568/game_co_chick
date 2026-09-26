@@ -1,0 +1,515 @@
+{
+  "version": 1,
+  "units": [
+    {
+      "grade": 10,
+      "unit": 1,
+      "title": "FAMILY LIFE",
+      "concept": "traditional Vietnamese three-generation family courtyard, shared morning chores, red tile house and lotus pond",
+      "background": "/assets/game/units/grade-10/unit-01.jpg",
+      "card": "/assets/game/units/grade-10/unit-01-card.jpg",
+      "source": "assets/source/units/grade-10/unit-01.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "title": "HUMANS AND THE ENVIRONMENT",
+      "concept": "restored river village with villagers planting bamboo and cleaning the riverbank, waterwheel and returning cranes",
+      "background": "/assets/game/units/grade-10/unit-02.jpg",
+      "card": "/assets/game/units/grade-10/unit-02-card.jpg",
+      "source": "assets/source/units/grade-10/unit-02.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "title": "MUSIC",
+      "concept": "moonlit communal-house courtyard performance with đàn bầu, đàn tranh and bronze drums, performers in Vietnamese robes",
+      "background": "/assets/game/units/grade-10/unit-03.jpg",
+      "card": "/assets/game/units/grade-10/unit-03-card.jpg",
+      "source": "assets/source/units/grade-10/unit-03.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "title": "FOR A BETTER COMMUNITY",
+      "concept": "village volunteers repairing a small bridge and sharing baskets of food beside a communal house",
+      "background": "/assets/game/units/grade-10/unit-04.jpg",
+      "card": "/assets/game/units/grade-10/unit-04-card.jpg",
+      "source": "assets/source/units/grade-10/unit-04.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "title": "INVENTIONS",
+      "concept": "historical Vietnamese craft workshop with ingenious waterwheel, paper-making, wooden mechanisms and curious apprentices",
+      "background": "/assets/game/units/grade-10/unit-05.jpg",
+      "card": "/assets/game/units/grade-10/unit-05-card.jpg",
+      "source": "assets/source/units/grade-10/unit-05.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "title": "GENDER EQUALITY",
+      "concept": "women and men training side by side in a Vietnamese martial arts courtyard, equal standing and mutual respect",
+      "background": "/assets/game/units/grade-10/unit-06.jpg",
+      "card": "/assets/game/units/grade-10/unit-06-card.jpg",
+      "source": "assets/source/units/grade-10/unit-06.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "title": "VIET NAM AND INTERNATIONAL ORGANISATIONS",
+      "concept": "Vietnamese riverside diplomatic pavilion welcoming diverse delegates beneath lotus and Đông Sơn patterns",
+      "background": "/assets/game/units/grade-10/unit-07.jpg",
+      "card": "/assets/game/units/grade-10/unit-07-card.jpg",
+      "source": "assets/source/units/grade-10/unit-07.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "title": "NEW WAYS TO LEARN",
+      "concept": "open-air Vietnamese learning pavilion combining scrolls, maps, astronomy instruments and magical glowing knowledge motifs",
+      "background": "/assets/game/units/grade-10/unit-08.jpg",
+      "card": "/assets/game/units/grade-10/unit-08-card.jpg",
+      "source": "assets/source/units/grade-10/unit-08.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "title": "PROTECTING THE ENVIRONMENT",
+      "concept": "forest guardians restoring a polluted stream, planting native trees under a storm-clearing sky",
+      "background": "/assets/game/units/grade-10/unit-09.jpg",
+      "card": "/assets/game/units/grade-10/unit-09-card.jpg",
+      "source": "assets/source/units/grade-10/unit-09.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "title": "ECOTOURISM",
+      "concept": "responsible travelers on a raised bamboo trail through limestone karsts, lotus marsh and lush national park",
+      "background": "/assets/game/units/grade-10/unit-10.jpg",
+      "card": "/assets/game/units/grade-10/unit-10-card.jpg",
+      "source": "assets/source/units/grade-10/unit-10.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "title": "A LONG AND HEALTHY LIFE",
+      "concept": "Vietnamese herbal medicine garden and serene exercise courtyard at sunrise, elders practicing gentle movements",
+      "background": "/assets/game/units/grade-11/unit-01.jpg",
+      "card": "/assets/game/units/grade-11/unit-01-card.jpg",
+      "source": "assets/source/units/grade-11/unit-01.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "title": "THE GENERATION GAP",
+      "concept": "warm courtyard conversation between grandparents, parents and teenagers around a tea table and old family heirloom",
+      "background": "/assets/game/units/grade-11/unit-02.jpg",
+      "card": "/assets/game/units/grade-11/unit-02-card.jpg",
+      "source": "assets/source/units/grade-11/unit-02.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "title": "CITIES OF THE FUTURE",
+      "concept": "imagined eco-city in a Vietnamese river delta, futuristic transit blended with traditional roofs and green terraces",
+      "background": "/assets/game/units/grade-11/unit-03.jpg",
+      "card": "/assets/game/units/grade-11/unit-03-card.jpg",
+      "source": "assets/source/units/grade-11/unit-03.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "title": "ASEAN AND VIET NAM",
+      "concept": "Vietnamese festival port welcoming Southeast Asian travelers, diverse textiles, boats and friendly cultural exchange",
+      "background": "/assets/game/units/grade-11/unit-04.jpg",
+      "card": "/assets/game/units/grade-11/unit-04-card.jpg",
+      "source": "assets/source/units/grade-11/unit-04.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "title": "GLOBAL WARMING",
+      "concept": "Vietnamese coastal village confronting rising water and heat, community planting mangroves under dramatic sky",
+      "background": "/assets/game/units/grade-11/unit-05.jpg",
+      "card": "/assets/game/units/grade-11/unit-05-card.jpg",
+      "source": "assets/source/units/grade-11/unit-05.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "title": "PRESERVING OUR HERITAGE",
+      "concept": "craftspeople conserving an ancient Vietnamese communal house, Đông Sơn bronze drum and traditional wood carvings",
+      "background": "/assets/game/units/grade-11/unit-06.jpg",
+      "card": "/assets/game/units/grade-11/unit-06-card.jpg",
+      "source": "assets/source/units/grade-11/unit-06.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "title": "EDUCATION OPTIONS FOR SCHOOL-LEAVERS",
+      "concept": "crossroads outside a Vietnamese academy leading to artisan workshop, university pavilion and agricultural innovation field",
+      "background": "/assets/game/units/grade-11/unit-07.jpg",
+      "card": "/assets/game/units/grade-11/unit-07-card.jpg",
+      "source": "assets/source/units/grade-11/unit-07.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "title": "BECOMING INDEPENDENT",
+      "concept": "young Vietnamese traveler preparing supplies and navigating a map at a village gate at dawn",
+      "background": "/assets/game/units/grade-11/unit-08.jpg",
+      "card": "/assets/game/units/grade-11/unit-08-card.jpg",
+      "source": "assets/source/units/grade-11/unit-08.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "title": "SOCIAL ISSUES",
+      "concept": "community meeting in a Vietnamese market square to help neighbors, inclusive and hopeful public service",
+      "background": "/assets/game/units/grade-11/unit-09.jpg",
+      "card": "/assets/game/units/grade-11/unit-09-card.jpg",
+      "source": "assets/source/units/grade-11/unit-09.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "title": "THE ECOSYSTEM",
+      "concept": "layered Vietnamese wetland ecosystem with mangroves, birds, fish, insects and lotus, natural balance",
+      "background": "/assets/game/units/grade-11/unit-10.jpg",
+      "card": "/assets/game/units/grade-11/unit-10-card.jpg",
+      "source": "assets/source/units/grade-11/unit-10.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "title": "LIFE STORIES WE ADMIRE",
+      "concept": "hall of Vietnamese-inspired heroic portraits and artifacts, young apprentice studying exemplary lives",
+      "background": "/assets/game/units/grade-12/unit-01.jpg",
+      "card": "/assets/game/units/grade-12/unit-01-card.jpg",
+      "source": "assets/source/units/grade-12/unit-01.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "title": "A MULTICULTURAL WORLD",
+      "concept": "welcoming Vietnamese trade courtyard with travelers from many cultures exchanging crafts and stories",
+      "background": "/assets/game/units/grade-12/unit-02.jpg",
+      "card": "/assets/game/units/grade-12/unit-02-card.jpg",
+      "source": "assets/source/units/grade-12/unit-02.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "title": "GREEN LIVING",
+      "concept": "sustainable Vietnamese village with reusable baskets, solar-lit roofs, gardens and clean waterways",
+      "background": "/assets/game/units/grade-12/unit-03.jpg",
+      "card": "/assets/game/units/grade-12/unit-03-card.jpg",
+      "source": "assets/source/units/grade-12/unit-03.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "title": "URBANISATION",
+      "concept": "historic Vietnamese town transitioning into a green modern city, riverfront housing and public transit",
+      "background": "/assets/game/units/grade-12/unit-04.jpg",
+      "card": "/assets/game/units/grade-12/unit-04-card.jpg",
+      "source": "assets/source/units/grade-12/unit-04.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "title": "THE WORLD OF WORK",
+      "concept": "lively Vietnamese craft and profession district: teacher, healer, engineer, farmer and artisan at work",
+      "background": "/assets/game/units/grade-12/unit-05.jpg",
+      "card": "/assets/game/units/grade-12/unit-05-card.jpg",
+      "source": "assets/source/units/grade-12/unit-05.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "title": "ARTIFICIAL INTELLIGENCE",
+      "concept": "Vietnamese historical fantasy scholar's workshop with intelligent bronze-and-bamboo automaton and luminous pattern diagrams",
+      "background": "/assets/game/units/grade-12/unit-06.jpg",
+      "card": "/assets/game/units/grade-12/unit-06-card.jpg",
+      "source": "assets/source/units/grade-12/unit-06.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "title": "THE WORLD OF MASS MEDIA",
+      "concept": "Vietnamese storytelling pavilion with printing blocks, town crier, illustrated broadsheets and magical light screens",
+      "background": "/assets/game/units/grade-12/unit-07.jpg",
+      "card": "/assets/game/units/grade-12/unit-07-card.jpg",
+      "source": "assets/source/units/grade-12/unit-07.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "title": "WILDLIFE CONSERVATION",
+      "concept": "Vietnamese forest sanctuary protecting rare langurs and hornbills, rangers restoring habitat",
+      "background": "/assets/game/units/grade-12/unit-08.jpg",
+      "card": "/assets/game/units/grade-12/unit-08-card.jpg",
+      "source": "assets/source/units/grade-12/unit-08.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "title": "CAREER PATHS",
+      "concept": "young Vietnamese learners choosing paths through a scenic guild square with workshops and academies",
+      "background": "/assets/game/units/grade-12/unit-09.jpg",
+      "card": "/assets/game/units/grade-12/unit-09-card.jpg",
+      "source": "assets/source/units/grade-12/unit-09.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "title": "LIFELONG LEARNING",
+      "concept": "multi-generation Vietnamese learners in a lantern-lit open library beside a lotus pond, lifelong curiosity",
+      "background": "/assets/game/units/grade-12/unit-10.jpg",
+      "card": "/assets/game/units/grade-12/unit-10-card.jpg",
+      "source": "assets/source/units/grade-12/unit-10.png",
+      "backgroundSize": [
+        1280,
+        720
+      ],
+      "cardSize": [
+        480,
+        270
+      ]
+    }
+  ]
+}

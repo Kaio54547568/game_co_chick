@@ -7,7 +7,7 @@ Bộ này phục vụ **visual vertical slice của 1 Unit demo** theo GDD v1.0.
 | Thư mục | Nội dung |
 | --- | --- |
 | `game/characters/player` | Hai avatar gốc và sheet tĩnh 4 hướng `down, up, left, right` |
-| `game/characters/npc` | Lão Ngư Phu, thương nhân phụ, sprite và portrait Bang Chủ Hà Ánh Phượng |
+| `game/characters/npc` | Lão Ngư Phu, thương nhân phụ, Bang Chủ và bốn Hộ Pháp (mỗi người có sprite và portrait) |
 | `game/characters/enemies` | Kiếm đồ, hắc khí yêu ma, kiếm đồ tinh anh |
 | `game/characters/bosses` | Năm Boss có tên trong GDD |
 | `game/world/landmarks` | Sơn Môn, Tàng Kinh Các, Trúc Lâm, Ma Giáo Cấm Địa |
@@ -19,7 +19,7 @@ Bộ này phục vụ **visual vertical slice của 1 Unit demo** theo GDD v1.0.
 | `game/vfx` | Tia trúng đòn, critical, hào quang nhiệm vụ |
 | `references` | Ảnh phong cách và bản GDD do bạn cung cấp |
 
-Bang Chủ Hà Ánh Phượng đã có ảnh nhận diện và hai asset dùng trong game. Năm Hộ Pháp còn lại được tách riêng trong [NHAN_VAT_CHO_ANH_THAM_CHIEU.md](NHAN_VAT_CHO_ANH_THAM_CHIEU.md) và **chưa được tạo hình**.
+Bang Chủ và bốn Hộ Pháp Đặng Trần Hà, Hoàng Vân, Phương Tú, Nguyệt Nguyễn đã có ảnh nhận diện và hai asset/người. Hộ Pháp Liên Phạm còn chờ ảnh mặt thật; xem [NHAN_VAT_CHO_ANH_THAM_CHIEU.md](NHAN_VAT_CHO_ANH_THAM_CHIEU.md).
 
 ## Dùng trong game
 
@@ -41,8 +41,8 @@ this.load.spritesheet('playerMale', 'assets/game/characters/player/directional/m
 const player = this.add.sprite(x, y, 'playerMale', 0).setOrigin(0.5, 0.94);
 ```
 
-GDD chưa chốt chủ đề và bố cục của toàn bộ 30 Unit, nên bộ này tập trung vào 1 map/Unit demo và hệ thống hình ảnh dùng lại. Ảnh của năm Hộ Pháp còn lại, bản đồ 30 Unit, cutscene, trang phục tùy biến, animation đầy đủ và audio chưa nằm trong bộ này.
+GDD chưa chốt chủ đề và bố cục của toàn bộ 30 Unit, nên bộ này tập trung vào 1 map/Unit demo và hệ thống hình ảnh dùng lại. Hình Hộ Pháp Liên Phạm, bản đồ 30 Unit, cutscene, trang phục tùy biến, animation đầy đủ và audio chưa nằm trong bộ này.
 
 ## Nguồn phong cách
 
-Định hướng lấy từ ảnh phong cách người dùng gửi: kiếm hiệp điện ảnh, áo nhiều lớp và thêu chi tiết, đỏ–đen–vàng, ánh sáng ấm, điểm tím/jade cho phe và cơ chế khác nhau. Riêng portrait/sprite Bang Chủ dùng thêm ảnh mặt thật người dùng cung cấp để giữ nhận diện. Ảnh mặt thật gốc không được chép vào thư mục asset phát hành. Prompt tổng quát nằm trong [PROMPTS.md](PROMPTS.md).
+Định hướng chung là fantasy kiếm hiệp điện ảnh, áo nhiều lớp và thêu chi tiết. Bốn Hộ Pháp mới theo yêu cầu cập nhật: cảm hứng trang phục và họa tiết Việt Nam (áo ngũ thân/áo tứ thân, hoa sen, tre, Đông Sơn), tuyệt đối không dùng chữ Hán hoặc bối cảnh Trung Hoa. Portrait/sprite của Bang Chủ và bốn Hộ Pháp dùng ảnh mặt thật do người dùng cung cấp để giữ nhận diện. Ảnh mặt thật gốc không được chép vào thư mục asset phát hành. Prompt tạo ảnh nằm trong [PROMPTS.md](PROMPTS.md).

@@ -1,0 +1,178 @@
+[
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "portrait thief in torn scholar robes carrying a stolen blank portrait frame",
+    "generated": "exec-656b19a0-8e15-4a88-8b5c-d7bb6cf8c9af.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "archer firing strips of dark memory scroll from a bamboo bow",
+    "generated": "exec-6d9eb164-74e5-4bfc-9a12-9c7b6764ed9e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "broad stone memorial guard with cracked heroic relief armor",
+    "generated": "exec-d22cc6fb-2a9e-4417-93e0-b48c40c14f3d.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "animated gilt portrait frame golem with empty center",
+    "generated": "exec-295b4295-509b-404c-8f1b-c533a996197e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "fading memory wraith with drifting scroll fragments",
+    "generated": "exec-8484a57b-02db-47a5-ad54-fefc40b19853.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "false hero captain in ornate Vietnamese ceremonial armor with a fractured bronze medal",
+    "generated": "exec-85906c17-91f0-475e-9c62-7b9d3b52c5c6.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "memory_chimera",
+    "concept": "a nonhuman chimera assembled from torn blank portrait canvases and bronze memorial fragments",
+    "generated": "exec-cfdd712d-5d10-4801-b379-11dff8939974.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "hero hall polished stone",
+    "generated": "exec-6f177218-e244-417d-b447-61502d271010.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "mossy hero-hall side courtyard stone",
+    "generated": "exec-df885e3b-45d6-45ef-9088-141c9cbb7dd5.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "memorial bronze plaque without text",
+    "generated": "exec-66c44cc4-09df-4694-8818-296bd3e5bff9.png"
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "small empty portrait display frame",
+    "generated": "exec-c34f5b48-1ad7-4d9e-8ba5-7c4bc2321ab0.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "masked market rogue stealing trade wares",
+    "generated": "exec-cd78b98a-4e53-4e4c-97ca-11bdb43a9927.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "silk-dart hunter wearing mixed but respectful Vietnamese port textiles",
+    "generated": "exec-3a6b66bf-6306-4df0-8012-096d61e1b34a.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large cargo porter corrupted by dark trade magic",
+    "generated": "exec-55106047-989f-4fff-bd18-1ae4c87bd4cc.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "animated stacked trade crates and textile-bale golem",
+    "generated": "exec-ea586d2e-4082-45d0-969f-e656baeaacc9.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "festival mask spirit swirling with colorful cloth ribbons",
+    "generated": "exec-b55e8e88-05ad-4148-b261-d4c464fc44d0.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite masked harbor captain carrying a bronze trade seal",
+    "generated": "exec-e850f076-bb4d-45ec-a906-03f91d0b6339.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "sail_spirit",
+    "concept": "a small ghostly Vietnamese river sailboat creature with torn canvas wings",
+    "generated": "exec-e7bea8b4-6247-47a4-9aa5-ee4e73bfde8c.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "trade courtyard brick mosaic",
+    "generated": "exec-fa6d76c6-0e52-4a95-9a1e-4aed24517cd1.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "weathered riverside market boardwalk",
+    "generated": "exec-2b0b9794-b12e-462e-95ae-b8924c4ab4c0.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "multicultural textile bundle",
+    "generated": "exec-ec565944-06b0-406a-8b8c-2dbc67be70c1.png"
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "bundled trade textiles on a wooden stall",
+    "generated": "exec-e6a74afd-aad3-4b8b-b63d-973124d8464a.png"
+  }
+]

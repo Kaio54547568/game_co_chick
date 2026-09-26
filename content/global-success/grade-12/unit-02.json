@@ -1,0 +1,618 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 2,
+    "unit_id": "g12-u02",
+    "title": "A MULTICULTURAL WORLD",
+    "topic": "Cultural Diversity, Traditions, Globalisation and Intercultural Respect",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 20,
+    "book_page": 20,
+    "source_section": "Grade 12 Unit 2 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 20,
+        "book_page_end": 21,
+        "pdf_page_start": 20,
+        "pdf_page_end": 21,
+        "description": "Introduction dialogue for A MULTICULTURAL WORLD"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 22,
+        "book_page_end": 22,
+        "pdf_page_start": 22,
+        "pdf_page_end": 22,
+        "description": "Pronunciation (Diphthongs: /ɔɪ/, /aɪ/, and /aʊ/), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 23,
+        "book_page_end": 24,
+        "pdf_page_start": 23,
+        "pdf_page_end": 24,
+        "description": "Cultural Identity in the Era of Globalisation"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 24,
+        "book_page_end": 24,
+        "pdf_page_start": 24,
+        "pdf_page_end": 24,
+        "description": "Planning and curating an interactive Cultural Diversity Day exhibition"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 25,
+        "book_page_end": 25,
+        "pdf_page_start": 25,
+        "pdf_page_end": 25,
+        "description": "Listening to an interview on how Vietnamese youth celebrate international festivals like Halloween"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 26,
+        "book_page_end": 27,
+        "pdf_page_start": 26,
+        "pdf_page_end": 27,
+        "description": "Writing an opinion essay analyzing the social impact of celebrating Western festivals in Viet Nam"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 28,
+        "book_page_end": 28,
+        "pdf_page_start": 28,
+        "pdf_page_end": 28,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 29,
+        "book_page_end": 29,
+        "pdf_page_start": 29,
+        "pdf_page_end": 29,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to cultural diversity, traditions, globalisation and intercultural respect",
+      "grammar": [
+        "Articles: A, An, The, and Zero Article"
+      ],
+      "pronunciation": "Diphthongs: /ɔɪ/, /aɪ/, and /aʊ/",
+      "reading": "Cultural Identity in the Era of Globalisation",
+      "speaking": "Planning and curating an interactive Cultural Diversity Day exhibition",
+      "listening": "Listening to an interview on how Vietnamese youth celebrate international festivals like Halloween",
+      "writing": "Writing an opinion essay analyzing the social impact of celebrating Western festivals in Viet Nam"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u02-vocab-001",
+      "unit_id": "g12-u02",
+      "word": "cultural diversity",
+      "word_type": "noun phrase",
+      "ipa": "/ˌkʌltʃərəl daɪˈvɜːsəti/",
+      "meaning_vi": "sự đa dạng văn hóa",
+      "definition_en": "the existence of a variety of cultural groups within a society",
+      "example_sentence": "Cultural diversity enriches national literature, cuisine, and arts.",
+      "example_translation": "Sự đa dạng văn hóa làm giàu thêm văn học, ẩm thực và nghệ thuật quốc gia.",
+      "collocations": [
+        "celebrate cultural diversity"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-vocab-002",
+      "unit_id": "g12-u02",
+      "word": "multicultural",
+      "word_type": "adjective",
+      "ipa": "/ˌmʌltiˈkʌltʃərəl/",
+      "meaning_vi": "đa văn hóa",
+      "definition_en": "relating to or containing several cultural or ethnic groups within a society",
+      "example_sentence": "Modern metropolises like London and Toronto are truly multicultural.",
+      "example_translation": "Các đô thị hiện đại như Luân Đôn và Toronto thực sự mang tính đa văn hóa.",
+      "collocations": [
+        "multicultural society"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-vocab-003",
+      "unit_id": "g12-u02",
+      "word": "assimilation",
+      "word_type": "noun",
+      "ipa": "/əˌsɪmɪˈleɪʃn/",
+      "meaning_vi": "sự đồng hóa văn hóa",
+      "definition_en": "the process in which a minority group comes to resemble a society's majority",
+      "example_sentence": "Preserving native languages prevents forced cultural assimilation.",
+      "example_translation": "Bảo tồn ngôn ngữ bản địa ngăn ngừa sự đồng hóa văn hóa bắt buộc.",
+      "collocations": [
+        "cultural assimilation"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-vocab-004",
+      "unit_id": "g12-u02",
+      "word": "identity",
+      "word_type": "noun",
+      "ipa": "/aɪˈdentəti/",
+      "meaning_vi": "bản sắc, danh tính",
+      "definition_en": "the characteristics determining who or what a person or nation is",
+      "example_sentence": "Traditional folk attire reflects the distinct identity of ethnic groups.",
+      "example_translation": "Trang phục dân gian truyền thống phản ánh bản sắc riêng của các dân tộc.",
+      "collocations": [
+        "cultural identity"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-vocab-005",
+      "unit_id": "g12-u02",
+      "word": "globalisation",
+      "word_type": "noun",
+      "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+      "meaning_vi": "toàn cầu hóa",
+      "definition_en": "the process by which businesses or cultures develop international influence",
+      "example_sentence": "Globalisation allows traditions like Lunar New Year to be celebrated globally.",
+      "example_translation": "Toàn cầu hóa cho phép các truyền thống như Tết Nguyên Đán được ăn mừng trên toàn cầu.",
+      "collocations": [
+        "impact of globalisation"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-vocab-006",
+      "unit_id": "g12-u02",
+      "word": "superstition",
+      "word_type": "noun",
+      "ipa": "/ˌsuːpəˈstɪʃn/",
+      "meaning_vi": "sự mê tín dị đoan",
+      "definition_en": "excessively credulous belief in and reverence for supernatural beings",
+      "example_sentence": "Believing that breaking a mirror brings seven years of bad luck is a superstition.",
+      "example_translation": "Tin rằng làm vỡ gương đem lại 7 năm xui xẻo là một điều mê tín.",
+      "collocations": [
+        "ancient superstition"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u02-grammar-001",
+      "unit_id": "g12-u02",
+      "title": "Articles: A, An, The, and Zero Article",
+      "structure_name": "Mạo từ: Xác định, bất định và không dùng mạo từ",
+      "rule_summary": "Dùng a/an cho danh từ đếm được số ít nhắc tới lần đầu. Dùng 'the' cho danh từ đã xác định, vật thể duy nhất (the sun), hoặc nhạc cụ (play the piano). Không dùng mạo từ (zero article) trước danh từ số nhiều/không đếm được mang nghĩa chung chung, tên các môn thể thao (play football), hoặc tên quốc gia dạng đơn (Viet Nam).",
+      "formula": "a/an + singular countable | the + specific/unique | zero article + general plural/uncountable",
+      "example_sentences": [
+        {
+          "en": "Viet Nam is a country with rich cultural traditions.",
+          "vi": "Việt Nam là một quốc gia có truyền thống văn hóa phong phú."
+        },
+        {
+          "en": "The cultural festival in Hue attracts visitors from all over the world.",
+          "vi": "Lễ hội văn hóa ở Huế thu hút du khách từ khắp nơi trên thế giới."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "He plays the football every afternoon.",
+          "correction": "He plays football every afternoon.",
+          "explanation": "Tên môn thể thao không dùng mạo từ 'the'."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u02-reading-001",
+    "unit_id": "g12-u02",
+    "topic": "Cultural Identity in the Era of Globalisation",
+    "main_idea": "Làm thế nào để hội nhập toàn cầu mà không đánh mất bản sắc và phong tục truyền thống dân tộc.",
+    "reading_skills": [
+      "Skimming for themes",
+      "Distinguishing fact from opinion"
+    ],
+    "keywords": [
+      "cultural identity",
+      "globalisation",
+      "festivals"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Thách thức lớn nhất của các quốc gia trong thời kỳ toàn cầu hóa là gì?",
+        "options": [
+          "Duy trì bản sắc văn hóa riêng biệt trong khi vẫn cởi mở tiếp thu tinh hoa thế giới",
+          "Ngăn cấm hoàn toàn du khách nước ngoài nhập cảnh",
+          "Xóa bỏ ngôn ngữ mẹ đẻ",
+          "Đóng cửa tất cả các bảo tàng lịch sử"
+        ],
+        "correctAnswer": "Duy trì bản sắc văn hóa riêng biệt trong khi vẫn cởi mở tiếp thu tinh hoa thế giới",
+        "explanation": "Toàn cầu hóa đòi hỏi sự hòa nhập nhưng không hòa tan bản sắc."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 23,
+    "book_page": 23,
+    "source_section": "Grade 12 Unit 2 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an interview on how Vietnamese youth celebrate international festivals like Halloween",
+      "activity_types": [
+        "Multiple choice",
+        "Note-taking"
+      ],
+      "audio_source_note": "Audio G12 Track 07",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 25,
+      "book_page": 25,
+      "source_section": "Grade 12 Unit 2 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Planning and curating an interactive Cultural Diversity Day exhibition",
+      "activity_types": [
+        "Group planning"
+      ],
+      "prompts": [
+        "Which international traditional cuisines should we feature?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 24,
+      "book_page": 24,
+      "source_section": "Grade 12 Unit 2 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an opinion essay analyzing the social impact of celebrating Western festivals in Viet Nam",
+      "task_type": "Opinion essay",
+      "sample_outline": [
+        "Introductory stance",
+        "Positive cultural benefits",
+        "Negative commercialization",
+        "Conclusion"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 26,
+      "book_page": 26,
+      "source_section": "Grade 12 Unit 2 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u02-question-001",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Sự cùng tồn tại hòa hợp của nhiều nhóm văn hóa và dân tộc trong xã hội gọi là:",
+      "options": [
+        "Cultural diversity",
+        "Deforestation",
+        "Digital device",
+        "Curfew"
+      ],
+      "correctAnswer": "Cultural diversity",
+      "explanation": "Cultural diversity = sự đa dạng văn hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-002",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Xã hội quy tụ cư dân từ nhiều nền văn hóa và sắc tộc khác nhau được gọi là:",
+      "options": [
+        "Multicultural society",
+        "Industrial bloc",
+        "Nuclear family",
+        "Apprenticeship"
+      ],
+      "correctAnswer": "Multicultural society",
+      "explanation": "Multicultural = đa văn hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-003",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Quá trình hòa tan bản sắc của một nhóm thiểu số vào nền văn hóa đa số là:",
+      "options": [
+        "Assimilation",
+        "Preservation",
+        "Solidarity",
+        "Restoration"
+      ],
+      "correctAnswer": "Assimilation",
+      "explanation": "Assimilation = sự đồng hóa văn hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-004",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Chọn mạo từ đúng: 'She can play _______ guitar very well.'",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "không dùng mạo từ"
+      ],
+      "correctAnswer": "the",
+      "explanation": "Trước tên nhạc cụ dùng 'the' (play the guitar).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-005",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Chọn mạo từ trước môn thể thao: 'My friends enjoy playing _______ badminton on Sundays.'",
+      "options": [
+        "không dùng mạo từ",
+        "the",
+        "a",
+        "an"
+      ],
+      "correctAnswer": "không dùng mạo từ",
+      "explanation": "Trước tên các môn thể thao không dùng mạo từ (zero article).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-006",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Những nét độc đáo riêng biệt định hình nên con người hoặc dân tộc gọi là:",
+      "options": [
+        "Identity",
+        "Appliance",
+        "Emission",
+        "Footprint"
+      ],
+      "correctAnswer": "Identity",
+      "explanation": "Cultural identity = bản sắc văn hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-007",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Quá trình liên kết và lan tỏa kinh tế, văn hóa xuyên biên giới toàn cầu là:",
+      "options": [
+        "Globalisation",
+        "Ecosystem",
+        "Deafness",
+        "Discrimination"
+      ],
+      "correctAnswer": "Globalisation",
+      "explanation": "Globalisation = toàn cầu hóa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-008",
+      "unit_id": "g12-u02",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Believing that the number 13 brings bad luck is an irrational ancient _______.'",
+      "options": [
+        "superstition",
+        "appliance",
+        "chores",
+        "emission"
+      ],
+      "correctAnswer": "superstition",
+      "explanation": "Ancient superstition = điều mê tín cổ xưa.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u02-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-009",
+      "unit_id": "g12-u02",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu sử dụng mạo từ chính xác:",
+      "options": [
+        "The Earth orbits the sun in twelve months.",
+        "An Earth orbits a sun in twelve months.",
+        "Earth orbits the sun in the twelve months.",
+        "The Earth orbits sun in twelve months."
+      ],
+      "correctAnswer": "The Earth orbits the sun in twelve months.",
+      "explanation": "Vật thể duy nhất trong tự nhiên dùng 'the' (the Earth, the sun).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u02-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u02-question-010",
+      "unit_id": "g12-u02",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu về gìn giữ bản sắc dân tộc:",
+      "options": [
+        "Globalisation encourages nations to share traditions while preserving their unique cultural identity.",
+        "Their unique cultural identity to share traditions while preserving globalisation encourages nations.",
+        "Nations to share traditions while preserving their unique cultural identity globalisation encourages.",
+        "Preserving their unique cultural identity globalisation encourages nations to share traditions while."
+      ],
+      "correctAnswer": "Globalisation encourages nations to share traditions while preserving their unique cultural identity.",
+      "explanation": "S + encourages + O + to V + while V-ing.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u02-vocab-004",
+        "g12-u02-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 22,
+      "book_page": 22,
+      "source_section": "Grade 12 Unit 2 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Globalisation",
+        "encourages",
+        "nations",
+        "to",
+        "share",
+        "traditions",
+        "while",
+        "preserving",
+        "their",
+        "unique",
+        "cultural",
+        "identity."
+      ]
+    }
+  ]
+}

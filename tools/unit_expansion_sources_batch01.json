@@ -1,0 +1,98 @@
+[
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "a swift human scout with a short blade, light Vietnamese clothing and a distinctive headwrap; motifs: polluted river reeds, broken nets and water spirits",
+    "generated": "exec-cda05d21-4fa2-4719-a0c5-d3e9eddeaf6d.png"
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "a human ranged attacker with a bamboo bow or sling and light gear; motifs: polluted river reeds, broken nets and water spirits",
+    "generated": "exec-6df06b2a-030b-4e9c-819b-59110c279251.png"
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "a large armored human bruiser with a heavy club and broad silhouette; motifs: polluted river reeds, broken nets and water spirits",
+    "generated": "exec-50634fca-5991-4d36-9c31-cedd4047aff6.png"
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "a nonhuman golem assembled from the unit's material motifs; motifs: polluted river reeds, broken nets and water spirits",
+    "generated": "exec-4a34b886-bdaf-40e0-9300-b329e3cb002b.png"
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "an eerie floating nonhuman spirit formed from the unit's motifs; motifs: polluted river reeds, broken nets and water spirits",
+    "generated": "exec-a5d535b0-6fac-452f-995f-73e833ccd84e.png"
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "an elite commander with ornate armor, a distinctive polearm and imposing silhouette; motifs: polluted river reeds, broken nets and water spirits",
+    "generated": "exec-29a21de8-5251-4a8a-b0bd-d4b78ee5abe0.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "a swift human scout with a short blade, light Vietnamese clothing and a distinctive headwrap; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+    "generated": "exec-97947ee9-c7bc-4f37-8ca9-251a087f09a0.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "a human ranged attacker with a bamboo bow or sling and light gear; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+    "generated": "exec-3f9568ec-50f7-4616-a675-bd46f9cc9f38.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "a large armored human bruiser with a heavy club and broad silhouette; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+    "generated": "exec-2c3d09d3-8e0b-4bfd-b34f-e5270822abc1.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "a nonhuman golem assembled from the unit's material motifs; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+    "generated": "exec-588293a7-f51d-432d-90f2-4e6ca4f96d27.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "an eerie floating nonhuman spirit formed from the unit's motifs; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+    "generated": "exec-afbb8e35-a572-4584-80b0-5df70b0e4720.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "an elite commander with ornate armor, a distinctive polearm and imposing silhouette; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+    "generated": "exec-b92ff3ff-f3e6-49db-b5b2-75de859f589b.png"
+  }
+]

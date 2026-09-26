@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 9,
+    "unit_id": "g10-u09",
+    "title": "PROTECTING THE ENVIRONMENT",
+    "topic": "Environmental Issues, Climate Action and Biodiversity",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 102,
+    "book_page": 100,
+    "source_section": "Unit 9 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 100,
+        "book_page_end": 101,
+        "pdf_page_start": 102,
+        "pdf_page_end": 103,
+        "description": "Introduction to PROTECTING THE ENVIRONMENT"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 102,
+        "book_page_end": 102,
+        "pdf_page_start": 104,
+        "pdf_page_end": 104,
+        "description": "Pronunciation (Rhythm in English sentences), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 103,
+        "book_page_end": 104,
+        "pdf_page_start": 105,
+        "pdf_page_end": 106,
+        "description": "Vanishing Wildlife Habitats"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 104,
+        "book_page_end": 104,
+        "pdf_page_start": 106,
+        "pdf_page_end": 106,
+        "description": "Presenting solutions to curb wildlife poaching and trade"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 105,
+        "book_page_end": 105,
+        "pdf_page_start": 107,
+        "pdf_page_end": 107,
+        "description": "Listening to a conservationist discussing methods to rescue endangered sea turtles"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 106,
+        "book_page_end": 107,
+        "pdf_page_start": 108,
+        "pdf_page_end": 109,
+        "description": "Writing an informational overview about a local or international conservation group"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 108,
+        "book_page_end": 108,
+        "pdf_page_start": 110,
+        "pdf_page_end": 110,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 109,
+        "book_page_end": 109,
+        "pdf_page_start": 111,
+        "pdf_page_end": 111,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to environmental issues, climate action and biodiversity",
+      "grammar": [
+        "Reported Speech: Statements"
+      ],
+      "pronunciation": "Rhythm in English sentences",
+      "reading": "Vanishing Wildlife Habitats",
+      "speaking": "Presenting solutions to curb wildlife poaching and trade",
+      "listening": "Listening to a conservationist discussing methods to rescue endangered sea turtles",
+      "writing": "Writing an informational overview about a local or international conservation group"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u09-vocab-001",
+      "unit_id": "g10-u09",
+      "word": "biodiversity",
+      "word_type": "noun",
+      "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+      "meaning_vi": "sự đa dạng sinh học",
+      "definition_en": "the variety of plant and animal life in a particular habitat",
+      "example_sentence": "Tropical rainforests have the highest biodiversity on Earth.",
+      "example_translation": "Các khu rừng mưa nhiệt đới có độ đa dạng sinh học cao nhất trên Trái Đất.",
+      "collocations": [
+        "rich biodiversity"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-vocab-002",
+      "unit_id": "g10-u09",
+      "word": "deforestation",
+      "word_type": "noun",
+      "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+      "meaning_vi": "nạn phá rừng",
+      "definition_en": "the cutting down of trees in a large area",
+      "example_sentence": "Deforestation leads to devastating soil erosion and floods.",
+      "example_translation": "Nạn phá rừng dẫn đến tình trạng xói mòn đất và lũ lụt nghiêm trọng.",
+      "collocations": [
+        "prevent deforestation"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-vocab-003",
+      "unit_id": "g10-u09",
+      "word": "illegal hunting",
+      "word_type": "noun phrase",
+      "ipa": "/ɪˈliːɡl ˈhʌntɪŋ/",
+      "meaning_vi": "săn bắt trái phép (săn trộm)",
+      "definition_en": "catching or killing wild animals against the law",
+      "example_sentence": "Rangers work day and night to stop illegal hunting inside national parks.",
+      "example_translation": "Kiểm lâm làm việc ngày đêm để ngăn chặn săn bắt trái phép trong các vườn quốc gia.",
+      "collocations": [
+        "stop illegal hunting"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-vocab-004",
+      "unit_id": "g10-u09",
+      "word": "habitat loss",
+      "word_type": "noun phrase",
+      "ipa": "/ˈhæbɪtæt lɒs/",
+      "meaning_vi": "mất môi trường sống tự nhiên",
+      "definition_en": "the destruction or reduction of natural living areas for species",
+      "example_sentence": "Urban expansion causes severe habitat loss for local wildlife.",
+      "example_translation": "Sự mở rộng đô thị gây mất môi trường sống tự nhiên nghiêm trọng cho động vật hoang dã.",
+      "collocations": [
+        "severe habitat loss"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-vocab-005",
+      "unit_id": "g10-u09",
+      "word": "endangered species",
+      "word_type": "noun phrase",
+      "ipa": "/ɪnˈdeɪndʒəd ˈspiːʃiːz/",
+      "meaning_vi": "loài có nguy cơ tuyệt chủng",
+      "definition_en": "a type of animal or plant that may soon disappear completely",
+      "example_sentence": "The giant panda was once an endangered species.",
+      "example_translation": "Gấu trúc khổng lồ từng là một loài có nguy cơ tuyệt chủng.",
+      "collocations": [
+        "protect endangered species"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-vocab-006",
+      "unit_id": "g10-u09",
+      "word": "conservation",
+      "word_type": "noun",
+      "ipa": "/ˌkɒnsəˈveɪʃn/",
+      "meaning_vi": "sự bảo tồn thiên nhiên",
+      "definition_en": "the protection of plants, animals, and natural resources",
+      "example_sentence": "Wildlife conservation requires global effort and strict legislation.",
+      "example_translation": "Bảo tồn động vật hoang dã đòi hỏi nỗ lực toàn cầu và luật pháp nghiêm ngặt.",
+      "collocations": [
+        "wildlife conservation"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u09-grammar-001",
+      "unit_id": "g10-u09",
+      "title": "Reported Speech: Statements",
+      "structure_name": "Câu gián tiếp / Tường thuật câu kể",
+      "rule_summary": "Khi động từ tường thuật ở quá khứ (said, told), lùi một thì: hiện tại đơn -> quá khứ đơn, hiện tại tiếp diễn -> quá khứ tiếp diễn, can -> could, will -> would. Đổi đại từ và trạng từ chỉ thời gian/nơi chốn.",
+      "formula": "S + said (that) + S + V(lùi thì)",
+      "example_sentences": [
+        {
+          "en": "He said, 'I want to protect the forest.' -> He said that he wanted to protect the forest.",
+          "vi": "Anh ấy nói rằng anh muốn bảo vệ khu rừng."
+        },
+        {
+          "en": "She said, 'We are planting trees now.' -> She said that they were planting trees then.",
+          "vi": "Cô ấy nói rằng họ đang trồng cây lúc đó."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "He said that he will join the campaign tomorrow.",
+          "correction": "He said that he would join the campaign the next day.",
+          "explanation": "Cần lùi 'will' thành 'would' và 'tomorrow' thành 'the next day'."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u09-reading-001",
+    "unit_id": "g10-u09",
+    "topic": "Vanishing Wildlife Habitats",
+    "main_idea": "Tình trạng suy giảm đa dạng sinh học do nạn phá rừng và săn bắn trái phép trên toàn cầu.",
+    "reading_skills": [
+      "Identifying threats",
+      "Synthesising ideas"
+    ],
+    "keywords": [
+      "habitat loss",
+      "biodiversity",
+      "conservation laws"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Nguyên nhân hàng đầu dẫn đến sự tuyệt chủng của nhiều loài động vật là gì?",
+        "options": [
+          "Mất môi trường sống do con người tàn phá",
+          "Động vật di cư sang hành tinh khác",
+          "Thời tiết mát mẻ hơn",
+          "Động vật ngủ đông quá dài"
+        ],
+        "correctAnswer": "Mất môi trường sống do con người tàn phá",
+        "explanation": "Phá rừng và đô thị hóa xóa bỏ nơi cư trú tự nhiên của động vật."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 105,
+    "book_page": 103,
+    "source_section": "Unit 9 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a conservationist discussing methods to rescue endangered sea turtles",
+      "activity_types": [
+        "Gap-fill",
+        "True/False"
+      ],
+      "audio_source_note": "Audio CD2 Track 12",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 107,
+      "book_page": 105,
+      "source_section": "Unit 9 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Presenting solutions to curb wildlife poaching and trade",
+      "activity_types": [
+        "Team talk"
+      ],
+      "prompts": [
+        "How can community fines deter illegal poachers?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 106,
+      "book_page": 104,
+      "source_section": "Unit 9 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an informational overview about a local or international conservation group",
+      "task_type": "Overview report",
+      "sample_outline": [
+        "Organization name",
+        "Missions",
+        "Achievements",
+        "How to get involved"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 108,
+      "book_page": 106,
+      "source_section": "Unit 9 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u09-question-001",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Thuật ngữ nào chỉ sự phong phú của mọi dạng sinh vật trong tự nhiên?",
+      "options": [
+        "Biodiversity",
+        "Appliance",
+        "Discrimination",
+        "Partnership"
+      ],
+      "correctAnswer": "Biodiversity",
+      "explanation": "Biodiversity = đa dạng sinh học.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u09-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-002",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Hành vi chặt phá cây rừng trên diện rộng được gọi là:",
+      "options": [
+        "Deforestation",
+        "Conservation",
+        "Recycling",
+        "Peacekeeping"
+      ],
+      "correctAnswer": "Deforestation",
+      "explanation": "Deforestation = nạn phá rừng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u09-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-003",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Những loài động vật đang đứng trước bờ vực biến mất vĩnh viễn được xếp vào nhóm:",
+      "options": [
+        "Endangered species",
+        "Household appliances",
+        "Common pets",
+        "Useful inventions"
+      ],
+      "correctAnswer": "Endangered species",
+      "explanation": "Endangered species = loài có nguy cơ tuyệt chủng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u09-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-004",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Chuyển sang câu gián tiếp: 'The ranger said, \"Poachers are setting traps here.\"'",
+      "options": [
+        "The ranger said that poachers were setting traps there.",
+        "The ranger said that poachers are setting traps here.",
+        "The ranger said that poachers was setting traps there.",
+        "The ranger said that poachers had setting traps here."
+      ],
+      "correctAnswer": "The ranger said that poachers were setting traps there.",
+      "explanation": "Lùi thì are setting -> were setting; đổi here -> there.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u09-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-005",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Chuyển câu sau sang gián tiếp: 'She said, \"I will donate money to the animal shelter tomorrow.\"'",
+      "options": [
+        "She said that she would donate money to the animal shelter the next day.",
+        "She said that she will donate money to the animal shelter tomorrow.",
+        "She said that she can donate money to the animal shelter yesterday.",
+        "She said that she had donate money to the animal shelter today."
+      ],
+      "correctAnswer": "She said that she would donate money to the animal shelter the next day.",
+      "explanation": "Lùi will -> would; tomorrow -> the next day.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u09-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-006",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Nguyên nhân chính dẫn đến 'habitat loss' (mất sinh cảnh) là do:",
+      "options": [
+        "Phá rừng làm đất nông nghiệp và mở rộng thành phố",
+        "Động vật tự nguyện chuyển nhà",
+        "Trồng thêm nhiều cây xanh",
+        "Nước mưa làm sạch không khí"
+      ],
+      "correctAnswer": "Phá rừng làm đất nông nghiệp và mở rộng thành phố",
+      "explanation": "Hoạt động xây dựng và chặt cây phá hủy môi trường sống tự nhiên.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u09-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-007",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Hành vi săn bắt động vật hoang dã trái với quy định pháp luật gọi là:",
+      "options": [
+        "Illegal hunting",
+        "Friendly fishing",
+        "Gentle farming",
+        "Safe conservation"
+      ],
+      "correctAnswer": "Illegal hunting",
+      "explanation": "Illegal hunting = săn bắt trái phép.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u09-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-008",
+      "unit_id": "g10-u09",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'National parks are established for the _______ and protection of rare wildlife.'",
+      "options": [
+        "conservation",
+        "emission",
+        "appliance",
+        "chore"
+      ],
+      "correctAnswer": "conservation",
+      "explanation": "Wildlife conservation = bảo tồn động vật hoang dã.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u09-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-009",
+      "unit_id": "g10-u09",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu gián tiếp lùi thì chính xác: 'Nam told me that he _______ to the environmental lecture the previous day.'",
+      "options": [
+        "had gone",
+        "went",
+        "goes",
+        "has gone"
+      ],
+      "correctAnswer": "had gone",
+      "explanation": "Quá khứ đơn lùi thành Quá khứ hoàn thành (had gone) khi có 'the previous day'.",
+      "difficulty": "hard",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u09-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u09-question-010",
+      "unit_id": "g10-u09",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu kêu gọi bảo vệ thiên nhiên:",
+      "options": [
+        "We must take urgent action to save endangered animals from extinction.",
+        "To save endangered animals from extinction we must take urgent action.",
+        "Urgent action we must take from extinction to save endangered animals.",
+        "Endangered animals from extinction to save we must take urgent action."
+      ],
+      "correctAnswer": "We must take urgent action to save endangered animals from extinction.",
+      "explanation": "S + must take action + to save O from extinction.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u09-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 104,
+      "book_page": 102,
+      "source_section": "Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "We",
+        "must",
+        "take",
+        "urgent",
+        "action",
+        "to",
+        "save",
+        "endangered",
+        "animals",
+        "from",
+        "extinction."
+      ]
+    }
+  ]
+}

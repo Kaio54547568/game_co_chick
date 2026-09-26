@@ -1,0 +1,614 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 1,
+    "unit_id": "g11-u01",
+    "title": "A LONG AND HEALTHY LIFE",
+    "topic": "Health, Nutrition, Fitness and Longevity",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 8,
+    "book_page": 8,
+    "source_section": "Grade 11 Unit 1 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 8,
+        "book_page_end": 9,
+        "pdf_page_start": 8,
+        "pdf_page_end": 9,
+        "description": "Introduction dialogue for A LONG AND HEALTHY LIFE"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 10,
+        "book_page_end": 10,
+        "pdf_page_start": 10,
+        "pdf_page_end": 10,
+        "description": "Pronunciation (Strong and weak forms of auxiliary verbs), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 11,
+        "book_page_end": 12,
+        "pdf_page_start": 11,
+        "pdf_page_end": 12,
+        "description": "Secrets to a Long and Healthy Life"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 12,
+        "book_page_end": 12,
+        "pdf_page_start": 12,
+        "pdf_page_end": 12,
+        "description": "Giving clear instructions for a safe daily workout routine"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 13,
+        "book_page_end": 13,
+        "pdf_page_start": 13,
+        "pdf_page_end": 13,
+        "description": "Listening to a TV chat show discussing food, nutrition and teenage health"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 14,
+        "book_page_end": 15,
+        "pdf_page_start": 14,
+        "pdf_page_end": 15,
+        "description": "Writing a short advisory message encouraging a friend to build healthy habits"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 16,
+        "book_page_end": 16,
+        "pdf_page_start": 16,
+        "pdf_page_end": 16,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 17,
+        "book_page_end": 17,
+        "pdf_page_start": 17,
+        "pdf_page_end": 17,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to health, nutrition, fitness and longevity",
+      "grammar": [
+        "Past Simple vs. Present Perfect"
+      ],
+      "pronunciation": "Strong and weak forms of auxiliary verbs",
+      "reading": "Secrets to a Long and Healthy Life",
+      "speaking": "Giving clear instructions for a safe daily workout routine",
+      "listening": "Listening to a TV chat show discussing food, nutrition and teenage health",
+      "writing": "Writing a short advisory message encouraging a friend to build healthy habits"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u01-vocab-001",
+      "unit_id": "g11-u01",
+      "word": "antibiotic",
+      "word_type": "noun",
+      "ipa": "/ˌæntibaɪˈɒtɪk/",
+      "meaning_vi": "thuốc kháng sinh",
+      "definition_en": "a medicine that inhibits the growth of or destroys microorganisms",
+      "example_sentence": "Take antibiotics only when prescribed by a certified doctor.",
+      "example_translation": "Chỉ dùng thuốc kháng sinh khi có đơn của bác sĩ có chuyên môn.",
+      "collocations": [
+        "prescribe antibiotics"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-vocab-002",
+      "unit_id": "g11-u01",
+      "word": "bacteria",
+      "word_type": "noun",
+      "ipa": "/bækˈtɪəriə/",
+      "meaning_vi": "vi khuẩn",
+      "definition_en": "microscopic organisms that can be beneficial or cause disease",
+      "example_sentence": "Washing hands regularly kills harmful bacteria.",
+      "example_translation": "Rửa tay thường xuyên giúp tiêu diệt vi khuẩn có hại.",
+      "collocations": [
+        "harmful bacteria"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-vocab-003",
+      "unit_id": "g11-u01",
+      "word": "lifespan",
+      "word_type": "noun",
+      "ipa": "/ˈlaɪfspæn/",
+      "meaning_vi": "tuổi thọ",
+      "definition_en": "the length of time for which a person or animal lives",
+      "example_sentence": "Healthy diet and exercise significantly increase human lifespan.",
+      "example_translation": "Ăn uống lành mạnh và tập thể dục giúp kéo dài đáng kể tuổi thọ con người.",
+      "collocations": [
+        "average lifespan"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-vocab-004",
+      "unit_id": "g11-u01",
+      "word": "immune system",
+      "word_type": "noun phrase",
+      "ipa": "/ɪˈmjuːn ˌsɪstəm/",
+      "meaning_vi": "hệ miễn dịch",
+      "definition_en": "the bodily system that protects against infectious diseases",
+      "example_sentence": "Vitamin C strengthens the immune system against viruses.",
+      "example_translation": "Vitamin C giúp củng cố hệ miễn dịch chống lại virus.",
+      "collocations": [
+        "boost the immune system"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-vocab-005",
+      "unit_id": "g11-u01",
+      "word": "workout",
+      "word_type": "noun",
+      "ipa": "/ˈwɜːkaʊt/",
+      "meaning_vi": "buổi tập luyện thể dục thể thao",
+      "definition_en": "a session of physical exercise or training",
+      "example_sentence": "A 30-minute daily workout keeps your heart healthy.",
+      "example_translation": "Buổi tập thể dục 30 phút mỗi ngày giúp trái tim bạn khỏe mạnh.",
+      "collocations": [
+        "daily workout"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-vocab-006",
+      "unit_id": "g11-u01",
+      "word": "longevity",
+      "word_type": "noun",
+      "ipa": "/lɒnˈdʒevəti/",
+      "meaning_vi": "sự sống lâu, trường thọ",
+      "definition_en": "long life or the ability to live for a very long time",
+      "example_sentence": "Clean air and low stress contribute to longevity.",
+      "example_translation": "Không khí sạch và ít căng thẳng góp phần tăng tuổi thọ.",
+      "collocations": [
+        "promote longevity"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u01-grammar-001",
+      "unit_id": "g11-u01",
+      "title": "Past Simple vs. Present Perfect",
+      "structure_name": "Quá khứ đơn vs. Hiện tại hoàn thành",
+      "rule_summary": "Quá khứ đơn dùng cho hành động đã kết thúc tại một thời điểm xác định trong quá khứ (yesterday, last year, in 2020). Hiện tại hoàn thành dùng cho trải nghiệm hoặc hành động bắt đầu ở quá khứ và còn kéo dài/ảnh hưởng đến hiện tại (since, for, already, yet).",
+      "formula": "Past Simple: S + V2/ed | Present Perfect: S + have/has + V3/ed",
+      "example_sentences": [
+        {
+          "en": "He caught a cold last week, but now he has recovered completely.",
+          "vi": "Cậu ấy bị cảm lạnh tuần trước, nhưng hiện nay cậu đã hồi phục hoàn toàn."
+        },
+        {
+          "en": "I have followed this workout routine for six months.",
+          "vi": "Tôi đã duy trì lịch tập thể dục này được sáu tháng rồi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "I have visited the doctor yesterday.",
+          "correction": "I visited the doctor yesterday.",
+          "explanation": "Có mốc thời gian 'yesterday' phải dùng Quá khứ đơn."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u01-reading-001",
+    "unit_id": "g11-u01",
+    "topic": "Secrets to a Long and Healthy Life",
+    "main_idea": "Bí quyết sống thọ của các cư dân vùng Blue Zones: dinh dưỡng tự nhiên, vận động thường xuyên và tinh thần thư thái.",
+    "reading_skills": [
+      "Main idea",
+      "Detail scanning"
+    ],
+    "keywords": [
+      "longevity",
+      "nutrition",
+      "exercise",
+      "immune system"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Yếu tố nào đóng vai trò then chốt cho sức khỏe lâu dài của con người?",
+        "options": [
+          "Chế độ dinh dưỡng cân bằng và vận động thể chất thường xuyên",
+          "Chỉ uống thuốc bổ mà không cần vận động",
+          "Ngủ 15 tiếng mỗi ngày",
+          "Làm việc căng thẳng không nghỉ ngơi"
+        ],
+        "correctAnswer": "Chế độ dinh dưỡng cân bằng và vận động thể chất thường xuyên",
+        "explanation": "Dinh dưỡng lành mạnh và tập luyện duy trì hệ miễn dịch khỏe mạnh."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 11,
+    "book_page": 11,
+    "source_section": "Grade 11 Unit 1 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a TV chat show discussing food, nutrition and teenage health",
+      "activity_types": [
+        "Multiple choice",
+        "Note-taking"
+      ],
+      "audio_source_note": "Audio G11 Track 03",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 13,
+      "book_page": 13,
+      "source_section": "Grade 11 Unit 1 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Giving clear instructions for a safe daily workout routine",
+      "activity_types": [
+        "Pair role-play"
+      ],
+      "prompts": [
+        "How to warm up properly before strenuous exercise?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 12,
+      "book_page": 12,
+      "source_section": "Grade 11 Unit 1 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a short advisory message encouraging a friend to build healthy habits",
+      "task_type": "Informal advice note",
+      "sample_outline": [
+        "Greeting",
+        "Specific advice",
+        "Encouragement"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 14,
+      "book_page": 14,
+      "source_section": "Grade 11 Unit 1 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u01-question-001",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Thuốc dùng để tiêu diệt hoặc ức chế vi khuẩn được gọi là:",
+      "options": [
+        "Antibiotic",
+        "Pollution",
+        "Appliance",
+        "Emission"
+      ],
+      "correctAnswer": "Antibiotic",
+      "explanation": "Antibiotic = thuốc kháng sinh.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u01-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-002",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Thuật ngữ chỉ khoảng thời gian sống trung bình của một loài là:",
+      "options": [
+        "Lifespan",
+        "Workout",
+        "Bacteria",
+        "Curfew"
+      ],
+      "correctAnswer": "Lifespan",
+      "explanation": "Lifespan = tuổi thọ.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u01-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-003",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Hệ thống bảo vệ cơ thể khỏi virus và tác nhân gây bệnh là:",
+      "options": [
+        "Immune system",
+        "Digital device",
+        "Solar energy",
+        "Hardware"
+      ],
+      "correctAnswer": "Immune system",
+      "explanation": "Immune system = hệ thống miễn dịch.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u01-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-004",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Chọn thì đúng: 'Scientists _______ a new vaccine against this virus last year.'",
+      "options": [
+        "developed",
+        "have developed",
+        "were developed",
+        "are developing"
+      ],
+      "correctAnswer": "developed",
+      "explanation": "Có 'last year' là mốc thời gian quá khứ xác định -> Quá khứ đơn.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u01-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-005",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Điền từ: 'Nam _______ regular exercise since he joined the sports club.'",
+      "options": [
+        "has done",
+        "did",
+        "does",
+        "was doing"
+      ],
+      "correctAnswer": "has done",
+      "explanation": "Mệnh đề với 'since + quá khứ đơn' chia Hiện tại hoàn thành: has done.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u01-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-006",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Một buổi tập luyện thể dục thể thao cường độ phù hợp gọi là:",
+      "options": [
+        "Workout",
+        "Immune",
+        "Lifespan",
+        "Antibiotic"
+      ],
+      "correctAnswer": "Workout",
+      "explanation": "Workout = buổi tập thể dục.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u01-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-007",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Từ nào đồng nghĩa với 'longevity'?",
+      "options": [
+        "Long life",
+        "Short illness",
+        "Sudden fever",
+        "Weak health"
+      ],
+      "correctAnswer": "Long life",
+      "explanation": "Longevity = sự sống thọ, tuổi thọ dài.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u01-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-008",
+      "unit_id": "g11-u01",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Doctors warn that overuse of _______ can make bacteria resistant to medicine.'",
+      "options": [
+        "antibiotics",
+        "emissions",
+        "appliances",
+        "chores"
+      ],
+      "correctAnswer": "antibiotics",
+      "explanation": "Overuse of antibiotics = lạm dụng thuốc kháng sinh.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u01-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-009",
+      "unit_id": "g11-u01",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu phối hợp thì chính xác:",
+      "options": [
+        "I had a sore throat two days ago, but I have felt better now.",
+        "I have a sore throat two days ago, but I feel better now.",
+        "I have had a sore throat two days ago, but I felt better now.",
+        "I had a sore throat two days ago, but I feel better now."
+      ],
+      "correctAnswer": "I had a sore throat two days ago, but I feel better now.",
+      "explanation": "Two days ago dùng quá khứ đơn (had); now dùng hiện tại đơn (feel).",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u01-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u01-question-010",
+      "unit_id": "g11-u01",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành lời khuyên tăng cường sức khỏe:",
+      "options": [
+        "Regular physical workouts strengthen your immune system effectively.",
+        "Your immune system regular physical workouts strengthen effectively.",
+        "Effectively strengthen your immune system regular physical workouts.",
+        "Workouts strengthen effectively your immune system regular physical."
+      ],
+      "correctAnswer": "Regular physical workouts strengthen your immune system effectively.",
+      "explanation": "S + V + O + adv.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u01-vocab-004",
+        "g11-u01-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 11 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Regular",
+        "physical",
+        "workouts",
+        "strengthen",
+        "your",
+        "immune",
+        "system",
+        "effectively."
+      ]
+    }
+  ]
+}

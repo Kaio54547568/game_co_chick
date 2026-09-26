@@ -86,3 +86,97 @@ export const INITIAL_QUESTS: Quest[] = [
     },
   },
 ];
+
+export function createUnitQuests(
+  unitId: string,
+  unitNumber: number,
+  unitTitle: string,
+  bossName: string = 'Loạn Ngữ Kiếm Ma'
+): Quest[] {
+  return [
+    {
+      id: `${unitId}_quest_1`,
+      step: 1,
+      title: `Nhập Môn Unit ${unitNumber}: ${unitTitle}`,
+      objective: `Bái kiến Bang Chủ Hà Ánh Phượng để tiếp nhận khẩu quyết Unit ${unitNumber}`,
+      description: `Võ lâm chính đạo cần thu phục linh khí của Unit ${unitNumber}: ${unitTitle}. Hãy bái kiến Bang Chủ để đả thông kinh mạch.`,
+      location: 'Sơn Môn',
+      npcName: 'Bang Chủ Hà Ánh Phượng',
+      status: 'available',
+      progress: 0,
+      maxProgress: 1,
+      unitProgressGain: 15,
+      rewards: {
+        xp: 50 + unitNumber * 10,
+      },
+    },
+    {
+      id: `${unitId}_quest_2`,
+      step: 2,
+      title: `Lĩnh Hội Tàng Kinh: ${unitTitle}`,
+      objective: `Học và tra cứu tối thiểu 6 từ vựng & yếu quyết của Unit ${unitNumber}`,
+      description: `Hộ Pháp Phương Tú đang thủ hộ tàng thư Unit ${unitNumber}. Hãy nghiền ngẫm các từ vựng chủ đạo để nâng cao căn cơ.`,
+      location: 'Tàng Kinh Các',
+      npcName: 'Hộ Pháp Phương Tú',
+      status: 'locked',
+      progress: 0,
+      maxProgress: 6,
+      unitProgressGain: 20,
+      rewards: {
+        xp: 80 + unitNumber * 10,
+      },
+    },
+    {
+      id: `${unitId}_quest_3`,
+      step: 3,
+      title: `Phá Trận Phong Ấn Unit ${unitNumber}`,
+      objective: `Vượt qua Thử Thách Phong Ấn Tri Thức Unit ${unitNumber} (3 câu hỏi)`,
+      description: `Phong Ấn Thạch Trận tại Unit ${unitNumber} đang khóa chặt bảo vật. Hãy giải mã để thu nhận thần binh kiếm khí.`,
+      location: 'Tàng Kinh Các',
+      npcName: 'Phong Ấn Thạch Trận',
+      status: 'locked',
+      progress: 0,
+      maxProgress: 3,
+      unitProgressGain: 20,
+      rewards: {
+        xp: 120 + unitNumber * 10,
+        items: [INITIAL_ITEMS.novice_sword],
+      },
+    },
+    {
+      id: `${unitId}_quest_4`,
+      step: 4,
+      title: `Thanh Trừng Quái Vật Unit ${unitNumber}`,
+      objective: `Tiêu diệt 2 đệ tử tà phái tuần tra cảnh giới Unit ${unitNumber}`,
+      description: `Các yêu ma và đệ tử tà phái đang cản đường. Hãy trảm sát 2 tên để nâng tiến độ đạt trên 70% mở cổng Boss.`,
+      location: 'Trúc Lâm',
+      npcName: 'Tà Phái Đồ & Ma Quái',
+      status: 'locked',
+      progress: 0,
+      maxProgress: 2,
+      unitProgressGain: 25,
+      rewards: {
+        xp: 200 + unitNumber * 15,
+        items: [INITIAL_ITEMS.jade_amulet],
+      },
+    },
+    {
+      id: `${unitId}_quest_5`,
+      step: 5,
+      title: `Quyết Chiến ${bossName}`,
+      objective: `Tiến vào Cấm Địa, trảm sát ${bossName} giải phóng Unit ${unitNumber}`,
+      description: `Cổng Boss đã mở rộng! ${bossName} đang trấn giữ Cấm Địa Unit ${unitNumber}. Hãy vận dụng kiếm pháp để bình định thiên hạ!`,
+      location: 'Ma Giáo Cấm Địa',
+      npcName: `Boss ${bossName}`,
+      status: 'locked',
+      progress: 0,
+      maxProgress: 1,
+      unitProgressGain: 20,
+      rewards: {
+        xp: 500 + unitNumber * 30,
+        items: [INITIAL_ITEMS.loot_chest],
+      },
+    },
+  ];
+}
+

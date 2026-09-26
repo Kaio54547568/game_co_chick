@@ -1,0 +1,614 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 7,
+    "unit_id": "g11-u07",
+    "title": "EDUCATION OPTIONS FOR SCHOOL-LEAVERS",
+    "topic": "Higher Education, Vocational Training and Apprenticeships",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 74,
+    "book_page": 74,
+    "source_section": "Grade 11 Unit 7 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 74,
+        "book_page_end": 75,
+        "pdf_page_start": 74,
+        "pdf_page_end": 75,
+        "description": "Introduction dialogue for EDUCATION OPTIONS FOR SCHOOL-LEAVERS"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 76,
+        "book_page_end": 76,
+        "pdf_page_start": 76,
+        "pdf_page_end": 76,
+        "description": "Pronunciation (Intonation in Wh- and Yes/No questions), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 77,
+        "book_page_end": 78,
+        "pdf_page_start": 77,
+        "pdf_page_end": 78,
+        "description": "Academic vs. Vocational Pathways"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 78,
+        "book_page_end": 78,
+        "pdf_page_start": 78,
+        "pdf_page_end": 78,
+        "description": "Evaluating the merits of apprenticeships versus degree courses"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 79,
+        "book_page_end": 79,
+        "pdf_page_start": 79,
+        "pdf_page_end": 79,
+        "description": "Listening to an admissions interview about technical vocational courses"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 80,
+        "book_page_end": 81,
+        "pdf_page_start": 80,
+        "pdf_page_end": 81,
+        "description": "Writing a formal inquiry letter to request information about vocational diplomas"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 82,
+        "book_page_end": 82,
+        "pdf_page_start": 82,
+        "pdf_page_end": 82,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 83,
+        "book_page_end": 83,
+        "pdf_page_start": 83,
+        "pdf_page_end": 83,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to higher education, vocational training and apprenticeships",
+      "grammar": [
+        "Perfect Gerunds and Perfect Participle Clauses"
+      ],
+      "pronunciation": "Intonation in Wh- and Yes/No questions",
+      "reading": "Academic vs. Vocational Pathways",
+      "speaking": "Evaluating the merits of apprenticeships versus degree courses",
+      "listening": "Listening to an admissions interview about technical vocational courses",
+      "writing": "Writing a formal inquiry letter to request information about vocational diplomas"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u07-vocab-001",
+      "unit_id": "g11-u07",
+      "word": "vocational school",
+      "word_type": "noun phrase",
+      "ipa": "/vəʊˈkeɪʃənl skuːl/",
+      "meaning_vi": "trường dạy nghề",
+      "definition_en": "a school that teaches skills required for particular jobs and trades",
+      "example_sentence": "Many school-leavers choose vocational school to gain practical technical skills.",
+      "example_translation": "Nhiều học sinh tốt nghiệp chọn trường nghề để tiếp thu các kỹ năng kỹ thuật thực tế.",
+      "collocations": [
+        "attend vocational school"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-vocab-002",
+      "unit_id": "g11-u07",
+      "word": "higher education",
+      "word_type": "noun phrase",
+      "ipa": "/ˌhaɪər edʒuˈkeɪʃn/",
+      "meaning_vi": "giáo dục đại học / bậc cao",
+      "definition_en": "education at college or university level",
+      "example_sentence": "A degree in higher education opens up varied academic career pathways.",
+      "example_translation": "Một tấm bằng đại học mở ra nhiều con đường sự nghiệp học thuật phong phú.",
+      "collocations": [
+        "pursue higher education"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-vocab-003",
+      "unit_id": "g11-u07",
+      "word": "apprenticeship",
+      "word_type": "noun",
+      "ipa": "/əˈprentɪsʃɪp/",
+      "meaning_vi": "thời gian học việc, chương trình vừa học vừa làm",
+      "definition_en": "a period of work experience and on-the-job training with an employer",
+      "example_sentence": "He completed a two-year electrical apprenticeship with an engineering firm.",
+      "example_translation": "Anh ấy đã hoàn thành khóa học nghề điện hai năm tại một công ty kỹ thuật.",
+      "collocations": [
+        "apply for an apprenticeship"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-vocab-004",
+      "unit_id": "g11-u07",
+      "word": "qualification",
+      "word_type": "noun",
+      "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "meaning_vi": "bằng cấp, chứng chỉ chuyên môn",
+      "definition_en": "an official record showing that you have finished a course of study or training",
+      "example_sentence": "Practical qualifications are highly valued by manufacturing companies.",
+      "example_translation": "Các chứng chỉ hành nghề thực tế được các công ty sản xuất đánh giá rất cao.",
+      "collocations": [
+        "gain qualifications"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-vocab-005",
+      "unit_id": "g11-u07",
+      "word": "school-leaver",
+      "word_type": "noun",
+      "ipa": "/ˈskuːl liːvə(r)/",
+      "meaning_vi": "học sinh mới tốt nghiệp phổ thông",
+      "definition_en": "a person who has just finished secondary school",
+      "example_sentence": "School-leavers need sound guidance to choose the right career path.",
+      "example_translation": "Học sinh mới ra trường cần sự định hướng sáng suốt để chọn đúng lối đi tương lai.",
+      "collocations": [
+        "advice for school-leavers"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-vocab-006",
+      "unit_id": "g11-u07",
+      "word": "tuition fee",
+      "word_type": "noun phrase",
+      "ipa": "/tjuˈɪʃn fiː/",
+      "meaning_vi": "học phí",
+      "definition_en": "the money that you pay to be taught in a college or university",
+      "example_sentence": "Scholarships can help low-income students cover their university tuition fees.",
+      "example_translation": "Học bổng có thể giúp các sinh viên có hoàn cảnh khó khăn trang trải học phí đại học.",
+      "collocations": [
+        "pay tuition fees"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u07-grammar-001",
+      "unit_id": "g11-u07",
+      "title": "Perfect Gerunds and Perfect Participle Clauses",
+      "structure_name": "Danh động từ hoàn thành & Phân từ hoàn thành",
+      "rule_summary": "Dùng 'Having + V3/ed' khi muốn nhấn mạnh hành động đó đã hoàn thành trước một hành động khác trong quá khứ.",
+      "formula": "Having + V3/ed ..., S + V2/ed | S + Verb + having + V3/ed",
+      "example_sentences": [
+        {
+          "en": "Having graduated from vocational school, he immediately found a stable job.",
+          "vi": "Sau khi đã tốt nghiệp trường nghề, anh ấy đã tìm được ngay một công việc ổn định."
+        },
+        {
+          "en": "She was proud of having passed the university entrance examination.",
+          "vi": "Cô ấy tự hào vì đã đỗ kỳ thi tuyển sinh đại học."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Graduating yesterday, he started work today.",
+          "correction": "Having graduated yesterday, he started work today.",
+          "explanation": "Nhấn mạnh tốt nghiệp xảy ra trước khi đi làm dùng 'Having graduated'."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u07-reading-001",
+    "unit_id": "g11-u07",
+    "topic": "Academic vs. Vocational Pathways",
+    "main_idea": "So sánh giữa con đường đại học học thuật và con đường học nghề thực tiễn cho học sinh tốt nghiệp THPT.",
+    "reading_skills": [
+      "Comparing pathways",
+      "Scanning qualifications"
+    ],
+    "keywords": [
+      "vocational school",
+      "university degree",
+      "hands-on skills"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Lợi thế lớn nhất của học nghề so với đại học truyền thống là gì?",
+        "options": [
+          "Thời gian đào tạo ngắn hơn, chi phí thấp hơn và có kỹ năng tay nghề sớm",
+          "Không bao giờ phải đi làm",
+          "Được cấp bằng tiến sĩ ngay lập tức",
+          "Không cần thực hành xưởng máy"
+        ],
+        "correctAnswer": "Thời gian đào tạo ngắn hơn, chi phí thấp hơn và có kỹ năng tay nghề sớm",
+        "explanation": "Học nghề tập trung vào thực hành và giúp sinh viên có việc làm sớm."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 77,
+    "book_page": 77,
+    "source_section": "Grade 11 Unit 7 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an admissions interview about technical vocational courses",
+      "activity_types": [
+        "Gap-fill",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G11 Track 33",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 79,
+      "book_page": 79,
+      "source_section": "Grade 11 Unit 7 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Evaluating the merits of apprenticeships versus degree courses",
+      "activity_types": [
+        "Pair debate"
+      ],
+      "prompts": [
+        "Which pathway suits practical hands-on learners best?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Grade 11 Unit 7 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a formal inquiry letter to request information about vocational diplomas",
+      "task_type": "Inquiry letter",
+      "sample_outline": [
+        "Formal greeting",
+        "Course interest",
+        "Questions on duration and fees",
+        "Sign-off"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 80,
+      "book_page": 80,
+      "source_section": "Grade 11 Unit 7 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u07-question-001",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Trường đào tạo kỹ năng thực hành cho các ngành nghề cụ thể được gọi là:",
+      "options": [
+        "Vocational school",
+        "Preschool",
+        "National park",
+        "Pedestrian zone"
+      ],
+      "correctAnswer": "Vocational school",
+      "explanation": "Vocational school = trường dạy nghề.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u07-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-002",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Chương trình vừa học lý thuyết vừa được trả lương làm việc tại doanh nghiệp là:",
+      "options": [
+        "Apprenticeship",
+        "Curfew",
+        "Emission",
+        "Biodiversity"
+      ],
+      "correctAnswer": "Apprenticeship",
+      "explanation": "Apprenticeship = chế độ học nghề, vừa học vừa làm.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u07-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-003",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Học sinh vừa hoàn thành chương trình trung học phổ thông được gọi là:",
+      "options": [
+        "School-leaver",
+        "Contestant",
+        "Surgeon",
+        "Volunteer"
+      ],
+      "correctAnswer": "School-leaver",
+      "explanation": "School-leaver = học sinh mới tốt nghiệp phổ thông.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u07-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-004",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng phân từ hoàn thành: '_______ the practical exam, he received his welding certificate.'",
+      "options": [
+        "Having passed",
+        "Passing",
+        "To pass",
+        "Passed"
+      ],
+      "correctAnswer": "Having passed",
+      "explanation": "Nhấn mạnh đã thi đỗ xong trước khi nhận chứng chỉ -> Having + V3 (Having passed).",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u07-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-005",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Điền dạng danh động từ hoàn thành: 'He admitted _______ cheated during the examination.'",
+      "options": [
+        "having",
+        "have",
+        "had",
+        "to have"
+      ],
+      "correctAnswer": "having",
+      "explanation": "Admit + having V3/ed (thừa nhận đã làm gì).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u07-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-006",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Số tiền đóng để theo học tại các trường đại học, cao đẳng gọi là:",
+      "options": [
+        "Tuition fee",
+        "Donation",
+        "Emission",
+        "Footprint"
+      ],
+      "correctAnswer": "Tuition fee",
+      "explanation": "Tuition fee = học phí.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u07-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-007",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Chứng chỉ hoặc văn bằng xác nhận trình độ chuyên môn gọi là:",
+      "options": [
+        "Qualification",
+        "Appliance",
+        "Monuments",
+        "Citadel"
+      ],
+      "correctAnswer": "Qualification",
+      "explanation": "Qualification = bằng cấp, chứng chỉ chuyên môn.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u07-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-008",
+      "unit_id": "g11-u07",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Many ambitious students wish to pursue _______ education at prestigious universities.'",
+      "options": [
+        "higher",
+        "extreme",
+        "remote",
+        "tangible"
+      ],
+      "correctAnswer": "higher",
+      "explanation": "Higher education = giáo dục đại học.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u07-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-009",
+      "unit_id": "g11-u07",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu sử dụng phân từ hoàn thành đúng ngữ pháp:",
+      "options": [
+        "Having finished his homework, he went out to play football.",
+        "Finishing his homework yesterday, he went out to play football.",
+        "Have finished his homework, he went out to play football.",
+        "Having finish his homework, he went out to play football."
+      ],
+      "correctAnswer": "Having finished his homework, he went out to play football.",
+      "explanation": "Having + V3/ed (finished) nhấn mạnh hoàn thành bài tập trước.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u07-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u07-question-010",
+      "unit_id": "g11-u07",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu về lựa chọn học tập sau tốt nghiệp:",
+      "options": [
+        "Vocational training provides school-leavers with practical job skills.",
+        "School-leavers provides vocational training with practical job skills.",
+        "With practical job skills vocational training provides school-leavers.",
+        "Practical job skills vocational training provides school-leavers with."
+      ],
+      "correctAnswer": "Vocational training provides school-leavers with practical job skills.",
+      "explanation": "S + provides + O + with + skills.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u07-vocab-001",
+        "g11-u07-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 76,
+      "book_page": 76,
+      "source_section": "Grade 11 Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Vocational",
+        "training",
+        "provides",
+        "school-leavers",
+        "with",
+        "practical",
+        "job",
+        "skills."
+      ]
+    }
+  ]
+}

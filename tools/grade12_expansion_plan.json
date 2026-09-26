@@ -1,0 +1,132 @@
+[
+  {
+    "unit": 1,
+    "enemies": [
+      "portrait thief in torn scholar robes carrying a stolen blank portrait frame",
+      "archer firing strips of dark memory scroll from a bamboo bow",
+      "broad stone memorial guard with cracked heroic relief armor",
+      "animated gilt portrait frame golem with empty center",
+      "fading memory wraith with drifting scroll fragments",
+      "false hero captain in ornate Vietnamese ceremonial armor with a fractured bronze medal"
+    ],
+    "secondaryGround": "mossy hero-hall side courtyard stone",
+    "secondaryProp": "small empty portrait display frame"
+  },
+  {
+    "unit": 2,
+    "enemies": [
+      "masked market rogue stealing trade wares",
+      "silk-dart hunter wearing mixed but respectful Vietnamese port textiles",
+      "large cargo porter corrupted by dark trade magic",
+      "animated stacked trade crates and textile-bale golem",
+      "festival mask spirit swirling with colorful cloth ribbons",
+      "elite masked harbor captain carrying a bronze trade seal"
+    ],
+    "secondaryGround": "weathered riverside market boardwalk",
+    "secondaryProp": "bundled trade textiles on a wooden stall"
+  },
+  {
+    "unit": 3,
+    "enemies": [
+      "waste scavenger with patched indigo clothes and discarded metal blade",
+      "soot archer firing smoky darts from a bamboo bow",
+      "bulky landfill guardian wrapped in discarded pottery and cloth",
+      "golem of glass bottles and bamboo waste bins",
+      "dark smoke spirit with ember eyes and leaf edges",
+      "smog priest commanding polluted air with cracked green lantern"
+    ],
+    "secondaryGround": "reclaimed garden earth with young grass",
+    "secondaryProp": "ceramic rainwater collection jar"
+  },
+  {
+    "unit": 4,
+    "enemies": [
+      "rooftop construction scout with short blade and rope",
+      "masked signal slinger on a narrow urban platform",
+      "hulking construction debris bruiser with stone slab shield",
+      "concrete-and-bronze transit golem",
+      "floating smog shade with street-lamp glow",
+      "corrupt riverfront transit captain in dark uniform"
+    ],
+    "secondaryGround": "old riverfront cobbles beside new paving",
+    "secondaryProp": "small urban tree planter with bamboo support"
+  },
+  {
+    "unit": 5,
+    "enemies": [
+      "forged-contract thief in artisan apron",
+      "ranged tool thrower using small wooden hammers",
+      "forge bruiser carrying a cracked anvil hammer",
+      "animated workbench and craft-tool golem",
+      "floating furnace-soot spirit with ember eyes",
+      "corrupt guildmaster with ornate tool belt and heavy staff"
+    ],
+    "secondaryGround": "workshop timber floor with sawdust",
+    "secondaryProp": "blacksmith forge tool stand"
+  },
+  {
+    "unit": 6,
+    "enemies": [
+      "stealth bamboo-bronze automaton with narrow legs and red eye",
+      "ranged bronze automaton firing jade energy bolts",
+      "heavy logic guardian automaton with huge bronze arms",
+      "geometric bamboo-and-bronze computation golem",
+      "luminous corrupted diagram spirit made of geometric light",
+      "rogue cognition officer automaton with cracked scholarly mask"
+    ],
+    "secondaryGround": "bronze inlaid laboratory wood floor",
+    "secondaryProp": "small bronze-and-bamboo logic device"
+  },
+  {
+    "unit": 7,
+    "enemies": [
+      "rumor-spreading town crier with blank broadsheets",
+      "woodblock dart thrower carrying an ink-stained sling",
+      "heavy printing-press enforcer with wooden roller",
+      "animated woodblock printing plate golem",
+      "phantom echo lantern with drifting blank paper",
+      "false editor commander in dark scholar robes and ink-brush staff"
+    ],
+    "secondaryGround": "ink-stained storytelling pavilion stone",
+    "secondaryProp": "stack of blank illustrated broadsheets"
+  },
+  {
+    "unit": 8,
+    "enemies": [
+      "masked poacher scout carrying empty trap frame",
+      "ranged poacher using bamboo dart launcher",
+      "chain-wielding habitat destroyer in dark field gear",
+      "animated iron cage and root golem",
+      "injured forest habitat spirit with leaves and violet corruption",
+      "poacher captain with antler-shaped mask and net spear"
+    ],
+    "secondaryGround": "forest sanctuary mossy stone path",
+    "secondaryProp": "wildlife rescue bamboo cage left open"
+  },
+  {
+    "unit": 9,
+    "enemies": [
+      "deceptive false mentor wearing plain guild robes",
+      "certificate-dart hunter with blank paper scrolls",
+      "heavy guild bruiser with false bronze insignia",
+      "animated pile of guild badges and toolboxes",
+      "lost-path spirit formed from branching arrows",
+      "false-path commander with many blank signposts on back"
+    ],
+    "secondaryGround": "guild academy polished stone path",
+    "secondaryProp": "wooden apprenticeship toolkit and blank map"
+  },
+  {
+    "unit": 10,
+    "enemies": [
+      "forgotten scholar disciple with broken scroll satchel",
+      "ink-dart archer firing dark droplets",
+      "heavy tome bruiser with giant sealed book shield",
+      "animated stack of sealed books and bronze clasps",
+      "forgetting-mist spirit with fragmented blank pages",
+      "elite final disciple of Vô Ngôn Ma Tôn in black-red scholarly armor"
+    ],
+    "secondaryGround": "ancient academy library stone with fallen leaves",
+    "secondaryProp": "small lantern-lit reading desk with blank open scroll"
+  }
+]

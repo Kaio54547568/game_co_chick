@@ -1,0 +1,5363 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "broom_raider",
+      "concept": "corrupted household-chores bandit with broom spear",
+      "path": "/assets/game/units/grade-10/unit-01/enemies/broom_raider.png",
+      "source": "assets/source/units/grade-10/unit-01/enemies/broom_raider.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "smoke_wraith",
+      "concept": "cooking-smoke wraith with clay stove embers",
+      "path": "/assets/game/units/grade-10/unit-01/enemies/smoke_wraith.png",
+      "source": "assets/source/units/grade-10/unit-01/enemies/smoke_wraith.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "water_jar_golem",
+      "concept": "cracked terracotta water jar guardian",
+      "path": "/assets/game/units/grade-10/unit-01/enemies/water_jar_golem.png",
+      "source": "assets/source/units/grade-10/unit-01/enemies/water_jar_golem.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "basket_mimic",
+      "concept": "mischievous woven bamboo basket mimic",
+      "path": "/assets/game/units/grade-10/unit-01/enemies/basket_mimic.png",
+      "source": "assets/source/units/grade-10/unit-01/enemies/basket_mimic.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "lantern_archer",
+      "concept": "corrupted village lantern archer",
+      "path": "/assets/game/units/grade-10/unit-01/enemies/lantern_archer.png",
+      "source": "assets/source/units/grade-10/unit-01/enemies/lantern_archer.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "steward_elite",
+      "concept": "elite possessed household steward",
+      "path": "/assets/game/units/grade-10/unit-01/enemies/steward_elite.png",
+      "source": "assets/source/units/grade-10/unit-01/enemies/steward_elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "ground",
+      "id": "courtyard_brick",
+      "concept": "Vietnamese village terracotta courtyard",
+      "path": "/assets/game/units/grade-10/unit-01/ground/courtyard_brick.png",
+      "source": "assets/source/units/grade-10/unit-01/ground/courtyard_brick.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 1,
+      "kind": "prop",
+      "id": "rice_basket",
+      "concept": "Vietnamese bamboo basket with rice and herbs",
+      "path": "/assets/game/units/grade-10/unit-01/props/rice_basket.png",
+      "source": "assets/source/units/grade-10/unit-01/props/rice_basket.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "a swift human scout with a short blade, light Vietnamese clothing and a distinctive headwrap; motifs: polluted river reeds, broken nets and water spirits",
+      "path": "/assets/game/units/grade-10/unit-02/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-02/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "a human ranged attacker with a bamboo bow or sling and light gear; motifs: polluted river reeds, broken nets and water spirits",
+      "path": "/assets/game/units/grade-10/unit-02/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-02/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "a large armored human bruiser with a heavy club and broad silhouette; motifs: polluted river reeds, broken nets and water spirits",
+      "path": "/assets/game/units/grade-10/unit-02/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-02/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "a nonhuman golem assembled from the unit's material motifs; motifs: polluted river reeds, broken nets and water spirits",
+      "path": "/assets/game/units/grade-10/unit-02/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-02/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "an eerie floating nonhuman spirit formed from the unit's motifs; motifs: polluted river reeds, broken nets and water spirits",
+      "path": "/assets/game/units/grade-10/unit-02/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-02/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "an elite commander with ornate armor, a distinctive polearm and imposing silhouette; motifs: polluted river reeds, broken nets and water spirits",
+      "path": "/assets/game/units/grade-10/unit-02/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-02/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "a swift human scout with a short blade, light Vietnamese clothing and a distinctive headwrap; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+      "path": "/assets/game/units/grade-10/unit-03/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-03/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "a human ranged attacker with a bamboo bow or sling and light gear; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+      "path": "/assets/game/units/grade-10/unit-03/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-03/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "a large armored human bruiser with a heavy club and broad silhouette; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+      "path": "/assets/game/units/grade-10/unit-03/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-03/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "a nonhuman golem assembled from the unit's material motifs; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+      "path": "/assets/game/units/grade-10/unit-03/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-03/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "an eerie floating nonhuman spirit formed from the unit's motifs; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+      "path": "/assets/game/units/grade-10/unit-03/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-03/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "an elite commander with ornate armor, a distinctive polearm and imposing silhouette; motifs: distorted Vietnamese musical instruments, sound waves and bronze drums",
+      "path": "/assets/game/units/grade-10/unit-03/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-03/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "riverbank mud with reeds and smooth pebbles",
+      "path": "/assets/game/units/grade-10/unit-02/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-02/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 2,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "bamboo waterwheel",
+      "path": "/assets/game/units/grade-10/unit-02/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-02/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "communal house flagstone with bronze inlays",
+      "path": "/assets/game/units/grade-10/unit-03/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-03/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 3,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "đàn bầu monochord",
+      "path": "/assets/game/units/grade-10/unit-03/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-03/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "village square clay stone",
+      "path": "/assets/game/units/grade-10/unit-04/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-04/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "repair tools and food basket",
+      "path": "/assets/game/units/grade-10/unit-04/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-04/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "workshop packed earth with bronze filings",
+      "path": "/assets/game/units/grade-10/unit-05/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-05/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "miniature wooden waterwheel",
+      "path": "/assets/game/units/grade-10/unit-05/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-05/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "martial courtyard stone with balanced geometric motifs",
+      "path": "/assets/game/units/grade-10/unit-06/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-06/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "paired training swords",
+      "path": "/assets/game/units/grade-10/unit-06/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-06/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "diplomatic pavilion mosaic stone",
+      "path": "/assets/game/units/grade-10/unit-07/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-07/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "bronze lotus seal",
+      "path": "/assets/game/units/grade-10/unit-07/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-07/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "academy wooden floor with parchment scraps",
+      "path": "/assets/game/units/grade-10/unit-08/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-08/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "astronomy teaching sphere",
+      "path": "/assets/game/units/grade-10/unit-08/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-08/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "restored forest soil with leaves",
+      "path": "/assets/game/units/grade-10/unit-09/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-09/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "native tree sapling",
+      "path": "/assets/game/units/grade-10/unit-09/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-09/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "limestone trail gravel with moss",
+      "path": "/assets/game/units/grade-10/unit-10/ground/main_ground.png",
+      "source": "assets/source/units/grade-10/unit-10/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "bamboo trail sign without text",
+      "path": "/assets/game/units/grade-10/unit-10/props/theme_prop.png",
+      "source": "assets/source/units/grade-10/unit-10/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+      "path": "/assets/game/units/grade-10/unit-04/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-04/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+      "path": "/assets/game/units/grade-10/unit-04/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-04/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+      "path": "/assets/game/units/grade-10/unit-04/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-04/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+      "path": "/assets/game/units/grade-10/unit-04/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-04/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+      "path": "/assets/game/units/grade-10/unit-04/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-04/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+      "path": "/assets/game/units/grade-10/unit-04/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-04/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+      "path": "/assets/game/units/grade-10/unit-05/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-05/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+      "path": "/assets/game/units/grade-10/unit-05/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-05/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+      "path": "/assets/game/units/grade-10/unit-05/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-05/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+      "path": "/assets/game/units/grade-10/unit-05/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-05/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+      "path": "/assets/game/units/grade-10/unit-05/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-05/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+      "path": "/assets/game/units/grade-10/unit-05/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-05/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+      "path": "/assets/game/units/grade-10/unit-06/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-06/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+      "path": "/assets/game/units/grade-10/unit-06/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-06/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+      "path": "/assets/game/units/grade-10/unit-06/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-06/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+      "path": "/assets/game/units/grade-10/unit-06/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-06/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+      "path": "/assets/game/units/grade-10/unit-06/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-06/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+      "path": "/assets/game/units/grade-10/unit-06/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-06/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+      "path": "/assets/game/units/grade-10/unit-07/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-07/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+      "path": "/assets/game/units/grade-10/unit-07/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-07/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+      "path": "/assets/game/units/grade-10/unit-07/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-07/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+      "path": "/assets/game/units/grade-10/unit-07/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-07/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+      "path": "/assets/game/units/grade-10/unit-07/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-07/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+      "path": "/assets/game/units/grade-10/unit-07/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-07/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+      "path": "/assets/game/units/grade-10/unit-08/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-08/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+      "path": "/assets/game/units/grade-10/unit-08/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-08/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+      "path": "/assets/game/units/grade-10/unit-08/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-08/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+      "path": "/assets/game/units/grade-10/unit-08/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-08/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+      "path": "/assets/game/units/grade-10/unit-08/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-08/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+      "path": "/assets/game/units/grade-10/unit-08/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-08/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: poisoned roots, discarded nets and dark forest smoke",
+      "path": "/assets/game/units/grade-10/unit-09/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-09/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: poisoned roots, discarded nets and dark forest smoke",
+      "path": "/assets/game/units/grade-10/unit-09/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-09/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: poisoned roots, discarded nets and dark forest smoke",
+      "path": "/assets/game/units/grade-10/unit-09/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-09/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: poisoned roots, discarded nets and dark forest smoke",
+      "path": "/assets/game/units/grade-10/unit-09/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-09/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: poisoned roots, discarded nets and dark forest smoke",
+      "path": "/assets/game/units/grade-10/unit-09/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-09/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: poisoned roots, discarded nets and dark forest smoke",
+      "path": "/assets/game/units/grade-10/unit-09/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-09/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+      "path": "/assets/game/units/grade-10/unit-10/enemies/scout.png",
+      "source": "assets/source/units/grade-10/unit-10/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+      "path": "/assets/game/units/grade-10/unit-10/enemies/ranged.png",
+      "source": "assets/source/units/grade-10/unit-10/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+      "path": "/assets/game/units/grade-10/unit-10/enemies/brute.png",
+      "source": "assets/source/units/grade-10/unit-10/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+      "path": "/assets/game/units/grade-10/unit-10/enemies/construct.png",
+      "source": "assets/source/units/grade-10/unit-10/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+      "path": "/assets/game/units/grade-10/unit-10/enemies/spirit.png",
+      "source": "assets/source/units/grade-10/unit-10/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+      "path": "/assets/game/units/grade-10/unit-10/enemies/elite.png",
+      "source": "assets/source/units/grade-10/unit-10/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+      "path": "/assets/game/units/grade-11/unit-01/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-01/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+      "path": "/assets/game/units/grade-11/unit-01/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-01/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+      "path": "/assets/game/units/grade-11/unit-01/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-01/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+      "path": "/assets/game/units/grade-11/unit-01/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-01/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+      "path": "/assets/game/units/grade-11/unit-01/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-01/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+      "path": "/assets/game/units/grade-11/unit-01/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-01/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "herbal garden earth and stone",
+      "path": "/assets/game/units/grade-11/unit-01/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-01/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "herbal medicine mortar",
+      "path": "/assets/game/units/grade-11/unit-01/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-01/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "old courtyard cobblestone",
+      "path": "/assets/game/units/grade-11/unit-02/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-02/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "ancestral tea table",
+      "path": "/assets/game/units/grade-11/unit-02/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-02/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "eco-city paving with green seams",
+      "path": "/assets/game/units/grade-11/unit-03/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-03/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "solar lantern tower",
+      "path": "/assets/game/units/grade-11/unit-03/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-03/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "festival port boardwalk wood",
+      "path": "/assets/game/units/grade-11/unit-04/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-04/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "ornate trade crate",
+      "path": "/assets/game/units/grade-11/unit-04/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-04/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "coastal earth with salt cracks",
+      "path": "/assets/game/units/grade-11/unit-05/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-05/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "mangrove seedling",
+      "path": "/assets/game/units/grade-11/unit-05/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-05/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "ancient temple flagstone with moss",
+      "path": "/assets/game/units/grade-11/unit-06/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-06/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "bronze drum on stand",
+      "path": "/assets/game/units/grade-11/unit-06/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-06/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "academy crossroads stone path",
+      "path": "/assets/game/units/grade-11/unit-07/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-07/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "craft apprenticeship toolkit",
+      "path": "/assets/game/units/grade-11/unit-07/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-07/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "village gate dirt path",
+      "path": "/assets/game/units/grade-11/unit-08/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-08/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "traveler backpack and compass",
+      "path": "/assets/game/units/grade-11/unit-08/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-08/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "market square weathered stone",
+      "path": "/assets/game/units/grade-11/unit-09/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-09/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "community aid supply chest",
+      "path": "/assets/game/units/grade-11/unit-09/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-09/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "wetland soil with roots and reeds",
+      "path": "/assets/game/units/grade-11/unit-10/ground/main_ground.png",
+      "source": "assets/source/units/grade-11/unit-10/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "lotus pond stone marker",
+      "path": "/assets/game/units/grade-11/unit-10/props/theme_prop.png",
+      "source": "assets/source/units/grade-11/unit-10/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 6,
+      "kind": "boss",
+      "id": "balance_phantom",
+      "concept": "a towering mirror-armored phantom holding a broken balance scale, split symmetrical silhouette, dark magic of unfairness without gender stereotypes",
+      "path": "/assets/game/units/grade-10/unit-06/bosses/balance_phantom.png",
+      "source": "assets/source/units/grade-10/unit-06/bosses/balance_phantom.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 10,
+      "unit": 10,
+      "kind": "boss",
+      "id": "lost_trail_warlord",
+      "concept": "a corrupted masked trail warlord emerging from limestone and bamboo, stolen compass and tangled vines",
+      "path": "/assets/game/units/grade-10/unit-10/bosses/lost_trail_warlord.png",
+      "source": "assets/source/units/grade-10/unit-10/bosses/lost_trail_warlord.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "boss",
+      "id": "hollow_city_engine",
+      "concept": "a huge bamboo-bronze city automaton corrupted by smog, transit gears and luminous red circuits",
+      "path": "/assets/game/units/grade-11/unit-03/bosses/hollow_city_engine.png",
+      "source": "assets/source/units/grade-11/unit-03/bosses/hollow_city_engine.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "boss",
+      "id": "marsh_devourer",
+      "concept": "an ancient wetland spirit made of invasive dark roots, reeds and murky water, huge antler-like branches",
+      "path": "/assets/game/units/grade-11/unit-10/bosses/marsh_devourer.png",
+      "source": "assets/source/units/grade-11/unit-10/bosses/marsh_devourer.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "boss",
+      "id": "smoke_sovereign",
+      "concept": "a regal obsidian-and-smoke giant wrapped in waste and ash, extinguished green lanterns, ominous but readable",
+      "path": "/assets/game/units/grade-12/unit-03/bosses/smoke_sovereign.png",
+      "source": "assets/source/units/grade-12/unit-03/bosses/smoke_sovereign.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "boss",
+      "id": "false_intellect",
+      "concept": "a sentient bronze-and-bamboo automaton scholar with cracked mask and red luminous diagrams, elegant terrifying boss",
+      "path": "/assets/game/units/grade-12/unit-06/bosses/false_intellect.png",
+      "source": "assets/source/units/grade-12/unit-06/bosses/false_intellect.png",
+      "size": [
+        256,
+        288
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+      "path": "/assets/game/units/grade-11/unit-02/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-02/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+      "path": "/assets/game/units/grade-11/unit-02/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-02/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+      "path": "/assets/game/units/grade-11/unit-02/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-02/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+      "path": "/assets/game/units/grade-11/unit-02/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-02/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+      "path": "/assets/game/units/grade-11/unit-02/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-02/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: shattered heirlooms, misunderstanding mist and echo masks",
+      "path": "/assets/game/units/grade-11/unit-02/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-02/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+      "path": "/assets/game/units/grade-11/unit-03/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-03/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+      "path": "/assets/game/units/grade-11/unit-03/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-03/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+      "path": "/assets/game/units/grade-11/unit-03/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-03/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+      "path": "/assets/game/units/grade-11/unit-03/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-03/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+      "path": "/assets/game/units/grade-11/unit-03/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-03/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: runaway transit devices, smog drones and corrupted civic machinery",
+      "path": "/assets/game/units/grade-11/unit-03/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-03/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+      "path": "/assets/game/units/grade-11/unit-04/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-04/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+      "path": "/assets/game/units/grade-11/unit-04/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-04/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+      "path": "/assets/game/units/grade-11/unit-04/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-04/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+      "path": "/assets/game/units/grade-11/unit-04/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-04/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+      "path": "/assets/game/units/grade-11/unit-04/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-04/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: storm-torn sails, trade pirates and spectral harbor masks",
+      "path": "/assets/game/units/grade-11/unit-04/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-04/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+      "path": "/assets/game/units/grade-11/unit-05/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-05/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+      "path": "/assets/game/units/grade-11/unit-05/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-05/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+      "path": "/assets/game/units/grade-11/unit-05/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-05/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+      "path": "/assets/game/units/grade-11/unit-05/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-05/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+      "path": "/assets/game/units/grade-11/unit-05/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-05/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: heat haze, rising tide spirits and scorched mangrove debris",
+      "path": "/assets/game/units/grade-11/unit-05/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-05/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+      "path": "/assets/game/units/grade-11/unit-06/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-06/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+      "path": "/assets/game/units/grade-11/unit-06/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-06/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+      "path": "/assets/game/units/grade-11/unit-06/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-06/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+      "path": "/assets/game/units/grade-11/unit-06/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-06/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+      "path": "/assets/game/units/grade-11/unit-06/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-06/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+      "path": "/assets/game/units/grade-11/unit-06/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-06/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+      "path": "/assets/game/units/grade-11/unit-07/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-07/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+      "path": "/assets/game/units/grade-11/unit-07/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-07/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+      "path": "/assets/game/units/grade-11/unit-07/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-07/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+      "path": "/assets/game/units/grade-11/unit-07/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-07/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+      "path": "/assets/game/units/grade-11/unit-07/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-07/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+      "path": "/assets/game/units/grade-11/unit-07/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-07/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift road scout with lost-map motifs and traveler satchel",
+      "path": "/assets/game/units/grade-11/unit-08/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-08/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: lost-map phantoms, deceptive signposts and road bandits",
+      "path": "/assets/game/units/grade-11/unit-08/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-08/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: lost-map phantoms, deceptive signposts and road bandits",
+      "path": "/assets/game/units/grade-11/unit-08/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-08/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: lost-map phantoms, deceptive signposts and road bandits",
+      "path": "/assets/game/units/grade-11/unit-08/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-08/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: lost-map phantoms, deceptive signposts and road bandits",
+      "path": "/assets/game/units/grade-11/unit-08/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-08/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: lost-map phantoms, deceptive signposts and road bandits",
+      "path": "/assets/game/units/grade-11/unit-08/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-08/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: corruption chains, isolation masks and stolen market supplies",
+      "path": "/assets/game/units/grade-11/unit-09/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-09/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: corruption chains, isolation masks and stolen market supplies",
+      "path": "/assets/game/units/grade-11/unit-09/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-09/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: corruption chains, isolation masks and stolen market supplies",
+      "path": "/assets/game/units/grade-11/unit-09/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-09/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: corruption chains, isolation masks and stolen market supplies",
+      "path": "/assets/game/units/grade-11/unit-09/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-09/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: corruption chains, isolation masks and stolen market supplies",
+      "path": "/assets/game/units/grade-11/unit-09/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-09/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: corruption chains, isolation masks and stolen market supplies",
+      "path": "/assets/game/units/grade-11/unit-09/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-09/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+      "path": "/assets/game/units/grade-11/unit-10/enemies/scout.png",
+      "source": "assets/source/units/grade-11/unit-10/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "human ranged attacker with a bamboo bow or sling; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+      "path": "/assets/game/units/grade-11/unit-10/enemies/ranged.png",
+      "source": "assets/source/units/grade-11/unit-10/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large armored bruiser with a heavy club; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+      "path": "/assets/game/units/grade-11/unit-10/enemies/brute.png",
+      "source": "assets/source/units/grade-11/unit-10/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "nonhuman golem assembled from the unit's material motifs; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+      "path": "/assets/game/units/grade-11/unit-10/enemies/construct.png",
+      "source": "assets/source/units/grade-11/unit-10/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+      "path": "/assets/game/units/grade-11/unit-10/enemies/spirit.png",
+      "source": "assets/source/units/grade-11/unit-10/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite commander with ornate armor and distinctive polearm; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+      "path": "/assets/game/units/grade-11/unit-10/enemies/elite.png",
+      "source": "assets/source/units/grade-11/unit-10/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "fever_miasma",
+      "concept": "a translucent fever miasma creature rising from spoiled medicinal herbs, with glowing ember eyes and drifting leaf shapes",
+      "path": "/assets/game/units/grade-11/unit-01/enemies/fever_miasma.png",
+      "source": "assets/source/units/grade-11/unit-01/enemies/fever_miasma.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "heirloom_mimic",
+      "concept": "a cracked blue-and-white Vietnamese heirloom ceramic vessel awakened as a cunning mimic with short clay limbs",
+      "path": "/assets/game/units/grade-11/unit-02/enemies/heirloom_mimic.png",
+      "source": "assets/source/units/grade-11/unit-02/enemies/heirloom_mimic.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "transit_drone",
+      "concept": "a rogue bamboo-and-bronze elevated transit guardian automaton with spinning ring wheels and jade energy",
+      "path": "/assets/game/units/grade-11/unit-03/enemies/transit_drone.png",
+      "source": "assets/source/units/grade-11/unit-03/enemies/transit_drone.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "harbor_junk_spirit",
+      "concept": "a spectral Vietnamese trading boat spirit made of torn sail cloth and weathered teak, compact humanoid form",
+      "path": "/assets/game/units/grade-11/unit-04/enemies/harbor_junk_spirit.png",
+      "source": "assets/source/units/grade-11/unit-04/enemies/harbor_junk_spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "heat_tide_beast",
+      "concept": "a monstrous heat-wave crab from a flooded coast, cracked salt armor and glowing hot claws",
+      "path": "/assets/game/units/grade-11/unit-05/enemies/heat_tide_beast.png",
+      "source": "assets/source/units/grade-11/unit-05/enemies/heat_tide_beast.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "bronze_drum_guardian",
+      "concept": "an awakened Đông Sơn bronze drum guardian golem with carved bird motifs and heavy drum arms",
+      "path": "/assets/game/units/grade-11/unit-06/enemies/bronze_drum_guardian.png",
+      "source": "assets/source/units/grade-11/unit-06/enemies/bronze_drum_guardian.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "false_certificate_wraith",
+      "concept": "a floating false-certificate phantom made of blank scroll ribbons and broken wax seals, no readable writing",
+      "path": "/assets/game/units/grade-11/unit-07/enemies/false_certificate_wraith.png",
+      "source": "assets/source/units/grade-11/unit-07/enemies/false_certificate_wraith.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "compass_golem",
+      "concept": "a deceptive stone-and-bronze compass golem with shifting arrows and road dust",
+      "path": "/assets/game/units/grade-11/unit-08/enemies/compass_golem.png",
+      "source": "assets/source/units/grade-11/unit-08/enemies/compass_golem.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "isolation_chain_beast",
+      "concept": "a hulking spirit made from tangled broken chains and abandoned market baskets, dark yet redeemable",
+      "path": "/assets/game/units/grade-11/unit-09/enemies/isolation_chain_beast.png",
+      "source": "assets/source/units/grade-11/unit-09/enemies/isolation_chain_beast.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "invasive_root_predator",
+      "concept": "a twisted invasive mangrove-root predator with muddy claws and reed-covered back",
+      "path": "/assets/game/units/grade-11/unit-10/enemies/invasive_root_predator.png",
+      "source": "assets/source/units/grade-11/unit-10/enemies/invasive_root_predator.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "ground",
+      "id": "herbal_stone_path",
+      "concept": "flat herbal-garden stone pavers with tiny medicinal leaves",
+      "path": "/assets/game/units/grade-11/unit-01/ground/herbal_stone_path.png",
+      "source": "assets/source/units/grade-11/unit-01/ground/herbal_stone_path.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 1,
+      "kind": "prop",
+      "id": "herb_drying_rack",
+      "concept": "bamboo rack with medicinal herbs drying",
+      "path": "/assets/game/units/grade-11/unit-01/props/herb_drying_rack.png",
+      "source": "assets/source/units/grade-11/unit-01/props/herb_drying_rack.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "ground",
+      "id": "family_wood_floor",
+      "concept": "aged Vietnamese family-house wooden floorboards",
+      "path": "/assets/game/units/grade-11/unit-02/ground/family_wood_floor.png",
+      "source": "assets/source/units/grade-11/unit-02/ground/family_wood_floor.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 2,
+      "kind": "prop",
+      "id": "ancestor_lantern",
+      "concept": "small ancestral brass oil lantern, no symbols or writing",
+      "path": "/assets/game/units/grade-11/unit-02/props/ancestor_lantern.png",
+      "source": "assets/source/units/grade-11/unit-02/props/ancestor_lantern.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "ground",
+      "id": "eco_transit_paving",
+      "concept": "green-seamed eco-city transit pavement of Vietnamese design",
+      "path": "/assets/game/units/grade-11/unit-03/ground/eco_transit_paving.png",
+      "source": "assets/source/units/grade-11/unit-03/ground/eco_transit_paving.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 3,
+      "kind": "prop",
+      "id": "transit_marker",
+      "concept": "small bamboo-bronze transit wayfinding sculpture without text",
+      "path": "/assets/game/units/grade-11/unit-03/props/transit_marker.png",
+      "source": "assets/source/units/grade-11/unit-03/props/transit_marker.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "ground",
+      "id": "wet_harbor_stone",
+      "concept": "weathered coastal port stone with wet patches",
+      "path": "/assets/game/units/grade-11/unit-04/ground/wet_harbor_stone.png",
+      "source": "assets/source/units/grade-11/unit-04/ground/wet_harbor_stone.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 4,
+      "kind": "prop",
+      "id": "festival_boat_lantern",
+      "concept": "small colorful Southeast Asian festival boat lantern, no national flags",
+      "path": "/assets/game/units/grade-11/unit-04/props/festival_boat_lantern.png",
+      "source": "assets/source/units/grade-11/unit-04/props/festival_boat_lantern.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "ground",
+      "id": "salt_marsh_water",
+      "concept": "shallow coastal salt-marsh water with mud and reflections",
+      "path": "/assets/game/units/grade-11/unit-05/ground/salt_marsh_water.png",
+      "source": "assets/source/units/grade-11/unit-05/ground/salt_marsh_water.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 5,
+      "kind": "prop",
+      "id": "tide_gauge",
+      "concept": "simple weathered bronze tide gauge, no numbers",
+      "path": "/assets/game/units/grade-11/unit-05/props/tide_gauge.png",
+      "source": "assets/source/units/grade-11/unit-05/props/tide_gauge.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "ground",
+      "id": "heritage_wood_floor",
+      "concept": "aged carved Vietnamese communal-house wood flooring",
+      "path": "/assets/game/units/grade-11/unit-06/ground/heritage_wood_floor.png",
+      "source": "assets/source/units/grade-11/unit-06/ground/heritage_wood_floor.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 6,
+      "kind": "prop",
+      "id": "restoration_scaffold",
+      "concept": "compact bamboo heritage-restoration scaffold with repair tools",
+      "path": "/assets/game/units/grade-11/unit-06/props/restoration_scaffold.png",
+      "source": "assets/source/units/grade-11/unit-06/props/restoration_scaffold.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "ground",
+      "id": "crossroads_cobbles",
+      "concept": "academy crossroads cobblestones",
+      "path": "/assets/game/units/grade-11/unit-07/ground/crossroads_cobbles.png",
+      "source": "assets/source/units/grade-11/unit-07/ground/crossroads_cobbles.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 7,
+      "kind": "prop",
+      "id": "academy_signpost",
+      "concept": "three-way wooden academy signpost with blank plaques",
+      "path": "/assets/game/units/grade-11/unit-07/props/academy_signpost.png",
+      "source": "assets/source/units/grade-11/unit-07/props/academy_signpost.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "ground",
+      "id": "mountain_trail_gravel",
+      "concept": "Vietnamese upland trail gravel and sparse grass",
+      "path": "/assets/game/units/grade-11/unit-08/ground/mountain_trail_gravel.png",
+      "source": "assets/source/units/grade-11/unit-08/ground/mountain_trail_gravel.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 8,
+      "kind": "prop",
+      "id": "road_milestone",
+      "concept": "small carved roadside stone milestone with no text",
+      "path": "/assets/game/units/grade-11/unit-08/props/road_milestone.png",
+      "source": "assets/source/units/grade-11/unit-08/props/road_milestone.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "ground",
+      "id": "market_packed_dirt",
+      "concept": "well-trodden Vietnamese market packed earth",
+      "path": "/assets/game/units/grade-11/unit-09/ground/market_packed_dirt.png",
+      "source": "assets/source/units/grade-11/unit-09/ground/market_packed_dirt.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 9,
+      "kind": "prop",
+      "id": "aid_notice_board",
+      "concept": "wooden public-aid notice board with blank paper sheets",
+      "path": "/assets/game/units/grade-11/unit-09/props/aid_notice_board.png",
+      "source": "assets/source/units/grade-11/unit-09/props/aid_notice_board.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "ground",
+      "id": "wetland_water",
+      "concept": "shallow marsh water with algae and tiny leaves",
+      "path": "/assets/game/units/grade-11/unit-10/ground/wetland_water.png",
+      "source": "assets/source/units/grade-11/unit-10/ground/wetland_water.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 11,
+      "unit": 10,
+      "kind": "prop",
+      "id": "mangrove_nest",
+      "concept": "small mangrove-root shelter for wildlife",
+      "path": "/assets/game/units/grade-11/unit-10/props/mangrove_nest.png",
+      "source": "assets/source/units/grade-11/unit-10/props/mangrove_nest.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "portrait thief in torn scholar robes carrying a stolen blank portrait frame",
+      "path": "/assets/game/units/grade-12/unit-01/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-01/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "archer firing strips of dark memory scroll from a bamboo bow",
+      "path": "/assets/game/units/grade-12/unit-01/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-01/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "broad stone memorial guard with cracked heroic relief armor",
+      "path": "/assets/game/units/grade-12/unit-01/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-01/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "animated gilt portrait frame golem with empty center",
+      "path": "/assets/game/units/grade-12/unit-01/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-01/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "fading memory wraith with drifting scroll fragments",
+      "path": "/assets/game/units/grade-12/unit-01/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-01/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "false hero captain in ornate Vietnamese ceremonial armor with a fractured bronze medal",
+      "path": "/assets/game/units/grade-12/unit-01/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-01/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "enemy",
+      "id": "memory_chimera",
+      "concept": "a nonhuman chimera assembled from torn blank portrait canvases and bronze memorial fragments",
+      "path": "/assets/game/units/grade-12/unit-01/enemies/memory_chimera.png",
+      "source": "assets/source/units/grade-12/unit-01/enemies/memory_chimera.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "hero hall polished stone",
+      "path": "/assets/game/units/grade-12/unit-01/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-01/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "mossy hero-hall side courtyard stone",
+      "path": "/assets/game/units/grade-12/unit-01/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-01/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "memorial bronze plaque without text",
+      "path": "/assets/game/units/grade-12/unit-01/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-01/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 1,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "small empty portrait display frame",
+      "path": "/assets/game/units/grade-12/unit-01/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-01/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "masked market rogue stealing trade wares",
+      "path": "/assets/game/units/grade-12/unit-02/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-02/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "silk-dart hunter wearing mixed but respectful Vietnamese port textiles",
+      "path": "/assets/game/units/grade-12/unit-02/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-02/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "large cargo porter corrupted by dark trade magic",
+      "path": "/assets/game/units/grade-12/unit-02/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-02/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "animated stacked trade crates and textile-bale golem",
+      "path": "/assets/game/units/grade-12/unit-02/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-02/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "festival mask spirit swirling with colorful cloth ribbons",
+      "path": "/assets/game/units/grade-12/unit-02/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-02/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite masked harbor captain carrying a bronze trade seal",
+      "path": "/assets/game/units/grade-12/unit-02/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-02/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "enemy",
+      "id": "sail_spirit",
+      "concept": "a small ghostly Vietnamese river sailboat creature with torn canvas wings",
+      "path": "/assets/game/units/grade-12/unit-02/enemies/sail_spirit.png",
+      "source": "assets/source/units/grade-12/unit-02/enemies/sail_spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "trade courtyard brick mosaic",
+      "path": "/assets/game/units/grade-12/unit-02/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-02/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "weathered riverside market boardwalk",
+      "path": "/assets/game/units/grade-12/unit-02/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-02/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "multicultural textile bundle",
+      "path": "/assets/game/units/grade-12/unit-02/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-02/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 2,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "bundled trade textiles on a wooden stall",
+      "path": "/assets/game/units/grade-12/unit-02/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-02/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "waste scavenger with patched indigo clothes and discarded metal blade",
+      "path": "/assets/game/units/grade-12/unit-03/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-03/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "soot archer firing smoky darts from a bamboo bow",
+      "path": "/assets/game/units/grade-12/unit-03/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-03/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "bulky landfill guardian wrapped in discarded pottery and cloth",
+      "path": "/assets/game/units/grade-12/unit-03/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-03/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "golem of glass bottles and bamboo waste bins",
+      "path": "/assets/game/units/grade-12/unit-03/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-03/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "dark smoke spirit with ember eyes and leaf edges",
+      "path": "/assets/game/units/grade-12/unit-03/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-03/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "smog priest commanding polluted air with cracked green lantern",
+      "path": "/assets/game/units/grade-12/unit-03/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-03/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "enemy",
+      "id": "recycling_crab",
+      "concept": "a bright-eyed crab-like construct built from salvaged bamboo and terracotta, corrupted by dark smoke",
+      "path": "/assets/game/units/grade-12/unit-03/enemies/recycling_crab.png",
+      "source": "assets/source/units/grade-12/unit-03/enemies/recycling_crab.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "sustainable village packed earth",
+      "path": "/assets/game/units/grade-12/unit-03/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-03/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "reclaimed garden earth with young grass",
+      "path": "/assets/game/units/grade-12/unit-03/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-03/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "reusable woven market basket",
+      "path": "/assets/game/units/grade-12/unit-03/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-03/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 3,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "ceramic rainwater collection jar",
+      "path": "/assets/game/units/grade-12/unit-03/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-03/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "rooftop construction scout with short blade and rope",
+      "path": "/assets/game/units/grade-12/unit-04/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-04/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "masked signal slinger on a narrow urban platform",
+      "path": "/assets/game/units/grade-12/unit-04/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-04/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "hulking construction debris bruiser with stone slab shield",
+      "path": "/assets/game/units/grade-12/unit-04/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-04/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "concrete-and-bronze transit golem",
+      "path": "/assets/game/units/grade-12/unit-04/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-04/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "floating smog shade with street-lamp glow",
+      "path": "/assets/game/units/grade-12/unit-04/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-04/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "corrupt riverfront transit captain in dark uniform",
+      "path": "/assets/game/units/grade-12/unit-04/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-04/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "enemy",
+      "id": "traffic_serpent",
+      "concept": "a mechanical city transit serpent made of bamboo rails and bronze wheels",
+      "path": "/assets/game/units/grade-12/unit-04/enemies/traffic_serpent.png",
+      "source": "assets/source/units/grade-12/unit-04/enemies/traffic_serpent.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "riverfront city paving",
+      "path": "/assets/game/units/grade-12/unit-04/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-04/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "old riverfront cobbles beside new paving",
+      "path": "/assets/game/units/grade-12/unit-04/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-04/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "urban tree planter",
+      "path": "/assets/game/units/grade-12/unit-04/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-04/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 4,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "small urban tree planter with bamboo support",
+      "path": "/assets/game/units/grade-12/unit-04/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-04/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "forged-contract thief in artisan apron",
+      "path": "/assets/game/units/grade-12/unit-05/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-05/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "ranged tool thrower using small wooden hammers",
+      "path": "/assets/game/units/grade-12/unit-05/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-05/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "forge bruiser carrying a cracked anvil hammer",
+      "path": "/assets/game/units/grade-12/unit-05/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-05/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "animated workbench and craft-tool golem",
+      "path": "/assets/game/units/grade-12/unit-05/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-05/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "floating furnace-soot spirit with ember eyes",
+      "path": "/assets/game/units/grade-12/unit-05/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-05/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "corrupt guildmaster with ornate tool belt and heavy staff",
+      "path": "/assets/game/units/grade-12/unit-05/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-05/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "enemy",
+      "id": "tool_mimic",
+      "concept": "a lively artisan tool chest mimic with wooden jaws and tiny tool limbs",
+      "path": "/assets/game/units/grade-12/unit-05/enemies/tool_mimic.png",
+      "source": "assets/source/units/grade-12/unit-05/enemies/tool_mimic.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "craft district cobbles",
+      "path": "/assets/game/units/grade-12/unit-05/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-05/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "workshop timber floor with sawdust",
+      "path": "/assets/game/units/grade-12/unit-05/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-05/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "artisan tool rack",
+      "path": "/assets/game/units/grade-12/unit-05/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-05/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 5,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "blacksmith forge tool stand",
+      "path": "/assets/game/units/grade-12/unit-05/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-05/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "stealth bamboo-bronze automaton with narrow legs and red eye",
+      "path": "/assets/game/units/grade-12/unit-06/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-06/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "ranged bronze automaton firing jade energy bolts",
+      "path": "/assets/game/units/grade-12/unit-06/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-06/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "heavy logic guardian automaton with huge bronze arms",
+      "path": "/assets/game/units/grade-12/unit-06/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-06/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "geometric bamboo-and-bronze computation golem",
+      "path": "/assets/game/units/grade-12/unit-06/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-06/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "luminous corrupted diagram spirit made of geometric light",
+      "path": "/assets/game/units/grade-12/unit-06/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-06/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "rogue cognition officer automaton with cracked scholarly mask",
+      "path": "/assets/game/units/grade-12/unit-06/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-06/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "enemy",
+      "id": "data_core",
+      "concept": "a hovering cracked bamboo-bronze computation core with many delicate mechanical arms",
+      "path": "/assets/game/units/grade-12/unit-06/enemies/data_core.png",
+      "source": "assets/source/units/grade-12/unit-06/enemies/data_core.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "scholar laboratory stone with bronze circuits",
+      "path": "/assets/game/units/grade-12/unit-06/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-06/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "bronze inlaid laboratory wood floor",
+      "path": "/assets/game/units/grade-12/unit-06/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-06/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "bronze bamboo automaton core",
+      "path": "/assets/game/units/grade-12/unit-06/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-06/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 6,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "small bronze-and-bamboo logic device",
+      "path": "/assets/game/units/grade-12/unit-06/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-06/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "rumor-spreading town crier with blank broadsheets",
+      "path": "/assets/game/units/grade-12/unit-07/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-07/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "woodblock dart thrower carrying an ink-stained sling",
+      "path": "/assets/game/units/grade-12/unit-07/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-07/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "heavy printing-press enforcer with wooden roller",
+      "path": "/assets/game/units/grade-12/unit-07/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-07/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "animated woodblock printing plate golem",
+      "path": "/assets/game/units/grade-12/unit-07/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-07/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "phantom echo lantern with drifting blank paper",
+      "path": "/assets/game/units/grade-12/unit-07/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-07/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "false editor commander in dark scholar robes and ink-brush staff",
+      "path": "/assets/game/units/grade-12/unit-07/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-07/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "enemy",
+      "id": "rumor_swarm",
+      "concept": "a vortex of blank paper butterflies and ink drops shaped like one enemy",
+      "path": "/assets/game/units/grade-12/unit-07/enemies/rumor_swarm.png",
+      "source": "assets/source/units/grade-12/unit-07/enemies/rumor_swarm.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "storytelling pavilion wooden planks",
+      "path": "/assets/game/units/grade-12/unit-07/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-07/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "ink-stained storytelling pavilion stone",
+      "path": "/assets/game/units/grade-12/unit-07/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-07/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "woodblock printing press",
+      "path": "/assets/game/units/grade-12/unit-07/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-07/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 7,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "stack of blank illustrated broadsheets",
+      "path": "/assets/game/units/grade-12/unit-07/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-07/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "masked poacher scout carrying empty trap frame",
+      "path": "/assets/game/units/grade-12/unit-08/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-08/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "ranged poacher using bamboo dart launcher",
+      "path": "/assets/game/units/grade-12/unit-08/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-08/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "chain-wielding habitat destroyer in dark field gear",
+      "path": "/assets/game/units/grade-12/unit-08/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-08/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "animated iron cage and root golem",
+      "path": "/assets/game/units/grade-12/unit-08/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-08/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "injured forest habitat spirit with leaves and violet corruption",
+      "path": "/assets/game/units/grade-12/unit-08/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-08/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "poacher captain with antler-shaped mask and net spear",
+      "path": "/assets/game/units/grade-12/unit-08/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-08/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "enemy",
+      "id": "snare_beast",
+      "concept": "a vine-covered wild boar spirit entangled in broken poacher traps",
+      "path": "/assets/game/units/grade-12/unit-08/enemies/snare_beast.png",
+      "source": "assets/source/units/grade-12/unit-08/enemies/snare_beast.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "forest sanctuary leaf soil",
+      "path": "/assets/game/units/grade-12/unit-08/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-08/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "forest sanctuary mossy stone path",
+      "path": "/assets/game/units/grade-12/unit-08/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-08/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "ranger supply crate",
+      "path": "/assets/game/units/grade-12/unit-08/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-08/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 8,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "wildlife rescue bamboo cage left open",
+      "path": "/assets/game/units/grade-12/unit-08/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-08/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "deceptive false mentor wearing plain guild robes",
+      "path": "/assets/game/units/grade-12/unit-09/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-09/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "certificate-dart hunter with blank paper scrolls",
+      "path": "/assets/game/units/grade-12/unit-09/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-09/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "heavy guild bruiser with false bronze insignia",
+      "path": "/assets/game/units/grade-12/unit-09/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-09/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "animated pile of guild badges and toolboxes",
+      "path": "/assets/game/units/grade-12/unit-09/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-09/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "lost-path spirit formed from branching arrows",
+      "path": "/assets/game/units/grade-12/unit-09/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-09/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "false-path commander with many blank signposts on back",
+      "path": "/assets/game/units/grade-12/unit-09/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-09/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "enemy",
+      "id": "crossroads_illusion",
+      "concept": "a shifting three-way signpost phantom with blank plaques and shadow legs",
+      "path": "/assets/game/units/grade-12/unit-09/enemies/crossroads_illusion.png",
+      "source": "assets/source/units/grade-12/unit-09/enemies/crossroads_illusion.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "guild square stone crossroads",
+      "path": "/assets/game/units/grade-12/unit-09/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-09/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "guild academy polished stone path",
+      "path": "/assets/game/units/grade-12/unit-09/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-09/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "multi-craft signpost without text",
+      "path": "/assets/game/units/grade-12/unit-09/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-09/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 9,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "wooden apprenticeship toolkit and blank map",
+      "path": "/assets/game/units/grade-12/unit-09/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-09/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "scout",
+      "concept": "forgotten scholar disciple with broken scroll satchel",
+      "path": "/assets/game/units/grade-12/unit-10/enemies/scout.png",
+      "source": "assets/source/units/grade-12/unit-10/enemies/scout.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "ranged",
+      "concept": "ink-dart archer firing dark droplets",
+      "path": "/assets/game/units/grade-12/unit-10/enemies/ranged.png",
+      "source": "assets/source/units/grade-12/unit-10/enemies/ranged.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "brute",
+      "concept": "heavy tome bruiser with giant sealed book shield",
+      "path": "/assets/game/units/grade-12/unit-10/enemies/brute.png",
+      "source": "assets/source/units/grade-12/unit-10/enemies/brute.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "construct",
+      "concept": "animated stack of sealed books and bronze clasps",
+      "path": "/assets/game/units/grade-12/unit-10/enemies/construct.png",
+      "source": "assets/source/units/grade-12/unit-10/enemies/construct.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "spirit",
+      "concept": "forgetting-mist spirit with fragmented blank pages",
+      "path": "/assets/game/units/grade-12/unit-10/enemies/spirit.png",
+      "source": "assets/source/units/grade-12/unit-10/enemies/spirit.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "elite",
+      "concept": "elite final disciple of Vô Ngôn Ma Tôn in black-red scholarly armor",
+      "path": "/assets/game/units/grade-12/unit-10/enemies/elite.png",
+      "source": "assets/source/units/grade-12/unit-10/enemies/elite.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "enemy",
+      "id": "ink_phoenix",
+      "concept": "a dark ink-and-paper bird spirit representing stolen language and learning",
+      "path": "/assets/game/units/grade-12/unit-10/enemies/ink_phoenix.png",
+      "source": "assets/source/units/grade-12/unit-10/enemies/ink_phoenix.png",
+      "size": [
+        160,
+        192
+      ],
+      "origin": [
+        0.5,
+        0.94
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "ground",
+      "id": "main_ground",
+      "concept": "lantern-lit library timber floor",
+      "path": "/assets/game/units/grade-12/unit-10/ground/main_ground.png",
+      "source": "assets/source/units/grade-12/unit-10/ground/main_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "ground",
+      "id": "side_ground",
+      "concept": "ancient academy library stone with fallen leaves",
+      "path": "/assets/game/units/grade-12/unit-10/ground/side_ground.png",
+      "source": "assets/source/units/grade-12/unit-10/ground/side_ground.png",
+      "size": [
+        256,
+        256
+      ],
+      "origin": null,
+      "tileableVerified": false
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "prop",
+      "id": "theme_prop",
+      "concept": "open knowledge scroll stand",
+      "path": "/assets/game/units/grade-12/unit-10/props/theme_prop.png",
+      "source": "assets/source/units/grade-12/unit-10/props/theme_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    },
+    {
+      "grade": 12,
+      "unit": 10,
+      "kind": "prop",
+      "id": "secondary_prop",
+      "concept": "small lantern-lit reading desk with blank open scroll",
+      "path": "/assets/game/units/grade-12/unit-10/props/secondary_prop.png",
+      "source": "assets/source/units/grade-12/unit-10/props/secondary_prop.png",
+      "size": [
+        160,
+        160
+      ],
+      "origin": [
+        0.5,
+        0.9
+      ],
+      "tileableVerified": null
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+    "generated": "exec-7796eb42-f90b-4e4c-b79c-5eaf3a5ae17b.png"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+    "generated": "exec-96925d50-d48f-4a79-8739-c86542eaa819.png"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+    "generated": "exec-b7a67c75-b57a-4e54-b38a-1ccf1d7620eb.png"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+    "generated": "exec-361cf1fe-054c-449d-9f38-59505dca726b.png"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+    "generated": "exec-7ef865f7-9b19-477b-a367-5c7cc76d3a59.png"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: broken bridge timbers, stolen supplies and twisted charity seals",
+    "generated": "exec-6b22e63f-5384-4e21-b32d-88a3c72642ec.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+    "generated": "exec-771d40cf-a518-4b39-94d3-37cb07da085d.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+    "generated": "exec-fd0ff1a0-529f-45e0-95b5-39a30e15468f.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+    "generated": "exec-f6b47687-653e-4352-893b-082057d281f9.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+    "generated": "exec-5cc40f27-5b70-4638-bb3b-4678ffef0d2c.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+    "generated": "exec-2929ba99-9c4d-4d51-9d25-1fe39d1333e1.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: runaway wooden mechanisms, gear fragments and craft tools",
+    "generated": "exec-d413a6c1-1996-482b-956a-4fcfa21d47c6.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+    "generated": "exec-97a57a43-cabd-4e7a-b9b0-58a55b0d185e.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+    "generated": "exec-51f28166-3cd6-4dba-b356-510e3af15309.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+    "generated": "exec-f1c6f49c-2a68-49dc-bc93-b27e63561d5e.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+    "generated": "exec-41a26f38-8177-4155-b43a-015d43297987.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+    "generated": "exec-220389e1-ab94-4182-b948-39463d02e0c1.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+    "generated": "exec-0e47ddf2-7035-4d70-9867-3719cf72b00a.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+    "generated": "exec-6c9d89aa-a925-43d5-bfc2-5b086bbee868.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+    "generated": "exec-c63eaf50-35fb-4eed-937f-2eed848ab14b.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+    "generated": "exec-a749e554-3402-4309-8834-3b654e372380.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+    "generated": "exec-419f1f6b-fb76-45a0-80da-62bd54e5627e.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+    "generated": "exec-525184ca-0498-4c96-a7fa-692bf159bbf9.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+    "generated": "exec-4b7d575e-e4fd-48a5-976d-2bce3e62ca28.png"
+  }
+]

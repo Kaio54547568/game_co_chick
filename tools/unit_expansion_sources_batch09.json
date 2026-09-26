@@ -1,0 +1,98 @@
+[
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+    "generated": "exec-d9413597-ea96-4da2-b4c5-97cb27d44f49.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+    "generated": "exec-54c8dc0a-4ee3-4b3c-b228-e8b527008688.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+    "generated": "exec-e318d3b2-dd6c-44a4-9cf2-f73609f3e7c4.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+    "generated": "exec-a14539ac-5939-4c23-8805-833d6b28d8cb.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+    "generated": "exec-b0312f87-a9a2-40d5-a75f-148610bcb82a.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: looted relics, carved stone guardians and damaged heritage woodwork",
+    "generated": "exec-dc0b98f7-e5e4-4005-a848-1840fdb5576d.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+    "generated": "exec-a2199d47-3f90-4b1c-88f1-f7cee3cf87bd.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+    "generated": "exec-c13ebc6f-6d33-47a7-9754-fdfa904ab115.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+    "generated": "exec-718b2802-09cb-4e94-9450-0110840cc54f.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+    "generated": "exec-d84748ae-c087-43fc-95ba-a052d95c92bf.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+    "generated": "exec-70c1014d-d3df-4f2e-9f8e-1b48c26be191.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: confusing path signs, false diplomas and shadowy recruiters; no readable text",
+    "generated": "exec-411648f2-a5e4-4e7e-9c31-a71ecdaa79f9.png"
+  }
+]

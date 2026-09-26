@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 4,
+    "unit_id": "g10-u04",
+    "title": "FOR A BETTER COMMUNITY",
+    "topic": "Community Development and Volunteer Work",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 42,
+    "book_page": 40,
+    "source_section": "Unit 4 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 40,
+        "book_page_end": 41,
+        "pdf_page_start": 42,
+        "pdf_page_end": 43,
+        "description": "Introduction to FOR A BETTER COMMUNITY"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 42,
+        "book_page_end": 42,
+        "pdf_page_start": 44,
+        "pdf_page_end": 44,
+        "description": "Pronunciation (Stress in two-syllable words with the same spelling), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 43,
+        "book_page_end": 44,
+        "pdf_page_start": 45,
+        "pdf_page_end": 46,
+        "description": "A Student Volunteer Club"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 44,
+        "book_page_end": 44,
+        "pdf_page_start": 46,
+        "pdf_page_end": 46,
+        "description": "Discussing the personal benefits of volunteering"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 45,
+        "book_page_end": 45,
+        "pdf_page_start": 47,
+        "pdf_page_end": 47,
+        "description": "Listening to an announcement recruiting community volunteers"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 46,
+        "book_page_end": 47,
+        "pdf_page_start": 48,
+        "pdf_page_end": 49,
+        "description": "Writing a formal job/volunteer application letter"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 48,
+        "book_page_end": 48,
+        "pdf_page_start": 50,
+        "pdf_page_end": 50,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 49,
+        "book_page_end": 49,
+        "pdf_page_start": 51,
+        "pdf_page_end": 51,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to community development and volunteer work",
+      "grammar": [
+        "Past Simple vs. Past Continuous with When and While"
+      ],
+      "pronunciation": "Stress in two-syllable words with the same spelling",
+      "reading": "A Student Volunteer Club",
+      "speaking": "Discussing the personal benefits of volunteering",
+      "listening": "Listening to an announcement recruiting community volunteers",
+      "writing": "Writing a formal job/volunteer application letter"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u04-vocab-001",
+      "unit_id": "g10-u04",
+      "word": "volunteer",
+      "word_type": "noun",
+      "ipa": "/ˌvɒlənˈtɪə(r)/",
+      "meaning_vi": "tình nguyện viên",
+      "definition_en": "a person who does work without being paid",
+      "example_sentence": "Many high school volunteers joined the weekend charity project.",
+      "example_translation": "Nhiều tình nguyện viên học sinh đã tham gia dự án từ thiện cuối tuần.",
+      "collocations": [
+        "volunteer work"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-vocab-002",
+      "unit_id": "g10-u04",
+      "word": "donate",
+      "word_type": "verb",
+      "ipa": "/dəʊˈneɪt/",
+      "meaning_vi": "quyên góp, ủng hộ",
+      "definition_en": "to give money or goods to help people in need",
+      "example_sentence": "Students collected books to donate to children in remote villages.",
+      "example_translation": "Học sinh gom sách để quyên góp cho trẻ em ở vùng sâu vùng xa.",
+      "collocations": [
+        "donate money",
+        "donate clothes"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-vocab-003",
+      "unit_id": "g10-u04",
+      "word": "remote",
+      "word_type": "adjective",
+      "ipa": "/rɪˈməʊt/",
+      "meaning_vi": "xa xôi, hẻo lánh",
+      "definition_en": "far away from towns and cities",
+      "example_sentence": "They built a new community clinic in a remote mountain area.",
+      "example_translation": "Họ đã xây một trạm xá cộng đồng mới tại vùng núi hẻo lánh.",
+      "collocations": [
+        "remote area"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-vocab-004",
+      "unit_id": "g10-u04",
+      "word": "generous",
+      "word_type": "adjective",
+      "ipa": "/ˈdʒenərəs/",
+      "meaning_vi": "hào phóng, rộng lượng",
+      "definition_en": "willing to give money, help, or kindness freely",
+      "example_sentence": "Local businesses were generous in sponsoring the school campaign.",
+      "example_translation": "Các doanh nghiệp địa phương đã rất hào phóng tài trợ chiến dịch trường học.",
+      "collocations": [
+        "generous donation"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-vocab-005",
+      "unit_id": "g10-u04",
+      "word": "needy",
+      "word_type": "adjective",
+      "ipa": "/ˈniːdi/",
+      "meaning_vi": "nghèo khó, cần giúp đỡ",
+      "definition_en": "not having enough food, money, or essential things",
+      "example_sentence": "The charity provides hot meals for needy families every Sunday.",
+      "example_translation": "Tổ chức từ thiện cung cấp bữa ăn nóng cho các gia đình nghèo khó mỗi Chủ nhật.",
+      "collocations": [
+        "needy people"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-vocab-006",
+      "unit_id": "g10-u04",
+      "word": "community",
+      "word_type": "noun",
+      "ipa": "/kəˈmjuːnəti/",
+      "meaning_vi": "cộng đồng",
+      "definition_en": "the people living in one particular area",
+      "example_sentence": "Volunteering brings people together to build a stronger community.",
+      "example_translation": "Hoạt động tình nguyện gắn kết mọi người để xây dựng cộng đồng vững mạnh hơn.",
+      "collocations": [
+        "local community",
+        "community development"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u04-grammar-001",
+      "unit_id": "g10-u04",
+      "title": "Past Simple vs. Past Continuous with When and While",
+      "structure_name": "Quá khứ đơn vs. Quá khứ tiếp diễn với When và While",
+      "rule_summary": "Hành động dài đang diễn ra chia Quá khứ tiếp diễn (was/were + V-ing); hành động ngắn xen vào chia Quá khứ đơn (V2/ed). Dùng while cho hành động dài, when trước hành động ngắn xen vào.",
+      "formula": "While S + was/were + V-ing, S + V2/ed | When S + V2/ed, S + was/were + V-ing",
+      "example_sentences": [
+        {
+          "en": "While we were cleaning the street, it started to rain.",
+          "vi": "Trong khi chúng tôi đang quét dọn đường phố, trời bắt đầu đổ mưa."
+        },
+        {
+          "en": "When I arrived at the shelter, volunteers were preparing lunch.",
+          "vi": "Khi tôi đến mái ấm, các tình nguyện viên đang chuẩn bị cơm trưa."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "While I arrived, they were cleaning.",
+          "correction": "When I arrived, they were cleaning.",
+          "explanation": "Hành động ngắn đến nơi dùng 'when'."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u04-reading-001",
+    "unit_id": "g10-u04",
+    "topic": "A Student Volunteer Club",
+    "main_idea": "Các hoạt động thiện nguyện của thanh niên giúp đỡ trẻ em vùng khó khăn và bảo vệ môi trường làng xã.",
+    "reading_skills": [
+      "Scanning for names",
+      "Main purpose"
+    ],
+    "keywords": [
+      "volunteer club",
+      "charity",
+      "remote schools"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Hoạt động chính của câu lạc bộ tình nguyện trong bài là gì?",
+        "options": [
+          "Dạy học và quyên góp sách cho trẻ em vùng cao",
+          "Mở công ty kinh doanh có lãi",
+          "Thi đấu thể thao quốc tế",
+          "Thu phí hội viên hàng tháng"
+        ],
+        "correctAnswer": "Dạy học và quyên góp sách cho trẻ em vùng cao",
+        "explanation": "Câu lạc bộ tập trung hỗ trợ học tập và quà tặng cho trẻ em nghèo."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 45,
+    "book_page": 43,
+    "source_section": "Unit 4 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an announcement recruiting community volunteers",
+      "activity_types": [
+        "True/False",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio CD1 Track 21",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 47,
+      "book_page": 45,
+      "source_section": "Unit 4 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Discussing the personal benefits of volunteering",
+      "activity_types": [
+        "Pair interview"
+      ],
+      "prompts": [
+        "Why is volunteering good for your future career?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 46,
+      "book_page": 44,
+      "source_section": "Unit 4 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a formal job/volunteer application letter",
+      "task_type": "Formal letter",
+      "sample_outline": [
+        "Salutation",
+        "Reason for applying",
+        "Relevant skills",
+        "Sign-off"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 48,
+      "book_page": 46,
+      "source_section": "Unit 4 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u04-question-001",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Người làm việc cống hiến vì cộng đồng mà không nhận lương gọi là:",
+      "options": [
+        "Volunteer",
+        "Celebrity",
+        "Customer",
+        "Manager"
+      ],
+      "correctAnswer": "Volunteer",
+      "explanation": "Volunteer = tình nguyện viên.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u04-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-002",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Động từ nào có nghĩa là 'quyên góp tiền hoặc vật phẩm từ thiện'?",
+      "options": [
+        "Donate",
+        "Purchase",
+        "Borrow",
+        "Waste"
+      ],
+      "correctAnswer": "Donate",
+      "explanation": "Donate = quyên góp, tài trợ.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u04-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-003",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Khu vực xa xôi, giao thông trắc trở và cách xa thành phố được mô tả bằng từ:",
+      "options": [
+        "Remote",
+        "Urban",
+        "Crowded",
+        "Modern"
+      ],
+      "correctAnswer": "Remote",
+      "explanation": "Remote area = vùng sâu vùng xa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u04-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-004",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng đúng của động từ: 'While we _______ trees, it suddenly started to pour.'",
+      "options": [
+        "were planting",
+        "planted",
+        "are planting",
+        "plant"
+      ],
+      "correctAnswer": "were planting",
+      "explanation": "Hành động dài đang diễn ra trong quá khứ đi với While: were planting.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u04-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-005",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Chọn từ thích hợp: '_______ the teacher entered the classroom, students were discussing their project.'",
+      "options": [
+        "When",
+        "While",
+        "During",
+        "Since"
+      ],
+      "correctAnswer": "When",
+      "explanation": "'When' đi với hành động ngắn xen vào ở quá khứ đơn (entered).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u04-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-006",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Từ nào đồng nghĩa với 'willing to give help and money freely'?",
+      "options": [
+        "Generous",
+        "Greedy",
+        "Selfish",
+        "Lazy"
+      ],
+      "correctAnswer": "Generous",
+      "explanation": "Generous = hào phóng, rộng lượng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u04-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-007",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Cụm 'needy people' mang ý nghĩa gì?",
+      "options": [
+        "Người có hoàn cảnh khó khăn, thiếu thốn",
+        "Người giàu có nhiều tài sản",
+        "Thanh niên thành thị bận rộn",
+        "Người già trong viện dưỡng lão"
+      ],
+      "correctAnswer": "Người có hoàn cảnh khó khăn, thiếu thốn",
+      "explanation": "Needy = nghèo túng, cần sự giúp đỡ.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u04-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-008",
+      "unit_id": "g10-u04",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Building warm houses brings people closer to their local _______.'",
+      "options": [
+        "community",
+        "appliance",
+        "contestant",
+        "emission"
+      ],
+      "correctAnswer": "community",
+      "explanation": "Local community = cộng đồng địa phương.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u04-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-009",
+      "unit_id": "g10-u04",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu kết hợp thì chính xác:",
+      "options": [
+        "While I was walking home, I saw an old friend.",
+        "While I walked home, I was seeing an old friend.",
+        "When I was walking home, I see an old friend.",
+        "While I am walking home, I saw an old friend."
+      ],
+      "correctAnswer": "While I was walking home, I saw an old friend.",
+      "explanation": "Hành động dài đi bộ (was walking) bị xen ngang bởi nhìn thấy bạn (saw).",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u04-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u04-question-010",
+      "unit_id": "g10-u04",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp các từ thành câu mô tả hoạt động tình nguyện:",
+      "options": [
+        "Volunteers were preparing meals when the power went out.",
+        "When the power went out volunteers were preparing meals.",
+        "The power went out volunteers were preparing meals when.",
+        "Preparing meals were volunteers when went the power out."
+      ],
+      "correctAnswer": "Volunteers were preparing meals when the power went out.",
+      "explanation": "S1 + were V-ing + when + S2 + V2.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u04-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 44,
+      "book_page": 42,
+      "source_section": "Unit 4 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Volunteers",
+        "were",
+        "preparing",
+        "meals",
+        "when",
+        "the",
+        "power",
+        "went",
+        "out."
+      ]
+    }
+  ]
+}

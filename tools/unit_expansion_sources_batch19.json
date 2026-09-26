@@ -1,0 +1,178 @@
+[
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "deceptive false mentor wearing plain guild robes",
+    "generated": "exec-61c56e25-06e6-4bb1-9a44-823dc71afe58.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "certificate-dart hunter with blank paper scrolls",
+    "generated": "exec-700a1cf6-2bd4-414b-a890-c15bff7b50a0.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "heavy guild bruiser with false bronze insignia",
+    "generated": "exec-3e4483dd-e6df-4f48-8dc5-1933cdeac6d1.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "animated pile of guild badges and toolboxes",
+    "generated": "exec-76fb189d-d097-4cbb-8236-bceae03b1205.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "lost-path spirit formed from branching arrows",
+    "generated": "exec-290aa622-d5d3-4028-be9a-07aa1f3d52ca.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "false-path commander with many blank signposts on back",
+    "generated": "exec-931e81f3-d608-455b-8650-ba932b42c1c4.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "crossroads_illusion",
+    "concept": "a shifting three-way signpost phantom with blank plaques and shadow legs",
+    "generated": "exec-ca021fff-a657-4a4d-8131-1e39c3c6a9c7.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "guild square stone crossroads",
+    "generated": "exec-8b9aed2c-151b-41d2-931d-cfd56539a1e9.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "guild academy polished stone path",
+    "generated": "exec-94eeeb1b-04c0-48a0-93e6-bde210b69b4c.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "multi-craft signpost without text",
+    "generated": "exec-0ca5904a-4ba8-408e-a3d1-d31aca64bd5d.png"
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "wooden apprenticeship toolkit and blank map",
+    "generated": "exec-ccfe1b5e-6816-4524-97ab-37b2e6d14245.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "forgotten scholar disciple with broken scroll satchel",
+    "generated": "exec-8febaad7-8219-40cf-a73d-9020daf05492.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "ink-dart archer firing dark droplets",
+    "generated": "exec-4b4eb2d1-b024-4529-aa83-29240084fe8e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "heavy tome bruiser with giant sealed book shield",
+    "generated": "exec-aa003347-6dd4-414c-b5ff-c935b68cb2ce.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "animated stack of sealed books and bronze clasps",
+    "generated": "exec-8b56082d-27c8-4805-bd18-0538554eb945.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "forgetting-mist spirit with fragmented blank pages",
+    "generated": "exec-d9d60204-af7d-491d-a9fc-d23c8f7810ad.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite final disciple of Vô Ngôn Ma Tôn in black-red scholarly armor",
+    "generated": "exec-7ea4f810-f776-4009-bd30-f678d924d468.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "ink_phoenix",
+    "concept": "a dark ink-and-paper bird spirit representing stolen language and learning",
+    "generated": "exec-044ab405-d7b1-496f-991a-54ddf82059bb.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "lantern-lit library timber floor",
+    "generated": "exec-1016019f-f729-4c4f-9fcb-5a9f28b4eac5.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "ancient academy library stone with fallen leaves",
+    "generated": "exec-54649c46-7ae1-4ad8-8ad6-b80a281de86e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "open knowledge scroll stand",
+    "generated": "exec-4183a71e-0a03-46a4-a10c-c6d19dd2a884.png"
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "small lantern-lit reading desk with blank open scroll",
+    "generated": "exec-ae03d81d-dee1-4dae-846a-c961395ce3ce.png"
+  }
+]

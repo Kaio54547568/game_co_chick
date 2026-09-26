@@ -1,0 +1,50 @@
+[
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "boss",
+    "id": "balance_phantom",
+    "concept": "a towering mirror-armored phantom holding a broken balance scale, split symmetrical silhouette, dark magic of unfairness without gender stereotypes",
+    "generated": "exec-2da1597b-5987-4ee4-9e42-ad9a5b0c32d8.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "boss",
+    "id": "lost_trail_warlord",
+    "concept": "a corrupted masked trail warlord emerging from limestone and bamboo, stolen compass and tangled vines",
+    "generated": "exec-3261300e-1dd0-476c-acc8-f802caf84e9b.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "boss",
+    "id": "hollow_city_engine",
+    "concept": "a huge bamboo-bronze city automaton corrupted by smog, transit gears and luminous red circuits",
+    "generated": "exec-04393c30-c556-44bb-a672-b2f953a216c3.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "boss",
+    "id": "marsh_devourer",
+    "concept": "an ancient wetland spirit made of invasive dark roots, reeds and murky water, huge antler-like branches",
+    "generated": "exec-fa701281-5a73-4bba-8379-ca8a3963b40f.png"
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "kind": "boss",
+    "id": "smoke_sovereign",
+    "concept": "a regal obsidian-and-smoke giant wrapped in waste and ash, extinguished green lanterns, ominous but readable",
+    "generated": "exec-88ab7d4f-461b-4aa6-96b2-6da55a2f9432.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "boss",
+    "id": "false_intellect",
+    "concept": "a sentient bronze-and-bamboo automaton scholar with cracked mask and red luminous diagrams, elegant terrifying boss",
+    "generated": "exec-8c62330f-a18a-4981-be8f-4c68cf30f794.png"
+  }
+]

@@ -41,15 +41,15 @@ export const StartScreen: React.FC<StartScreenProps> = ({
       <div className="relative z-10 w-full max-w-xl bg-stone-900/90 border-2 border-amber-600/70 rounded-2xl p-6 sm:p-8 shadow-2xl backdrop-blur-md text-stone-100 flex flex-col items-center">
         {/* Title */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-2">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold mb-2">
             <Sparkles className="w-3.5 h-3.5" />
-            Bản Thử Nghiệm Vertical Slice • 1 Unit
+            Bản Thử Nghiệm • 30 Unit Võ Lâm
           </div>
-          <h1 className="text-2xl sm:text-4xl font-extrabold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 font-wuxia drop-shadow-md">
-            PHƯỢNG CHICK
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 font-wuxia drop-shadow-md">
+            Phượng Chick
           </h1>
-          <h2 className="text-xl sm:text-2xl font-bold tracking-widest text-amber-300 font-wuxia mt-0.5">
-            ENGLISH WULIN
+          <h2 className="text-xl sm:text-3xl font-bold text-amber-300 font-wuxia mt-0.5">
+            English Wulin
           </h2>
           <p className="text-xs sm:text-sm text-stone-400 italic mt-1">
             "Tam Niên Anh Ngữ – Nhất Thống Võ Lâm"
@@ -83,7 +83,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({
 
             <button
               onClick={handleResume}
-              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500 text-stone-900 font-bold text-lg tracking-wider shadow-lg flex items-center justify-center gap-2 transform active:scale-98 transition duration-150"
+              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500 text-stone-900 font-bold text-lg shadow-lg flex items-center justify-center gap-2 transform active:scale-98 transition duration-150"
             >
               <Play className="w-5 h-5 fill-current" />
               Tiếp Tục Hành Trình
@@ -170,7 +170,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({
             {/* Start Button */}
             <button
               onClick={handleStart}
-              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500 text-stone-900 font-bold text-lg tracking-wider shadow-lg flex items-center justify-center gap-2 transform active:scale-98 transition duration-150 mt-1"
+              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500 text-stone-900 font-bold text-lg shadow-lg flex items-center justify-center gap-2 transform active:scale-98 transition duration-150 mt-1"
             >
               <Play className="w-5 h-5 fill-current" />
               Bước Vào Giang Hồ

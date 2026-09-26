@@ -31,12 +31,12 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
 
         {/* Title */}
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-bold uppercase tracking-wider mb-2">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-bold mb-2">
             <Sparkles className="w-3.5 h-3.5" />
             Đại Thắng Võ Lâm • Vertical Slice Hoàn Thành!
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 font-wuxia">
-            BÌNH ĐỊNH MA GIÁO
+            Bình Định Ma Giáo
           </h2>
           <p className="text-xs sm:text-sm text-stone-300 mt-1 max-w-sm">
             Chúc mừng thiếu hiệp <b>{profile.name}</b> đã trảm sát Loạn Ngữ Kiếm Ma, phá tan tà pháp xáo trộn văn phạm và khôi phục sự thanh bình cho Unit 1!
@@ -69,7 +69,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
             className="w-14 h-14 object-contain bg-stone-900 border border-amber-500/40 rounded-xl p-1 shrink-0"
           />
           <div>
-            <span className="text-xs font-bold text-amber-400 uppercase tracking-wider block">
+            <span className="text-xs font-bold text-amber-400 block">
               Chiến Lợi Phẩm Boss Drop
             </span>
             <h4 className="text-sm font-bold text-amber-200">
@@ -88,7 +88,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
               soundService.playClick();
               onOpenInventory();
             }}
-            className="flex-1 py-3 px-4 rounded-xl bg-stone-800 hover:bg-stone-700 text-amber-300 font-bold text-xs tracking-wider border border-amber-600/50 active:scale-95 transition"
+            className="flex-1 py-3 px-4 rounded-xl bg-stone-800 hover:bg-stone-700 text-amber-300 font-bold text-xs border border-amber-600/50 active:scale-95 transition"
           >
             Mở Hành Trang Xem Đồ
           </button>
@@ -98,7 +98,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
               soundService.playGong();
               onContinue();
             }}
-            className="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs tracking-wider shadow-lg flex items-center justify-center gap-1.5 active:scale-95 transition"
+            className="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs shadow-lg flex items-center justify-center gap-1.5 active:scale-95 transition"
           >
             <span>Tiếp Tục Hành Tẩu</span>
             <ArrowRight className="w-4 h-4" />

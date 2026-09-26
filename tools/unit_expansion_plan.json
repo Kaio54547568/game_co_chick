@@ -1,0 +1,272 @@
+[
+  {
+    "grade": 10,
+    "unit": 1,
+    "title": "FAMILY LIFE",
+    "ground": "red terracotta courtyard bricks",
+    "prop": "woven rice basket",
+    "motif": "broom, clay stove, water jar and bamboo household objects",
+    "boss": false
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "title": "HUMANS AND THE ENVIRONMENT",
+    "ground": "riverbank mud with reeds and smooth pebbles",
+    "prop": "bamboo waterwheel",
+    "motif": "polluted river reeds, broken nets and water spirits",
+    "boss": false
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "title": "MUSIC",
+    "ground": "communal house flagstone with bronze inlays",
+    "prop": "đàn bầu monochord",
+    "motif": "distorted Vietnamese musical instruments, sound waves and bronze drums",
+    "boss": true
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "title": "FOR A BETTER COMMUNITY",
+    "ground": "village square clay stone",
+    "prop": "repair tools and food basket",
+    "motif": "broken bridge timbers, stolen supplies and twisted charity seals",
+    "boss": false
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "title": "INVENTIONS",
+    "ground": "workshop packed earth with bronze filings",
+    "prop": "miniature wooden waterwheel",
+    "motif": "runaway wooden mechanisms, gear fragments and craft tools",
+    "boss": false
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "title": "GENDER EQUALITY",
+    "ground": "martial courtyard stone with balanced geometric motifs",
+    "prop": "paired training swords",
+    "motif": "magical imbalance, broken balance scales and mirrored armor; avoid gender stereotypes",
+    "boss": true
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "title": "VIET NAM AND INTERNATIONAL ORGANISATIONS",
+    "ground": "diplomatic pavilion mosaic stone",
+    "prop": "bronze lotus seal",
+    "motif": "corrupted treaties, masked envoys and torn pennants; no real organisation logos",
+    "boss": false
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "title": "NEW WAYS TO LEARN",
+    "ground": "academy wooden floor with parchment scraps",
+    "prop": "astronomy teaching sphere",
+    "motif": "enchanted scrolls, broken learning instruments and illusion tablets",
+    "boss": false
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "title": "PROTECTING THE ENVIRONMENT",
+    "ground": "restored forest soil with leaves",
+    "prop": "native tree sapling",
+    "motif": "poisoned roots, discarded nets and dark forest smoke",
+    "boss": false
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "title": "ECOTOURISM",
+    "ground": "limestone trail gravel with moss",
+    "prop": "bamboo trail sign without text",
+    "motif": "reckless trail raiders, trapped wildlife motifs and limestone spirits",
+    "boss": true
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "title": "A LONG AND HEALTHY LIFE",
+    "ground": "herbal garden earth and stone",
+    "prop": "herbal medicine mortar",
+    "motif": "spoiled herbs, fever miasma and corrupted apothecary tools",
+    "boss": false
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "title": "THE GENERATION GAP",
+    "ground": "old courtyard cobblestone",
+    "prop": "ancestral tea table",
+    "motif": "shattered heirlooms, misunderstanding mist and echo masks",
+    "boss": false
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "title": "CITIES OF THE FUTURE",
+    "ground": "eco-city paving with green seams",
+    "prop": "solar lantern tower",
+    "motif": "runaway transit devices, smog drones and corrupted civic machinery",
+    "boss": true
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "title": "ASEAN AND VIET NAM",
+    "ground": "festival port boardwalk wood",
+    "prop": "ornate trade crate",
+    "motif": "storm-torn sails, trade pirates and spectral harbor masks",
+    "boss": false
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "title": "GLOBAL WARMING",
+    "ground": "coastal earth with salt cracks",
+    "prop": "mangrove seedling",
+    "motif": "heat haze, rising tide spirits and scorched mangrove debris",
+    "boss": false
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "title": "PRESERVING OUR HERITAGE",
+    "ground": "ancient temple flagstone with moss",
+    "prop": "bronze drum on stand",
+    "motif": "looted relics, carved stone guardians and damaged heritage woodwork",
+    "boss": true
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "title": "EDUCATION OPTIONS FOR SCHOOL-LEAVERS",
+    "ground": "academy crossroads stone path",
+    "prop": "craft apprenticeship toolkit",
+    "motif": "confusing path signs, false diplomas and shadowy recruiters; no readable text",
+    "boss": false
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "title": "BECOMING INDEPENDENT",
+    "ground": "village gate dirt path",
+    "prop": "traveler backpack and compass",
+    "motif": "lost-map phantoms, deceptive signposts and road bandits",
+    "boss": false
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "title": "SOCIAL ISSUES",
+    "ground": "market square weathered stone",
+    "prop": "community aid supply chest",
+    "motif": "corruption chains, isolation masks and stolen market supplies",
+    "boss": false
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "title": "THE ECOSYSTEM",
+    "ground": "wetland soil with roots and reeds",
+    "prop": "lotus pond stone marker",
+    "motif": "invasive vines, dark marsh spirits and disrupted animal forms",
+    "boss": true
+  },
+  {
+    "grade": 12,
+    "unit": 1,
+    "title": "LIFE STORIES WE ADMIRE",
+    "ground": "hero hall polished stone",
+    "prop": "memorial bronze plaque without text",
+    "motif": "faded memory phantoms, corrupted portrait frames and false hero masks",
+    "boss": false
+  },
+  {
+    "grade": 12,
+    "unit": 2,
+    "title": "A MULTICULTURAL WORLD",
+    "ground": "trade courtyard brick mosaic",
+    "prop": "multicultural textile bundle",
+    "motif": "stolen trade wares, prejudice masks and chaotic festival props",
+    "boss": false
+  },
+  {
+    "grade": 12,
+    "unit": 3,
+    "title": "GREEN LIVING",
+    "ground": "sustainable village packed earth",
+    "prop": "reusable woven market basket",
+    "motif": "waste golems, smoke spirits and broken green technology",
+    "boss": true
+  },
+  {
+    "grade": 12,
+    "unit": 4,
+    "title": "URBANISATION",
+    "ground": "riverfront city paving",
+    "prop": "urban tree planter",
+    "motif": "construction debris constructs, smog shades and crowded transit apparitions",
+    "boss": false
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "title": "THE WORLD OF WORK",
+    "ground": "craft district cobbles",
+    "prop": "artisan tool rack",
+    "motif": "runaway work tools, forged contracts and workshop soot sprites",
+    "boss": false
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "title": "ARTIFICIAL INTELLIGENCE",
+    "ground": "scholar laboratory stone with bronze circuits",
+    "prop": "bronze bamboo automaton core",
+    "motif": "malfunctioning bamboo-bronze automatons and corrupted luminous diagrams",
+    "boss": true
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "title": "THE WORLD OF MASS MEDIA",
+    "ground": "storytelling pavilion wooden planks",
+    "prop": "woodblock printing press",
+    "motif": "false rumor scrolls, echo masks and phantom broadcast lanterns",
+    "boss": false
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "title": "WILDLIFE CONSERVATION",
+    "ground": "forest sanctuary leaf soil",
+    "prop": "ranger supply crate",
+    "motif": "poacher traps, dark vine beasts and habitat-damaging spirits",
+    "boss": false
+  },
+  {
+    "grade": 12,
+    "unit": 9,
+    "title": "CAREER PATHS",
+    "ground": "guild square stone crossroads",
+    "prop": "multi-craft signpost without text",
+    "motif": "false path illusions, corrupted guild badges and deceptive recruiter masks",
+    "boss": false
+  },
+  {
+    "grade": 12,
+    "unit": 10,
+    "title": "LIFELONG LEARNING",
+    "ground": "lantern-lit library timber floor",
+    "prop": "open knowledge scroll stand",
+    "motif": "forgetting mist, sealed books and final language-corruption magic",
+    "boss": true
+  }
+]

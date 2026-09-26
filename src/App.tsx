@@ -32,6 +32,8 @@ import { VictoryModal } from './components/VictoryModal';
 import { SettingsModal } from './components/SettingsModal';
 import { TrainingModal } from './components/TrainingModal';
 import { VirtualJoystickUI } from './components/VirtualJoystickUI';
+import { UnitSelectModal } from './components/UnitSelectModal';
+import { createUnitQuests } from './data/questsData';
 
 export const App: React.FC = () => {
   const [profile, setProfile] = useState<PlayerProfile | null>(() => StorageService.loadProfile());
@@ -44,13 +46,17 @@ export const App: React.FC = () => {
   const [showChallenge, setShowChallenge] = useState<boolean>(false);
   const [showCombat, setShowCombat] = useState<boolean>(false);
   const [combatEnemyType, setCombatEnemyType] = useState<
-    'sword_disciple' | 'mist_demon' | 'boss_disorder'
+    'sword_disciple' | 'mist_demon' | 'boss_disorder' | string
   >('sword_disciple');
+  const [activeCombatEnemy, setActiveCombatEnemy] = useState<CombatEnemy | null>(null);
+  const [activeEncounterId, setActiveEncounterId] = useState<string | null>(null);
   const [showTraining, setShowTraining] = useState<boolean>(false);
   const [showInventory, setShowInventory] = useState<boolean>(false);
   const [showQuests, setShowQuests] = useState<boolean>(false);
   const [showVictory, setShowVictory] = useState<boolean>(false);
   const [showSettings, setShowSettings] = useState<boolean>(false);
+  const [showUnitSelect, setShowUnitSelect] = useState<boolean>(false);
+
 
   // Interactive near zone status
   const [isNearZone, setIsNearZone] = useState<boolean>(false);
@@ -90,7 +96,8 @@ export const App: React.FC = () => {
     showInventory ||
     showQuests ||
     showVictory ||
-    showSettings;
+    showSettings ||
+    showUnitSelect;
 
   useEffect(() => {
     eventBus.emit('lockMovement', isAnyModalOpen);
@@ -111,13 +118,30 @@ export const App: React.FC = () => {
       setShowTraining(true);
     });
 
-    const unsubMobCombat = eventBus.on('openMobCombat', (enemyId: string) => {
-      setCombatEnemyType(enemyId as 'sword_disciple' | 'mist_demon');
+    const unsubMobCombat = eventBus.on('openMobCombat', (payload: any) => {
+      if (payload && typeof payload === 'object' && payload.enemy) {
+        setActiveCombatEnemy(payload.enemy);
+        setActiveEncounterId(payload.encounterId || null);
+        setCombatEnemyType(payload.enemy.id);
+      } else {
+        const enemyId = typeof payload === 'string' ? payload : 'sword_disciple';
+        setActiveCombatEnemy(null);
+        setActiveEncounterId(`${profile?.selectedUnitId || 'g10-u01'}_enc_${enemyId}`);
+        setCombatEnemyType(enemyId);
+      }
       setShowCombat(true);
     });
 
-    const unsubBossCombat = eventBus.on('openBossCombat', () => {
-      setCombatEnemyType('boss_disorder');
+    const unsubBossCombat = eventBus.on('openBossCombat', (payload?: any) => {
+      if (payload && payload.enemy) {
+        setActiveCombatEnemy(payload.enemy);
+        setActiveEncounterId(payload.encounterId || null);
+        setCombatEnemyType(payload.enemy.id);
+      } else {
+        setActiveCombatEnemy(null);
+        setActiveEncounterId(`${profile?.selectedUnitId || 'g10-u01'}_boss`);
+        setCombatEnemyType('boss_disorder');
+      }
       setShowCombat(true);
     });
 
@@ -178,6 +202,75 @@ export const App: React.FC = () => {
     }
   };
 
+  const handleSelectUnit = (unitId: string, grade: 10 | 11 | 12) => {
+    setProfile((prev) => {
+      if (!prev) return prev;
+      const currentUnitId = prev.selectedUnitId || 'g10-u01';
+      const updatedStates = { ...(prev.unitStates || {}) };
+
+      // Sync active unit fields into unitStates
+      if (updatedStates[currentUnitId]) {
+        updatedStates[currentUnitId] = {
+          ...updatedStates[currentUnitId],
+          progress: prev.unitProgress,
+          quests: prev.quests,
+          currentQuestIndex: prev.currentQuestIndex,
+          defeatedMobs: prev.defeatedMobs,
+          defeatedEnemyIds: prev.defeatedEnemyIds,
+          bossDefeated: prev.bossDefeated,
+          learnedVocabIds: prev.learnedVocabIds,
+          isCompleted: prev.bossDefeated || prev.unitProgress >= 100,
+          lastPlayedAt: Date.now(),
+        };
+      }
+
+      const uNum = parseInt(unitId.split('-u')[1] || '1', 10);
+      const targetState = updatedStates[unitId] || {
+        unitId,
+        grade,
+        unitNumber: uNum,
+        progress: 0,
+        isUnlocked: true,
+        isCompleted: false,
+        quests: createUnitQuests(unitId, uNum, `Unit ${uNum}`),
+        currentQuestIndex: 0,
+        defeatedMobs: 0,
+        defeatedEnemyIds: [],
+        bossDefeated: false,
+        learnedVocabIds: [],
+        lastPlayedAt: Date.now(),
+      };
+      updatedStates[unitId] = targetState;
+
+      const updatedProfile: PlayerProfile = {
+        ...prev,
+        selectedGrade: grade,
+        selectedUnitId: unitId,
+        unitStates: updatedStates,
+        unitProgress: targetState.progress,
+        quests: targetState.quests,
+        currentQuestIndex: targetState.currentQuestIndex,
+        defeatedMobs: targetState.defeatedMobs,
+        defeatedEnemyIds: targetState.defeatedEnemyIds,
+        bossDefeated: targetState.bossDefeated,
+        learnedVocabIds: targetState.learnedVocabIds,
+      };
+
+      eventBus.emit('changeUnit', {
+        unitId,
+        grade,
+        unitProgress: targetState.progress,
+        defeatedEnemyIds: targetState.defeatedEnemyIds,
+      });
+      eventBus.emit('updateUnitProgress', targetState.progress);
+      eventBus.emit('updateDefeatedEnemyIds', targetState.defeatedEnemyIds);
+
+      showNotification(`Đã chuyển sang ${unitId.toUpperCase()} (Lớp ${grade})!`);
+      return updatedProfile;
+    });
+  };
+
+
   // Xử lý tiến trình nhiệm vụ (Quest progression)
   const currentQuest = profile?.quests.find(
     (q) => q.status === 'available' || q.status === 'in_progress'
@@ -217,7 +310,7 @@ export const App: React.FC = () => {
 
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`ĐỘT PHÁ CẢNH GIỚI! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
+        showNotification(`Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
       }
 
       return res.profile;
@@ -236,7 +329,7 @@ export const App: React.FC = () => {
 
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`ĐỘT PHÁ CẢNH GIỚI! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
+        showNotification(`Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
       }
 
       return res.profile;
@@ -255,13 +348,14 @@ export const App: React.FC = () => {
         prev,
         enemy,
         isBossPhase2Defeated,
-        remainingPlayerHp
+        remainingPlayerHp,
+        activeEncounterId || undefined
       );
       if (res.wasAlreadyDefeated) return prev;
 
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`ĐỘT PHÁ CẢNH GIỚI! Cấp ${res.profile.stats.level}! HP hồi phục đầy đủ.`);
+        showNotification(`Đột phá cảnh giới! Cấp ${res.profile.stats.level}! Sinh lực hồi phục đầy đủ.`);
       }
 
       if (res.didCompleteQuest4) {
@@ -310,7 +404,7 @@ export const App: React.FC = () => {
       const res = ProgressionEngine.completeTrainingSession(prev, 25);
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`ĐỘT PHÁ CẢNH GIỚI! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
+        showNotification(`Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
       } else {
         showNotification('Hoàn thành buổi Luyện Công (+25 Tu Vi)!');
       }
@@ -341,7 +435,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-[#0c0d10] font-wuxia">
+    <div className="relative w-screen h-screen overflow-hidden bg-[#0c0d10] font-sans">
       {/* Phaser Canvas Root */}
       <div ref={gameContainerRef} id="game-container" className="w-full h-full absolute inset-0 z-0" />
 
@@ -352,6 +446,7 @@ export const App: React.FC = () => {
             profile={profile}
             currentQuest={currentQuest}
             onOpenQuestModal={() => setShowQuests(true)}
+            onOpenUnitSelect={() => setShowUnitSelect(true)}
           />
 
           <BottomNav
@@ -390,8 +485,12 @@ export const App: React.FC = () => {
       {showDialogue && profile && (
         <DialogueModal
           npcId={dialogueNpc}
+          selectedUnitId={profile.selectedUnitId || 'g10-u01'}
           currentQuest={currentQuest}
           onAdvanceQuest={advanceQuest}
+          onOpenVocabulary={() => setShowVocabulary(true)}
+          onOpenChallenge={() => setShowChallenge(true)}
+          onOpenTraining={() => setShowTraining(true)}
           onClose={() => setShowDialogue(false)}
         />
       )}
@@ -402,6 +501,7 @@ export const App: React.FC = () => {
           currentQuest={currentQuest}
           learnedVocabIds={profile.learnedVocabIds}
           knowledgeMastery={profile.knowledgeMastery || {}}
+          selectedUnitId={profile.selectedUnitId || 'g10-u01'}
           onLearnVocab={handleLearnVocab}
           onAdvanceQuest={advanceQuest}
           onStartChallenge={() => {
@@ -417,6 +517,7 @@ export const App: React.FC = () => {
         <ChallengeModal
           currentQuest={currentQuest}
           knowledgeMastery={profile.knowledgeMastery || {}}
+          selectedUnitId={profile.selectedUnitId || 'g10-u01'}
           onCompleteChallenge={handleCompleteChallenge}
           onAnswerKnowledge={handleAnswerKnowledge}
           onClose={() => setShowChallenge(false)}
@@ -428,6 +529,8 @@ export const App: React.FC = () => {
         <CombatOverlay
           profile={profile}
           enemyType={combatEnemyType}
+          combatEnemy={activeCombatEnemy}
+          encounterId={activeEncounterId || undefined}
           onCombatVictory={handleCombatVictory}
           onPlayerTakeDamage={handlePlayerTakeDamage}
           onSyncHp={handleSyncHp}
@@ -460,6 +563,16 @@ export const App: React.FC = () => {
       {/* Quest List Modal */}
       {showQuests && profile && (
         <QuestListModal profile={profile} onClose={() => setShowQuests(false)} />
+      )}
+
+      {/* Unit Selection Modal */}
+      {showUnitSelect && profile && (
+        <UnitSelectModal
+          profile={profile}
+          isOpen={showUnitSelect}
+          onClose={() => setShowUnitSelect(false)}
+          onSelectUnit={handleSelectUnit}
+        />
       )}
 
       {/* Victory Celebration Modal */}

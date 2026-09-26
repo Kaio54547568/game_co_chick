@@ -1,0 +1,178 @@
+[
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "forged-contract thief in artisan apron",
+    "generated": "exec-345ca96c-c44f-4d4b-a18a-2cc74f328956.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "ranged tool thrower using small wooden hammers",
+    "generated": "exec-9b54a7d3-ddce-4ce1-af21-9a50cef85503.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "forge bruiser carrying a cracked anvil hammer",
+    "generated": "exec-7602c18a-119e-4d33-a02f-5cddc2a97d03.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "animated workbench and craft-tool golem",
+    "generated": "exec-7e9d1139-00f5-48ec-ad36-e2787b3c6e0c.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "floating furnace-soot spirit with ember eyes",
+    "generated": "exec-c6dd7a64-2384-43dd-9dc6-5eb99dcf50cc.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "corrupt guildmaster with ornate tool belt and heavy staff",
+    "generated": "exec-9fbf254f-631a-414c-b218-8856aed33600.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "tool_mimic",
+    "concept": "a lively artisan tool chest mimic with wooden jaws and tiny tool limbs",
+    "generated": "exec-4f2d9085-fdf0-4cba-a300-ac9e59a13345.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "craft district cobbles",
+    "generated": "exec-27c0db8a-0c50-46bc-8454-9ac48764d0cb.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "workshop timber floor with sawdust",
+    "generated": "exec-b0e32e04-7722-4b88-852f-527646c020f2.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "artisan tool rack",
+    "generated": "exec-4672c123-5b2d-4bd3-a7f9-de147966a5da.png"
+  },
+  {
+    "grade": 12,
+    "unit": 5,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "blacksmith forge tool stand",
+    "generated": "exec-96bf9148-8c46-4200-9bd1-6c9943eabe1e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "stealth bamboo-bronze automaton with narrow legs and red eye",
+    "generated": "exec-9677f1f5-045a-4421-89cc-ee571b96ba42.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "ranged bronze automaton firing jade energy bolts",
+    "generated": "exec-aa15d05d-f1fb-4a94-83f8-02dff3f349a6.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "heavy logic guardian automaton with huge bronze arms",
+    "generated": "exec-7bb96ca1-8583-45f1-b2f9-6ed98dc2b646.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "geometric bamboo-and-bronze computation golem",
+    "generated": "exec-32c9d4d1-e306-4c85-8a2f-56e07745da35.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "luminous corrupted diagram spirit made of geometric light",
+    "generated": "exec-497b1315-2a88-4290-9e02-3a43f7a49588.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "rogue cognition officer automaton with cracked scholarly mask",
+    "generated": "exec-e264a032-59c4-45d0-88f5-b69a74851bc1.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "data_core",
+    "concept": "a hovering cracked bamboo-bronze computation core with many delicate mechanical arms",
+    "generated": "exec-45b38fd6-b1c9-4416-9040-22f30a90b51a.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "scholar laboratory stone with bronze circuits",
+    "generated": "exec-3c6bd3d6-7bbc-4ce0-914a-2560bccf409e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "bronze inlaid laboratory wood floor",
+    "generated": "exec-32a0b9f6-0bc3-47f7-9988-6c74d3a5f75d.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "bronze bamboo automaton core",
+    "generated": "exec-0f50938b-5c8c-4261-abfd-bc2ce046e4e0.png"
+  },
+  {
+    "grade": 12,
+    "unit": 6,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "small bronze-and-bamboo logic device",
+    "generated": "exec-bbca6f2e-d73b-4771-bc88-a5131b07a600.png"
+  }
+]

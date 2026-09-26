@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 10,
+    "unit_id": "g12-u10",
+    "title": "LIFELONG LEARNING",
+    "topic": "Continuous Education, Self-directed Learning, Digital Upskilling and Personal Growth",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 128,
+    "book_page": 128,
+    "source_section": "Grade 12 Unit 10 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 128,
+        "book_page_end": 129,
+        "pdf_page_start": 128,
+        "pdf_page_end": 129,
+        "description": "Introduction dialogue for LIFELONG LEARNING"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 130,
+        "book_page_end": 130,
+        "pdf_page_start": 130,
+        "pdf_page_end": 130,
+        "description": "Pronunciation (Intonation in questions (revision and advanced patterns)), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 131,
+        "book_page_end": 132,
+        "pdf_page_start": 131,
+        "pdf_page_end": 132,
+        "description": "A Commencement Message on Lifelong Learning"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 132,
+        "book_page_end": 132,
+        "pdf_page_start": 132,
+        "pdf_page_end": 132,
+        "description": "Sharing inspiring stories of famous elderly scholars who mastered new arts in old age"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 133,
+        "book_page_end": 133,
+        "pdf_page_start": 133,
+        "pdf_page_end": 133,
+        "description": "Listening to a podcast discussing adult barriers to learning new languages in later life"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 134,
+        "book_page_end": 135,
+        "pdf_page_start": 134,
+        "pdf_page_end": 135,
+        "description": "Writing a synthesized article on the personal and mental health benefits of lifelong learning"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 136,
+        "book_page_end": 136,
+        "pdf_page_start": 136,
+        "pdf_page_end": 136,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 137,
+        "book_page_end": 137,
+        "pdf_page_start": 137,
+        "pdf_page_end": 137,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to continuous education, self-directed learning, digital upskilling and personal growth",
+      "grammar": [
+        "Reported Speech: Orders, Requests, Offers, and Advice"
+      ],
+      "pronunciation": "Intonation in questions (revision and advanced patterns)",
+      "reading": "A Commencement Message on Lifelong Learning",
+      "speaking": "Sharing inspiring stories of famous elderly scholars who mastered new arts in old age",
+      "listening": "Listening to a podcast discussing adult barriers to learning new languages in later life",
+      "writing": "Writing a synthesized article on the personal and mental health benefits of lifelong learning"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u10-vocab-001",
+      "unit_id": "g12-u10",
+      "word": "lifelong learning",
+      "word_type": "noun phrase",
+      "ipa": "/ˌlaɪflɒŋ ˈlɜːnɪŋ/",
+      "meaning_vi": "học tập suốt đời",
+      "definition_en": "the provision or use of both formal and informal learning opportunities throughout people's lives",
+      "example_sentence": "Lifelong learning empowers senior citizens to stay mentally sharp and socially connected.",
+      "example_translation": "Học tập suốt đời giúp người lớn tuổi duy trì sự minh mẫn và gắn kết với xã hội.",
+      "collocations": [
+        "pursue lifelong learning"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-vocab-002",
+      "unit_id": "g12-u10",
+      "word": "self-directed",
+      "word_type": "adjective",
+      "ipa": "/ˌself daɪˈrektɪd/",
+      "meaning_vi": "tự định hướng, tự chủ",
+      "definition_en": "showing initiative and taking responsibility for one's own training and progress",
+      "example_sentence": "Online courses require learners to be highly self-directed and disciplined.",
+      "example_translation": "Các khóa học trực tuyến đòi hỏi người học phải có tinh thần tự định hướng và kỷ luật cao.",
+      "collocations": [
+        "self-directed learner"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-vocab-003",
+      "unit_id": "g12-u10",
+      "word": "formal education",
+      "word_type": "noun phrase",
+      "ipa": "/ˌfɔːml edʒuˈkeɪʃn/",
+      "meaning_vi": "giáo dục chính quy",
+      "definition_en": "education delivered by certified teachers in accredited schools and universities",
+      "example_sentence": "A strong formal education builds foundational literacy and analytical skills.",
+      "example_translation": "Giáo dục chính quy vững chắc xây dựng nền tảng tư duy và kỹ năng phân tích.",
+      "collocations": [
+        "complete formal education"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-vocab-004",
+      "unit_id": "g12-u10",
+      "word": "informal learning",
+      "word_type": "noun phrase",
+      "ipa": "/ɪnˌfɔːml ˈlɜːnɪŋ/",
+      "meaning_vi": "học tập phi chính quy (học qua trải nghiệm đời sống)",
+      "definition_en": "learning that results from daily work, family, or leisure activities",
+      "example_sentence": "Reading books and experimenting in hobbies are rewarding forms of informal learning.",
+      "example_translation": "Đọc sách và trải nghiệm sở thích là những hình thức học phi chính quy bổ ích.",
+      "collocations": [
+        "practice informal learning"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-vocab-005",
+      "unit_id": "g12-u10",
+      "word": "adaptability",
+      "word_type": "noun",
+      "ipa": "/əˌdæptəˈbɪləti/",
+      "meaning_vi": "khả năng thích nghi",
+      "definition_en": "the quality of being able to adjust to new conditions",
+      "example_sentence": "In a shifting economy, personal adaptability is even more crucial than fixed knowledge.",
+      "example_translation": "Trong nền kinh tế nhiều biến động, khả năng thích nghi cá nhân còn quan trọng hơn kiến thức cố định.",
+      "collocations": [
+        "high adaptability"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-vocab-006",
+      "unit_id": "g12-u10",
+      "word": "curiosity",
+      "word_type": "noun",
+      "ipa": "/ˌkjʊəriˈɒsəti/",
+      "meaning_vi": "lòng hiếu kỳ, sự ham học hỏi",
+      "definition_en": "a strong desire to know or learn something",
+      "example_sentence": "Intellectual curiosity drives scientists and inventors to explore the unknown.",
+      "example_translation": "Lòng hiếu kỳ trí tuệ thôi thúc các nhà khoa học và nhà sáng chế khám phá những điều chưa biết.",
+      "collocations": [
+        "spark curiosity"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u10-grammar-001",
+      "unit_id": "g12-u10",
+      "title": "Reported Speech: Orders, Requests, Offers, and Advice",
+      "structure_name": "Câu tường thuật: Mệnh lệnh, yêu cầu, đề nghị và lời khuyên",
+      "rule_summary": "Dùng động từ tường thuật chuyên biệt kết hợp to-infinitive: tell/order sb to-V (ra lệnh); ask/request sb to-V (yêu cầu lịch sự); offer to-V (đề nghị tự làm gì); advise sb to-V (khuyên ai làm gì); warn sb not to-V (cảnh báo ai không làm gì).",
+      "formula": "Reporting verb + (O) + (not) to-infinitive",
+      "example_sentences": [
+        {
+          "en": "The principal advised graduates to continue learning throughout their lives.",
+          "vi": "Thầy hiệu trưởng khuyên các tân cử nhân tiếp tục học tập trong suốt cuộc đời."
+        },
+        {
+          "en": "She offered to guide new students through the digital library catalog.",
+          "vi": "Cô ấy đề nghị hướng dẫn các sinh viên mới tra cứu danh mục thư viện số."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "The teacher advised us that we should study.",
+          "correction": "The teacher advised us to study.",
+          "explanation": "Cấu trúc chuẩn của 'advise someone' là 'advise sb to-V'."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u10-reading-001",
+    "unit_id": "g12-u10",
+    "topic": "A Commencement Message on Lifelong Learning",
+    "main_idea": "Thông điệp của hiệu trưởng gửi các học sinh tốt nghiệp: Tấm bằng chỉ là điểm khởi đầu, việc học phải kéo dài suốt đời.",
+    "reading_skills": [
+      "Key themes",
+      "Inspirational takeaways"
+    ],
+    "keywords": [
+      "graduation address",
+      "lifelong learner",
+      "continuous growth"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Theo bài phát biểu tốt nghiệp, khi nào thì việc học của một con người chính thức kết thúc?",
+        "options": [
+          "Việc học đích thực không bao giờ kết thúc mà kéo dài suốt cả cuộc đời",
+          "Kết thúc ngay khi nhận tấm bằng tốt nghiệp phổ thông",
+          "Kết thúc khi bước sang tuổi 30",
+          "Kết thúc khi có một công việc văn phòng"
+        ],
+        "correctAnswer": "Việc học đích thực không bao giờ kết thúc mà kéo dài suốt cả cuộc đời",
+        "explanation": "Học tập suốt đời là hành trình không ngừng nghỉ mở rộng tri thức và kỹ năng."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 131,
+    "book_page": 131,
+    "source_section": "Grade 12 Unit 10 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a podcast discussing adult barriers to learning new languages in later life",
+      "activity_types": [
+        "Sentence completion",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G12 Track 47",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 133,
+      "book_page": 133,
+      "source_section": "Grade 12 Unit 10 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Sharing inspiring stories of famous elderly scholars who mastered new arts in old age",
+      "activity_types": [
+        "Group presentation"
+      ],
+      "prompts": [
+        "Why is Uncle Ho admired as an extraordinary lifelong learner?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 132,
+      "book_page": 132,
+      "source_section": "Grade 12 Unit 10 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a synthesized article on the personal and mental health benefits of lifelong learning",
+      "task_type": "Synthesized article",
+      "sample_outline": [
+        "Definition of lifelong education",
+        "Mental vitality & adaptability benefits",
+        "Daily habits for continuous study",
+        "Conclusion"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 134,
+      "book_page": 134,
+      "source_section": "Grade 12 Unit 10 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u10-question-001",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Quá trình liên tục trau dồi tri thức và kỹ năng trong suốt cả cuộc đời gọi là:",
+      "options": [
+        "Lifelong learning",
+        "Curfew",
+        "Sanitation",
+        "Slum"
+      ],
+      "correctAnswer": "Lifelong learning",
+      "explanation": "Lifelong learning = học tập suốt đời.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u10-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-002",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Người học có tinh thần tự giác, chủ động vạch lộ trình học tập cho mình là:",
+      "options": [
+        "Self-directed learner",
+        "Passive bystander",
+        "Unskilled poacher",
+        "Strict judge"
+      ],
+      "correctAnswer": "Self-directed learner",
+      "explanation": "Self-directed = tự định hướng, tự chủ.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u10-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-003",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Hệ thống trường lớp chính quy từ tiểu học đến đại học thuộc về:",
+      "options": [
+        "Formal education",
+        "Informal learning",
+        "Ecosystem",
+        "Compost pile"
+      ],
+      "correctAnswer": "Formal education",
+      "explanation": "Formal education = giáo dục chính quy.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u10-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-004",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Chuyển lời khuyên sang câu gián tiếp: 'The mentor said, \"You should read at least one book every month.\"'",
+      "options": [
+        "The mentor advised me to read at least one book every month.",
+        "The mentor ordered me reading at least one book every month.",
+        "The mentor said me to read at least one book every month.",
+        "The mentor offered me to read at least one book every month."
+      ],
+      "correctAnswer": "The mentor advised me to read at least one book every month.",
+      "explanation": "Cấu trúc lời khuyên: advise sb to-V.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u10-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-005",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Chuyển lời đề nghị giúp đỡ: 'Minh said, \"I will show you how to register for the online course.\"'",
+      "options": [
+        "Minh offered to show me how to register for the online course.",
+        "Minh warned me to show how to register for the online course.",
+        "Minh advised to show me how to register for the online course.",
+        "Minh ordered to show me how to register for the online course."
+      ],
+      "correctAnswer": "Minh offered to show me how to register for the online course.",
+      "explanation": "Cấu trúc đề nghị tự nguyện: offer to-V.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u10-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-006",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Chuyển lời cảnh báo sang gián tiếp: 'The instructor said, \"Do not submit plagiarism under any circumstance.\"'",
+      "options": [
+        "The instructor warned students not to submit plagiarism under any circumstance.",
+        "The instructor offered students to not submit plagiarism under any circumstance.",
+        "The instructor asked students submitting not plagiarism under any circumstance.",
+        "The instructor advised students do not submit plagiarism under any circumstance."
+      ],
+      "correctAnswer": "The instructor warned students not to submit plagiarism under any circumstance.",
+      "explanation": "Cấu trúc cảnh báo phủ định: warn sb not to-V.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u10-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-007",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Khả năng linh hoạt thay đổi để phù hợp với hoàn cảnh mới được gọi là:",
+      "options": [
+        "Adaptability",
+        "Appliance",
+        "Disinformation",
+        "Emission"
+      ],
+      "correctAnswer": "Adaptability",
+      "explanation": "Adaptability = khả năng thích nghi.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u10-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-008",
+      "unit_id": "g12-u10",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Nurturing a healthy sense of _______ keeps our minds agile and eager to discover new ideas.'",
+      "options": [
+        "curiosity",
+        "pollution",
+        "rubbish",
+        "curfew"
+      ],
+      "correctAnswer": "curiosity",
+      "explanation": "Curiosity = lòng hiếu kỳ, sự ham học hỏi.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u10-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-009",
+      "unit_id": "g12-u10",
+      "type": "multiple_choice",
+      "prompt": "Việc học tập tích lũy tự nhiên qua trải nghiệm sống và giao tiếp hàng ngày gọi là:",
+      "options": [
+        "Informal learning",
+        "Formal education",
+        "Exam paper",
+        "Classroom test"
+      ],
+      "correctAnswer": "Informal learning",
+      "explanation": "Informal learning = học tập phi chính quy qua trải nghiệm.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u10-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u10-question-010",
+      "unit_id": "g12-u10",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành thông điệp về giá trị của học tập suốt đời:",
+      "options": [
+        "Lifelong learning broadens your knowledge and improves your adaptability to changes.",
+        "Broadens your knowledge and improves your adaptability to changes lifelong learning.",
+        "Your knowledge and adaptability lifelong learning broadens to changes and improves.",
+        "Improves your adaptability and broadens your knowledge to changes lifelong learning."
+      ],
+      "correctAnswer": "Lifelong learning broadens your knowledge and improves your adaptability to changes.",
+      "explanation": "S + broadens O1 and improves O2.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u10-vocab-001",
+        "g12-u10-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 130,
+      "book_page": 130,
+      "source_section": "Grade 12 Unit 10 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Lifelong",
+        "learning",
+        "broadens",
+        "your",
+        "knowledge",
+        "and",
+        "improves",
+        "your",
+        "adaptability",
+        "to",
+        "changes."
+      ]
+    }
+  ]
+}

@@ -1,7 +1,73 @@
-import { PlayerProfile, Gender, PlayerStats } from '../types/game';
-import { INITIAL_QUESTS } from '../data/questsData';
+import { PlayerProfile, Gender, PlayerStats, UnitProgressState } from '../types/game';
+import { INITIAL_QUESTS, createUnitQuests } from '../data/questsData';
 
 const STORAGE_KEY = 'phuong_chick_english_wulin_save_v1';
+
+export function createDefaultUnitStates(): Record<string, UnitProgressState> {
+  const states: Record<string, UnitProgressState> = {};
+
+  // Grade 10: Units 1 to 10
+  for (let u = 1; u <= 10; u++) {
+    const unitId = `g10-u${u.toString().padStart(2, '0')}`;
+    states[unitId] = {
+      unitId,
+      grade: 10,
+      unitNumber: u,
+      progress: 0,
+      isUnlocked: u === 1,
+      isCompleted: false,
+      quests: u === 1 ? JSON.parse(JSON.stringify(INITIAL_QUESTS)) : createUnitQuests(unitId, u, `Unit ${u}`),
+      currentQuestIndex: 0,
+      defeatedMobs: 0,
+      defeatedEnemyIds: [],
+      bossDefeated: false,
+      learnedVocabIds: [],
+      lastPlayedAt: Date.now(),
+    };
+  }
+
+  // Grade 11: Units 1 to 10
+  for (let u = 1; u <= 10; u++) {
+    const unitId = `g11-u${u.toString().padStart(2, '0')}`;
+    states[unitId] = {
+      unitId,
+      grade: 11,
+      unitNumber: u,
+      progress: 0,
+      isUnlocked: u === 1,
+      isCompleted: false,
+      quests: createUnitQuests(unitId, u, `Unit ${u}`),
+      currentQuestIndex: 0,
+      defeatedMobs: 0,
+      defeatedEnemyIds: [],
+      bossDefeated: false,
+      learnedVocabIds: [],
+      lastPlayedAt: Date.now(),
+    };
+  }
+
+  // Grade 12: Units 1 to 10
+  for (let u = 1; u <= 10; u++) {
+    const unitId = `g12-u${u.toString().padStart(2, '0')}`;
+    states[unitId] = {
+      unitId,
+      grade: 12,
+      unitNumber: u,
+      progress: 0,
+      isUnlocked: u === 1,
+      isCompleted: false,
+      quests: createUnitQuests(unitId, u, `Unit ${u}`),
+      currentQuestIndex: 0,
+      defeatedMobs: 0,
+      defeatedEnemyIds: [],
+      bossDefeated: false,
+      learnedVocabIds: [],
+      lastPlayedAt: Date.now(),
+    };
+  }
+
+  return states;
+}
 
 export function calculateCongLuc(stats: PlayerStats, equipmentStatsTotal: { hp: number; atk: number; def: number; bonus: number }): number {
   const levelPart = stats.level * 120;
@@ -29,6 +95,8 @@ export function createDefaultProfile(name: string, gender: Gender): PlayerProfil
   const initialCongLuc = calculateCongLuc(baseStats, { hp: 0, atk: 0, def: 0, bonus: 0 });
   baseStats.congLuc = initialCongLuc;
 
+  const defaultUnitStates = createDefaultUnitStates();
+
   return {
     id: 'user_' + Date.now(),
     name: name.trim() || (gender === 'male' ? 'Tiêu Dao Kiếm Khách' : 'Linh Lung Nữ Hiệp'),
@@ -49,27 +117,47 @@ export function createDefaultProfile(name: string, gender: Gender): PlayerProfil
     learnedVocabIds: [],
     knowledgeMastery: {},
     lastSavedAt: Date.now(),
+    selectedGrade: 10,
+    selectedUnitId: 'g10-u01',
+    unitStates: defaultUnitStates,
   };
 }
 
 export class StorageService {
-  // Lưu tiến độ vào LocalStorage (chuẩn bị giao diện để nối Supabase)
+  // Lưu tiến độ vào LocalStorage
   static saveProfile(profile: PlayerProfile): void {
     try {
       profile.lastSavedAt = Date.now();
+      // Synchronize active unit state into unitStates before saving
+      if (profile.selectedUnitId && profile.unitStates) {
+        const active = profile.unitStates[profile.selectedUnitId];
+        if (active) {
+          active.progress = Math.max(active.progress || 0, profile.unitProgress || 0);
+          profile.unitProgress = active.progress;
+          active.quests = profile.quests || active.quests;
+          active.currentQuestIndex = profile.currentQuestIndex || active.currentQuestIndex;
+          active.defeatedMobs = profile.defeatedMobs || active.defeatedMobs;
+          active.defeatedEnemyIds = profile.defeatedEnemyIds || active.defeatedEnemyIds;
+          active.bossDefeated = profile.bossDefeated || active.bossDefeated;
+          active.learnedVocabIds = profile.learnedVocabIds || active.learnedVocabIds;
+          active.isCompleted = active.bossDefeated || active.progress >= 100;
+          active.lastPlayedAt = Date.now();
+        }
+      }
       localStorage.setItem(STORAGE_KEY, JSON.stringify(profile));
     } catch (e) {
       console.error('Không thể lưu tiến độ:', e);
     }
   }
 
-  // Tải tiến độ từ LocalStorage
+  // Tải tiến độ từ LocalStorage với migration an toàn không mất dữ liệu
   static loadProfile(): PlayerProfile | null {
     try {
       const data = localStorage.getItem(STORAGE_KEY);
       if (!data) return null;
       const parsed = JSON.parse(data) as PlayerProfile;
-      // Đảm bảo dữ liệu tương thích
+
+      // Đảm bảo dữ liệu tương thích cơ bản
       if (!parsed.quests || parsed.quests.length === 0) {
         parsed.quests = JSON.parse(JSON.stringify(INITIAL_QUESTS));
       }
@@ -77,6 +165,64 @@ export class StorageService {
       parsed.learnedVocabIds = parsed.learnedVocabIds || [];
       parsed.inventory = parsed.inventory || [];
       parsed.equipment = parsed.equipment || { weapon: null, accessory: null, manual: null };
+
+      // Migration Multi-Unit: nếu chưa có unitStates, tạo và map save cũ vào Unit 1
+      if (!parsed.unitStates) {
+        parsed.unitStates = createDefaultUnitStates();
+        const u1 = parsed.unitStates['g10-u01'];
+        if (u1) {
+          u1.progress = parsed.unitProgress || 0;
+          u1.quests = parsed.quests || u1.quests;
+          u1.currentQuestIndex = parsed.currentQuestIndex || 0;
+          u1.defeatedMobs = parsed.defeatedMobs || 0;
+          u1.defeatedEnemyIds = parsed.defeatedEnemyIds || [];
+          u1.bossDefeated = parsed.bossDefeated || false;
+          u1.learnedVocabIds = parsed.learnedVocabIds || [];
+          u1.isCompleted = parsed.bossDefeated || (parsed.unitProgress || 0) >= 100;
+        }
+      }
+
+      // Đảm bảo đủ 20 Unit của lớp 10 và 11
+      const defaultStates = createDefaultUnitStates();
+      for (const [uid, defState] of Object.entries(defaultStates)) {
+        if (!parsed.unitStates[uid]) {
+          parsed.unitStates[uid] = defState;
+        }
+      }
+
+      // Cập nhật điều kiện mở khóa theo quy tắc 70% GDD
+      parsed.unitStates['g10-u01'].isUnlocked = true;
+      for (let u = 2; u <= 10; u++) {
+        const prevId = `g10-u${(u - 1).toString().padStart(2, '0')}`;
+        const currId = `g10-u${u.toString().padStart(2, '0')}`;
+        const prev = parsed.unitStates[prevId];
+        if (prev && (prev.progress >= 70 || prev.isCompleted || prev.bossDefeated)) {
+          parsed.unitStates[currId].isUnlocked = true;
+        }
+      }
+
+      parsed.unitStates['g11-u01'].isUnlocked = true;
+      for (let u = 2; u <= 10; u++) {
+        const prevId = `g11-u${(u - 1).toString().padStart(2, '0')}`;
+        const currId = `g11-u${u.toString().padStart(2, '0')}`;
+        const prev = parsed.unitStates[prevId];
+        if (prev && (prev.progress >= 70 || prev.isCompleted || prev.bossDefeated)) {
+          parsed.unitStates[currId].isUnlocked = true;
+        }
+      }
+
+      parsed.unitStates['g12-u01'].isUnlocked = true;
+      for (let u = 2; u <= 10; u++) {
+        const prevId = `g12-u${(u - 1).toString().padStart(2, '0')}`;
+        const currId = `g12-u${u.toString().padStart(2, '0')}`;
+        const prev = parsed.unitStates[prevId];
+        if (prev && (prev.progress >= 70 || prev.isCompleted || prev.bossDefeated)) {
+          parsed.unitStates[currId].isUnlocked = true;
+        }
+      }
+
+      parsed.selectedGrade = parsed.selectedGrade || 10;
+      parsed.selectedUnitId = parsed.selectedUnitId || 'g10-u01';
 
       // Khởi tạo và chuẩn hóa knowledgeMastery cho dữ liệu save cũ
       parsed.knowledgeMastery = parsed.knowledgeMastery || {};
@@ -115,3 +261,4 @@ export class StorageService {
     }
   }
 }
+

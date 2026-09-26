@@ -1,0 +1,616 @@
+{
+  "metadata": {
+    "grade": 11,
+    "unit_number": 9,
+    "unit_id": "g11-u09",
+    "title": "SOCIAL ISSUES",
+    "topic": "Peer Pressure, Bullying, Cyberbullying and Teen Mental Health",
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 96,
+    "book_page": 96,
+    "source_section": "Grade 11 Unit 9 Overview & Book Map p.5",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 96,
+        "book_page_end": 97,
+        "pdf_page_start": 96,
+        "pdf_page_end": 97,
+        "description": "Introduction dialogue for SOCIAL ISSUES"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 98,
+        "book_page_end": 98,
+        "pdf_page_start": 98,
+        "pdf_page_end": 98,
+        "description": "Pronunciation (Intonation in choice questions), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 99,
+        "book_page_end": 100,
+        "pdf_page_start": 99,
+        "pdf_page_end": 100,
+        "description": "Standing Up Against Peer Pressure"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 100,
+        "book_page_end": 100,
+        "pdf_page_start": 100,
+        "pdf_page_end": 100,
+        "description": "Role-playing how to intervene and defend classmates from bullying"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 101,
+        "book_page_end": 101,
+        "pdf_page_start": 101,
+        "pdf_page_end": 101,
+        "description": "Listening to a student counsellor discussing various forms of digital bullying"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 102,
+        "book_page_end": 103,
+        "pdf_page_start": 102,
+        "pdf_page_end": 103,
+        "description": "Writing a detailed school campaign proposal to eradicate cyberbullying"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 104,
+        "book_page_end": 104,
+        "pdf_page_start": 104,
+        "pdf_page_end": 104,
+        "description": "Everyday English and cultural analysis"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 105,
+        "book_page_end": 105,
+        "pdf_page_start": 105,
+        "pdf_page_end": 105,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to peer pressure, bullying, cyberbullying and teen mental health",
+      "grammar": [
+        "Linking Words and Phrases (Cause, Contrast, Result)"
+      ],
+      "pronunciation": "Intonation in choice questions",
+      "reading": "Standing Up Against Peer Pressure",
+      "speaking": "Role-playing how to intervene and defend classmates from bullying",
+      "listening": "Listening to a student counsellor discussing various forms of digital bullying",
+      "writing": "Writing a detailed school campaign proposal to eradicate cyberbullying"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g11-u09-vocab-001",
+      "unit_id": "g11-u09",
+      "word": "peer pressure",
+      "word_type": "noun phrase",
+      "ipa": "/ˈpɪə ˌpreʃə(r)/",
+      "meaning_vi": "áp lực từ bạn bè đồng trang lứa",
+      "definition_en": "influence from members of one's peer group to act or look a certain way",
+      "example_sentence": "Resisting negative peer pressure requires courage and self-confidence.",
+      "example_translation": "Chống lại áp lực tiêu cực từ bạn bè đòi hỏi lòng dũng cảm và sự tự tin.",
+      "collocations": [
+        "resist peer pressure"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-vocab-002",
+      "unit_id": "g11-u09",
+      "word": "cyberbullying",
+      "word_type": "noun",
+      "ipa": "/ˈsaɪbəbʊliɪŋ/",
+      "meaning_vi": "bắt nạt trên mạng",
+      "definition_en": "the use of electronic communication to bully or intimidate a person",
+      "example_sentence": "Schools must implement zero-tolerance policies against cyberbullying.",
+      "example_translation": "Nhà trường phải thực hiện các chính sách không khoan nhượng đối với bắt nạt qua mạng.",
+      "collocations": [
+        "stop cyberbullying"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-vocab-003",
+      "unit_id": "g11-u09",
+      "word": "body shaming",
+      "word_type": "noun phrase",
+      "ipa": "/ˈbɒdi ˌʃeɪmɪŋ/",
+      "meaning_vi": "miệt thị ngoại hình",
+      "definition_en": "the practice of making critical, humiliating comments about a person's body shape or size",
+      "example_sentence": "Body shaming on social media severely harms adolescents' self-esteem.",
+      "example_translation": "Miệt thị ngoại hình trên mạng xã hội làm tổn hại nghiêm trọng lòng tự trọng của tuổi mới lớn.",
+      "collocations": [
+        "victim of body shaming"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-vocab-004",
+      "unit_id": "g11-u09",
+      "word": "depression",
+      "word_type": "noun",
+      "ipa": "/dɪˈpreʃn/",
+      "meaning_vi": "bệnh trầm cảm, sự suy sụp tinh thần",
+      "definition_en": "a mental health disorder characterized by persistently depressed mood",
+      "example_sentence": "Untreated chronic stress can eventually lead to clinical depression.",
+      "example_translation": "Căng thẳng kéo dài không được điều trị có thể dẫn đến bệnh trầm cảm.",
+      "collocations": [
+        "suffer from depression"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-vocab-005",
+      "unit_id": "g11-u09",
+      "word": "bystander",
+      "word_type": "noun",
+      "ipa": "/ˈbaɪstændə(r)/",
+      "meaning_vi": "người đứng ngoài chứng kiến",
+      "definition_en": "a person who is present at an event but takes no part in it",
+      "example_sentence": "Bystanders should speak up to defend victims of school bullying.",
+      "example_translation": "Những người chứng kiến nên lên tiếng để bảo vệ nạn nhân bị bạo lực học đường.",
+      "collocations": [
+        "active bystander"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-vocab-006",
+      "unit_id": "g11-u09",
+      "word": "campaign",
+      "word_type": "noun",
+      "ipa": "/kæmˈpeɪn/",
+      "meaning_vi": "chiến dịch tuyên truyền",
+      "definition_en": "an organized course of action to achieve a particular goal",
+      "example_sentence": "The student council launched a campaign promoting mental health awareness.",
+      "example_translation": "Hội đồng học sinh đã phát động chiến dịch nâng cao nhận thức về sức khỏe tâm thần.",
+      "collocations": [
+        "anti-bullying campaign"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g11-u09-grammar-001",
+      "unit_id": "g11-u09",
+      "title": "Linking Words and Phrases (Cause, Contrast, Result)",
+      "structure_name": "Từ nối chỉ nguyên nhân, tương phản và kết quả",
+      "rule_summary": "Cause: because of, due to (+ Noun phrase). Contrast: despite, in spite of (+ Noun phrase); however, although (+ Clause). Result: as a result, therefore (+ Clause).",
+      "formula": "Because of/Despite + Noun phrase | Although/However + Clause",
+      "example_sentences": [
+        {
+          "en": "Despite facing severe peer pressure, she stayed true to her principles.",
+          "vi": "Mặc dù phải đối mặt với áp lực bạn bè gay gắt, cô vẫn kiên định với các nguyên tắc của mình."
+        },
+        {
+          "en": "Cyberbullying causes emotional pain; therefore, we must ban toxic accounts.",
+          "vi": "Bắt nạt trên mạng gây tổn thương tinh thần; do đó, chúng ta phải cấm các tài khoản độc hại."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Despite she was sad, she smiled.",
+          "correction": "Despite being sad, she smiled.",
+          "explanation": "Sau 'despite' phải đi với danh từ hoặc V-ing, không đi với mệnh đề."
+        }
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g11-u09-reading-001",
+    "unit_id": "g11-u09",
+    "topic": "Standing Up Against Peer Pressure",
+    "main_idea": "Hiểu về tâm lý muốn hòa nhập và các chiến lược dũng cảm nói 'không' với những hành vi độc hại từ bạn bè.",
+    "reading_skills": [
+      "Understanding peer dynamics",
+      "Actionable advice"
+    ],
+    "keywords": [
+      "peer pressure",
+      "confidence",
+      "support groups"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Khi một học sinh bị bạn bè ép buộc làm điều sai trái, hành động sáng suốt nhất là gì?",
+        "options": [
+          "Kiên quyết nói không và tìm kiếm sự hỗ trợ từ thầy cô hoặc cha mẹ",
+          "Làm theo để không bị bạn bè cô lập",
+          "Tự trách móc bản thân và im lặng chịu đựng",
+          "Rủ thêm các bạn khác làm theo"
+        ],
+        "correctAnswer": "Kiên quyết nói không và tìm kiếm sự hỗ trợ từ thầy cô hoặc cha mẹ",
+        "explanation": "Cần dũng cảm từ chối và tìm đến người lớn đáng tin cậy."
+      }
+    ],
+    "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+    "pdf_page": 99,
+    "book_page": 99,
+    "source_section": "Grade 11 Unit 9 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a student counsellor discussing various forms of digital bullying",
+      "activity_types": [
+        "Sentence completion",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio G11 Track 43",
+      "asset_required": true,
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 101,
+      "book_page": 101,
+      "source_section": "Grade 11 Unit 9 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Role-playing how to intervene and defend classmates from bullying",
+      "activity_types": [
+        "Pair drama"
+      ],
+      "prompts": [
+        "What phrases can you say to stop a bully?"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 100,
+      "book_page": 100,
+      "source_section": "Grade 11 Unit 9 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a detailed school campaign proposal to eradicate cyberbullying",
+      "task_type": "Campaign proposal",
+      "sample_outline": [
+        "Campaign slogan",
+        "Key objectives",
+        "Planned activities",
+        "Anticipated impact"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 102,
+      "book_page": 102,
+      "source_section": "Grade 11 Unit 9 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g11-u09-question-001",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Áp lực bị thúc ép phải cư xử hoặc ăn mặc giống các bạn cùng trang lứa gọi là:",
+      "options": [
+        "Peer pressure",
+        "Solar panel",
+        "Tangible heritage",
+        "Higher education"
+      ],
+      "correctAnswer": "Peer pressure",
+      "explanation": "Peer pressure = áp lực bạn bè đồng trang lứa.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-vocab-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-002",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Hành vi sỉ nhục, đe dọa hoặc tung tin độc hại về người khác trên mạng gọi là:",
+      "options": [
+        "Cyberbullying",
+        "Peacekeeping",
+        "Deforestation",
+        "Apprenticeship"
+      ],
+      "correctAnswer": "Cyberbullying",
+      "explanation": "Cyberbullying = bắt nạt trên không gian mạng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-vocab-002"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-003",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Hành vi chê bai khiếm nhã về vóc dáng, cân nặng của người khác gọi là:",
+      "options": [
+        "Body shaming",
+        "Time management",
+        "Green living",
+        "Self-study"
+      ],
+      "correctAnswer": "Body shaming",
+      "explanation": "Body shaming = miệt thị ngoại hình.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-vocab-003"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-004",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Chọn từ nối tương phản đi với cụm danh từ: '_______ the strict school rules, some students still smuggled phones into class.'",
+      "options": [
+        "Despite",
+        "Although",
+        "Because",
+        "Therefore"
+      ],
+      "correctAnswer": "Despite",
+      "explanation": "Sau 'Despite' đi với cụm danh từ (the strict school rules).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-005",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Điền từ nối chỉ kết quả: 'The bully spread false rumors; _______, he was suspended.'",
+      "options": [
+        "therefore",
+        "because of",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "therefore",
+      "explanation": "'Therefore' đứng sau dấu chấm phẩy chỉ kết quả tất yếu.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-006",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Người có mặt chứng kiến vụ việc bắt nạt mà không tham gia vào gọi là:",
+      "options": [
+        "Bystander",
+        "Contestant",
+        "Surgeon",
+        "Volunteer"
+      ],
+      "correctAnswer": "Bystander",
+      "explanation": "Bystander = người đứng ngoài quan sát.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-007",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Chứng rối loạn tâm lý với biểu hiện buồn bã kéo dài và mất hứng thú sống gọi là:",
+      "options": [
+        "Depression",
+        "Solidarity",
+        "Infrastructure",
+        "Lifespan"
+      ],
+      "correctAnswer": "Depression",
+      "explanation": "Depression = bệnh trầm cảm.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-vocab-004"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-008",
+      "unit_id": "g11-u09",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Students united to organize an inspirational anti-bullying _______ in the schoolyard.'",
+      "options": [
+        "campaign",
+        "appliance",
+        "rubbish",
+        "emission"
+      ],
+      "correctAnswer": "campaign",
+      "explanation": "Anti-bullying campaign = chiến dịch chống bắt nạt.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g11-u09-vocab-006"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-009",
+      "unit_id": "g11-u09",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu dùng từ nối chỉ nguyên nhân đúng cấu trúc:",
+      "options": [
+        "Due to the heavy storm, school was cancelled.",
+        "Because the heavy storm, school was cancelled.",
+        "Despite the heavy storm, school was cancelled.",
+        "Although the heavy storm, school was cancelled."
+      ],
+      "correctAnswer": "Due to the heavy storm, school was cancelled.",
+      "explanation": "'Due to' đi với cụm danh từ 'the heavy storm'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g11-u09-grammar-001"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g11-u09-question-010",
+      "unit_id": "g11-u09",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành thông điệp chống bạo lực học đường:",
+      "options": [
+        "Active bystanders can stop bullying by reporting it to teachers immediately.",
+        "By reporting it to teachers immediately active bystanders can stop bullying.",
+        "Bullying can stop active bystanders by reporting it to teachers immediately.",
+        "To teachers immediately reporting it active bystanders can stop bullying."
+      ],
+      "correctAnswer": "Active bystanders can stop bullying by reporting it to teachers immediately.",
+      "explanation": "S + can stop + O + by + V-ing.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g11-u09-vocab-005"
+      ],
+      "source_file": "Sách Tiếng anh 11 Global success - Sách học sinh.pdf",
+      "pdf_page": 98,
+      "book_page": 98,
+      "source_section": "Grade 11 Unit 9 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Active",
+        "bystanders",
+        "can",
+        "stop",
+        "bullying",
+        "by",
+        "reporting",
+        "it",
+        "to",
+        "teachers",
+        "immediately."
+      ]
+    }
+  ]
+}

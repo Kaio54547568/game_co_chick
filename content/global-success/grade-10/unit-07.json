@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 7,
+    "unit_id": "g10-u07",
+    "title": "VIET NAM AND INTERNATIONAL ORGANISATIONS",
+    "topic": "International Cooperation and Global Partnerships",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 76,
+    "book_page": 76,
+    "source_section": "Unit 7 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 76,
+        "book_page_end": 77,
+        "pdf_page_start": 76,
+        "pdf_page_end": 77,
+        "description": "Introduction to VIET NAM AND INTERNATIONAL ORGANISATIONS"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 78,
+        "book_page_end": 78,
+        "pdf_page_start": 78,
+        "pdf_page_end": 78,
+        "description": "Pronunciation (Stress in words with more than three syllables), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 79,
+        "book_page_end": 80,
+        "pdf_page_start": 79,
+        "pdf_page_end": 80,
+        "description": "UNICEF in Viet Nam"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 80,
+        "book_page_end": 80,
+        "pdf_page_start": 80,
+        "pdf_page_end": 80,
+        "description": "Talking about international aid projects supporting poor rural communities"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 81,
+        "book_page_end": 81,
+        "pdf_page_start": 81,
+        "pdf_page_end": 81,
+        "description": "Listening to a conversation about Viet Nam's role in the United Nations"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 82,
+        "book_page_end": 83,
+        "pdf_page_start": 82,
+        "pdf_page_end": 83,
+        "description": "Writing a short report detailing Viet Nam's contributions to global peacekeeping"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 84,
+        "book_page_end": 84,
+        "pdf_page_start": 84,
+        "pdf_page_end": 84,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 85,
+        "book_page_end": 85,
+        "pdf_page_start": 85,
+        "pdf_page_end": 85,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to international cooperation and global partnerships",
+      "grammar": [
+        "Comparative and Superlative Adjectives"
+      ],
+      "pronunciation": "Stress in words with more than three syllables",
+      "reading": "UNICEF in Viet Nam",
+      "speaking": "Talking about international aid projects supporting poor rural communities",
+      "listening": "Listening to a conversation about Viet Nam's role in the United Nations",
+      "writing": "Writing a short report detailing Viet Nam's contributions to global peacekeeping"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u07-vocab-001",
+      "unit_id": "g10-u07",
+      "word": "partnership",
+      "word_type": "noun",
+      "ipa": "/ˈpɑːtnəʃɪp/",
+      "meaning_vi": "quan hệ đối tác",
+      "definition_en": "a relationship between people or organizations that work together",
+      "example_sentence": "Viet Nam has established strategic partnerships with many countries.",
+      "example_translation": "Việt Nam đã thiết lập quan hệ đối tác chiến lược với nhiều quốc gia.",
+      "collocations": [
+        "strategic partnership"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-vocab-002",
+      "unit_id": "g10-u07",
+      "word": "promote",
+      "word_type": "verb",
+      "ipa": "/prəˈməʊt/",
+      "meaning_vi": "thúc đẩy, xúc tiến",
+      "definition_en": "to help something develop or increase",
+      "example_sentence": "The United Nations aims to promote world peace and security.",
+      "example_translation": "Liên Hợp Quốc hướng tới mục tiêu thúc đẩy hòa bình và an ninh thế giới.",
+      "collocations": [
+        "promote peace"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-vocab-003",
+      "unit_id": "g10-u07",
+      "word": "commitment",
+      "word_type": "noun",
+      "ipa": "/kəˈmɪtmənt/",
+      "meaning_vi": "sự cam kết",
+      "definition_en": "a promise to do something or to behave in a particular way",
+      "example_sentence": "Viet Nam showed strong commitment to achieving zero carbon emissions.",
+      "example_translation": "Việt Nam đã thể hiện cam kết mạnh mẽ hướng tới mức phát thải ròng bằng không.",
+      "collocations": [
+        "make a commitment"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-vocab-004",
+      "unit_id": "g10-u07",
+      "word": "peacekeeping",
+      "word_type": "noun",
+      "ipa": "/ˈpiːskiːpɪŋ/",
+      "meaning_vi": "gìn giữ hòa bình",
+      "definition_en": "the activity of preventing war and keeping peace in an area",
+      "example_sentence": "Vietnamese military medical officers take part in UN peacekeeping missions.",
+      "example_translation": "Các sĩ quan quân y Việt Nam tham gia vào các phái bộ gìn giữ hòa bình của Liên Hợp Quốc.",
+      "collocations": [
+        "peacekeeping mission"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-vocab-005",
+      "unit_id": "g10-u07",
+      "word": "economic growth",
+      "word_type": "noun phrase",
+      "ipa": "/ˌiːkəˈnɒmɪk ɡrəʊθ/",
+      "meaning_vi": "tăng trưởng kinh tế",
+      "definition_en": "an increase in the amount of goods and services produced by an economy",
+      "example_sentence": "Joining global trade bodies has boosted Viet Nam's economic growth.",
+      "example_translation": "Gia nhập các tổ chức thương mại toàn cầu đã thúc đẩy tăng trưởng kinh tế của Việt Nam.",
+      "collocations": [
+        "rapid economic growth"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-vocab-006",
+      "unit_id": "g10-u07",
+      "word": "integration",
+      "word_type": "noun",
+      "ipa": "/ˌɪntɪˈɡreɪʃn/",
+      "meaning_vi": "sự hội nhập quốc tế",
+      "definition_en": "the action or process of integrating into a larger group or system",
+      "example_sentence": "International economic integration brings both opportunities and challenges.",
+      "example_translation": "Hội nhập kinh tế quốc tế mang lại cả cơ hội và thách thức.",
+      "collocations": [
+        "international integration"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u07-grammar-001",
+      "unit_id": "g10-u07",
+      "title": "Comparative and Superlative Adjectives",
+      "structure_name": "Tính từ so sánh hơn và so sánh nhất",
+      "rule_summary": "Tính từ ngắn: thêm -er / -est. Tính từ dài: thêm more / most. Các trường hợp bất quy tắc: good -> better -> best, bad -> worse -> worst.",
+      "formula": "Short: adj-er than / the adj-est | Long: more adj than / the most adj",
+      "example_sentences": [
+        {
+          "en": "Viet Nam has become a more active member of the UN.",
+          "vi": "Việt Nam đã trở thành một thành viên tích cực hơn của Liên Hợp Quốc."
+        },
+        {
+          "en": "This is the most successful international project we have ever joined.",
+          "vi": "Đây là dự án quốc tế thành công nhất mà chúng tôi từng tham gia."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "He is more taller than his brother.",
+          "correction": "He is taller than his brother.",
+          "explanation": "Tính từ ngắn tall chỉ thêm -er, không thêm more."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u07-reading-001",
+    "unit_id": "g10-u07",
+    "topic": "UNICEF in Viet Nam",
+    "main_idea": "Các chương trình của UNICEF hỗ trợ cải thiện dinh dưỡng, y tế và cơ hội học tập cho trẻ em Việt Nam.",
+    "reading_skills": [
+      "Identifying main goals",
+      "Matching headings"
+    ],
+    "keywords": [
+      "UNICEF",
+      "child support",
+      "education programmes"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Mục tiêu trọng tâm của các dự án UNICEF tại Việt Nam là gì?",
+        "options": [
+          "Bảo vệ quyền lợi, sức khỏe và việc học của trẻ em",
+          "Xây dựng các nhà máy công nghiệp nặng",
+          "Tăng thuế xuất khẩu hàng hóa",
+          "Tổ chức các sự kiện thể thao chuyên nghiệp"
+        ],
+        "correctAnswer": "Bảo vệ quyền lợi, sức khỏe và việc học của trẻ em",
+        "explanation": "UNICEF là quỹ nhi đồng Liên Hợp Quốc chuyên hỗ trợ trẻ em."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 79,
+    "book_page": 79,
+    "source_section": "Unit 7 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a conversation about Viet Nam's role in the United Nations",
+      "activity_types": [
+        "Gap-fill",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio CD2 Track 02",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 81,
+      "book_page": 81,
+      "source_section": "Unit 7 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Talking about international aid projects supporting poor rural communities",
+      "activity_types": [
+        "Pair debate"
+      ],
+      "prompts": [
+        "How does international aid help local farmers?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 80,
+      "book_page": 80,
+      "source_section": "Unit 7 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a short report detailing Viet Nam's contributions to global peacekeeping",
+      "task_type": "Report",
+      "sample_outline": [
+        "Overview",
+        "Key contributions",
+        "Future outlook"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 82,
+      "book_page": 82,
+      "source_section": "Unit 7 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u07-question-001",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Từ 'promote' trong hợp tác quốc tế mang nghĩa là:",
+      "options": [
+        "Thúc đẩy, tạo điều kiện phát triển",
+        "Hạn chế, ngăn cản",
+        "Phá hoại cam kết",
+        "Tách biệt khỏi cộng đồng"
+      ],
+      "correctAnswer": "Thúc đẩy, tạo điều kiện phát triển",
+      "explanation": "Promote = thúc đẩy, xúc tiến.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-002",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Hoạt động bảo đảm an ninh và ngăn chặn xung đột vũ trang được gọi là:",
+      "options": [
+        "Peacekeeping",
+        "Deforestation",
+        "Appliance",
+        "Discrimination"
+      ],
+      "correctAnswer": "Peacekeeping",
+      "explanation": "Peacekeeping = gìn giữ hòa bình.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-003",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Sự gắn kết của một quốc gia vào nền kinh tế và văn hóa thế giới gọi là:",
+      "options": [
+        "International integration",
+        "Local routine",
+        "Heavy lifting",
+        "Household chore"
+      ],
+      "correctAnswer": "International integration",
+      "explanation": "International integration = hội nhập quốc tế.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-004",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng so sánh đúng: 'Viet Nam's economy is growing _______ than before.'",
+      "options": [
+        "faster",
+        "more fast",
+        "fastest",
+        "more faster"
+      ],
+      "correctAnswer": "faster",
+      "explanation": "Fast là tính từ ngắn: thêm -er thành faster.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-005",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Điền dạng so sánh nhất: 'This is _______ international conference our school has ever attended.'",
+      "options": [
+        "the most important",
+        "more important",
+        "importantest",
+        "the more important"
+      ],
+      "correctAnswer": "the most important",
+      "explanation": "So sánh nhất tính từ dài: the most + adj.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-006",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Dạng so sánh hơn bất quy tắc của 'good' là gì?",
+      "options": [
+        "Better",
+        "Gooder",
+        "Best",
+        "More good"
+      ],
+      "correctAnswer": "Better",
+      "explanation": "Good -> better -> the best.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-007",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Từ nào có nghĩa là 'mối quan hệ hợp tác cùng có lợi giữa các bên'?",
+      "options": [
+        "Partnership",
+        "Dispute",
+        "Discrimination",
+        "Contestant"
+      ],
+      "correctAnswer": "Partnership",
+      "explanation": "Partnership = mối quan hệ đối tác.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-008",
+      "unit_id": "g10-u07",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'All members signed a treaty showing a firm _______ to protect human rights.'",
+      "options": [
+        "commitment",
+        "emission",
+        "instrument",
+        "appliance"
+      ],
+      "correctAnswer": "commitment",
+      "explanation": "Firm commitment = cam kết kiên định.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u07-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-009",
+      "unit_id": "g10-u07",
+      "type": "multiple_choice",
+      "prompt": "Cụm từ 'economic growth' chỉ điều gì?",
+      "options": [
+        "Tăng trưởng kinh tế",
+        "Phân phối hàng hóa",
+        "Khủng hoảng năng lượng",
+        "Lạm phát thị trường"
+      ],
+      "correctAnswer": "Tăng trưởng kinh tế",
+      "explanation": "Economic growth = sự tăng trưởng kinh tế.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u07-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u07-question-010",
+      "unit_id": "g10-u07",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu về vai trò quốc tế của Việt Nam:",
+      "options": [
+        "Viet Nam has become a responsible member of the global community.",
+        "A responsible member of the global community Viet Nam has become.",
+        "Of the global community Viet Nam has become a responsible member.",
+        "Has become Viet Nam a responsible member of the global community."
+      ],
+      "correctAnswer": "Viet Nam has become a responsible member of the global community.",
+      "explanation": "S + has become + complement.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u07-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 78,
+      "book_page": 78,
+      "source_section": "Unit 7 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Viet",
+        "Nam",
+        "has",
+        "become",
+        "a",
+        "responsible",
+        "member",
+        "of",
+        "the",
+        "global",
+        "community."
+      ]
+    }
+  ]
+}

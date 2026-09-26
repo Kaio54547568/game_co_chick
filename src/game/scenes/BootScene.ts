@@ -24,7 +24,7 @@ export class BootScene extends Phaser.Scene {
     progressBox.fillRect(width / 2 - 160, height / 2 - 25, 320, 50);
 
     const loadingText = this.add.text(width / 2, height / 2 - 50, 'Đang chuẩn bị bước vào Võ Lâm...', {
-      font: '16px "Cinzel", serif',
+      font: '16px "Be Vietnam Pro", -apple-system, sans-serif',
       color: '#e6b349',
     }).setOrigin(0.5);
 
@@ -54,9 +54,17 @@ export class BootScene extends Phaser.Scene {
     this.load.image('player_male_idle', '/assets/game/characters/player/male_idle.png');
     this.load.image('player_female_idle', '/assets/game/characters/player/female_idle.png');
 
-    // NPC: Bang Chủ Hà Ánh Phượng (Sprite & Portrait)
+    // NPC: Bang Chủ Hà Ánh Phượng & 4 Hộ Pháp (Sprites & Portraits)
     this.load.image('bang_chu_ha_anh_phuong', '/assets/game/characters/npc/bang_chu_ha_anh_phuong.png');
     this.load.image('bang_chu_ha_anh_phuong_portrait', '/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png');
+    this.load.image('ho_phap_dang_tran_ha', '/assets/game/characters/npc/ho_phap_dang_tran_ha.png');
+    this.load.image('ho_phap_dang_tran_ha_portrait', '/assets/game/characters/npc/portraits/ho_phap_dang_tran_ha.png');
+    this.load.image('ho_phap_hoang_van', '/assets/game/characters/npc/ho_phap_hoang_van.png');
+    this.load.image('ho_phap_hoang_van_portrait', '/assets/game/characters/npc/portraits/ho_phap_hoang_van.png');
+    this.load.image('ho_phap_phuong_tu', '/assets/game/characters/npc/ho_phap_phuong_tu.png');
+    this.load.image('ho_phap_phuong_tu_portrait', '/assets/game/characters/npc/portraits/ho_phap_phuong_tu.png');
+    this.load.image('ho_phap_nguyet_nguyen', '/assets/game/characters/npc/ho_phap_nguyet_nguyen.png');
+    this.load.image('ho_phap_nguyet_nguyen_portrait', '/assets/game/characters/npc/portraits/ho_phap_nguyet_nguyen.png');
 
     // 2. Kẻ địch & Boss
     this.load.image('sword_disciple', '/assets/game/characters/enemies/sword_disciple.png');

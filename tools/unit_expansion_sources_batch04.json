@@ -1,0 +1,194 @@
+[
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+    "generated": "exec-19884df0-5f16-421f-87da-97bbdf616b72.png"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+    "generated": "exec-425aaf6c-9438-4739-acff-9e2e1736787c.png"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+    "generated": "exec-49aea8cf-16bc-4d63-93e3-c8da67fe1e1a.png"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+    "generated": "exec-3d125309-a4fe-4944-80f1-50cf7b08b3bf.png"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+    "generated": "exec-68e74206-d095-4fcd-bff2-bc4b8014b181.png"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: enchanted scrolls, broken learning instruments and illusion tablets",
+    "generated": "exec-5f7dc5b9-f7a4-47d7-80fa-222e53632009.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: poisoned roots, discarded nets and dark forest smoke",
+    "generated": "exec-c5241263-cd42-4c4d-b66a-3a3d0938436a.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: poisoned roots, discarded nets and dark forest smoke",
+    "generated": "exec-a4c8dad8-f7a3-428a-bab4-539e6223a076.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: poisoned roots, discarded nets and dark forest smoke",
+    "generated": "exec-88c232e0-9aa0-4921-b527-033c73d0fbd5.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: poisoned roots, discarded nets and dark forest smoke",
+    "generated": "exec-867276d9-ce8a-4e66-b3c4-6181ffd359b9.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: poisoned roots, discarded nets and dark forest smoke",
+    "generated": "exec-80e62a29-2deb-42c5-87c3-84bf89b4a6dd.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: poisoned roots, discarded nets and dark forest smoke",
+    "generated": "exec-0be0d8d3-7586-4a0b-9434-fb21c2cae867.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+    "generated": "exec-a9d8b75c-3f95-46c4-bf22-b1565742923d.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+    "generated": "exec-006e0da4-2d9a-4d0b-b605-7ace1b21cb72.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+    "generated": "exec-af0c5a42-fe78-4850-964a-9e0cc87a94b4.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+    "generated": "exec-ce8a9455-1194-40ef-bd8b-c27da26b2df4.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+    "generated": "exec-f0c4ccff-b7f8-4eef-b0b4-7978286005af.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: reckless trail raiders, trapped wildlife motifs and limestone spirits",
+    "generated": "exec-40d9ba0c-fd4a-4173-9587-9cf8878e7d4c.png"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+    "generated": "exec-fbada735-fe45-4227-9c0a-085ef25ab9a4.png"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+    "generated": "exec-9c6748af-159b-4f9a-8d32-0ea5ab5b51e3.png"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+    "generated": "exec-5a4ce6e0-5bbc-43ad-9800-40c2cd950fff.png"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+    "generated": "exec-f77fef02-08d6-4f88-9453-40f4e7e4c03c.png"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+    "generated": "exec-45ef8309-d556-49a3-9482-9aa18aa1e4e9.png"
+  },
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: spoiled herbs, fever miasma and corrupted apothecary tools",
+    "generated": "exec-5a1da7de-23f8-43ca-861a-82b5ea0abeaa.png"
+  }
+]

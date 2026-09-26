@@ -81,17 +81,72 @@ export interface VocabularyItem extends KnowledgeItem {
 
 export type QuestionType = 'multiple_choice' | 'sentence_order' | 'fill_blank';
 
+export type CombatMode =
+  | 'unseal'             // Phá Phong Ấn (Sentence Order / Scramble)
+  | 'lost_word'          // Đoạt Lại Vong Từ (Fill-in-blank / Collocation with hint)
+  | 'listening_pursuit'  // Mê Âm Truy Kích (Listening comprehension + TTS)
+  | 'deception_pierce'   // Thiên Diện Phá Ảo (Reading + Evidence Anchor sentence)
+  | 'escort_dialogue'    // Hộ Tống Hội Thoại (Everyday English with tactical buffs)
+  | 'triple_combo'       // Liên Hoàn Tam Chiêu (3-Phase Boss Rush: Listen -> Comprehend -> Strike)
+  | 'standard';          // Standard multiple choice
+
+export interface DialogueTacticalChoice {
+  text: string;
+  buffEffect: 'shield' | 'weaken' | 'atk_boost';
+  buffValue: number;
+  buffDescription: string;
+  isOptimal?: boolean;
+}
+
+export interface ComboStepItem {
+  stepNumber: 1 | 2 | 3;
+  stepType: 'listen' | 'comprehend' | 'unseal';
+  title: string;
+  prompt: string;
+  options?: string[];
+  wordsToOrder?: string[];
+  correctAnswer: string;
+  listeningScript?: string;
+  hint?: string;
+}
+
 export interface CombatQuestion {
   id: string;
   knowledgeItemIds: string[]; // Linked knowledge item IDs
   type: QuestionType;
+  combatMode?: CombatMode;
   prompt: string;
   options: string[];
   correctAnswer: string; // The correct string choice or sentence
   explanation: string;
   timeLimit: number; // in seconds
-  wordsToOrder?: string[];
   difficulty: 'easy' | 'medium' | 'hard';
+
+  // Mode 1: Phá Phong Ấn (sentence_order)
+  wordsToOrder?: string[];
+
+  // Mode 2: Đoạt Lại Vong Từ (hint mechanic: -40% damage penalty)
+  hintText?: string;
+  missingWord?: string;
+
+  // Mode 3: Mê Âm Truy Kích (listening comprehension)
+  listeningScript?: string;
+  transcriptFallback?: string;
+  audioClipUrl?: string;
+  maxReplays?: number;
+
+  // Mode 4: Thiên Diện Phá Ảo (reading comprehension with evidence anchor)
+  readingPassage?: string;
+  passageSentences?: string[];
+  evidenceSentenceIndex?: number;
+  trapExplanation?: string;
+
+  // Mode 5: Hộ Tống Hội Thoại (tactical buffs/debuffs)
+  dialogueChoices?: DialogueTacticalChoice[];
+
+  // Mode 6: Liên Hoàn Tam Chiêu (3-phase combo chain)
+  comboSteps?: ComboStepItem[];
+  weaknessAnalysis?: string;
 }
 
 export type QuestStatus = 'locked' | 'available' | 'in_progress' | 'completed';
@@ -114,6 +169,23 @@ export interface Quest {
   };
 }
 
+export interface UnitProgressState {
+  unitId: string;
+  grade: 10 | 11 | 12;
+  unitNumber: number;
+  progress: number; // 0 - 100%
+  isUnlocked: boolean;
+  isCompleted: boolean;
+  quests: Quest[];
+  currentQuestIndex: number;
+  defeatedMobs: number;
+  defeatedEnemyIds: string[];
+  bossDefeated: boolean;
+  learnedVocabIds: string[];
+  highScore?: number;
+  lastPlayedAt: number;
+}
+
 export interface PlayerProfile {
   id: string;
   name: string;
@@ -121,7 +193,7 @@ export interface PlayerProfile {
   stats: PlayerStats;
   inventory: InventoryItem[];
   equipment: EquipmentState;
-  unitProgress: number; // 0 - 100%
+  unitProgress: number; // Active unit progress: 0 - 100%
   quests: Quest[];
   currentQuestIndex: number;
   defeatedMobs: number;
@@ -130,6 +202,11 @@ export interface PlayerProfile {
   learnedVocabIds: string[];
   knowledgeMastery: Record<string, KnowledgeMasteryState>;
   lastSavedAt: number;
+
+  // Multi-unit system (Grades 10, 11 & 12)
+  selectedGrade?: 10 | 11 | 12;
+  selectedUnitId?: string;
+  unitStates?: Record<string, UnitProgressState>;
 }
 
 export interface CombatEnemy {
@@ -147,3 +224,4 @@ export interface CombatEnemy {
   dialogueIntro?: string;
   dialoguePhase2?: string;
 }
+

@@ -1,0 +1,647 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 3,
+    "unit_id": "g10-u03",
+    "title": "MUSIC",
+    "topic": "Music, Art and Famous Talent Shows",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 28,
+    "book_page": 28,
+    "source_section": "Unit 3 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 28,
+        "book_page_end": 29,
+        "pdf_page_start": 28,
+        "pdf_page_end": 29,
+        "description": "Introduction to MUSIC"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 30,
+        "book_page_end": 30,
+        "pdf_page_start": 30,
+        "pdf_page_end": 30,
+        "description": "Pronunciation (Stress in two-syllable words), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 31,
+        "book_page_end": 32,
+        "pdf_page_start": 31,
+        "pdf_page_end": 32,
+        "description": "A Famous Music Show"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 32,
+        "book_page_end": 32,
+        "pdf_page_start": 32,
+        "pdf_page_end": 32,
+        "description": "Talking about a favorite music show or singer"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 33,
+        "book_page_end": 33,
+        "pdf_page_start": 33,
+        "pdf_page_end": 33,
+        "description": "Listening to an interview about a music festival"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 34,
+        "book_page_end": 35,
+        "pdf_page_start": 34,
+        "pdf_page_end": 35,
+        "description": "Writing a blog post about an exciting music event"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 36,
+        "book_page_end": 36,
+        "pdf_page_start": 36,
+        "pdf_page_end": 36,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 37,
+        "book_page_end": 37,
+        "pdf_page_start": 37,
+        "pdf_page_end": 37,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to music, art and famous talent shows",
+      "grammar": [
+        "Compound Sentences",
+        "To-infinitives and Bare Infinitives"
+      ],
+      "pronunciation": "Stress in two-syllable words",
+      "reading": "A Famous Music Show",
+      "speaking": "Talking about a favorite music show or singer",
+      "listening": "Listening to an interview about a music festival",
+      "writing": "Writing a blog post about an exciting music event"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u03-vocab-001",
+      "unit_id": "g10-u03",
+      "word": "audience",
+      "word_type": "noun",
+      "ipa": "/ˈɔːdiəns/",
+      "meaning_vi": "khán giả, thính giả",
+      "definition_en": "the group of people gathered to watch a performance",
+      "example_sentence": "The audience cheered enthusiastically for the young singer.",
+      "example_translation": "Khán giả nhiệt tình reo hò cổ vũ cho ca sĩ trẻ.",
+      "collocations": [
+        "enthusiastic audience"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-vocab-002",
+      "unit_id": "g10-u03",
+      "word": "celebrity",
+      "word_type": "noun",
+      "ipa": "/səˈlebrəti/",
+      "meaning_vi": "người nổi tiếng",
+      "definition_en": "a famous person, especially in entertainment",
+      "example_sentence": "She became an overnight celebrity after winning the music show.",
+      "example_translation": "Cô trở thành người nổi tiếng chỉ sau một đêm khi chiến thắng cuộc thi âm nhạc.",
+      "collocations": [
+        "famous celebrity"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-vocab-003",
+      "unit_id": "g10-u03",
+      "word": "contestant",
+      "word_type": "noun",
+      "ipa": "/kənˈtestənt/",
+      "meaning_vi": "thí sinh dự thi",
+      "definition_en": "a person who takes part in a contest",
+      "example_sentence": "Each contestant has two minutes to impress the judges.",
+      "example_translation": "Mỗi thí sinh có hai phút để gây ấn tượng với ban giám khảo.",
+      "collocations": [
+        "talent contestant"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-vocab-004",
+      "unit_id": "g10-u03",
+      "word": "instrument",
+      "word_type": "noun",
+      "ipa": "/ˈɪnstrəmənt/",
+      "meaning_vi": "nhạc cụ",
+      "definition_en": "an object such as a piano or guitar used to make music",
+      "example_sentence": "He learned to play the traditional bamboo instrument at age seven.",
+      "example_translation": "Cậu ấy học chơi nhạc cụ bằng tre truyền thống từ năm bảy tuổi.",
+      "collocations": [
+        "musical instrument"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-vocab-005",
+      "unit_id": "g10-u03",
+      "word": "perform",
+      "word_type": "verb",
+      "ipa": "/pəˈfɔːm/",
+      "meaning_vi": "biểu diễn, trình diễn",
+      "definition_en": "to entertain an audience by singing, acting, or playing music",
+      "example_sentence": "The band will perform live at the national stadium.",
+      "example_translation": "Ban nhạc sẽ biểu diễn trực tiếp tại sân vận động quốc gia.",
+      "collocations": [
+        "perform live"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-vocab-006",
+      "unit_id": "g10-u03",
+      "word": "talented",
+      "word_type": "adjective",
+      "ipa": "/ˈtæləntɪd/",
+      "meaning_vi": "có tài năng, tài hoa",
+      "definition_en": "having a natural ability to do something well",
+      "example_sentence": "She is a talented pianist who won many awards.",
+      "example_translation": "Cô ấy là một nghệ sĩ dương cầm tài năng từng giành nhiều giải thưởng.",
+      "collocations": [
+        "talented musician"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u03-grammar-001",
+      "unit_id": "g10-u03",
+      "title": "Compound Sentences",
+      "structure_name": "Câu ghép với liên từ đẳng lập",
+      "rule_summary": "Nối hai mệnh đề độc lập bằng liên từ and, but, or, so (FANBOYS). Trước liên từ thường có dấu phẩy.",
+      "formula": "Clause 1, [and/but/or/so] + Clause 2",
+      "example_sentences": [
+        {
+          "en": "The concert tickets were expensive, but we decided to go.",
+          "vi": "Vé buổi hòa nhạc rất đắt, nhưng chúng tôi vẫn quyết định đi."
+        },
+        {
+          "en": "He practiced hard, so he won first prize.",
+          "vi": "Cậu ấy luyện tập chăm chỉ, vì vậy cậu đã giành giải nhất."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "He was tired so he, went home.",
+          "correction": "He was tired, so he went home.",
+          "explanation": "Dấu phẩy đứng trước liên từ đẳng lập so."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-grammar-002",
+      "unit_id": "g10-u03",
+      "title": "To-infinitives and Bare Infinitives",
+      "structure_name": "Động từ nguyên mẫu có 'to' và không 'to'",
+      "rule_summary": "Dùng to-inf sau decide, want, hope, plan, promise. Dùng bare-inf sau make, let và động từ giác quan (see, hear).",
+      "formula": "V + to-V / make,let + O + V(bare)",
+      "example_sentences": [
+        {
+          "en": "They decided to participate in the talent show.",
+          "vi": "Họ đã quyết định tham gia cuộc thi tài năng."
+        },
+        {
+          "en": "The beautiful melody made her cry.",
+          "vi": "Giai điệu tuyệt đẹp khiến cô ấy rơi lệ."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Her father let her to go to the concert.",
+          "correction": "Her father let her go to the concert.",
+          "explanation": "Sau 'let' dùng động từ nguyên thể không to."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u03-reading-001",
+    "unit_id": "g10-u03",
+    "topic": "A Famous Music Show",
+    "main_idea": "Tìm hiểu về nguồn gốc và sức lan tỏa của các chương trình tìm kiếm tài năng âm nhạc.",
+    "reading_skills": [
+      "Scanning",
+      "Context clues"
+    ],
+    "keywords": [
+      "talent show",
+      "contestant",
+      "audience"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Mục đích chính của các cuộc thi âm nhạc trên truyền hình là gì?",
+        "options": [
+          "Phát hiện và nuôi dưỡng tài năng âm nhạc mới",
+          "Bán nhạc cụ cho thí sinh",
+          "Quảng cáo các hãng thời trang",
+          "Hủy bỏ các buổi diễn trực tiếp"
+        ],
+        "correctAnswer": "Phát hiện và nuôi dưỡng tài năng âm nhạc mới",
+        "explanation": "Các cuộc thi tìm kiếm và hỗ trợ những tài năng ca hát mới."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 31,
+    "book_page": 31,
+    "source_section": "Unit 3 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to an interview about a music festival",
+      "activity_types": [
+        "Multiple choice",
+        "Note-taking"
+      ],
+      "audio_source_note": "Audio CD1 Track 16",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 33,
+      "book_page": 33,
+      "source_section": "Unit 3 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Talking about a favorite music show or singer",
+      "activity_types": [
+        "Pair talk"
+      ],
+      "prompts": [
+        "Who is your favorite singer and why?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 32,
+      "book_page": 32,
+      "source_section": "Unit 3 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a blog post about an exciting music event",
+      "task_type": "Blog post",
+      "sample_outline": [
+        "Event intro",
+        "Performances",
+        "Personal feeling"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 34,
+      "book_page": 34,
+      "source_section": "Unit 3 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u03-question-001",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Từ nào chỉ những người cùng xem một buổi hòa nhạc?",
+      "options": [
+        "Audience",
+        "Contestant",
+        "Instrument",
+        "Judge"
+      ],
+      "correctAnswer": "Audience",
+      "explanation": "Audience là khán thính giả.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-002",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Điền từ: 'Piano, guitar và sáo được xếp vào nhóm nào?'",
+      "options": [
+        "Musical instruments",
+        "Celebrities",
+        "Contestants",
+        "Audiences"
+      ],
+      "correctAnswer": "Musical instruments",
+      "explanation": "Musical instruments = nhạc cụ.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-003",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Một người có năng khiếu bẩm sinh nổi bật trong âm nhạc được gọi là:",
+      "options": [
+        "Talented",
+        "Careless",
+        "Boring",
+        "Passive"
+      ],
+      "correctAnswer": "Talented",
+      "explanation": "Talented = tài năng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-004",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Chọn liên từ thích hợp: 'She was sick, _______ she still gave an amazing performance.'",
+      "options": [
+        "but",
+        "so",
+        "and",
+        "or"
+      ],
+      "correctAnswer": "but",
+      "explanation": "Hai vế đối lập (ốm nhưng vẫn biểu diễn xuất sắc) dùng 'but'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-005",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Điền liên từ chỉ kết quả: 'The singer lost his voice, _______ the show was cancelled.'",
+      "options": [
+        "so",
+        "but",
+        "although",
+        "because"
+      ],
+      "correctAnswer": "so",
+      "explanation": "Mệnh đề sau là kết quả tất yếu của mệnh đề trước -> dùng 'so'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-006",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng đúng của động từ: 'My parents let me _______ to the music festival with friends.'",
+      "options": [
+        "go",
+        "to go",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "go",
+      "explanation": "Cấu trúc 'let + O + V(bare)'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-grammar-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-007",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Chọn phương án đúng: 'We decided _______ tickets for the live concert online.'",
+      "options": [
+        "to book",
+        "book",
+        "booking",
+        "booked"
+      ],
+      "correctAnswer": "to book",
+      "explanation": "Động từ 'decide' đi với 'to-infinitive'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-grammar-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-008",
+      "unit_id": "g10-u03",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Over one thousand _______ applied to audition for the singing contest.'",
+      "options": [
+        "contestants",
+        "appliances",
+        "chores",
+        "routines"
+      ],
+      "correctAnswer": "contestants",
+      "explanation": "Contestants = các thí sinh dự thi.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u03-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-009",
+      "unit_id": "g10-u03",
+      "type": "multiple_choice",
+      "prompt": "Động từ 'perform' đồng nghĩa với hành động nào?",
+      "options": [
+        "Biểu diễn trước khán giả",
+        "Ngồi nghe nhạc",
+        "Mua đĩa hát",
+        "Phê bình nghệ thuật"
+      ],
+      "correctAnswer": "Biểu diễn trước khán giả",
+      "explanation": "Perform = trình diễn, biểu diễn nghệ thuật.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u03-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u03-question-010",
+      "unit_id": "g10-u03",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp các từ thành câu ghép hoàn chỉnh:",
+      "options": [
+        "He wanted to sing, so he entered the music competition.",
+        "So he entered the music competition, he wanted to sing.",
+        "He entered the music competition, so he wanted to sing.",
+        "To sing he wanted, so he entered the music competition."
+      ],
+      "correctAnswer": "He wanted to sing, so he entered the music competition.",
+      "explanation": "Cấu trúc: S1 + V1, so + S2 + V2.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u03-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 30,
+      "book_page": 30,
+      "source_section": "Unit 3 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "He",
+        "wanted",
+        "to",
+        "sing,",
+        "so",
+        "he",
+        "entered",
+        "the",
+        "music",
+        "competition."
+      ]
+    }
+  ]
+}

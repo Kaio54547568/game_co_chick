@@ -22,7 +22,7 @@ export const QuestListModal: React.FC<QuestListModalProps> = ({ profile, onClose
                 Sơn Môn Nhiệm Vụ Thư
               </h2>
               <p className="text-xs text-stone-400">
-                Tiến độ Unit 1 • Cần tối thiểu 70% để mở phong ấn Ma Giáo Cấm Địa
+                Tiến độ nhiệm vụ • Cần tối thiểu 70% để mở phong ấn Ma Giáo Cấm Địa
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@ export const QuestListModal: React.FC<QuestListModalProps> = ({ profile, onClose
           <div className="flex justify-between items-center text-xs font-bold mb-1.5">
             <span className="text-amber-300 flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              Tổng Tiến Độ Unit 1:
+              Tổng Tiến Độ Unit:
             </span>
             <span
               className={`font-black text-sm ${
@@ -100,7 +100,7 @@ export const QuestListModal: React.FC<QuestListModalProps> = ({ profile, onClose
                       <div className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" />
                     )}
                     <span
-                      className={`text-xs font-bold uppercase tracking-wider ${
+                      className={`text-xs font-bold ${
                         isCompleted
                           ? 'text-emerald-400'
                           : isCurrent

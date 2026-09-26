@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GlobalSuccessUnitDataset",
+  "type": "object",
+  "required": ["metadata", "vocabulary", "grammar", "reading", "skills", "questions"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "grade", "unit_number", "unit_id", "title", "topic",
+        "sections", "learning_objectives", "source_file",
+        "pdf_page", "book_page", "source_section",
+        "provenance", "ocr_confidence", "review_status"
+      ],
+      "properties": {
+        "grade": { "type": "integer", "enum": [10, 11, 12] },
+        "unit_number": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "unit_id": { "type": "string", "pattern": "^g(10|11|12)-u(0[1-9]|10)$" },
+        "title": { "type": "string" },
+        "topic": { "type": "string" },
+        "source_file": { "type": "string" },
+        "pdf_page": { "type": "integer" },
+        "book_page": { "type": ["integer", "null"] },
+        "source_section": { "type": "string" },
+        "provenance": { "type": "string", "enum": ["extracted", "game_authored"] },
+        "ocr_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "review_status": { "type": "string", "enum": ["verified", "needs_review", "asset_required"] },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["section_name", "book_page_start", "book_page_end", "pdf_page_start", "pdf_page_end", "description"]
+          }
+        },
+        "learning_objectives": {
+          "type": "object",
+          "required": ["vocabulary", "grammar", "pronunciation", "reading", "speaking", "listening", "writing"]
+        }
+      }
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "unit_id", "word", "word_type", "meaning_vi", "definition_en",
+          "example_sentence", "example_translation", "source_file",
+          "pdf_page", "book_page", "source_section", "provenance",
+          "ocr_confidence", "review_status"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^g(10|11|12)-u(0[1-9]|10)-vocab-[0-9]{3}$" },
+          "unit_id": { "type": "string" },
+          "word": { "type": "string" },
+          "word_type": { "type": "string" },
+          "ipa": { "type": ["string", "null"] },
+          "meaning_vi": { "type": "string" },
+          "definition_en": { "type": "string" },
+          "example_sentence": { "type": "string" },
+          "example_translation": { "type": "string" },
+          "collocations": { "type": "array", "items": { "type": "string" } },
+          "word_family": { "type": "array", "items": { "type": "string" } },
+          "source_file": { "type": "string" },
+          "pdf_page": { "type": "integer" },
+          "book_page": { "type": ["integer", "null"] },
+          "source_section": { "type": "string" },
+          "provenance": { "type": "string", "enum": ["extracted", "game_authored"] },
+          "ocr_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "review_status": { "type": "string", "enum": ["verified", "needs_review", "asset_required"] }
+        }
+      }
+    },
+    "grammar": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "unit_id", "title", "structure_name", "rule_summary",
+          "formula", "example_sentences", "common_mistakes",
+          "source_file", "pdf_page", "book_page", "source_section",
+          "provenance", "ocr_confidence", "review_status"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^g(10|11|12)-u(0[1-9]|10)-grammar-[0-9]{3}$" },
+          "unit_id": { "type": "string" },
+          "title": { "type": "string" },
+          "structure_name": { "type": "string" },
+          "rule_summary": { "type": "string" },
+          "formula": { "type": "string" },
+          "example_sentences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["en", "vi"]
+            }
+          },
+          "common_mistakes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["mistake", "correction", "explanation"]
+            }
+          },
+          "source_file": { "type": "string" },
+          "pdf_page": { "type": "integer" },
+          "book_page": { "type": ["integer", "null"] },
+          "source_section": { "type": "string" },
+          "provenance": { "type": "string", "enum": ["extracted", "game_authored"] },
+          "ocr_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "review_status": { "type": "string", "enum": ["verified", "needs_review", "asset_required"] }
+        }
+      }
+    },
+    "reading": {
+      "type": "object",
+      "required": [
+        "id", "unit_id", "topic", "main_idea", "reading_skills",
+        "keywords", "game_questions", "source_file", "pdf_page",
+        "book_page", "source_section", "provenance", "ocr_confidence",
+        "review_status"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^g(10|11|12)-u(0[1-9]|10)-reading-[0-9]{3}$" },
+        "unit_id": { "type": "string" },
+        "topic": { "type": "string" },
+        "main_idea": { "type": "string" },
+        "reading_skills": { "type": "array", "items": { "type": "string" } },
+        "keywords": { "type": "array", "items": { "type": "string" } },
+        "game_questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["prompt", "options", "correctAnswer", "explanation"]
+          }
+        },
+        "source_file": { "type": "string" },
+        "pdf_page": { "type": "integer" },
+        "book_page": { "type": ["integer", "null"] },
+        "source_section": { "type": "string" },
+        "provenance": { "type": "string", "enum": ["extracted", "game_authored"] },
+        "ocr_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "review_status": { "type": "string", "enum": ["verified", "needs_review", "asset_required"] }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "required": ["listening", "speaking", "writing"],
+      "properties": {
+        "listening": { "type": "object" },
+        "speaking": { "type": "object" },
+        "writing": { "type": "object" }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "unit_id", "knowledgeItemIds", "type", "prompt",
+          "options", "correctAnswer", "explanation", "difficulty",
+          "timeLimit", "source_file", "pdf_page", "book_page",
+          "source_section", "provenance", "ocr_confidence", "review_status"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^g(10|11|12)-u(0[1-9]|10)-question-[0-9]{3}$" },
+          "unit_id": { "type": "string" },
+          "knowledgeItemIds": { "type": "array", "items": { "type": "string" } },
+          "type": { "type": "string", "enum": ["multiple_choice", "fill_blank", "sentence_order"] },
+          "prompt": { "type": "string" },
+          "options": { "type": "array", "items": { "type": "string" } },
+          "correctAnswer": { "type": "string" },
+          "explanation": { "type": "string" },
+          "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+          "timeLimit": { "type": "integer", "minimum": 5, "maximum": 60 },
+          "wordsToOrder": { "type": "array", "items": { "type": "string" } },
+          "source_file": { "type": "string" },
+          "pdf_page": { "type": "integer" },
+          "book_page": { "type": ["integer", "null"] },
+          "source_section": { "type": "string" },
+          "provenance": { "type": "string", "enum": ["extracted", "game_authored"] },
+          "ocr_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "review_status": { "type": "string", "enum": ["verified", "needs_review", "asset_required"] }
+        }
+      }
+    }
+  }
+}

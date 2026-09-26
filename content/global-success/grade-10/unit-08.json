@@ -1,0 +1,613 @@
+{
+  "metadata": {
+    "grade": 10,
+    "unit_number": 8,
+    "unit_id": "g10-u08",
+    "title": "NEW WAYS TO LEARN",
+    "topic": "Digital Education, Blended Learning and Modern Study Tools",
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 86,
+    "book_page": 86,
+    "source_section": "Unit 8 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 86,
+        "book_page_end": 87,
+        "pdf_page_start": 86,
+        "pdf_page_end": 87,
+        "description": "Introduction to NEW WAYS TO LEARN"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 88,
+        "book_page_end": 88,
+        "pdf_page_start": 88,
+        "pdf_page_end": 88,
+        "description": "Pronunciation (Sentence stress), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 89,
+        "book_page_end": 90,
+        "pdf_page_start": 89,
+        "pdf_page_end": 90,
+        "description": "Online vs. Face-to-Face Learning"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 90,
+        "book_page_end": 90,
+        "pdf_page_start": 90,
+        "pdf_page_end": 90,
+        "description": "Debating the pros and cons of studying through online apps"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 91,
+        "book_page_end": 91,
+        "pdf_page_start": 91,
+        "pdf_page_end": 91,
+        "description": "Listening to guidelines on preparing for a blended learning session"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 92,
+        "book_page_end": 93,
+        "pdf_page_start": 92,
+        "pdf_page_end": 93,
+        "description": "Writing an essay on the key advantages and challenges of blended learning"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 94,
+        "book_page_end": 94,
+        "pdf_page_start": 94,
+        "pdf_page_end": 94,
+        "description": "Everyday English and cultural context"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 95,
+        "book_page_end": 95,
+        "pdf_page_start": 95,
+        "pdf_page_end": 95,
+        "description": "Review and group research project"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to digital education, blended learning and modern study tools",
+      "grammar": [
+        "Relative Clauses (Defining and Non-defining)"
+      ],
+      "pronunciation": "Sentence stress",
+      "reading": "Online vs. Face-to-Face Learning",
+      "speaking": "Debating the pros and cons of studying through online apps",
+      "listening": "Listening to guidelines on preparing for a blended learning session",
+      "writing": "Writing an essay on the key advantages and challenges of blended learning"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g10-u08-vocab-001",
+      "unit_id": "g10-u08",
+      "word": "blended learning",
+      "word_type": "noun phrase",
+      "ipa": "/ˌblendɪd ˈlɜːnɪŋ/",
+      "meaning_vi": "học tập kết hợp (trực tuyến và trực tiếp)",
+      "definition_en": "a way of learning that combines online educational materials with traditional classroom study",
+      "example_sentence": "Blended learning gives students flexibility while keeping direct teacher interaction.",
+      "example_translation": "Học tập kết hợp mang lại sự linh hoạt cho học sinh trong khi vẫn duy trì tương tác trực tiếp với thầy cô.",
+      "collocations": [
+        "adopt blended learning"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-vocab-002",
+      "unit_id": "g10-u08",
+      "word": "face-to-face",
+      "word_type": "adjective",
+      "ipa": "/ˌfeɪs tə ˈfeɪs/",
+      "meaning_vi": "trực tiếp, mặt đối mặt",
+      "definition_en": "involving people who are in the same physical place",
+      "example_sentence": "Traditional face-to-face classes allow students to make friends easily.",
+      "example_translation": "Các lớp học trực tiếp truyền thống cho phép học sinh dễ dàng kết bạn.",
+      "collocations": [
+        "face-to-face class"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-vocab-003",
+      "unit_id": "g10-u08",
+      "word": "digital device",
+      "word_type": "noun phrase",
+      "ipa": "/ˌdɪdʒɪtl dɪˈvaɪs/",
+      "meaning_vi": "thiết bị kỹ thuật số",
+      "definition_en": "an electronic gadget like a smartphone or tablet",
+      "example_sentence": "Students should not use digital devices during lectures without permission.",
+      "example_translation": "Học sinh không nên sử dụng thiết bị kỹ thuật số trong giờ giảng khi chưa được phép.",
+      "collocations": [
+        "electronic digital device"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-vocab-004",
+      "unit_id": "g10-u08",
+      "word": "interactive",
+      "word_type": "adjective",
+      "ipa": "/ˌɪntərˈæktɪv/",
+      "meaning_vi": "có tính tương tác",
+      "definition_en": "allowing a two-way flow of information between a user and computer",
+      "example_sentence": "Our school installed interactive whiteboards in every room.",
+      "example_translation": "Trường chúng tôi đã lắp bảng trắng có tính tương tác trong mỗi phòng học.",
+      "collocations": [
+        "interactive whiteboard"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-vocab-005",
+      "unit_id": "g10-u08",
+      "word": "distraction",
+      "word_type": "noun",
+      "ipa": "/dɪˈstrækʃn/",
+      "meaning_vi": "sự xao nhãng, điều gây mất tập trung",
+      "definition_en": "a thing that prevents someone from giving full attention to something",
+      "example_sentence": "Notifications on social media can be a major distraction during study hours.",
+      "example_translation": "Các thông báo mạng xã hội có thể là nguyên nhân gây xao nhãng lớn trong giờ học.",
+      "collocations": [
+        "avoid distraction"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-vocab-006",
+      "unit_id": "g10-u08",
+      "word": "self-study",
+      "word_type": "noun",
+      "ipa": "/ˌself ˈstʌdi/",
+      "meaning_vi": "sự tự học, tự nghiên cứu",
+      "definition_en": "the learning of a subject without regular teacher guidance",
+      "example_sentence": "Effective self-study skills help students succeed at university.",
+      "example_translation": "Kỹ năng tự học hiệu quả giúp sinh viên thành công ở bậc đại học.",
+      "collocations": [
+        "independent self-study"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10-u08-grammar-001",
+      "unit_id": "g10-u08",
+      "title": "Relative Clauses (Defining and Non-defining)",
+      "structure_name": "Mệnh đề quan hệ xác định và không xác định",
+      "rule_summary": "Dùng who cho người, which cho vật, that thay cho who/which trong mệnh đề xác định, whose chỉ sở hữu. Mệnh đề không xác định ngăn cách bởi dấu phẩy và không dùng 'that'.",
+      "formula": "who/which/that/whose",
+      "example_sentences": [
+        {
+          "en": "The tablet which I bought yesterday is very fast.",
+          "vi": "Chiếc máy tính bảng mà tôi mua hôm qua chạy rất nhanh."
+        },
+        {
+          "en": "Mr. David, who teaches us English, encourages online discussions.",
+          "vi": "Thầy David, người dạy tiếng Anh cho chúng tôi, khuyến khích thảo luận trực tuyến."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Mr. David, that teaches English, is friendly.",
+          "correction": "Mr. David, who teaches English, is friendly.",
+          "explanation": "Mệnh đề không xác định có dấu phẩy không dùng 'that'."
+        }
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g10-u08-reading-001",
+    "unit_id": "g10-u08",
+    "topic": "Online vs. Face-to-Face Learning",
+    "main_idea": "So sánh ưu nhược điểm của việc học trực tuyến từ xa với học trực tiếp trên giảng đường.",
+    "reading_skills": [
+      "Comparing views",
+      "Scanning for benefits"
+    ],
+    "keywords": [
+      "online classroom",
+      "traditional schooling",
+      "flexibility"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Ưu điểm nổi bật nhất của phương thức học tập trực tuyến là gì?",
+        "options": [
+          "Chủ động về thời gian và địa điểm học",
+          "Không cần làm bài thi cuối kỳ",
+          "Không cần học bài về nhà",
+          "Tự động đạt điểm tuyệt đối"
+        ],
+        "correctAnswer": "Chủ động về thời gian và địa điểm học",
+        "explanation": "Học trực tuyến mang lại sự linh hoạt cao về không gian và lịch biểu cá nhân."
+      }
+    ],
+    "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+    "pdf_page": 89,
+    "book_page": 89,
+    "source_section": "Unit 8 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to guidelines on preparing for a blended learning session",
+      "activity_types": [
+        "Note-taking",
+        "Multiple choice"
+      ],
+      "audio_source_note": "Audio CD2 Track 07",
+      "asset_required": true,
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 91,
+      "book_page": 91,
+      "source_section": "Unit 8 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Debating the pros and cons of studying through online apps",
+      "activity_types": [
+        "Pair debate"
+      ],
+      "prompts": [
+        "Do smartphones help or distract students in class?"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 90,
+      "book_page": 90,
+      "source_section": "Unit 8 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing an essay on the key advantages and challenges of blended learning",
+      "task_type": "Discussion essay",
+      "sample_outline": [
+        "Introduction",
+        "Advantages",
+        "Challenges",
+        "Conclusion"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 92,
+      "book_page": 92,
+      "source_section": "Unit 8 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g10-u08-question-001",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Phương thức học kết hợp giữa học trực tuyến và lớp học trực tiếp gọi là:",
+      "options": [
+        "Blended learning",
+        "Vocational study",
+        "Heavy lifting",
+        "Household chore"
+      ],
+      "correctAnswer": "Blended learning",
+      "explanation": "Blended learning = học tập kết hợp.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u08-vocab-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-002",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Từ nào đối lập với học trực tuyến (online)?",
+      "options": [
+        "Face-to-face",
+        "Digital",
+        "Virtual",
+        "Interactive"
+      ],
+      "correctAnswer": "Face-to-face",
+      "explanation": "Face-to-face = học trực tiếp giáp mặt.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u08-vocab-002"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-003",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Thiết bị cho phép người dùng tương tác hai chiều với bài giảng gọi là:",
+      "options": [
+        "Interactive device",
+        "Silent tool",
+        "Dangerous appliance",
+        "Static poster"
+      ],
+      "correctAnswer": "Interactive device",
+      "explanation": "Interactive = tương tác.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u08-vocab-004"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-004",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn đại từ quan hệ đúng: 'The teacher _______ designed this website is very creative.'",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "whom"
+      ],
+      "correctAnswer": "who",
+      "explanation": "Thay thế cho danh từ chỉ người 'teacher' làm chủ ngữ dùng 'who'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u08-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-005",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu đúng: 'This is the smartphone _______ battery lasts for three days.'",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "that"
+      ],
+      "correctAnswer": "whose",
+      "explanation": "Chỉ sở hữu (pin của chiếc điện thoại đó) dùng 'whose'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u08-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-006",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn đại từ cho vật trong mệnh đề xác định: 'The online course _______ I enrolled in is free.'",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Thay thế cho vật (course) dùng 'which' hoặc 'that'.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u08-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-007",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Điều gì gây mất tập trung nhất khi học bài bằng điện thoại?",
+      "options": [
+        "Notifications from social apps (Distraction)",
+        "Dictionary lookups",
+        "Educational videos",
+        "Online textbooks"
+      ],
+      "correctAnswer": "Notifications from social apps (Distraction)",
+      "explanation": "Distraction = sự xao nhãng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g10-u08-vocab-005"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-008",
+      "unit_id": "g10-u08",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Developing good _______ skills allows students to learn anytime without depending on teachers.'",
+      "options": [
+        "self-study",
+        "pollution",
+        "emission",
+        "rubbish"
+      ],
+      "correctAnswer": "self-study",
+      "explanation": "Self-study skills = kỹ năng tự học.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u08-vocab-006"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-009",
+      "unit_id": "g10-u08",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu có mệnh đề quan hệ không xác định đúng ngữ pháp:",
+      "options": [
+        "My laptop, which I bought last week, is very light.",
+        "My laptop, that I bought last week, is very light.",
+        "My laptop who I bought last week, is very light.",
+        "My laptop which I bought last week is very light."
+      ],
+      "correctAnswer": "My laptop, which I bought last week, is very light.",
+      "explanation": "Mệnh đề không xác định ngăn cách bằng dấu phẩy và dùng 'which', không dùng 'that'.",
+      "difficulty": "hard",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g10-u08-grammar-001"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g10-u08-question-010",
+      "unit_id": "g10-u08",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu hoàn chỉnh về thiết bị học tập:",
+      "options": [
+        "Digital devices make studying more exciting and convenient.",
+        "Studying digital devices make more exciting and convenient.",
+        "More exciting and convenient digital devices make studying.",
+        "Make studying digital devices more exciting and convenient."
+      ],
+      "correctAnswer": "Digital devices make studying more exciting and convenient.",
+      "explanation": "S + make + O + adj.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g10-u08-vocab-003"
+      ],
+      "source_file": "1 - SGK Tiếng anh 10 - Global Success - MinhPhamBlog.pdf",
+      "pdf_page": 88,
+      "book_page": 88,
+      "source_section": "Unit 8 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Digital",
+        "devices",
+        "make",
+        "studying",
+        "more",
+        "exciting",
+        "and",
+        "convenient."
+      ]
+    }
+  ]
+}

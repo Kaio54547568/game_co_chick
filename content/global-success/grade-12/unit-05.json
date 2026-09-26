@@ -1,0 +1,621 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 5,
+    "unit_id": "g12-u05",
+    "title": "THE WORLD OF WORK",
+    "topic": "Modern Workplace, Career Requirements, Freelancing and Job Interviews",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 60,
+    "book_page": 60,
+    "source_section": "Grade 12 Unit 5 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 60,
+        "book_page_end": 61,
+        "pdf_page_start": 60,
+        "pdf_page_end": 61,
+        "description": "Introduction dialogue for THE WORLD OF WORK"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 62,
+        "book_page_end": 62,
+        "pdf_page_start": 62,
+        "pdf_page_end": 62,
+        "description": "Pronunciation (Stressing auxiliary and modal verbs for emphasis or contrast), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 63,
+        "book_page_end": 64,
+        "pdf_page_start": 63,
+        "pdf_page_end": 64,
+        "description": "Decoding Job Advertisements"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 64,
+        "book_page_end": 64,
+        "pdf_page_start": 64,
+        "pdf_page_end": 64,
+        "description": "Practicing standard job interview questions and answers in pairs"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 65,
+        "book_page_end": 65,
+        "pdf_page_start": 65,
+        "pdf_page_end": 65,
+        "description": "Listening to a telephone conversation between a job seeker and a recruiter"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 66,
+        "book_page_end": 67,
+        "pdf_page_start": 66,
+        "pdf_page_end": 67,
+        "description": "Writing a professional cover letter applying for an entry-level internship"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 68,
+        "book_page_end": 68,
+        "pdf_page_start": 68,
+        "pdf_page_end": 68,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 69,
+        "book_page_end": 69,
+        "pdf_page_start": 69,
+        "pdf_page_end": 69,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to modern workplace, career requirements, freelancing and job interviews",
+      "grammar": [
+        "Simple, Compound, and Complex Sentences"
+      ],
+      "pronunciation": "Stressing auxiliary and modal verbs for emphasis or contrast",
+      "reading": "Decoding Job Advertisements",
+      "speaking": "Practicing standard job interview questions and answers in pairs",
+      "listening": "Listening to a telephone conversation between a job seeker and a recruiter",
+      "writing": "Writing a professional cover letter applying for an entry-level internship"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u05-vocab-001",
+      "unit_id": "g12-u05",
+      "word": "applicant",
+      "word_type": "noun",
+      "ipa": "/ˈæplɪkənt/",
+      "meaning_vi": "người nộp đơn xin việc",
+      "definition_en": "a person who formally requests something, especially a job",
+      "example_sentence": "Over two hundred applicants submitted their resumes for the engineering post.",
+      "example_translation": "Hơn hai trăm ứng viên đã nộp hồ sơ cho vị trí kỹ sư.",
+      "collocations": [
+        "job applicant"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-vocab-002",
+      "unit_id": "g12-u05",
+      "word": "curriculum vitae",
+      "word_type": "noun phrase",
+      "ipa": "/kəˌrɪkjələm ˈviːtaɪ/",
+      "meaning_vi": "sơ yếu lý lịch (CV)",
+      "definition_en": "a brief account of a person's education, qualifications, and previous experience",
+      "example_sentence": "An organized curriculum vitae highlights relevant internships and skills clearly.",
+      "example_translation": "Một bản CV khoa học làm nổi bật rõ ràng các kỳ thực tập và kỹ năng liên quan.",
+      "collocations": [
+        "submit a curriculum vitae"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-vocab-003",
+      "unit_id": "g12-u05",
+      "word": "probation",
+      "word_type": "noun",
+      "ipa": "/prəˈbeɪʃn/",
+      "meaning_vi": "thời gian thử việc",
+      "definition_en": "a period of trial to test a person's fitness for a job or membership",
+      "example_sentence": "Successful candidates must complete a three-month probation period.",
+      "example_translation": "Các ứng viên trúng tuyển phải hoàn thành giai đoạn thử việc kéo dài ba tháng.",
+      "collocations": [
+        "probation period"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-vocab-004",
+      "unit_id": "g12-u05",
+      "word": "soft skills",
+      "word_type": "noun phrase",
+      "ipa": "/ˈsɒft skɪlz/",
+      "meaning_vi": "kỹ năng mềm (giao tiếp, làm việc nhóm, đàm phán)",
+      "definition_en": "personal attributes that enable someone to interact effectively with other people",
+      "example_sentence": "Employers seek graduates possessing both technical expertise and strong soft skills.",
+      "example_translation": "Nhà tuyển dụng tìm kiếm những sinh viên vừa có chuyên môn kỹ thuật vừa có kỹ năng mềm tốt.",
+      "collocations": [
+        "master soft skills"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-vocab-005",
+      "unit_id": "g12-u05",
+      "word": "freelancer",
+      "word_type": "noun",
+      "ipa": "/ˈfriːlɑːnsə(r)/",
+      "meaning_vi": "người làm việc tự do",
+      "definition_en": "a person who works self-employed for different companies at different times",
+      "example_sentence": "As a graphic design freelancer, she chooses her own working hours.",
+      "example_translation": "Là một người làm thiết kế đồ họa tự do, cô ấy tự chọn giờ làm việc cho mình.",
+      "collocations": [
+        "work as a freelancer"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-vocab-006",
+      "unit_id": "g12-u05",
+      "word": "recruiter",
+      "word_type": "noun",
+      "ipa": "/rɪˈkruːtə(r)/",
+      "meaning_vi": "nhà tuyển dụng, chuyên viên tuyển mộ",
+      "definition_en": "a person whose job is to enlist or find new employees for an organization",
+      "example_sentence": "The recruiter contacted him on professional networks for a senior developer role.",
+      "example_translation": "Chuyên viên tuyển dụng đã liên hệ với anh trên mạng xã hội nghề nghiệp cho vị trí lập trình viên cao cấp.",
+      "collocations": [
+        "experienced recruiter"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u05-grammar-001",
+      "unit_id": "g12-u05",
+      "title": "Simple, Compound, and Complex Sentences",
+      "structure_name": "Câu đơn, câu ghép và câu phức",
+      "rule_summary": "Câu đơn: một mệnh đề độc lập duy nhất (S + V). Câu ghép: hai mệnh đề độc lập nối bằng liên từ đẳng lập (and, but, or, so). Câu phức: một mệnh đề độc lập kết hợp một hoặc nhiều mệnh đề phụ thuộc nối bằng liên từ phụ thuộc (although, because, while, if, when).",
+      "formula": "Simple: S + V | Compound: Ind. clause, and/but Ind. clause | Complex: Dep. clause, Ind. clause",
+      "example_sentences": [
+        {
+          "en": "He applied for the software job. (Simple)",
+          "vi": "Anh ấy đã nộp đơn xin việc làm phần mềm."
+        },
+        {
+          "en": "She aced the interview, but she decided to wait for other offers. (Compound)",
+          "vi": "Cô ấy đã vượt qua phỏng vấn xuất sắc, nhưng cô quyết định chờ các lời mời khác."
+        },
+        {
+          "en": "Although he lacked prior experience, his enthusiasm impressed the recruiter. (Complex)",
+          "vi": "Mặc dù thiếu kinh nghiệm trước đó, sự nhiệt huyết của cậu đã gây ấn tượng với nhà tuyển dụng."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "Although he was tired, but he finished the report.",
+          "correction": "Although he was tired, he finished the report.",
+          "explanation": "Trong tiếng Anh không dùng cùng lúc 'Although' và 'but'."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u05-reading-001",
+    "unit_id": "g12-u05",
+    "topic": "Decoding Job Advertisements",
+    "main_idea": "Cách đọc và phân tích các tin tuyển dụng để nhận diện các yêu cầu thực tế, đãi ngộ và văn hóa doanh nghiệp.",
+    "reading_skills": [
+      "Analyzing requirements",
+      "Inference"
+    ],
+    "keywords": [
+      "job requirements",
+      "qualifications",
+      "probation"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Khi đọc một tin tuyển dụng, ứng viên nên chú trọng yếu tố nào nhất?",
+        "options": [
+          "Kỹ năng chuyên môn và chứng chỉ bắt buộc phù hợp với năng lực bản thân",
+          "Tên công ty có nổi tiếng trên mạng xã hội hay không",
+          "Hình ảnh văn phòng có đẹp mắt hay không",
+          "Địa điểm có gần quán ăn yêu thích không"
+        ],
+        "correctAnswer": "Kỹ năng chuyên môn và chứng chỉ bắt buộc phù hợp với năng lực bản thân",
+        "explanation": "Sự phù hợp giữa năng lực ứng viên và yêu cầu cốt lõi của công việc là quan trọng nhất."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 63,
+    "book_page": 63,
+    "source_section": "Grade 12 Unit 5 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a telephone conversation between a job seeker and a recruiter",
+      "activity_types": [
+        "Note-taking",
+        "Gap-fill"
+      ],
+      "audio_source_note": "Audio G12 Track 22",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 65,
+      "book_page": 65,
+      "source_section": "Grade 12 Unit 5 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Practicing standard job interview questions and answers in pairs",
+      "activity_types": [
+        "Role-play"
+      ],
+      "prompts": [
+        "What are your greatest professional strengths and weaknesses?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 64,
+      "book_page": 64,
+      "source_section": "Grade 12 Unit 5 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Writing a professional cover letter applying for an entry-level internship",
+      "task_type": "Cover letter",
+      "sample_outline": [
+        "Salutation",
+        "Position interest",
+        "Evidence of skills",
+        "Professional closing"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 66,
+      "book_page": 66,
+      "source_section": "Grade 12 Unit 5 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u05-question-001",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Người nộp hồ sơ ứng tuyển vào một vị trí công việc gọi là:",
+      "options": [
+        "Applicant",
+        "Landfill",
+        "Curfew",
+        "Audience"
+      ],
+      "correctAnswer": "Applicant",
+      "explanation": "Job applicant = ứng viên xin việc.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-002",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Bản tóm tắt quá trình học tập, kinh nghiệm và kỹ năng làm việc gọi là:",
+      "options": [
+        "Curriculum vitae (CV)",
+        "Appliance",
+        "Slum",
+        "Heritage"
+      ],
+      "correctAnswer": "Curriculum vitae (CV)",
+      "explanation": "Curriculum vitae = sơ yếu lý lịch, CV.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-003",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Giai đoạn thử thách năng lực thực tế trước khi ký hợp đồng chính thức là:",
+      "options": [
+        "Probation",
+        "Summit",
+        "Workout",
+        "Emission"
+      ],
+      "correctAnswer": "Probation",
+      "explanation": "Probation period = thời gian thử việc.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-004",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Câu sau thuộc loại câu nào: 'The company launched a new app yesterday.'",
+      "options": [
+        "Simple sentence (Câu đơn)",
+        "Compound sentence (Câu ghép)",
+        "Complex sentence (Câu phức)",
+        "Question tag"
+      ],
+      "correctAnswer": "Simple sentence (Câu đơn)",
+      "explanation": "Chỉ có một mệnh đề độc lập duy nhất (S + V) -> Câu đơn.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-005",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Câu sau thuộc loại câu nào: 'She prepared well, but she felt nervous during the interview.'",
+      "options": [
+        "Compound sentence (Câu ghép)",
+        "Simple sentence",
+        "Complex sentence",
+        "Passive sentence"
+      ],
+      "correctAnswer": "Compound sentence (Câu ghép)",
+      "explanation": "Hai mệnh đề nối với nhau bằng liên từ đẳng lập 'but' -> Câu ghép.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-006",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Câu sau thuộc loại câu nào: 'Because he possessed fluent English skills, he was offered the job.'",
+      "options": [
+        "Complex sentence (Câu phức)",
+        "Simple sentence",
+        "Compound sentence",
+        "Relative clause"
+      ],
+      "correctAnswer": "Complex sentence (Câu phức)",
+      "explanation": "Mệnh đề phụ thuộc 'Because...' đi kèm mệnh đề độc lập -> Câu phức.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-007",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Người làm việc độc lập tự do cho nhiều khách hàng khác nhau được gọi là:",
+      "options": [
+        "Freelancer",
+        "Surgeon",
+        "School-leaver",
+        "Contestant"
+      ],
+      "correctAnswer": "Freelancer",
+      "explanation": "Freelancer = người làm nghề tự do.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-008",
+      "unit_id": "g12-u05",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Teamwork, critical thinking, and emotional balance are invaluable _______ in any modern office.'",
+      "options": [
+        "soft skills",
+        "appliances",
+        "chores",
+        "curfews"
+      ],
+      "correctAnswer": "soft skills",
+      "explanation": "Soft skills = các kỹ năng mềm.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u05-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-009",
+      "unit_id": "g12-u05",
+      "type": "multiple_choice",
+      "prompt": "Chuyên viên chịu trách nhiệm tìm kiếm và phỏng vấn ứng viên cho công ty là:",
+      "options": [
+        "Recruiter",
+        "Customer",
+        "Patient",
+        "Bystander"
+      ],
+      "correctAnswer": "Recruiter",
+      "explanation": "Recruiter = nhà tuyển dụng.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u05-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u05-question-010",
+      "unit_id": "g12-u05",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu lời khuyên chuẩn bị phỏng vấn xin việc:",
+      "options": [
+        "Job applicants should highlight their relevant experience and soft skills clearly.",
+        "Relevant experience and soft skills job applicants should highlight clearly their.",
+        "Clearly their relevant experience and soft skills should highlight job applicants.",
+        "Should highlight job applicants their relevant experience and soft skills clearly."
+      ],
+      "correctAnswer": "Job applicants should highlight their relevant experience and soft skills clearly.",
+      "explanation": "S + should highlight + O + adv.",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u05-vocab-001",
+        "g12-u05-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 62,
+      "book_page": 62,
+      "source_section": "Grade 12 Unit 5 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Job",
+        "applicants",
+        "should",
+        "highlight",
+        "their",
+        "relevant",
+        "experience",
+        "and",
+        "soft",
+        "skills",
+        "clearly."
+      ]
+    }
+  ]
+}

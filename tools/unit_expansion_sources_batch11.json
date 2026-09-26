@@ -1,0 +1,138 @@
+[
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: lost-map phantoms, deceptive signposts and road bandits",
+    "generated": "exec-155c2539-6de9-4bc1-b8a7-969ddef130ad.png"
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: lost-map phantoms, deceptive signposts and road bandits",
+    "generated": "exec-bfbe804b-aefa-4787-80a1-24d542d2b83e.png"
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: lost-map phantoms, deceptive signposts and road bandits",
+    "generated": "exec-765a2b89-c3dd-428a-b0c3-5b43c50a5238.png"
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: lost-map phantoms, deceptive signposts and road bandits",
+    "generated": "exec-960a7c8f-9e02-4889-b93a-b9c838d842bf.png"
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: lost-map phantoms, deceptive signposts and road bandits",
+    "generated": "exec-53052768-6dea-452b-b299-dfcdf2463981.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: corruption chains, isolation masks and stolen market supplies",
+    "generated": "exec-dd12496e-89db-47a0-81f5-56972b95f28d.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: corruption chains, isolation masks and stolen market supplies",
+    "generated": "exec-be530592-196b-4c4d-9c02-d414e429a99b.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: corruption chains, isolation masks and stolen market supplies",
+    "generated": "exec-4523a81a-0074-44bd-a116-ec96ae79aba4.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: corruption chains, isolation masks and stolen market supplies",
+    "generated": "exec-813a7db8-7ac5-46da-983b-136cc6b5fdd7.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: corruption chains, isolation masks and stolen market supplies",
+    "generated": "exec-9c80f573-c475-42b0-adcd-6775e45ec0e4.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: corruption chains, isolation masks and stolen market supplies",
+    "generated": "exec-26ab1fc4-273b-4eda-8661-d5f297b94bb3.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "swift human scout with a short blade and light Vietnamese clothing; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+    "generated": "exec-d4458925-306f-46d2-806d-0ef2692531f3.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "human ranged attacker with a bamboo bow or sling; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+    "generated": "exec-f230185e-2485-4813-a8bd-19d32cfa1ee5.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "large armored bruiser with a heavy club; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+    "generated": "exec-7c6ef5f2-f11c-4cbf-a9b6-a84a71a94fa3.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "nonhuman golem assembled from the unit's material motifs; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+    "generated": "exec-828aea7c-0677-4c06-94aa-c4271524359f.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "eerie floating nonhuman spirit formed from the unit's motifs; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+    "generated": "exec-7b1bd977-3d71-4421-8d55-803d3f65980c.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "elite commander with ornate armor and distinctive polearm; motifs: invasive vines, dark marsh spirits and disrupted animal forms",
+    "generated": "exec-7e5fda41-a957-4d9c-8ce5-ba8342efb06b.png"
+  }
+]

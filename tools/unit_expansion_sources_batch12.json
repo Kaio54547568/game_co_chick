@@ -1,0 +1,82 @@
+[
+  {
+    "grade": 11,
+    "unit": 1,
+    "kind": "enemy",
+    "id": "fever_miasma",
+    "concept": "a translucent fever miasma creature rising from spoiled medicinal herbs, with glowing ember eyes and drifting leaf shapes",
+    "generated": "exec-05f487d3-02fe-4c0d-94f0-929558e5b183.png"
+  },
+  {
+    "grade": 11,
+    "unit": 2,
+    "kind": "enemy",
+    "id": "heirloom_mimic",
+    "concept": "a cracked blue-and-white Vietnamese heirloom ceramic vessel awakened as a cunning mimic with short clay limbs",
+    "generated": "exec-afc0afa3-d179-4592-bcad-732f50bc187b.png"
+  },
+  {
+    "grade": 11,
+    "unit": 3,
+    "kind": "enemy",
+    "id": "transit_drone",
+    "concept": "a rogue bamboo-and-bronze elevated transit guardian automaton with spinning ring wheels and jade energy",
+    "generated": "exec-c1076aa9-cbe6-4e05-bc8a-be95783742ef.png"
+  },
+  {
+    "grade": 11,
+    "unit": 4,
+    "kind": "enemy",
+    "id": "harbor_junk_spirit",
+    "concept": "a spectral Vietnamese trading boat spirit made of torn sail cloth and weathered teak, compact humanoid form",
+    "generated": "exec-d072cfd5-5517-46dc-9a47-4cd8ead4e785.png"
+  },
+  {
+    "grade": 11,
+    "unit": 5,
+    "kind": "enemy",
+    "id": "heat_tide_beast",
+    "concept": "a monstrous heat-wave crab from a flooded coast, cracked salt armor and glowing hot claws",
+    "generated": "exec-8d7f8133-b4cf-403e-a223-a1a73e3a0e0a.png"
+  },
+  {
+    "grade": 11,
+    "unit": 6,
+    "kind": "enemy",
+    "id": "bronze_drum_guardian",
+    "concept": "an awakened Đông Sơn bronze drum guardian golem with carved bird motifs and heavy drum arms",
+    "generated": "exec-8049f6fa-a124-419c-b3fb-abfa2683dbd5.png"
+  },
+  {
+    "grade": 11,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "false_certificate_wraith",
+    "concept": "a floating false-certificate phantom made of blank scroll ribbons and broken wax seals, no readable writing",
+    "generated": "exec-9d6e6a1a-faff-42cc-a6a7-bf40943f337b.png"
+  },
+  {
+    "grade": 11,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "compass_golem",
+    "concept": "a deceptive stone-and-bronze compass golem with shifting arrows and road dust",
+    "generated": "exec-187a3713-0983-44de-aaf9-4598d8f432a1.png"
+  },
+  {
+    "grade": 11,
+    "unit": 9,
+    "kind": "enemy",
+    "id": "isolation_chain_beast",
+    "concept": "a hulking spirit made from tangled broken chains and abandoned market baskets, dark yet redeemable",
+    "generated": "exec-7f83fa3c-52dd-4210-884a-2317555a88aa.png"
+  },
+  {
+    "grade": 11,
+    "unit": 10,
+    "kind": "enemy",
+    "id": "invasive_root_predator",
+    "concept": "a twisted invasive mangrove-root predator with muddy claws and reed-covered back",
+    "generated": "exec-16228a30-e792-4200-91d9-5a388639a113.png"
+  }
+]

@@ -232,6 +232,33 @@ class SoundService {
     osc.start(now);
     osc.stop(now + 0.05);
   }
+
+  // Tiếng chuông truyền khẩu quyết (Listening transmission cue)
+  playListeningCue() {
+    if (this.isMuted) return;
+    this.initCtx();
+    if (!this.ctx) return;
+
+    const now = this.ctx.currentTime;
+    const notes = [587.33, 880.0]; // D5, A5
+    notes.forEach((freq, idx) => {
+      if (!this.ctx) return;
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
+      const noteTime = now + idx * 0.08;
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(freq, noteTime);
+      gain.gain.setValueAtTime(0.18, noteTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, noteTime + 0.35);
+
+      osc.connect(gain);
+      gain.connect(this.ctx.destination);
+
+      osc.start(noteTime);
+      osc.stop(noteTime + 0.35);
+    });
+  }
 }
 
 export const soundService = new SoundService();

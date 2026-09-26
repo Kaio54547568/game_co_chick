@@ -1,0 +1,162 @@
+[
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "heavy printing-press enforcer with wooden roller",
+    "generated": "exec-717b6c8a-da88-4521-a7ce-72b91e2d4306.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "animated woodblock printing plate golem",
+    "generated": "exec-c5423307-3eb0-4d33-8477-d4d6c88d47a9.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "phantom echo lantern with drifting blank paper",
+    "generated": "exec-0eae61f8-9ef3-4d6b-9776-bf24c315506b.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "false editor commander in dark scholar robes and ink-brush staff",
+    "generated": "exec-f00a9d78-f67f-4bf1-ba8b-ec1a7294ca61.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "enemy",
+    "id": "rumor_swarm",
+    "concept": "a vortex of blank paper butterflies and ink drops shaped like one enemy",
+    "generated": "exec-c11a5ad6-060e-4693-bf82-487fb5cccc4f.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "storytelling pavilion wooden planks",
+    "generated": "exec-f6dba9bb-069b-4411-89bf-dccaf4e825ba.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "ink-stained storytelling pavilion stone",
+    "generated": "exec-4e1f8127-82b0-4c69-aba1-5553f90f77cb.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "woodblock printing press",
+    "generated": "exec-b1ff56be-3b24-43f2-b875-451eb59993bf.png"
+  },
+  {
+    "grade": 12,
+    "unit": 7,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "stack of blank illustrated broadsheets",
+    "generated": "exec-b2d8dab2-ff9c-440d-a137-a739ce7a1ae6.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "scout",
+    "concept": "masked poacher scout carrying empty trap frame",
+    "generated": "exec-8ef8a12d-c7fa-4221-8f5a-a9d56dd86a45.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "ranged",
+    "concept": "ranged poacher using bamboo dart launcher",
+    "generated": "exec-efcc4402-129d-45de-8150-154b60c3545f.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "brute",
+    "concept": "chain-wielding habitat destroyer in dark field gear",
+    "generated": "exec-8a7877a0-a428-48b1-915f-46ec36b760be.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "construct",
+    "concept": "animated iron cage and root golem",
+    "generated": "exec-5d5115e8-b7bc-4302-a25a-c466fae44ba3.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "spirit",
+    "concept": "injured forest habitat spirit with leaves and violet corruption",
+    "generated": "exec-67840614-c031-4487-a82f-4b5b581fab3e.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "elite",
+    "concept": "poacher captain with antler-shaped mask and net spear",
+    "generated": "exec-15ede176-0427-409a-8b4c-ecd29e306dbb.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "enemy",
+    "id": "snare_beast",
+    "concept": "a vine-covered wild boar spirit entangled in broken poacher traps",
+    "generated": "exec-42f160ce-6324-4554-b28d-05872909f242.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "forest sanctuary leaf soil",
+    "generated": "exec-258ed462-0d62-4fe5-9c08-4ad5d7d33fe5.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "ground",
+    "id": "side_ground",
+    "concept": "forest sanctuary mossy stone path",
+    "generated": "exec-ae3a597e-3dc3-40d6-b7e6-77b4961da13d.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "ranger supply crate",
+    "generated": "exec-bb6d9bc2-70f1-4dc1-83d2-d97875fd50ef.png"
+  },
+  {
+    "grade": 12,
+    "unit": 8,
+    "kind": "prop",
+    "id": "secondary_prop",
+    "concept": "wildlife rescue bamboo cage left open",
+    "generated": "exec-d8497e50-24ba-4714-b003-ab5718dc6fb6.png"
+  }
+]

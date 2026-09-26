@@ -6,11 +6,21 @@ interface TopHUDProps {
   profile: PlayerProfile;
   currentQuest: Quest | undefined;
   onOpenQuestModal: () => void;
+  onOpenUnitSelect?: () => void;
 }
 
-export const TopHUD: React.FC<TopHUDProps> = ({ profile, currentQuest, onOpenQuestModal }) => {
+export const TopHUD: React.FC<TopHUDProps> = ({
+  profile,
+  currentQuest,
+  onOpenQuestModal,
+  onOpenUnitSelect,
+}) => {
   const hpPercent = Math.min(100, Math.max(0, (profile.stats.hp / profile.stats.maxHp) * 100));
   const xpPercent = Math.min(100, Math.max(0, (profile.stats.xp / profile.stats.xpToNextLevel) * 100));
+
+  const currentUnitNum = profile.selectedUnitId
+    ? parseInt(profile.selectedUnitId.split('-u')[1] || '1', 10)
+    : 1;
 
   return (
     <div className="absolute top-0 left-0 right-0 z-40 p-2 sm:p-4 pointer-events-none flex flex-col sm:flex-row items-start justify-between gap-2">
@@ -87,20 +97,23 @@ export const TopHUD: React.FC<TopHUDProps> = ({ profile, currentQuest, onOpenQue
 
       {/* Center/Right: Unit Progress & Active Quest */}
       <div className="pointer-events-auto flex flex-col sm:items-end gap-1.5 max-w-sm">
-        {/* Unit Progress */}
-        <div className="bg-stone-900/90 border border-amber-600/50 rounded-xl px-3 py-1.5 shadow-lg backdrop-blur-md flex items-center gap-3">
-          <span className="text-[11px] font-bold text-stone-300 flex items-center gap-1">
+        {/* Unit Selector & Progress Button */}
+        <button
+          onClick={onOpenUnitSelect}
+          className="bg-stone-900/90 hover:bg-stone-850 border border-amber-500/70 hover:border-amber-400 rounded-xl px-3 py-1.5 shadow-lg backdrop-blur-md flex items-center gap-2.5 transition active:scale-95 group text-left cursor-pointer"
+        >
+          <span className="text-[11px] font-bold text-amber-300 flex items-center gap-1 group-hover:text-amber-200">
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            Tiến độ Unit 1:
+            Lớp {profile.selectedGrade || 10} - U{currentUnitNum} ▾
           </span>
-          <div className="w-24 sm:w-32 h-2 bg-stone-950 rounded-full overflow-hidden border border-amber-800/40">
+          <div className="w-20 sm:w-28 h-2 bg-stone-950 rounded-full overflow-hidden border border-amber-800/40">
             <div
               className={`h-full transition-all duration-500 rounded-full ${
                 profile.unitProgress >= 70
                   ? 'bg-gradient-to-r from-emerald-500 to-teal-300 animate-pulse'
                   : 'bg-gradient-to-r from-amber-600 to-yellow-400'
               }`}
-              style={{ width: `${profile.unitProgress}%` }}
+              style={{ width: `${Math.min(100, profile.unitProgress)}%` }}
             />
           </div>
           <span
@@ -108,14 +121,14 @@ export const TopHUD: React.FC<TopHUDProps> = ({ profile, currentQuest, onOpenQue
               profile.unitProgress >= 70 ? 'text-emerald-400' : 'text-amber-400'
             }`}
           >
-            {profile.unitProgress}%
+            {Math.round(profile.unitProgress)}%
           </span>
           {profile.unitProgress >= 70 && (
             <span className="hidden sm:inline-block text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-950/80 border border-emerald-500 text-emerald-300">
-              Cổng Boss Đã Mở!
+              Mở Cổng!
             </span>
           )}
-        </div>
+        </button>
 
         {/* Current Quest Tracker */}
         {currentQuest && (
@@ -128,7 +141,7 @@ export const TopHUD: React.FC<TopHUDProps> = ({ profile, currentQuest, onOpenQue
             </div>
             <div className="flex flex-col">
               <div className="flex items-center justify-between gap-2">
-                <span className="text-[11px] font-bold text-amber-400 uppercase tracking-wider">
+                <span className="text-[11px] font-bold text-amber-400">
                   Nhiệm Vụ #{currentQuest.step}
                 </span>
                 <span className="text-[10px] text-amber-200/70 group-hover:text-amber-200">

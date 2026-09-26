@@ -1,0 +1,146 @@
+[
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "riverbank mud with reeds and smooth pebbles",
+    "generated": "exec-2e9a6014-ffd3-4b86-8608-6d3827eacaaa.png"
+  },
+  {
+    "grade": 10,
+    "unit": 2,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "bamboo waterwheel",
+    "generated": "exec-0d28d4f2-2aff-4ab7-a9b1-3a65ce93e05b.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "communal house flagstone with bronze inlays",
+    "generated": "exec-a9bd985f-6ac1-41c5-8b05-f153dafa1316.png"
+  },
+  {
+    "grade": 10,
+    "unit": 3,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "đàn bầu monochord",
+    "generated": "exec-45f9a26c-14d3-4800-805d-1e58bc424e41.png"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "village square clay stone",
+    "generated": "exec-5ae3438f-59e6-4994-82cb-b613c28d92b1.png"
+  },
+  {
+    "grade": 10,
+    "unit": 4,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "repair tools and food basket",
+    "generated": "exec-51e45990-11d9-4727-aca2-1ade02f51311.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "workshop packed earth with bronze filings",
+    "generated": "exec-d0ee85f7-4b41-4b0b-b328-78f814341cf9.png"
+  },
+  {
+    "grade": 10,
+    "unit": 5,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "miniature wooden waterwheel",
+    "generated": "exec-e1139b0f-1b88-48db-93f8-cc8d5d151b1e.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "martial courtyard stone with balanced geometric motifs",
+    "generated": "exec-f7858f5a-e025-40e6-b70a-8f180de881b2.png"
+  },
+  {
+    "grade": 10,
+    "unit": 6,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "paired training swords",
+    "generated": "exec-cc2bfb3f-86ba-4a74-827f-ee0ff51710b8.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "diplomatic pavilion mosaic stone",
+    "generated": "exec-4fcd8d57-bdd9-4ab9-8751-6cd573556b62.png"
+  },
+  {
+    "grade": 10,
+    "unit": 7,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "bronze lotus seal",
+    "generated": "exec-08a9896f-389f-43f5-96e3-6f7d57370de0.png"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "academy wooden floor with parchment scraps",
+    "generated": "exec-f8adf723-08fd-4191-a991-550685cb8f03.png"
+  },
+  {
+    "grade": 10,
+    "unit": 8,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "astronomy teaching sphere",
+    "generated": "exec-fb788974-82a0-4fcf-9b2d-1fe1678ecea0.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "restored forest soil with leaves",
+    "generated": "exec-57ad7420-50f5-4241-a02c-88a214e611b5.png"
+  },
+  {
+    "grade": 10,
+    "unit": 9,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "native tree sapling",
+    "generated": "exec-a5f6f39e-c17a-49a2-bf8b-45b0bf1fb9ce.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "ground",
+    "id": "main_ground",
+    "concept": "limestone trail gravel with moss",
+    "generated": "exec-bed14c39-19dc-4bce-8fde-aed0a7098b4a.png"
+  },
+  {
+    "grade": 10,
+    "unit": 10,
+    "kind": "prop",
+    "id": "theme_prop",
+    "concept": "bamboo trail sign without text",
+    "generated": "exec-a3eb2cac-ed0d-432c-a563-aa921e4dbd99.png"
+  }
+]

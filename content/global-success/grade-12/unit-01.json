@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "grade": 12,
+    "unit_number": 1,
+    "unit_id": "g12-u01",
+    "title": "LIFE STORIES WE ADMIRE",
+    "topic": "Biographies, Role Models, Overcoming Adversity and Great Achievements",
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 8,
+    "book_page": 8,
+    "source_section": "Grade 12 Unit 1 Overview & Book Map p.4",
+    "provenance": "extracted",
+    "ocr_confidence": 0.97,
+    "review_status": "verified",
+    "sections": [
+      {
+        "section_name": "Getting Started",
+        "book_page_start": 8,
+        "book_page_end": 9,
+        "pdf_page_start": 8,
+        "pdf_page_end": 9,
+        "description": "Introduction dialogue for LIFE STORIES WE ADMIRE"
+      },
+      {
+        "section_name": "Language",
+        "book_page_start": 10,
+        "book_page_end": 10,
+        "pdf_page_start": 10,
+        "pdf_page_end": 10,
+        "description": "Pronunciation (Diphthongs: /eɪ/ and /aʊ/), Vocabulary and Grammar"
+      },
+      {
+        "section_name": "Reading",
+        "book_page_start": 11,
+        "book_page_end": 12,
+        "pdf_page_start": 11,
+        "pdf_page_end": 12,
+        "description": "The Visionary Life of Steve Jobs"
+      },
+      {
+        "section_name": "Speaking",
+        "book_page_start": 12,
+        "book_page_end": 12,
+        "pdf_page_start": 12,
+        "pdf_page_end": 12,
+        "description": "Presenting inspiring life milestones of prominent national heroes of Viet Nam"
+      },
+      {
+        "section_name": "Listening",
+        "book_page_start": 13,
+        "book_page_end": 13,
+        "pdf_page_start": 13,
+        "pdf_page_end": 13,
+        "description": "Listening to a documentary segment on Walt Disney's creative persistence"
+      },
+      {
+        "section_name": "Writing",
+        "book_page_start": 14,
+        "book_page_end": 15,
+        "pdf_page_start": 14,
+        "pdf_page_end": 15,
+        "description": "Synthesising facts from chronological notes to write a biographical profile"
+      },
+      {
+        "section_name": "Communication & Culture",
+        "book_page_start": 16,
+        "book_page_end": 16,
+        "pdf_page_start": 16,
+        "pdf_page_end": 16,
+        "description": "Everyday English and cultural study"
+      },
+      {
+        "section_name": "Looking Back & Project",
+        "book_page_start": 17,
+        "book_page_end": 17,
+        "pdf_page_start": 17,
+        "pdf_page_end": 17,
+        "description": "Review and group research presentation"
+      }
+    ],
+    "learning_objectives": {
+      "vocabulary": "Words and phrases related to biographies, role models, overcoming adversity and great achievements",
+      "grammar": [
+        "Past Simple vs. Past Continuous (Narrative)"
+      ],
+      "pronunciation": "Diphthongs: /eɪ/ and /aʊ/",
+      "reading": "The Visionary Life of Steve Jobs",
+      "speaking": "Presenting inspiring life milestones of prominent national heroes of Viet Nam",
+      "listening": "Listening to a documentary segment on Walt Disney's creative persistence",
+      "writing": "Synthesising facts from chronological notes to write a biographical profile"
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "g12-u01-vocab-001",
+      "unit_id": "g12-u01",
+      "word": "biography",
+      "word_type": "noun",
+      "ipa": "/baɪˈɒɡrəfi/",
+      "meaning_vi": "tiểu sử, truyện danh nhân",
+      "definition_en": "an account of someone's life written by someone else",
+      "example_sentence": "Reading Steve Jobs' biography inspires young entrepreneurs.",
+      "example_translation": "Đọc tiểu sử Steve Jobs truyền cảm hứng cho các doanh nhân trẻ.",
+      "collocations": [
+        "write a biography"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-vocab-002",
+      "unit_id": "g12-u01",
+      "word": "admire",
+      "word_type": "verb",
+      "ipa": "/ədˈmaɪə(r)/",
+      "meaning_vi": "ngưỡng mộ, khâm phục",
+      "definition_en": "to regard with respect or warm approval",
+      "example_sentence": "We admire Uncle Ho for his devotion to national independence.",
+      "example_translation": "Chúng ta ngưỡng mộ Bác Hồ vì sự cống hiến trọn đời cho độc lập dân tộc.",
+      "collocations": [
+        "greatly admire"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-vocab-003",
+      "unit_id": "g12-u01",
+      "word": "achievement",
+      "word_type": "noun",
+      "ipa": "/əˈtʃiːvmənt/",
+      "meaning_vi": "thành tựu, chiến tích",
+      "definition_en": "a thing done successfully typically by effort, courage, or skill",
+      "example_sentence": "Winning the Nobel Prize was her greatest scientific achievement.",
+      "example_translation": "Đoạt giải Nobel là thành tựu khoa học vĩ đại nhất của bà.",
+      "collocations": [
+        "remarkable achievement"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-vocab-004",
+      "unit_id": "g12-u01",
+      "word": "genius",
+      "word_type": "noun",
+      "ipa": "/ˈdʒiːniəs/",
+      "meaning_vi": "thiên tài",
+      "definition_en": "exceptional intellectual or creative power or other natural ability",
+      "example_sentence": "Albert Einstein was recognized as a mathematical and physics genius.",
+      "example_translation": "Albert Einstein được công nhận là một thiên tài toán học và vật lý.",
+      "collocations": [
+        "creative genius"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-vocab-005",
+      "unit_id": "g12-u01",
+      "word": "overcome",
+      "word_type": "verb",
+      "ipa": "/ˌəʊvəˈkʌm/",
+      "meaning_vi": "vượt qua (nghịch cảnh, khó khăn)",
+      "definition_en": "to succeed in dealing with a problem or difficulty",
+      "example_sentence": "Helen Keller overcame blindness and deafness to become a famous author.",
+      "example_translation": "Helen Keller đã vượt qua mù và điếc để trở thành một tác giả nổi tiếng.",
+      "collocations": [
+        "overcome hardship"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-vocab-006",
+      "unit_id": "g12-u01",
+      "word": "persistence",
+      "word_type": "noun",
+      "ipa": "/pəˈsɪstəns/",
+      "meaning_vi": "sự kiên trì, bền bỉ",
+      "definition_en": "firm or obstinate continuance in a course of action in spite of difficulty",
+      "example_sentence": "Walt Disney's persistence turned repeated business failures into global success.",
+      "example_translation": "Sự kiên trì của Walt Disney đã biến những thất bại kinh doanh liên tiếp thành thành công toàn cầu.",
+      "collocations": [
+        "determination and persistence"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Language & Glossary",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g12-u01-grammar-001",
+      "unit_id": "g12-u01",
+      "title": "Past Simple vs. Past Continuous (Narrative)",
+      "structure_name": "Quá khứ đơn vs. Quá khứ tiếp diễn trong kể chuyện",
+      "rule_summary": "Quá khứ tiếp diễn (was/were + V-ing) mô tả bối cảnh hoặc hành động đang diễn ra kéo dài; Quá khứ đơn (V2/ed) mô tả chuỗi sự kiện chính hoặc hành động bất ngờ xen ngang.",
+      "formula": "Past Continuous for background scene | Past Simple for main event sequence",
+      "example_sentences": [
+        {
+          "en": "While Steve Jobs was studying typography, he had no idea it would revolutionize computer fonts.",
+          "vi": "Khi Steve Jobs đang theo học thư pháp, ông không ngờ nó sẽ làm cách mạng hóa phông chữ máy tính."
+        },
+        {
+          "en": "The telephone rang while she was drafting her first historical novel.",
+          "vi": "Chuông điện thoại reo khi cô đang phác thảo cuốn tiểu thuyết lịch sử đầu tay."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "mistake": "While she was cooking, she was dropping the vase.",
+          "correction": "While she was cooking, she dropped the vase.",
+          "explanation": "Hành động bất ngờ làm rơi bình (dropped) dùng Quá khứ đơn."
+        }
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Language - Grammar",
+      "provenance": "extracted",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    }
+  ],
+  "reading": {
+    "id": "g12-u01-reading-001",
+    "unit_id": "g12-u01",
+    "topic": "The Visionary Life of Steve Jobs",
+    "main_idea": "Hành trình khởi nghiệp từ ga-ra, những thăng trầm khi bị sa thải và cú lội ngược dòng đưa Apple thành tập đoàn công nghệ hàng đầu.",
+    "reading_skills": [
+      "Chronological order",
+      "Fact and inference"
+    ],
+    "keywords": [
+      "visionary",
+      "innovation",
+      "setback"
+    ],
+    "game_questions": [
+      {
+        "prompt": "Bài học lớn nhất từ cuộc đời Steve Jobs khi đối mặt với thất bại là gì?",
+        "options": [
+          "Kiên trì theo đuổi đam mê và biến khó khăn thành cơ hội sáng tạo mới",
+          "Bỏ cuộc ngay khi gặp trắc trở đầu tiên",
+          "Chỉ làm theo những khuôn mẫu cũ của đối thủ",
+          "Ngừng học hỏi và đổ lỗi cho hoàn cảnh"
+        ],
+        "correctAnswer": "Kiên trì theo đuổi đam mê và biến khó khăn thành cơ hội sáng tạo mới",
+        "explanation": "Steve Jobs luôn giữ vững đam mê đổi mới sáng tạo dù gặp nhiều biến cố lớn."
+      }
+    ],
+    "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+    "pdf_page": 11,
+    "book_page": 11,
+    "source_section": "Grade 12 Unit 1 Reading",
+    "provenance": "game_authored",
+    "ocr_confidence": 0.95,
+    "review_status": "verified"
+  },
+  "skills": {
+    "listening": {
+      "objective": "Listening to a documentary segment on Walt Disney's creative persistence",
+      "activity_types": [
+        "Timeline ordering",
+        "True/False"
+      ],
+      "audio_source_note": "Audio G12 Track 02",
+      "asset_required": true,
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 13,
+      "book_page": 13,
+      "source_section": "Grade 12 Unit 1 Listening",
+      "provenance": "extracted",
+      "ocr_confidence": 0.9,
+      "review_status": "needs_review"
+    },
+    "speaking": {
+      "objective": "Presenting inspiring life milestones of prominent national heroes of Viet Nam",
+      "activity_types": [
+        "Pair storytelling"
+      ],
+      "prompts": [
+        "What qualities make General Vo Nguyen Giap widely admired?"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 12,
+      "book_page": 12,
+      "source_section": "Grade 12 Unit 1 Speaking",
+      "provenance": "extracted",
+      "ocr_confidence": 0.95,
+      "review_status": "verified"
+    },
+    "writing": {
+      "objective": "Synthesising facts from chronological notes to write a biographical profile",
+      "task_type": "Biographical sketch",
+      "sample_outline": [
+        "Early life",
+        "Key struggles",
+        "Peak breakthroughs",
+        "Enduring legacy"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 14,
+      "book_page": 14,
+      "source_section": "Grade 12 Unit 1 Writing",
+      "provenance": "extracted",
+      "ocr_confidence": 0.94,
+      "review_status": "verified"
+    }
+  },
+  "questions": [
+    {
+      "id": "g12-u01-question-001",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Cuốn sách viết về cuộc đời và sự nghiệp của một nhân vật có thật gọi là:",
+      "options": [
+        "Biography",
+        "Curfew",
+        "Appliance",
+        "Footprint"
+      ],
+      "correctAnswer": "Biography",
+      "explanation": "Biography = tiểu sử nhân vật.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u01-vocab-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-002",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Từ nào đồng nghĩa với 'respect and approve warmly of someone'?",
+      "options": [
+        "Admire",
+        "Destroy",
+        "Blame",
+        "Forget"
+      ],
+      "correctAnswer": "Admire",
+      "explanation": "Admire = ngưỡng mộ, khâm phục.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u01-vocab-002"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-003",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Người có trí tuệ và năng lực sáng tạo kiệt xuất phi thường được gọi là:",
+      "options": [
+        "Genius",
+        "Contestant",
+        "Bystander",
+        "School-leaver"
+      ],
+      "correctAnswer": "Genius",
+      "explanation": "Genius = thiên tài.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u01-vocab-004"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-004",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Chọn dạng đúng của động từ: 'While Marie Curie _______ in her laboratory, she discovered radium.'",
+      "options": [
+        "was experimenting",
+        "experimented",
+        "is experimenting",
+        "experiments"
+      ],
+      "correctAnswer": "was experimenting",
+      "explanation": "Hành động dài làm nền trong quá khứ đi với While: was experimenting.",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u01-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-005",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Điền dạng đúng: 'When Newton sat under an apple tree, an apple suddenly _______ on his head.'",
+      "options": [
+        "fell",
+        "was falling",
+        "has fallen",
+        "is falling"
+      ],
+      "correctAnswer": "fell",
+      "explanation": "Hành động rơi bất ngờ xen ngang chia Quá khứ đơn (fell).",
+      "difficulty": "medium",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u01-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-006",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Thành quả xuất sắc đạt được nhờ lòng dũng cảm và nỗ lực bền bỉ gọi là:",
+      "options": [
+        "Achievement",
+        "Deforestation",
+        "Cyberbullying",
+        "Curfew"
+      ],
+      "correctAnswer": "Achievement",
+      "explanation": "Achievement = thành tựu, chiến tích.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u01-vocab-003"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-007",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Động từ 'overcome' có nghĩa là:",
+      "options": [
+        "Vượt qua chông gai, nghịch cảnh",
+        "Đầu hàng trước số phận",
+        "Bỏ rơi bạn bè",
+        "Gây chia rẽ nội bộ"
+      ],
+      "correctAnswer": "Vượt qua chông gai, nghịch cảnh",
+      "explanation": "Overcome = vượt qua khó khăn.",
+      "difficulty": "easy",
+      "timeLimit": 10,
+      "knowledgeItemIds": [
+        "g12-u01-vocab-005"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-008",
+      "unit_id": "g12-u01",
+      "type": "fill_blank",
+      "prompt": "Hoàn thành câu: 'Through sheer _______, Thomas Edison tested thousands of materials before perfecting the light bulb.'",
+      "options": [
+        "persistence",
+        "emission",
+        "appliance",
+        "chores"
+      ],
+      "correctAnswer": "persistence",
+      "explanation": "Sheer persistence = sự kiên trì bền bỉ phi thường.",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u01-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-009",
+      "unit_id": "g12-u01",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu phối hợp thì tự sự quá khứ chính xác:",
+      "options": [
+        "While the soldiers were defending the citadel, the general gave the signal to charge.",
+        "While the soldiers defended the citadel, the general was giving the signal to charge.",
+        "When the soldiers were defending the citadel, the general was give the signal.",
+        "The soldiers were defending the citadel while the general was gave the signal."
+      ],
+      "correctAnswer": "While the soldiers were defending the citadel, the general gave the signal to charge.",
+      "explanation": "Hành động dài (were defending) bị xen ngang bởi lệnh tấn công (gave).",
+      "difficulty": "medium",
+      "timeLimit": 12,
+      "knowledgeItemIds": [
+        "g12-u01-grammar-001"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified"
+    },
+    {
+      "id": "g12-u01-question-010",
+      "unit_id": "g12-u01",
+      "type": "sentence_order",
+      "prompt": "Sắp xếp thành câu ca ngợi ý chí vươn lên:",
+      "options": [
+        "Great leaders overcome enormous setbacks with determination and persistence.",
+        "Overcome enormous setbacks great leaders with determination and persistence.",
+        "With determination and persistence great leaders overcome enormous setbacks.",
+        "Enormous setbacks overcome great leaders with determination and persistence."
+      ],
+      "correctAnswer": "Great leaders overcome enormous setbacks with determination and persistence.",
+      "explanation": "S + V + O + with...",
+      "difficulty": "hard",
+      "timeLimit": 15,
+      "knowledgeItemIds": [
+        "g12-u01-vocab-005",
+        "g12-u01-vocab-006"
+      ],
+      "source_file": "Sách học sinh Tiếng anh 12 - Global success.pdf",
+      "pdf_page": 10,
+      "book_page": 10,
+      "source_section": "Grade 12 Unit 1 Question Bank",
+      "provenance": "game_authored",
+      "ocr_confidence": 0.96,
+      "review_status": "verified",
+      "wordsToOrder": [
+        "Great",
+        "leaders",
+        "overcome",
+        "enormous",
+        "setbacks",
+        "with",
+        "determination",
+        "and",
+        "persistence."
+      ]
+    }
+  ]
+}
