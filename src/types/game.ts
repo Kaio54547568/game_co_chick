@@ -169,6 +169,42 @@ export interface Quest {
   };
 }
 
+export type PropCategory =
+  | 'decoration'
+  | 'vocab_discovery'
+  | 'reading_clue'
+  | 'listening_clue'
+  | 'dialogue'
+  | 'quest_clue';
+
+export interface PropActivityData {
+  unitId: string;
+  propId: string;
+  propName: string;
+  category: PropCategory;
+  loreIntro: string;
+  question: {
+    id: string;
+    prompt: string;
+    options: string[];
+    correctAnswer: string;
+    explanation: string;
+    knowledgeItemIds?: string[];
+  };
+  reward: {
+    xp: number;
+    unitProgressGain: number;
+  };
+}
+
+export type GuardianId =
+  | 'ho_phap_phuong_tu'
+  | 'ho_phap_dang_tran_ha'
+  | 'ho_phap_hoang_van'
+  | 'ho_phap_nguyet_nguyen';
+
+export type GuardianQuestStatus = 'not_started' | 'in_progress' | 'completed' | 'rewarded';
+
 export interface UnitProgressState {
   unitId: string;
   grade: 10 | 11 | 12;
@@ -182,6 +218,8 @@ export interface UnitProgressState {
   defeatedEnemyIds: string[];
   bossDefeated: boolean;
   learnedVocabIds: string[];
+  completedPropIds?: string[]; // IDs of completed props in this unit
+  guardianQuestStates?: Record<string, GuardianQuestStatus>; // npcId -> status in this unit
   highScore?: number;
   lastPlayedAt: number;
 }
@@ -200,6 +238,8 @@ export interface PlayerProfile {
   defeatedEnemyIds: string[];
   bossDefeated: boolean;
   learnedVocabIds: string[];
+  completedPropIds?: string[]; // Stored as "unitId:propId" to prevent duplicate reward farming
+  guardianQuestStates?: Record<string, Record<string, GuardianQuestStatus>>; // unitId -> npcId -> status
   knowledgeMastery: Record<string, KnowledgeMasteryState>;
   lastSavedAt: number;
 
@@ -223,5 +263,11 @@ export interface CombatEnemy {
   bossPhase?: number;
   dialogueIntro?: string;
   dialoguePhase2?: string;
+  combatMode?: CombatMode;
+  learningSkill?: string;
+  difficulty?: 'easy' | 'medium' | 'hard';
+  winCondition?: string;
+  tutorialBriefing?: string;
+  requiredQuestionsCount?: number;
 }
 

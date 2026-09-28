@@ -1,8 +1,14 @@
-import { PlayerProfile, InventoryItem, CombatEnemy } from '../types/game';
+import { PlayerProfile, InventoryItem, CombatEnemy, UnitProgressState } from '../types/game';
 import { CombatEngine } from './combatEngine';
 import { calculateCongLuc } from './storage';
 import { MasteryEngine } from './masteryEngine';
 import { INITIAL_ITEMS } from '../data/itemsData';
+import {
+  evaluateUnitUnlocks,
+  AntiFarmingGuard,
+  PROGRESSION_POINTS,
+  REWARD_CONFIG,
+} from '../data/progressionBalance';
 
 export interface QuestAdvanceResult {
   profile: PlayerProfile;
@@ -38,6 +44,38 @@ export interface CombatVictoryResult {
 }
 
 export class ProgressionEngine {
+  /**
+   * Đồng bộ trạng thái Unit đang chọn vào unitStates và tự động tính toán mở khóa các màn tiếp theo
+   */
+  static syncUnitStates(
+    profile: PlayerProfile,
+    unitProgress: number,
+    quests: any[],
+    extra?: {
+      defeatedMobs?: number;
+      defeatedEnemyIds?: string[];
+      bossDefeated?: boolean;
+      learnedVocabIds?: string[];
+      completedPropIds?: string[];
+    }
+  ): Record<string, UnitProgressState> {
+    const currentUnitStates = { ...(profile.unitStates || {}) };
+    if (profile.selectedUnitId && currentUnitStates[profile.selectedUnitId]) {
+      const activeUnit = { ...currentUnitStates[profile.selectedUnitId] };
+      activeUnit.progress = unitProgress;
+      activeUnit.quests = quests;
+      if (extra?.defeatedMobs !== undefined) activeUnit.defeatedMobs = extra.defeatedMobs;
+      if (extra?.defeatedEnemyIds !== undefined) activeUnit.defeatedEnemyIds = extra.defeatedEnemyIds;
+      if (extra?.bossDefeated !== undefined) activeUnit.bossDefeated = extra.bossDefeated;
+      if (extra?.learnedVocabIds !== undefined) activeUnit.learnedVocabIds = extra.learnedVocabIds;
+      if (extra?.completedPropIds !== undefined) activeUnit.completedPropIds = extra.completedPropIds;
+      activeUnit.isCompleted = activeUnit.bossDefeated || unitProgress >= 100;
+      activeUnit.lastPlayedAt = Date.now();
+      currentUnitStates[profile.selectedUnitId] = activeUnit;
+    }
+    return evaluateUnitUnlocks(currentUnitStates);
+  }
+
   /**
    * Hoàn thành một quest theo ID (ví dụ quest_1 bái kiến Bang Chủ)
    */
@@ -80,12 +118,15 @@ export class ProgressionEngine {
       });
     }
 
+    const updatedUnitStates = this.syncUnitStates(profile, newUnitProgress, quests);
+
     const newProfile: PlayerProfile = {
       ...profile,
       stats,
       inventory: updatedInventory,
       quests,
       unitProgress: newUnitProgress,
+      unitStates: updatedUnitStates,
     };
 
     return {
@@ -148,6 +189,10 @@ export class ProgressionEngine {
       knowledgeMastery[vocabId] = MasteryEngine.createInitialMasteryRecord(vocabId);
     }
 
+    const updatedUnitStates = this.syncUnitStates(profile, unitProgress, quests, {
+      learnedVocabIds: nextLearned,
+    });
+
     const newProfile: PlayerProfile = {
       ...profile,
       learnedVocabIds: nextLearned,
@@ -156,6 +201,7 @@ export class ProgressionEngine {
       stats,
       inventory,
       unitProgress,
+      unitStates: updatedUnitStates,
     };
 
     return {
@@ -208,12 +254,15 @@ export class ProgressionEngine {
       inventory.push(rewardItem);
     }
 
+    const updatedUnitStates = this.syncUnitStates(profile, unitProgress, quests);
+
     const newProfile: PlayerProfile = {
       ...profile,
       quests,
       stats,
       inventory,
       unitProgress,
+      unitStates: updatedUnitStates,
     };
 
     return {
@@ -290,23 +339,32 @@ export class ProgressionEngine {
       quests[3] = q4;
     }
 
-    // 3. Xử lý Quest 5: Quyết Chiến Loạn Ngữ Kiếm Ma (step 5, index 4)
+    // 3. Xử lý Quest 5: Quyết Chiến Boss / Thủ Trận Tinh Anh (step 5, index 4)
     let didCompleteBoss = false;
-    if (enemy.isBoss && isBossPhase2Defeated) {
-      bossDefeated = true;
-      unitProgress = 100;
-      if (quests[4] && quests[4].status !== 'completed') {
-        const q5 = { ...quests[4] };
-        q5.status = 'completed';
-        q5.progress = 1;
-        quests[4] = q5;
-        totalXpGained += q5.rewards.xp;
+    const isClimaxEncounter =
+      encKey.includes('climax') ||
+      encKey === 'climax_gate' ||
+      enemy.id.startsWith('climax_') ||
+      Boolean(enemy.isBoss);
+
+    if (isClimaxEncounter) {
+      const isDefeatedClimax = enemy.isBoss ? isBossPhase2Defeated : true;
+      if (isDefeatedClimax) {
+        bossDefeated = true;
+        unitProgress = 100;
+        if (quests[4] && quests[4].status !== 'completed') {
+          const q5 = { ...quests[4] };
+          q5.status = 'completed';
+          q5.progress = 1;
+          quests[4] = q5;
+          totalXpGained += q5.rewards.xp;
+        }
+        // Thưởng Rương Chiến Lợi Phẩm
+        if (!inventory.some((i) => i.id === 'loot_chest')) {
+          inventory.push({ ...INITIAL_ITEMS.loot_chest, isEquipped: false });
+        }
+        didCompleteBoss = true;
       }
-      // Thưởng Rương Chiến Lợi Phẩm Ma Giáo
-      if (!inventory.some((i) => i.id === 'loot_chest')) {
-        inventory.push({ ...INITIAL_ITEMS.loot_chest, isEquipped: false });
-      }
-      didCompleteBoss = true;
     }
 
     // 4. Cộng toàn bộ XP tổng hợp và tính Level up
@@ -317,6 +375,13 @@ export class ProgressionEngine {
       stats.hp = stats.maxHp;
     }
 
+    // Đồng bộ trạng thái active unit vào unitStates và tự động mở khóa các màn tiếp theo
+    const updatedUnitStates = this.syncUnitStates(profile, unitProgress, quests, {
+      defeatedEnemyIds,
+      defeatedMobs,
+      bossDefeated,
+    });
+
     const newProfile: PlayerProfile = {
       ...profile,
       stats,
@@ -326,6 +391,7 @@ export class ProgressionEngine {
       defeatedMobs,
       defeatedEnemyIds,
       bossDefeated,
+      unitStates: updatedUnitStates,
     };
 
     return {
@@ -480,4 +546,86 @@ export class ProgressionEngine {
       xpGained: xpReward,
     };
   }
+
+  /**
+   * Hoàn thành tương tác học tập với Đạo cụ (Prop Activity)
+   * Đảm bảo lưu trạng thái theo unitId + propId để tránh nhận thưởng lặp
+   */
+  static completePropActivity(
+    profile: PlayerProfile,
+    unitId: string,
+    propId: string,
+    xpReward: number = REWARD_CONFIG.PROP_XP,
+    progressReward: number = PROGRESSION_POINTS.PROP_ACTIVITY,
+    knowledgeItemIds: string[] = []
+  ): PropActivityResult {
+    // Chặn farm bằng AntiFarmingGuard
+    if (!AntiFarmingGuard.canEarnPropReward(profile, unitId, propId)) {
+      return {
+        profile,
+        didLevelUp: false,
+        xpGained: 0,
+        progressGain: 0,
+        isFirstCompletion: false,
+      };
+    }
+
+    const propKey = `${unitId}:${propId}`;
+    const completedIds = profile.completedPropIds || [];
+    const updatedCompletedIds = [...completedIds, propKey];
+
+    const newUnitProgress = Math.min(100, (profile.unitProgress || 0) + progressReward);
+    const xpResult = CombatEngine.addXp(profile.stats, profile.equipment, xpReward);
+
+    // Cập nhật unitStates nếu có và tự động đánh giá mở khóa màn tiếp theo
+    const currentUnitStates = { ...(profile.unitStates || {}) };
+    if (currentUnitStates[unitId]) {
+      const activeUnit = { ...currentUnitStates[unitId] };
+      const currentUnitProps = activeUnit.completedPropIds || [];
+      if (!currentUnitProps.includes(propId)) {
+        activeUnit.completedPropIds = [...currentUnitProps, propId];
+      }
+      activeUnit.progress = newUnitProgress;
+      activeUnit.isCompleted = activeUnit.bossDefeated || newUnitProgress >= 100;
+      activeUnit.lastPlayedAt = Date.now();
+      currentUnitStates[unitId] = activeUnit;
+    }
+    const evaluatedStates = evaluateUnitUnlocks(currentUnitStates);
+
+    // Ghi nhận điểm Mastery cho từ vựng / ngữ pháp liên quan
+    let updatedMastery = profile.knowledgeMastery || {};
+    if (knowledgeItemIds.length > 0) {
+      updatedMastery = MasteryEngine.recordAnswer(
+        updatedMastery,
+        knowledgeItemIds,
+        true,
+        5
+      );
+    }
+
+    const updatedProfile: PlayerProfile = {
+      ...profile,
+      stats: xpResult.stats,
+      unitProgress: newUnitProgress,
+      completedPropIds: updatedCompletedIds,
+      unitStates: evaluatedStates,
+      knowledgeMastery: updatedMastery,
+    };
+
+    return {
+      profile: updatedProfile,
+      didLevelUp: xpResult.didLevelUp,
+      xpGained: xpReward,
+      progressGain: progressReward,
+      isFirstCompletion: true,
+    };
+  }
+}
+
+export interface PropActivityResult {
+  profile: PlayerProfile;
+  didLevelUp: boolean;
+  xpGained: number;
+  progressGain: number;
+  isFirstCompletion: boolean;
 }

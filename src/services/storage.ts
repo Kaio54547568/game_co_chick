@@ -1,5 +1,6 @@
 import { PlayerProfile, Gender, PlayerStats, UnitProgressState } from '../types/game';
 import { INITIAL_QUESTS, createUnitQuests } from '../data/questsData';
+import { evaluateUnitUnlocks } from '../data/progressionBalance';
 
 const STORAGE_KEY = 'phuong_chick_english_wulin_save_v1';
 
@@ -22,6 +23,7 @@ export function createDefaultUnitStates(): Record<string, UnitProgressState> {
       defeatedEnemyIds: [],
       bossDefeated: false,
       learnedVocabIds: [],
+      completedPropIds: [],
       lastPlayedAt: Date.now(),
     };
   }
@@ -42,6 +44,7 @@ export function createDefaultUnitStates(): Record<string, UnitProgressState> {
       defeatedEnemyIds: [],
       bossDefeated: false,
       learnedVocabIds: [],
+      completedPropIds: [],
       lastPlayedAt: Date.now(),
     };
   }
@@ -62,6 +65,7 @@ export function createDefaultUnitStates(): Record<string, UnitProgressState> {
       defeatedEnemyIds: [],
       bossDefeated: false,
       learnedVocabIds: [],
+      completedPropIds: [],
       lastPlayedAt: Date.now(),
     };
   }
@@ -115,6 +119,8 @@ export function createDefaultProfile(name: string, gender: Gender): PlayerProfil
     defeatedEnemyIds: [],
     bossDefeated: false,
     learnedVocabIds: [],
+    completedPropIds: [],
+    guardianQuestStates: {},
     knowledgeMastery: {},
     lastSavedAt: Date.now(),
     selectedGrade: 10,
@@ -140,9 +146,12 @@ export class StorageService {
           active.defeatedEnemyIds = profile.defeatedEnemyIds || active.defeatedEnemyIds;
           active.bossDefeated = profile.bossDefeated || active.bossDefeated;
           active.learnedVocabIds = profile.learnedVocabIds || active.learnedVocabIds;
+          active.completedPropIds = active.completedPropIds || [];
+          active.guardianQuestStates = (profile.guardianQuestStates && profile.guardianQuestStates[profile.selectedUnitId]) || active.guardianQuestStates || {};
           active.isCompleted = active.bossDefeated || active.progress >= 100;
           active.lastPlayedAt = Date.now();
         }
+        profile.unitStates = evaluateUnitUnlocks(profile.unitStates);
       }
       localStorage.setItem(STORAGE_KEY, JSON.stringify(profile));
     } catch (e) {
@@ -163,6 +172,8 @@ export class StorageService {
       }
       parsed.defeatedEnemyIds = parsed.defeatedEnemyIds || [];
       parsed.learnedVocabIds = parsed.learnedVocabIds || [];
+      parsed.completedPropIds = parsed.completedPropIds || [];
+      parsed.guardianQuestStates = parsed.guardianQuestStates || {};
       parsed.inventory = parsed.inventory || [];
       parsed.equipment = parsed.equipment || { weapon: null, accessory: null, manual: null };
 
@@ -190,36 +201,8 @@ export class StorageService {
         }
       }
 
-      // Cập nhật điều kiện mở khóa theo quy tắc 70% GDD
-      parsed.unitStates['g10-u01'].isUnlocked = true;
-      for (let u = 2; u <= 10; u++) {
-        const prevId = `g10-u${(u - 1).toString().padStart(2, '0')}`;
-        const currId = `g10-u${u.toString().padStart(2, '0')}`;
-        const prev = parsed.unitStates[prevId];
-        if (prev && (prev.progress >= 70 || prev.isCompleted || prev.bossDefeated)) {
-          parsed.unitStates[currId].isUnlocked = true;
-        }
-      }
-
-      parsed.unitStates['g11-u01'].isUnlocked = true;
-      for (let u = 2; u <= 10; u++) {
-        const prevId = `g11-u${(u - 1).toString().padStart(2, '0')}`;
-        const currId = `g11-u${u.toString().padStart(2, '0')}`;
-        const prev = parsed.unitStates[prevId];
-        if (prev && (prev.progress >= 70 || prev.isCompleted || prev.bossDefeated)) {
-          parsed.unitStates[currId].isUnlocked = true;
-        }
-      }
-
-      parsed.unitStates['g12-u01'].isUnlocked = true;
-      for (let u = 2; u <= 10; u++) {
-        const prevId = `g12-u${(u - 1).toString().padStart(2, '0')}`;
-        const currId = `g12-u${u.toString().padStart(2, '0')}`;
-        const prev = parsed.unitStates[prevId];
-        if (prev && (prev.progress >= 70 || prev.isCompleted || prev.bossDefeated)) {
-          parsed.unitStates[currId].isUnlocked = true;
-        }
-      }
+      // Cập nhật điều kiện mở khóa theo quy tắc 70% GDD cho toàn bộ 30 Unit
+      parsed.unitStates = evaluateUnitUnlocks(parsed.unitStates);
 
       parsed.selectedGrade = parsed.selectedGrade || 10;
       parsed.selectedUnitId = parsed.selectedUnitId || 'g10-u01';

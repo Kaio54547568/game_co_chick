@@ -46,10 +46,10 @@ export const StartScreen: React.FC<StartScreenProps> = ({
             Bản Thử Nghiệm • 30 Unit Võ Lâm
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 font-wuxia drop-shadow-md">
-            Phượng Chick
+            Global Success
           </h1>
           <h2 className="text-xl sm:text-3xl font-bold text-amber-300 font-wuxia mt-0.5">
-            English Wulin
+            Wulin
           </h2>
           <p className="text-xs sm:text-sm text-stone-400 italic mt-1">
             "Tam Niên Anh Ngữ – Nhất Thống Võ Lâm"
@@ -189,7 +189,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({
 
         {/* Note */}
         <div className="mt-6 text-center text-[11px] text-stone-500 border-t border-stone-800 pt-3 w-full">
-          Phát triển bởi đội ngũ Phượng Chick English Wulin • Lưu tiến độ tự động trên trình duyệt
+          Phát triển bởi đội ngũ Global Success Wulin • Lưu tiến độ tự động trên trình duyệt
         </div>
       </div>
     </div>

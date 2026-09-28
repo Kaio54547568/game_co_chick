@@ -1,5 +1,6 @@
 import { Quest } from '../types/game';
 import { INITIAL_ITEMS } from './itemsData';
+import { PROGRESSION_POINTS, REWARD_CONFIG } from './progressionBalance';
 
 export const INITIAL_QUESTS: Quest[] = [
   {
@@ -13,9 +14,9 @@ export const INITIAL_QUESTS: Quest[] = [
     status: 'available',
     progress: 0,
     maxProgress: 1,
-    unitProgressGain: 15,
+    unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_1_INTRO,
     rewards: {
-      xp: 50,
+      xp: REWARD_CONFIG.getQuestXp(1, 1),
     },
   },
   {
@@ -29,9 +30,9 @@ export const INITIAL_QUESTS: Quest[] = [
     status: 'locked',
     progress: 0,
     maxProgress: 6,
-    unitProgressGain: 20,
+    unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_2_VOCAB,
     rewards: {
-      xp: 80,
+      xp: REWARD_CONFIG.getQuestXp(2, 1),
     },
   },
   {
@@ -45,9 +46,9 @@ export const INITIAL_QUESTS: Quest[] = [
     status: 'locked',
     progress: 0,
     maxProgress: 3,
-    unitProgressGain: 20,
+    unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_3_CHALLENGE,
     rewards: {
-      xp: 120,
+      xp: REWARD_CONFIG.getQuestXp(3, 1),
       items: [INITIAL_ITEMS.novice_sword],
     },
   },
@@ -62,9 +63,9 @@ export const INITIAL_QUESTS: Quest[] = [
     status: 'locked',
     progress: 0,
     maxProgress: 2,
-    unitProgressGain: 25,
+    unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_4_MOBS,
     rewards: {
-      xp: 200,
+      xp: REWARD_CONFIG.getQuestXp(4, 1),
       items: [INITIAL_ITEMS.jade_amulet, INITIAL_ITEMS.secret_manual],
     },
   },
@@ -79,9 +80,9 @@ export const INITIAL_QUESTS: Quest[] = [
     status: 'locked',
     progress: 0,
     maxProgress: 1,
-    unitProgressGain: 20,
+    unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_5_BOSS,
     rewards: {
-      xp: 500,
+      xp: REWARD_CONFIG.getQuestXp(5, 1),
       items: [INITIAL_ITEMS.loot_chest],
     },
   },
@@ -105,9 +106,9 @@ export function createUnitQuests(
       status: 'available',
       progress: 0,
       maxProgress: 1,
-      unitProgressGain: 15,
+      unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_1_INTRO,
       rewards: {
-        xp: 50 + unitNumber * 10,
+        xp: REWARD_CONFIG.getQuestXp(1, unitNumber),
       },
     },
     {
@@ -121,9 +122,9 @@ export function createUnitQuests(
       status: 'locked',
       progress: 0,
       maxProgress: 6,
-      unitProgressGain: 20,
+      unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_2_VOCAB,
       rewards: {
-        xp: 80 + unitNumber * 10,
+        xp: REWARD_CONFIG.getQuestXp(2, unitNumber),
       },
     },
     {
@@ -137,9 +138,9 @@ export function createUnitQuests(
       status: 'locked',
       progress: 0,
       maxProgress: 3,
-      unitProgressGain: 20,
+      unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_3_CHALLENGE,
       rewards: {
-        xp: 120 + unitNumber * 10,
+        xp: REWARD_CONFIG.getQuestXp(3, unitNumber),
         items: [INITIAL_ITEMS.novice_sword],
       },
     },
@@ -154,9 +155,9 @@ export function createUnitQuests(
       status: 'locked',
       progress: 0,
       maxProgress: 2,
-      unitProgressGain: 25,
+      unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_4_MOBS,
       rewards: {
-        xp: 200 + unitNumber * 15,
+        xp: REWARD_CONFIG.getQuestXp(4, unitNumber),
         items: [INITIAL_ITEMS.jade_amulet],
       },
     },
@@ -171,9 +172,9 @@ export function createUnitQuests(
       status: 'locked',
       progress: 0,
       maxProgress: 1,
-      unitProgressGain: 20,
+      unitProgressGain: PROGRESSION_POINTS.QUEST_STEP_5_BOSS,
       rewards: {
-        xp: 500 + unitNumber * 30,
+        xp: REWARD_CONFIG.getQuestXp(5, unitNumber),
         items: [INITIAL_ITEMS.loot_chest],
       },
     },

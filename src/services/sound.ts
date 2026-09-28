@@ -3,6 +3,15 @@ class SoundService {
   private ctx: AudioContext | null = null;
   public isMuted: boolean = false;
 
+  toggleMute(): boolean {
+    this.isMuted = !this.isMuted;
+    return this.isMuted;
+  }
+
+  setMuted(muted: boolean): void {
+    this.isMuted = muted;
+  }
+
   private initCtx() {
     if (!this.ctx && typeof window !== 'undefined') {
       const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;

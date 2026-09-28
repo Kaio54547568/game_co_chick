@@ -1,4 +1,4 @@
-# PHƯỢNG CHICK ENGLISH WULIN
+# GLOBAL SUCCESS WULIN
 > **Tam Niên Anh Ngữ – Nhất Thống Võ Lâm**  
 > *Bản Thử Nghiệm Vertical Slice (1 Unit Demo — 10–15 phút trải nghiệm trên Desktop & Mobile)*
 

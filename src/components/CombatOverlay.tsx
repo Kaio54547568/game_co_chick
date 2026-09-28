@@ -12,6 +12,7 @@ import { soundService } from '../services/sound';
 import { speechService } from '../services/speechService';
 import { CombatEngine, CombatTurnResult, CombatTurnModifiers } from '../services/combatEngine';
 import { MasteryEngine } from '../services/masteryEngine';
+import { RemediationAdvisor } from '../data/progressionBalance';
 import {
   Timer,
   Zap,
@@ -75,21 +76,37 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
   const [enemyMaxHp, setEnemyMaxHp] = useState<number>(initialEnemy.maxHp);
   const [playerHp, setPlayerHp] = useState<number>(profile.stats.hp);
 
-  // Question pool from active unit
+  // Question pool from active unit, prioritizing the enemy's specific assigned combatMode
   const allUnitQuestions = useRef(UnitContentService.getUnitCombatQuestions(activeUnitId)).current;
-  const questionPool = useRef<CombatQuestion[]>(
-    MasteryEngine.selectAdaptiveQuestions(
-      allUnitQuestions,
-      profile.knowledgeMastery || {},
-      10
-    )
-  );
+  const questionPool = useRef<CombatQuestion[]>([]);
+
+  if (questionPool.current.length === 0) {
+    const enemyMode = initialEnemy.combatMode;
+    const modeQuestions = enemyMode
+      ? allUnitQuestions.filter((q) => q.combatMode === enemyMode)
+      : [];
+
+    if (modeQuestions.length > 0) {
+      questionPool.current = modeQuestions;
+    } else {
+      questionPool.current = MasteryEngine.selectAdaptiveQuestions(
+        allUnitQuestions,
+        profile.knowledgeMastery || {},
+        10
+      );
+    }
+  }
 
   const [questionIdx, setQuestionIdx] = useState<number>(0);
   const currentQuestion: CombatQuestion =
     questionPool.current[questionIdx % questionPool.current.length] || allUnitQuestions[0];
 
-  const currentMode: CombatMode = currentQuestion.combatMode || 'standard';
+  const currentMode: CombatMode = currentQuestion.combatMode || initialEnemy.combatMode || 'standard';
+
+  // Tactical Briefing before combat begins
+  const [showBriefing, setShowBriefing] = useState<boolean>(
+    Boolean(initialEnemy.tutorialBriefing || initialEnemy.winCondition)
+  );
 
   // Combat State
   const [timeLeft, setTimeLeft] = useState<number>(currentQuestion.timeLimit || 15);
@@ -220,9 +237,9 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     });
   };
 
-  // Timer Countdown: PAUSES while audio is playing (Crucial requirement!)
+  // Timer Countdown: PAUSES while audio is playing or briefing is open (Crucial requirement!)
   useEffect(() => {
-    if (isAnswered || combatOutcome || isPhaseTransitioning || isAudioPlaying) return;
+    if (isAnswered || combatOutcome || isPhaseTransitioning || isAudioPlaying || showBriefing) return;
 
     if (timeLeft <= 0) {
       handleTimeout();
@@ -234,7 +251,22 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft, isAnswered, combatOutcome, isPhaseTransitioning, isAudioPlaying]);
+  }, [timeLeft, isAnswered, combatOutcome, isPhaseTransitioning, isAudioPlaying, showBriefing]);
+
+  // Keyboard listener for Tactical Briefing dismiss (Enter / Space)
+  useEffect(() => {
+    if (!showBriefing) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        soundService.playHit();
+        setShowBriefing(false);
+        setStartTime(Date.now());
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [showBriefing]);
 
   const handleTimeout = () => {
     processAnswerResult(false, currentQuestion.timeLimit, null);
@@ -485,10 +517,14 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
         setVfxSpark(null);
       }, 350);
 
-      const nextEnemyHp = Math.max(0, enemyHp - result.damageToEnemy);
+      const requiredQs = initialEnemy.requiredQuestionsCount || 1;
+      const damagePerQuestion = Math.ceil(initialEnemy.maxHp / requiredQs);
+      const effectiveDamage = Math.max(result.damageToEnemy, damagePerQuestion);
+
+      const nextEnemyHp = Math.max(0, enemyHp - effectiveDamage);
       setEnemyHp(nextEnemyHp);
       setFloatingDamage({
-        text: `-${result.damageToEnemy} ${result.isCritical ? 'CRITICAL!' : ''}`,
+        text: `-${effectiveDamage} ${result.isCritical ? 'CRITICAL!' : ''}`,
         isCrit: result.isCritical,
         isPlayer: false,
       });
@@ -570,6 +606,49 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     setQuestionIdx(nextIdx);
   };
 
+  const handleRetryCurrentQuestion = () => {
+    setIsAnswered(false);
+    setSelectedOption(null);
+    setTurnResult(null);
+    setDeceptionError(null);
+    setTacticalBuffNotice(null);
+    setIsHintUsed(false);
+    setShowHintText(false);
+    setShowTranscript(false);
+    setSelectedEvidenceIndex(null);
+    setComboStepIndex(0);
+    setTimeLeft(bossPhase === 2 ? 8 : currentQuestion.timeLimit || 15);
+    setStartTime(Date.now());
+
+    if (currentMode === 'unseal' && currentQuestion.wordsToOrder) {
+      setAvailableWords([...currentQuestion.wordsToOrder].sort(() => Math.random() - 0.5));
+      setOrderedWords([]);
+    }
+
+    if (currentMode === 'listening_pursuit') {
+      setReplaysLeft(currentQuestion.maxReplays || 3);
+      if (currentQuestion.listeningScript) {
+        setTimeout(() => {
+          handlePlayAudio(currentQuestion.listeningScript!, false);
+        }, 300);
+      }
+    }
+
+    if (currentMode === 'triple_combo' && currentQuestion.comboSteps?.[0]) {
+      setReplaysLeft(3);
+      const s1 = currentQuestion.comboSteps[0];
+      if (s1.wordsToOrder) {
+        setComboStepAvailWords([...s1.wordsToOrder].sort(() => Math.random() - 0.5));
+        setComboStepOrderedWords([]);
+      }
+      if (s1.stepType === 'listen' && s1.listeningScript) {
+        setTimeout(() => {
+          handlePlayAudio(s1.listeningScript!, false);
+        }, 300);
+      }
+    }
+  };
+
   const handleClaimVictory = () => {
     onCombatVictory(initialEnemy, isBoss ? bossPhase === 2 : true, playerHp);
     onClose();
@@ -618,6 +697,10 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
   };
 
   const modeBadge = getModeBadge(currentMode);
+  const remediationAdvice = RemediationAdvisor.getAdvice(
+    initialEnemy.learningSkill || currentQuestion?.knowledgeItemIds?.join(' ') || initialEnemy.name,
+    profile.selectedUnitId || ''
+  );
 
   return (
     <div
@@ -1288,7 +1371,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
             {/* Turn Feedback & Next Button */}
             {isAnswered && turnResult && (
               <div className="bg-stone-950 border border-stone-800 rounded-xl p-3 flex flex-col sm:flex-row items-center justify-between gap-2 animate-fadeIn">
-                <div className="text-xs text-stone-300">
+                <div className="text-xs text-stone-300 flex-1">
                   <span
                     className={`font-bold mr-2 ${
                       turnResult.isCorrect ? 'text-emerald-400' : 'text-red-400'
@@ -1301,14 +1384,107 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
                   </span>
                 </div>
 
-                <button
-                  onClick={handleNextQuestion}
-                  className="px-5 py-2 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs shadow whitespace-nowrap active:scale-95 transition"
-                >
-                  Kiếm Chiêu Tiếp Theo &gt;
-                </button>
+                <div className="flex items-center gap-2 self-end sm:self-center">
+                  {!turnResult.isCorrect && (
+                    <button
+                      onClick={handleRetryCurrentQuestion}
+                      className="px-4 py-2 rounded-xl bg-stone-800 hover:bg-stone-700 text-amber-300 border border-amber-600/40 font-bold text-xs shadow whitespace-nowrap active:scale-95 transition flex items-center gap-1.5"
+                    >
+                      <RotateCcw className="w-3.5 h-3.5" />
+                      <span>Luyện Lại Chiêu Này</span>
+                    </button>
+                  )}
+
+                  <button
+                    onClick={handleNextQuestion}
+                    className="px-5 py-2 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs shadow whitespace-nowrap active:scale-95 transition"
+                  >
+                    Kiếm Chiêu Tiếp Theo &gt;
+                  </button>
+                </div>
               </div>
             )}
+          </div>
+        )}
+
+        {/* Tactical Briefing Modal (Before Combat) */}
+        {showBriefing && (
+          <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/85 backdrop-blur-md p-4 animate-fadeIn">
+            <div className="max-w-lg w-full bg-stone-900/95 border-2 border-amber-500/80 rounded-2xl p-5 sm:p-6 shadow-2xl flex flex-col gap-4">
+              <div className="flex items-center justify-between border-b border-stone-800 pb-3">
+                <div className="flex items-center gap-2">
+                  <span className={`text-xs font-bold px-2 py-0.5 rounded border ${modeBadge.color}`}>
+                    {modeBadge.label}
+                  </span>
+                  {initialEnemy.difficulty && (
+                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider ${
+                      initialEnemy.difficulty === 'hard'
+                        ? 'bg-rose-950 text-rose-300 border border-rose-600/50'
+                        : initialEnemy.difficulty === 'medium'
+                        ? 'bg-amber-950 text-amber-300 border border-amber-600/50'
+                        : 'bg-emerald-950 text-emerald-300 border border-emerald-600/50'
+                    }`}>
+                      {initialEnemy.difficulty}
+                    </span>
+                  )}
+                </div>
+                <div className="text-xs text-stone-400 font-mono">
+                  Mục tiêu: {initialEnemy.name}
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <div className="w-16 h-16 rounded-xl bg-stone-950 border border-amber-600/40 p-1 flex items-center justify-center shrink-0">
+                  <img
+                    src={initialEnemy.spriteKey}
+                    alt={initialEnemy.name}
+                    className="w-full h-full object-contain filter drop-shadow"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = '/assets/game/characters/bosses/loan_ngu_kiem_ma.png';
+                    }}
+                  />
+                </div>
+                <div>
+                  <h3 className="text-lg sm:text-xl font-bold text-amber-200 font-wuxia">
+                    {initialEnemy.name}
+                  </h3>
+                  {initialEnemy.learningSkill && (
+                    <p className="text-xs text-cyan-300 font-semibold mt-0.5 flex items-center gap-1">
+                      <span>Võ học trọng tâm:</span>
+                      <span className="text-stone-200 font-normal">{initialEnemy.learningSkill}</span>
+                    </p>
+                  )}
+                </div>
+              </div>
+
+              {initialEnemy.tutorialBriefing && (
+                <div className="p-3 rounded-xl bg-amber-950/30 border border-amber-500/40 text-xs text-amber-100 leading-relaxed">
+                  <div className="font-bold text-amber-400 mb-1 flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5" />
+                    <span>Chiến Thuật Khắc Chế:</span>
+                  </div>
+                  <p>{initialEnemy.tutorialBriefing}</p>
+                </div>
+              )}
+
+              {initialEnemy.winCondition && (
+                <div className="p-2.5 rounded-lg bg-stone-950/80 border border-stone-800 text-xs text-stone-300 flex items-center justify-between">
+                  <span className="text-stone-400">Điều kiện chiến thắng:</span>
+                  <span className="font-bold text-emerald-400">{initialEnemy.winCondition}</span>
+                </div>
+              )}
+
+              <button
+                onClick={() => {
+                  soundService.playHit();
+                  setShowBriefing(false);
+                  setStartTime(Date.now());
+                }}
+                className="w-full py-3 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-sm shadow-lg active:scale-95 transition flex items-center justify-center gap-2"
+              >
+                <span>Vào Trận Quyết Đấu (Nhấn Space/Enter)</span>
+              </button>
+            </div>
           </div>
         )}
 
@@ -1376,9 +1552,25 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
                   Kiếm Thế Bị Bẻ Gãy!
                 </h3>
                 <p className="text-xs text-stone-300 mt-1">
-                  Sinh lực đã cạn kiệt trước tà công của đối thủ. Hãy dưỡng sức và thử thách lại một lần nữa!
+                  Sinh lực đã cạn kiệt trước tà công của đối thủ. Hãy dưỡng sức và củng cố tri thức trước khi thử thách lại!
                 </p>
               </div>
+
+              {/* Targeted Pedagogical Remediation Card */}
+              {remediationAdvice && (
+                <div className="w-full p-3 rounded-xl bg-amber-950/40 border border-amber-500/50 text-left text-xs text-stone-200 flex flex-col gap-1.5 shadow-inner">
+                  <div className="flex items-center gap-1.5 text-amber-300 font-bold">
+                    <Sparkles className="w-4 h-4 text-amber-400" />
+                    <span>Chỉ Dẫn Ôn Tập Sư Môn:</span>
+                  </div>
+                  <p className="text-[11px] text-cyan-300">
+                    <b>{remediationAdvice.actionPrompt}</b>
+                  </p>
+                  <p className="text-[11px] text-stone-300 italic">
+                    💡 {remediationAdvice.pedagogicalAdvice}
+                  </p>
+                </div>
+              )}
 
               <div className="flex gap-3 w-full">
                 <button

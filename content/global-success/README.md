@@ -1,7 +1,7 @@
 # GLOBAL SUCCESS 10–12 CURRICULUM DATASET
-## PHƯỢNG CHICK ENGLISH WULIN (Tam Niên Anh Ngữ – Nhất Thống Võ Lâm)
+## GLOBAL SUCCESS WULIN (Tam Niên Anh Ngữ – Nhất Thống Võ Lâm)
 
-Tài liệu và bộ dữ liệu học tập chuẩn hóa cho chương trình Tiếng Anh THPT Global Success (Lớp 10, 11 và 12), được số hóa, thẩm định từ 3 cuốn sách giáo khoa gốc và thiết kế tích hợp cho game RPG Giáo dục **Phượng Chick English Wulin**.
+Tài liệu và bộ dữ liệu học tập chuẩn hóa cho chương trình Tiếng Anh THPT Global Success (Lớp 10, 11 và 12), được số hóa, thẩm định từ 3 cuốn sách giáo khoa gốc và thiết kế tích hợp cho game RPG Giáo dục **Global Success Wulin**.
 
 ---
 

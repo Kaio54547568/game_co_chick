@@ -7,6 +7,8 @@ import {
   Gender,
   InventoryItem,
   CombatEnemy,
+  PropActivityData,
+  PropCategory,
 } from './types/game';
 import {
   StorageService,
@@ -16,6 +18,7 @@ import {
 import { soundService } from './services/sound';
 import { CombatEngine } from './services/combatEngine';
 import { ProgressionEngine } from './services/progressionEngine';
+import { PropActivityService } from './services/propActivityService';
 import { INITIAL_ITEMS } from './data/itemsData';
 
 // UI Components
@@ -33,7 +36,10 @@ import { SettingsModal } from './components/SettingsModal';
 import { TrainingModal } from './components/TrainingModal';
 import { VirtualJoystickUI } from './components/VirtualJoystickUI';
 import { UnitSelectModal } from './components/UnitSelectModal';
+import { PropActivityModal } from './components/PropActivityModal';
+import { Minimap } from './components/Minimap';
 import { createUnitQuests } from './data/questsData';
+import { evaluateUnitUnlocks } from './data/progressionBalance';
 
 export const App: React.FC = () => {
   const [profile, setProfile] = useState<PlayerProfile | null>(() => StorageService.loadProfile());
@@ -56,11 +62,14 @@ export const App: React.FC = () => {
   const [showVictory, setShowVictory] = useState<boolean>(false);
   const [showSettings, setShowSettings] = useState<boolean>(false);
   const [showUnitSelect, setShowUnitSelect] = useState<boolean>(false);
-
+  const [showPropActivity, setShowPropActivity] = useState<boolean>(false);
+  const [currentPropActivity, setCurrentPropActivity] = useState<PropActivityData | null>(null);
 
   // Interactive near zone status
   const [isNearZone, setIsNearZone] = useState<boolean>(false);
   const [nearZonePrompt, setNearZonePrompt] = useState<string>('');
+  const [nearbyCandidates, setNearbyCandidates] = useState<any[]>([]);
+  const [selectedCandidateIndex, setSelectedCandidateIndex] = useState<number>(0);
 
   // Notification Toast
   const [notification, setNotification] = useState<string | null>(null);
@@ -97,7 +106,8 @@ export const App: React.FC = () => {
     showQuests ||
     showVictory ||
     showSettings ||
-    showUnitSelect;
+    showUnitSelect ||
+    showPropActivity;
 
   useEffect(() => {
     eventBus.emit('lockMovement', isAnyModalOpen);
@@ -145,14 +155,37 @@ export const App: React.FC = () => {
       setShowCombat(true);
     });
 
-    const unsubNearZone = eventBus.on('nearInteractiveZone', (data: { near: boolean; zone: any }) => {
-      setIsNearZone(data.near);
-      setNearZonePrompt(data.zone?.prompt || '');
-    });
+    const unsubNearZone = eventBus.on(
+      'nearInteractiveZone',
+      (data: {
+        near: boolean;
+        zone: any;
+        candidates?: any[];
+        selectedIndex?: number;
+      }) => {
+        setIsNearZone(data.near);
+        setNearZonePrompt(data.zone?.prompt || '');
+        setNearbyCandidates(data.candidates || []);
+        setSelectedCandidateIndex(data.selectedIndex ?? 0);
+      }
+    );
 
     const unsubNotify = eventBus.on('showNotification', (msg: string) => {
       showNotification(msg);
     });
+
+    const unsubPropActivity = eventBus.on(
+      'openPropActivity',
+      (data: { unitId: string; propId: string; propName: string; category?: PropCategory }) => {
+        const activity = PropActivityService.getPropActivity(data.unitId, data.propId);
+        if (activity) {
+          setCurrentPropActivity(activity);
+          setShowPropActivity(true);
+        } else {
+          showNotification(`Không có dữ liệu bài học cho đạo cụ: ${data.propName}`);
+        }
+      }
+    );
 
     return () => {
       unsubDialogue();
@@ -162,6 +195,7 @@ export const App: React.FC = () => {
       unsubBossCombat();
       unsubNearZone();
       unsubNotify();
+      unsubPropActivity();
     };
   }, []);
 
@@ -219,13 +253,17 @@ export const App: React.FC = () => {
           defeatedEnemyIds: prev.defeatedEnemyIds,
           bossDefeated: prev.bossDefeated,
           learnedVocabIds: prev.learnedVocabIds,
+          completedPropIds: prev.completedPropIds || updatedStates[currentUnitId].completedPropIds || [],
+          guardianQuestStates: (prev.guardianQuestStates && prev.guardianQuestStates[currentUnitId]) || updatedStates[currentUnitId].guardianQuestStates || {},
           isCompleted: prev.bossDefeated || prev.unitProgress >= 100,
           lastPlayedAt: Date.now(),
         };
       }
 
+      const evaluatedStates = evaluateUnitUnlocks(updatedStates);
+
       const uNum = parseInt(unitId.split('-u')[1] || '1', 10);
-      const targetState = updatedStates[unitId] || {
+      const targetState = evaluatedStates[unitId] || {
         unitId,
         grade,
         unitNumber: uNum,
@@ -238,15 +276,17 @@ export const App: React.FC = () => {
         defeatedEnemyIds: [],
         bossDefeated: false,
         learnedVocabIds: [],
+        completedPropIds: [],
+        guardianQuestStates: {},
         lastPlayedAt: Date.now(),
       };
-      updatedStates[unitId] = targetState;
+      evaluatedStates[unitId] = targetState;
 
       const updatedProfile: PlayerProfile = {
         ...prev,
         selectedGrade: grade,
         selectedUnitId: unitId,
-        unitStates: updatedStates,
+        unitStates: evaluatedStates,
         unitProgress: targetState.progress,
         quests: targetState.quests,
         currentQuestIndex: targetState.currentQuestIndex,
@@ -412,6 +452,34 @@ export const App: React.FC = () => {
     });
   };
 
+  // Hoàn thành tương tác học tập đạo cụ (Prop Activity)
+  const handleCompletePropActivity = (activity: PropActivityData) => {
+    setProfile((prev) => {
+      if (!prev) return prev;
+      const res = ProgressionEngine.completePropActivity(
+        prev,
+        activity.unitId,
+        activity.propId,
+        activity.reward.xp,
+        activity.reward.unitProgressGain,
+        activity.question.knowledgeItemIds || []
+      );
+
+      if (res.isFirstCompletion) {
+        showNotification(
+          `Lĩnh hội ${activity.propName}: +${res.xpGained} Tu Vi và +${res.progressGain}% Tiến độ Unit!`
+        );
+        if (res.didLevelUp) {
+          soundService.playLevelUp();
+          showNotification(
+            `Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`
+          );
+        }
+      }
+      return res.profile;
+    });
+  };
+
   // Trang bị vật phẩm
   const handleEquipItem = (item: InventoryItem) => {
     setProfile((prev) => {
@@ -449,6 +517,12 @@ export const App: React.FC = () => {
             onOpenUnitSelect={() => setShowUnitSelect(true)}
           />
 
+          <Minimap
+            profile={profile}
+            currentQuest={currentQuest}
+            onOpenQuestModal={() => setShowQuests(true)}
+          />
+
           <BottomNav
             onOpenQuests={() => setShowQuests(true)}
             onOpenVocabulary={() => setShowVocabulary(true)}
@@ -456,6 +530,8 @@ export const App: React.FC = () => {
             onOpenSettings={() => setShowSettings(true)}
             isNearZone={isNearZone}
             nearZonePrompt={nearZonePrompt}
+            candidates={nearbyCandidates}
+            selectedIndex={selectedCandidateIndex}
           />
 
           {/* Virtual Joystick for Touch Devices */}
@@ -487,10 +563,13 @@ export const App: React.FC = () => {
           npcId={dialogueNpc}
           selectedUnitId={profile.selectedUnitId || 'g10-u01'}
           currentQuest={currentQuest}
+          profile={profile}
+          onUpdateProfile={(updated) => setProfile(updated)}
           onAdvanceQuest={advanceQuest}
           onOpenVocabulary={() => setShowVocabulary(true)}
           onOpenChallenge={() => setShowChallenge(true)}
           onOpenTraining={() => setShowTraining(true)}
+          onAnswerKnowledge={handleAnswerKnowledge}
           onClose={() => setShowDialogue(false)}
         />
       )}
@@ -592,6 +671,17 @@ export const App: React.FC = () => {
         <SettingsModal
           onResetProgress={handleResetProgress}
           onClose={() => setShowSettings(false)}
+        />
+      )}
+
+      {/* Prop Learning Activity Modal */}
+      {showPropActivity && currentPropActivity && profile && (
+        <PropActivityModal
+          activity={currentPropActivity}
+          profile={profile}
+          isOpen={showPropActivity}
+          onClose={() => setShowPropActivity(false)}
+          onComplete={handleCompletePropActivity}
         />
       )}
     </div>

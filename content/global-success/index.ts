@@ -19,7 +19,11 @@ export const ALL_GLOBAL_SUCCESS_UNITS: UnitDataset[] = [
  * Get a specific Unit dataset by stable unit ID (e.g. 'g10-u01', 'g11-u05', 'g12-u10')
  */
 export function getUnitDataset(unitId: string): UnitDataset | undefined {
-  return ALL_GLOBAL_SUCCESS_UNITS.find((u) => u.metadata.unit_id === unitId);
+  const match = unitId.match(/^g?(\d+)[-_]u?0*(\d+)$/i);
+  const normalized = match ? `g${match[1]}-u${match[2].padStart(2, '0')}` : unitId;
+  return ALL_GLOBAL_SUCCESS_UNITS.find(
+    (u) => u.metadata.unit_id === unitId || u.metadata.unit_id === normalized
+  );
 }
 
 /**
