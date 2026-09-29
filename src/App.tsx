@@ -38,6 +38,7 @@ import { VirtualJoystickUI } from './components/VirtualJoystickUI';
 import { UnitSelectModal } from './components/UnitSelectModal';
 import { PropActivityModal } from './components/PropActivityModal';
 import { Minimap } from './components/Minimap';
+import { Analytics } from '@vercel/analytics/react';
 import { createUnitQuests } from './data/questsData';
 import { evaluateUnitUnlocks } from './data/progressionBalance';
 
@@ -684,6 +685,8 @@ export const App: React.FC = () => {
           onComplete={handleCompletePropActivity}
         />
       )}
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 };
