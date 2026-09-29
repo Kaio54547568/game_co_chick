@@ -149,8 +149,13 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
 
     // Ghi nhận diff mastery trước và sau
     const diffs: ItemMasteryDiff[] = [];
+    const activeUnitItems = profile.selectedUnitId
+      ? UnitContentService.getUnitKnowledgeItems(profile.selectedUnitId)
+      : [];
+    const allKnowledgePool = [...activeUnitItems, ...ALL_KNOWLEDGE_ITEMS];
+
     currentQ.knowledgeItemIds.forEach((kid) => {
-      const kInfo = ALL_KNOWLEDGE_ITEMS.find((k) => k.id === kid);
+      const kInfo = allKnowledgePool.find((k) => k.id === kid);
       const title = kInfo ? kInfo.title : kid;
       const beforeState = profile.knowledgeMastery[kid];
       const before = beforeState ? beforeState.mastery : 0;

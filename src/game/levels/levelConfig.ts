@@ -97,15 +97,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 1: FAMILY LIFE (Family Life and Household Responsibilities). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -380,15 +392,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 2: HUMANS AND THE ENVIRONMENT (Human Activities and Environmental Protection). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -663,15 +687,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 3: MUSIC (Music, Art and Famous Talent Shows). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -946,15 +982,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 4: FOR A BETTER COMMUNITY (Community Development and Volunteer Work). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -1229,15 +1277,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 5: INVENTIONS (Science, Technology and Modern Inventions). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -1512,15 +1572,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 6: GENDER EQUALITY (Gender Equality in Education, Career, and Society). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -1795,15 +1867,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 7: VIET NAM AND INTERNATIONAL ORGANISATIONS (International Cooperation and Global Partnerships). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -2078,15 +2162,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 8: NEW WAYS TO LEARN (Digital Education, Blended Learning and Modern Study Tools). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -2361,15 +2457,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 9: PROTECTING THE ENVIRONMENT (Environmental Issues, Climate Action and Biodiversity). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -2644,15 +2752,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 10: ECOTOURISM (Sustainable Travel, Eco-tours and Cultural Respect). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -2927,15 +3047,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 1: A LONG AND HEALTHY LIFE (Health, Nutrition, Fitness and Longevity). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -3235,15 +3367,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 2: THE GENERATION GAP (Generational Differences and Family Communication). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -3543,15 +3687,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 3: CITIES OF THE FUTURE (Smart Cities, Sustainable Urban Life and Green Infrastructure). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -3851,15 +4007,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 4: ASEAN AND VIET NAM (Regional Integration, Cultural Exchange and Youth Cooperation). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -4159,15 +4327,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 5: GLOBAL WARMING (Climate Change, Greenhouse Emissions and Planet Protection). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -4467,15 +4647,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 6: PRESERVING OUR HERITAGE (Tangible, Intangible and Natural Cultural Heritage Preservation). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -4775,15 +4967,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 7: EDUCATION OPTIONS FOR SCHOOL-LEAVERS (Higher Education, Vocational Training and Apprenticeships). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -5083,15 +5287,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 8: BECOMING INDEPENDENT (Life Skills, Self-reliance, Decision Making and Personal Discipline). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -5391,15 +5607,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 9: SOCIAL ISSUES (Peer Pressure, Bullying, Cyberbullying and Teen Mental Health). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -5699,15 +5927,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 10: THE ECOSYSTEM (Ecosystems, Biodiversity, Food Chains and Conservation). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -6007,15 +6247,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 1: LIFE STORIES WE ADMIRE (Biographies, Role Models, Overcoming Adversity and Great Achievements). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -6315,15 +6567,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 2: A MULTICULTURAL WORLD (Cultural Diversity, Traditions, Globalisation and Intercultural Respect). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -6623,15 +6887,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 3: GREEN LIVING (Zero Waste, Composting, Sustainable Consumption and Eco-habits). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -6931,15 +7207,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 4: URBANISATION (Urban Migration, Megacities, Slums and Infrastructure Modernisation). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -7239,15 +7527,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 5: THE WORLD OF WORK (Modern Workplace, Career Requirements, Freelancing and Job Interviews). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -7547,15 +7847,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 6: ARTIFICIAL INTELLIGENCE (AI Breakthroughs, Machine Learning, Automation and Ethical Questions). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -7855,15 +8167,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 7: THE WORLD OF MASS MEDIA (Digital Media, Social Networks, Journalism, Fake News and Media Literacy). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -8163,15 +8487,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 8: WILDLIFE CONSERVATION (Endangered Species, IUCN Red List, Anti-poaching and Nature Sanctuaries). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -8471,15 +8807,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 9: CAREER PATHS (Career Planning, Market Trends, Emerging Occupations and Professional Development). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",
@@ -8779,15 +9127,27 @@ export const ALL_LEVEL_CONFIGS: Record<string, LevelMapConfig> = {
     "npcs": [
       {
         "id": "bang_chu",
-        "name": "Bang Chủ Hà Ánh Phượng",
+        "name": "Hồng y tông chủ Hà Ánh Phượng",
         "title": "Lãnh Tụ Võ Lâm Chính Phái",
         "elementColor": "#fbe285",
         "spriteKey": "bang_chu_ha_anh_phuong",
         "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
         "x": 550,
         "y": 560,
-        "prompt": "[E] Bái kiến Bang Chủ",
+        "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
         "dialogueIntro": "Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit 10: LIFELONG LEARNING (Continuous Education, Self-directed Learning, Digital Upskilling and Personal Growth). Hãy rèn luyện võ học, giải trừ ma chướng!"
+      },
+      {
+        "id": "bach_khoa_thu_sinh",
+        "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "title": "Đại Sư Huynh Tông Môn",
+        "elementColor": "#c084fc",
+        "spriteKey": "bach_khoa_thu_sinh",
+        "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+        "x": 740,
+        "y": 480,
+        "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+        "dialogueIntro": "Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Có gì vướng mắc về bẫy thi cử hay kỹ năng thực chiến, cứ hỏi ta!"
       },
       {
         "id": "ho_phap_phuong_tu",

@@ -143,7 +143,12 @@ export class WorldScene extends Phaser.Scene {
       })
       .setOrigin(0.5)
       .setDepth(2002)
-      .setVisible(false);
+      .setVisible(false)
+      .setInteractive({ useHandCursor: true });
+    this.promptText.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
+      pointer.event?.stopPropagation?.();
+      this.triggerCurrentInteraction();
+    });
 
     // 3. Selection visual indicators (Ground Ring & Overhead Pointer)
     this.selectionRingGraphics = this.add.graphics().setDepth(2001).setVisible(false);
@@ -651,6 +656,8 @@ export class WorldScene extends Phaser.Scene {
           ? 0xfbbf24
           : npc.id === 'ho_phap_nguyet_nguyen'
           ? 0x38bdf8
+          : npc.id === 'bach_khoa_thu_sinh'
+          ? 0xa855f7
           : 0xfbe285;
 
       const glow = this.add
@@ -676,6 +683,14 @@ export class WorldScene extends Phaser.Scene {
       npcSprite.setOrigin(0.5, 0.94).setDepth(npc.y);
       npcSprite.refreshBody();
       (npcSprite.body as Phaser.Physics.Arcade.StaticBody).setSize(60, 40, false).setOffset(50, 145);
+      
+      // Make NPC Sprite clickable directly on screen / mobile tap
+      npcSprite.setInteractive({ useHandCursor: true });
+      npcSprite.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
+        pointer.event?.stopPropagation?.();
+        this.handleEntityPointerClick(npc.id);
+      });
+
       npcSprites.push(npcSprite);
       this.levelObjects.push(npcSprite);
 
@@ -683,6 +698,8 @@ export class WorldScene extends Phaser.Scene {
       const icon =
         npc.id === 'bang_chu'
           ? '⚔️'
+          : npc.id === 'bach_khoa_thu_sinh'
+          ? '🎓'
           : npc.id === 'ho_phap_phuong_tu'
           ? '📜'
           : npc.id === 'ho_phap_dang_tran_ha'
@@ -699,7 +716,14 @@ export class WorldScene extends Phaser.Scene {
           padding: { x: 8, y: 4 },
         })
         .setOrigin(0.5)
-        .setDepth(2000);
+        .setDepth(2000)
+        .setInteractive({ useHandCursor: true });
+
+      tag.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
+        pointer.event?.stopPropagation?.();
+        this.handleEntityPointerClick(npc.id);
+      });
+
       this.levelObjects.push(tag);
       this.entityLabels.push({ id: npc.id, x: npc.x, y: npc.y, text: tag });
 
@@ -937,6 +961,26 @@ export class WorldScene extends Phaser.Scene {
       }
     });
     this.updateBarrierText();
+  }
+
+  private handleEntityPointerClick(targetId: string) {
+    if (this.isMovementLocked) return;
+    const zone = this.interactiveZones.find((z) => z.id === targetId);
+    if (!zone) return;
+
+    this.manualSelectedZoneId = zone.id;
+    this.currentNearZone = zone;
+    this.updateSelectionVisuals(this.time.now);
+
+    const dist = Phaser.Math.Distance.Between(this.player.x, this.player.y, zone.x, zone.y);
+    if (dist <= zone.radius * 1.6) {
+      this.triggerCurrentInteraction();
+    } else {
+      eventBus.emit(
+        'showNotification',
+        `Đã hướng về ${zone.name}. Hãy tiến lại gần thêm một chút để tương tác [E]!`
+      );
+    }
   }
 
   private triggerCurrentInteraction() {

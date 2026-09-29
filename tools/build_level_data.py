@@ -115,8 +115,8 @@ for unit_id in sorted(units_meta.keys()):
     # Props
     props_list = []
     for idx, p in enumerate(u_assets.get("prop", [])):
-        px = 1250 if idx == 0 else 850
-        py = 620 if idx == 0 else 1320
+        px = 1380 if idx == 0 else 860
+        py = 580 if idx == 0 else 1300
         props_list.append({
             "id": f"{unit_id}_{p['id']}",
             "name": p.get("concept", "Đạo cụ đặc trưng"),
@@ -130,15 +130,27 @@ for unit_id in sorted(units_meta.keys()):
     npcs_list = [
         {
             "id": "bang_chu",
-            "name": "Bang Chủ Hà Ánh Phượng",
-            "title": "Lãnh Tụ Võ Lâm Chính Phái",
+            "name": "Hồng y tông chủ Hà Ánh Phượng",
+            "title": "Lãnh Tụ Võ Lâm Chính Phái • Hồng Y Tông Chủ",
             "elementColor": "#fbe285",
             "spriteKey": "bang_chu_ha_anh_phuong",
             "portraitPath": "/assets/game/characters/npc/portraits/bang_chu_ha_anh_phuong.png",
             "x": 550,
             "y": 560,
-            "prompt": "[E] Bái kiến Bang Chủ",
+            "prompt": "[E] Bái kiến Hồng y tông chủ Hà Ánh Phượng",
             "dialogueIntro": f"Chào mừng thiếu hiệp! Hôm nay chúng ta cùng khám phá Unit {u}: {meta['title']} ({meta['topic']}). Hãy rèn luyện võ học, giải trừ ma chướng!",
+        },
+        {
+            "id": "bach_khoa_thu_sinh",
+            "name": "Bách Khoa thư Sinh Đinh Ngọc Khánh",
+            "title": "Đại Sư Huynh Tông Môn",
+            "elementColor": "#c084fc",
+            "spriteKey": "bach_khoa_thu_sinh",
+            "portraitPath": "/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png",
+            "x": 740,
+            "y": 480,
+            "prompt": "[E] Thỉnh Giáo Bách Khoa thư Sinh Đinh Ngọc Khánh",
+            "dialogueIntro": f"Chào sư đệ/sư muội! Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt! Đang bôn tẩu Unit {u}: {meta['title']} có vướng mắc bẫy thi cử gì cứ bảo ta!",
         },
         {
             "id": "ho_phap_phuong_tu",
@@ -147,7 +159,7 @@ for unit_id in sorted(units_meta.keys()):
             "elementColor": "#59caa0",
             "spriteKey": "ho_phap_phuong_tu",
             "portraitPath": "/assets/game/characters/npc/portraits/ho_phap_phuong_tu.png",
-            "x": 1150,
+            "x": 920,
             "y": 560,
             "prompt": "[E] Tham Vấn Hộ Pháp Phương Tú",
             "dialogueIntro": f"Tàng Kinh Các lưu giữ toàn bộ bí điển từ vựng của {meta['title']}. Hãy lĩnh hội từng câu chữ để tích lũy công lực căn bản!",
@@ -171,8 +183,8 @@ for unit_id in sorted(units_meta.keys()):
             "elementColor": "#fbbf24",
             "spriteKey": "ho_phap_hoang_van",
             "portraitPath": "/assets/game/characters/npc/portraits/ho_phap_hoang_van.png",
-            "x": 2550,
-            "y": 780,
+            "x": 2400,
+            "y": 760,
             "prompt": "[E] Thỉnh Giáo Hộ Pháp Hoàng Vân",
             "dialogueIntro": f"Lắng nghe âm điệu tự nhiên, nghe rõ từng ngữ âm để thấu suốt chiêu thức địch nhân. Hãy vào Võ Luyện Đài luyện tập cùng ta!",
         },
@@ -183,8 +195,8 @@ for unit_id in sorted(units_meta.keys()):
             "elementColor": "#38bdf8",
             "spriteKey": "ho_phap_nguyet_nguyen",
             "portraitPath": "/assets/game/characters/npc/portraits/ho_phap_nguyet_nguyen.png",
-            "x": 750,
-            "y": 1280,
+            "x": 660,
+            "y": 1260,
             "prompt": "[E] Luận Đạo Hộ Pháp Nguyệt Nguyên",
             "dialogueIntro": f"Minh Triết Các soi rọi chân lý. Khi đối mặt với thuật ngụy tạo và mê trận thông tin của {meta['title']}, hãy tìm đúng câu bằng chứng để phá tan ảo ảnh!",
         },

@@ -81,7 +81,10 @@ export class ProgressionEngine {
    */
   static advanceQuest(profile: PlayerProfile, questId: string): QuestAdvanceResult {
     const quests = [...profile.quests];
-    const questIdx = quests.findIndex((q) => q.id === questId);
+    let questIdx = quests.findIndex((q) => q.id === questId);
+    if (questIdx === -1 && (questId === 'quest_1' || questId.endsWith('quest_1'))) {
+      questIdx = quests.findIndex((q) => q.step === 1 || q.id.endsWith('quest_1'));
+    }
     if (questIdx === -1 || quests[questIdx].status === 'completed') {
       return { profile, didLevelUp: false, xpGained: 0, progressGain: 0 };
     }

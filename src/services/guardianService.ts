@@ -6,6 +6,7 @@ import {
 import { getUnitDataset } from '../../content/global-success';
 import { CombatEngine } from './combatEngine';
 import { evaluateUnitUnlocks } from '../data/progressionBalance';
+import { PronunciationService } from './pronunciationService';
 
 export type { GuardianId, GuardianQuestStatus };
 
@@ -402,47 +403,49 @@ export class GuardianService {
       };
     }
 
-    // 3. CÔ HOÀNG VÂN (NGHE & PHÁT ÂM)
+    // 3. CÔ HOÀNG VÂN (NGHE & PHÁT ÂM CHUẨN SGK)
     if (npcId === 'ho_phap_hoang_van') {
-      const audioSentence = v0.example_sentence || 'Regular practice sharpens your auditory reflexes.';
+      const pronData = PronunciationService.getPronunciationByUnit(unitId);
+      const challenge = pronData.challengeQuestion;
+      const targetSoundList = pronData.targetSounds.join(', ');
 
       return {
         id: `${unitId}_quest_hoang_van`,
         npcId,
         unitId,
-        title: `Thính Âm Phản Xạ: ${unitTitle}`,
+        title: `Thính Âm Luyện Khí: ${unitTitle} - ${pronData.focusTopic}`,
         skillName: GUARDIAN_METAS.ho_phap_hoang_van.skillName,
-        objective: `Lắng nghe và nhận diện khẩu quyết "${v0.word}" của ${unitTitle} (Unit ${unitNum})`,
+        objective: `Luyện nghe và lĩnh hội khẩu quyết phát âm "${pronData.focusTopic}" của ${unitTitle} (Unit ${unitNum})`,
         nextLocation: `Võ Luyện Đài (Khu Vực Phía Đông)`,
         rewardXp: 70 + unitNum * 5,
         rewardProgressGain: 10,
-        tutorialGuidance: `💡 Yếu Quyết Thính Âm: Lắng nghe bằng cả tâm trí! Hãy chú ý trọng âm của từ khóa "${v0.word}", các âm nối và ngữ điệu tự nhiên. Nghe kỹ âm thanh truyền tới, nắm bắt từ khóa rồi mới phản xạ xuất chiêu.`,
+        tutorialGuidance: `💡 Khẩu Quyết Phát Âm Chuẩn SGK (${pronData.focusTopic}): ${pronData.ruleSummary} 👄 Hướng Dẫn Khẩu Hình: ${pronData.mouthGuide}`,
         dialogueByStatus: {
           not_started: [
-            `Thính âm biện vị! Trên chiến trường khốc liệt, đối thủ xuất chiêu chỉ trong chớp mắt.`,
-            `Nếu không nghe rõ khẩu quyết và phát âm chuẩn, thiếu hiệp sẽ rơi vào thế bị động trước ma chiêu.`,
-            `Tại Unit ${unitNum}: ${unitTitle}, ta đã chuẩn bị bài huấn luyện phản xạ thính giác cho khẩu quyết "${v0.word}". Thiếu hiệp hãy tiếp nhận thử thách!`,
+            `Thính âm biện vị! Trên chiến trường vạn biến, phát âm chuẩn chính là chìa khóa để phân biệt chân tướng và ảo ảnh.`,
+            `Tại Unit ${unitNum}: ${unitTitle}, ma chướng đang làm nhiễu loạn khẩu quyết phát âm: ${pronData.focusTopic}.`,
+            `Ta truyền cho thiếu hiệp bí quyết "${pronData.wuxiaSecretName}". Hãy lắng nghe cẩn trọng và tiếp nhận thử thách phát âm!`,
           ],
           in_progress: [
-            `Khẩu quyết âm thanh vẫn đang đợi thiếu hiệp tại Võ Luyện Đài!`,
-            `Hãy lắng nghe thật kỹ từng âm tiết. Thiếu hiệp có thể nghe và đối đáp ngay tại đây!`,
+            `Khẩu quyết phát âm ${pronData.focusTopic} vẫn đang đợi thiếu hiệp tại Võ Luyện Đài!`,
+            `Hãy lắng nghe thật kỹ từng âm tiết khẩu quyết (${targetSoundList}). Thiếu hiệp có thể nghe và đối đáp ngay tại đây!`,
           ],
           completed: [
-            `Nhĩ lực xuất chúng! Thiếu hiệp đã nghe rõ từng âm tiết khẩu quyết và nhận diện chính xác từ ngữ then chốt.`,
-            `Phản xạ thính giác tăng tiến vượt bậc! Hãy thu nhận thành quả xứng đáng!`,
+            `Nhĩ lực tuyệt đỉnh! Thiếu hiệp đã nghe rõ và phân định chuẩn xác khẩu quyết "${pronData.focusTopic}".`,
+            `Khẩu âm và thính lực tăng tiến vượt bậc! Mau nhận thưởng tu vi xứng đáng!`,
           ],
           rewarded: [
-            `Thính lực của thiếu hiệp tại ${unitTitle} đã đạt cảnh giới tinh thông.`,
-            `Bất cứ lúc nào cần luyện tai nghe khẩu quyết phát âm cùng ta, chỉ cần bấm nút luyện tập bên dưới!`,
+            `Khẩu quyết phát âm của ${unitTitle} (${pronData.focusTopic}) đã đạt cảnh giới thuần thục.`,
+            `Bất cứ lúc nào cần luyện tai nghe hoặc trau dồi lại các âm ${targetSoundList}, hãy vào luyện tập cùng ta bất cứ lúc nào!`,
           ],
         },
         exercise: {
           type: 'listening',
-          prompt: `Thính Âm Biện Vị: Bấm nút phát âm để nghe khẩu quyết của Hộ Pháp. Từ ngữ then chốt nào xuất hiện trong câu nói?`,
-          audioScript: audioSentence,
-          options: [v0.word, v1.word, 'confusion', 'hesitation'].sort(() => 0.5 - Math.random()),
-          correctAnswer: v0.word,
-          explanation: `Chính xác! Câu khẩu quyết là: "${audioSentence}". Từ khóa then chốt được phát âm rõ nét là "${v0.word}".`,
+          prompt: `Thính Âm Biện Vị: ${challenge.prompt}`,
+          audioScript: challenge.audioScript || v0.example_sentence,
+          options: challenge.options,
+          correctAnswer: challenge.correctAnswer,
+          explanation: `Chính xác! ${challenge.explanation}`,
           knowledgeItemIds: [v0.id],
         },
       };

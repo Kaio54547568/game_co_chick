@@ -121,6 +121,7 @@ export function createDefaultProfile(name: string, gender: Gender): PlayerProfil
     learnedVocabIds: [],
     completedPropIds: [],
     guardianQuestStates: {},
+    studentQuestStates: {},
     knowledgeMastery: {},
     lastSavedAt: Date.now(),
     selectedGrade: 10,
@@ -174,6 +175,7 @@ export class StorageService {
       parsed.learnedVocabIds = parsed.learnedVocabIds || [];
       parsed.completedPropIds = parsed.completedPropIds || [];
       parsed.guardianQuestStates = parsed.guardianQuestStates || {};
+      parsed.studentQuestStates = parsed.studentQuestStates || {};
       parsed.inventory = parsed.inventory || [];
       parsed.equipment = parsed.equipment || { weapon: null, accessory: null, manual: null };
 

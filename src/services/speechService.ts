@@ -1,7 +1,10 @@
 import { soundService } from './sound';
+import { EnglishAccent } from '../types/pronunciation';
 
 export interface SpeechOptions {
   lang?: string;
+  accent?: EnglishAccent;
+  useStandardAudio?: boolean; // When true (default in browser), attempts standard native audio first
   rate?: number;
   pitch?: number;
   volume?: number;
@@ -17,18 +20,52 @@ function getGlobal(): any {
 }
 
 /**
- * SpeechService provides high-reliability Text-to-Speech playback across browsers,
- * actively mitigating known Chromium and Windows bugs (GC collection of utterance,
- * stuck paused state, missing default voices, and unhandled async queue drops).
+ * SpeechService provides high-reliability, standard-source English pronunciation
+ * with a Dual-Layer Architecture:
+ * 1. Primary Layer: High-fidelity standard studio native audio stream (Google/Standard TTS CDN)
+ *    supporting both UK (en-GB) and US (en-US) standards for authentic Global Success curriculum.
+ * 2. Fallback Layer: Optimized browser Web Speech API (speechSynthesis) with active Chromium/Windows
+ *    bug mitigations (GC retention, unpausing, and queue recovery).
  */
 class SpeechService {
   private voices: SpeechSynthesisVoice[] = [];
   private activeUtterances: Set<SpeechSynthesisUtterance> = new Set();
   private watchdogTimer: ReturnType<typeof setTimeout> | null = null;
   private isInitialized = false;
+  private currentAudio: any = null;
+  private preferredAccent: EnglishAccent = 'en-US';
 
   constructor() {
     this.setupListeners();
+    this.loadSavedAccent();
+  }
+
+  private loadSavedAccent() {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        const saved = localStorage.getItem('gsw_speech_accent');
+        if (saved === 'en-US' || saved === 'en-GB') {
+          this.preferredAccent = saved;
+        }
+      }
+    } catch {
+      // Ignored
+    }
+  }
+
+  public getAccent(): EnglishAccent {
+    return this.preferredAccent;
+  }
+
+  public setAccent(accent: EnglishAccent) {
+    this.preferredAccent = accent;
+    try {
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem('gsw_speech_accent', accent);
+      }
+    } catch {
+      // Ignored
+    }
   }
 
   private setupListeners() {
@@ -63,7 +100,7 @@ class SpeechService {
 
   public isSupported(): boolean {
     const g = getGlobal();
-    return Boolean(g && g.speechSynthesis);
+    return Boolean((g && g.speechSynthesis) || typeof Audio !== 'undefined');
   }
 
   public getVoices(): SpeechSynthesisVoice[] {
@@ -84,23 +121,28 @@ class SpeechService {
   /**
    * Find the optimal natural English voice available in the environment.
    */
-  public getEnglishVoice(): SpeechSynthesisVoice | null {
+  public getEnglishVoice(targetAccent?: EnglishAccent): SpeechSynthesisVoice | null {
     const list = this.getVoices();
     if (!list || list.length === 0) return null;
 
+    const accent = targetAccent || this.preferredAccent;
+    const accentPrefix = accent === 'en-GB' ? 'en-gb' : 'en-us';
+
     // Prioritized list of high quality English voices (Edge / Windows / Chrome / Safari)
-    const priorityKeywords = [
-      'google us english',
-      'microsoft jenny',
-      'microsoft guy',
-      'microsoft aria',
-      'microsoft zira',
-      'microsoft david',
-      'samantha',
-      'alex',
-      'en-us',
-      'en_us',
-    ];
+    const priorityKeywords = accent === 'en-GB'
+      ? ['google uk english female', 'google uk english male', 'george', 'hazel', 'susan', 'en-gb', 'en_gb', 'british']
+      : [
+          'google us english',
+          'microsoft jenny',
+          'microsoft guy',
+          'microsoft aria',
+          'microsoft zira',
+          'microsoft david',
+          'samantha',
+          'alex',
+          'en-us',
+          'en_us',
+        ];
 
     for (const kw of priorityKeywords) {
       const match = list.find((v) =>
@@ -109,12 +151,25 @@ class SpeechService {
       if (match) return match;
     }
 
+    // Match matching accent
+    const accentMatch = list.find((v) => v.lang?.toLowerCase().startsWith(accentPrefix));
+    if (accentMatch) return accentMatch;
+
     // Any English voice
     const anyEn = list.find((v) => v.lang?.toLowerCase().startsWith('en'));
     if (anyEn) return anyEn;
 
     // Default system voice
     return list.find((v) => v.default) || list[0] || null;
+  }
+
+  /**
+   * Build standard audio URL for native British or American pronunciation
+   */
+  public getStandardAudioUrl(text: string, accent?: EnglishAccent): string {
+    const acc = accent || this.preferredAccent;
+    const clean = encodeURIComponent(text.trim());
+    return `https://translate.google.com/translate_tts?ie=UTF-8&tl=${acc}&client=tw-ob&q=${clean}`;
   }
 
   /**
@@ -130,7 +185,67 @@ class SpeechService {
     // Play crisp wuxia chime for immediate auditory feedback
     soundService.playListeningCue();
 
-    if (!this.isSupported()) {
+    // Stop previous audio playback if any
+    this.stopAudioElement();
+
+    const g = getGlobal();
+    const hasAudio = typeof Audio !== 'undefined';
+    const isBrowser = typeof window !== 'undefined' && typeof window.document !== 'undefined';
+    const targetAccent = options.accent || this.preferredAccent;
+    const isShortText = text.trim().length < 150;
+
+    // In a real browser with Audio support and standard audio not explicitly disabled,
+    // use high-definition native pronunciation stream
+    if (hasAudio && isBrowser && options.useStandardAudio !== false && isShortText) {
+      try {
+        const audioUrl = this.getStandardAudioUrl(text, targetAccent);
+        const audio = new Audio(audioUrl);
+        audio.volume = options.volume ?? (soundService.isMuted ? 0 : 1.0);
+        this.currentAudio = audio;
+
+        let hasStarted = false;
+        audio.onplay = () => {
+          hasStarted = true;
+          options.onStart?.();
+        };
+
+        audio.onended = () => {
+          this.currentAudio = null;
+          options.onEnd?.();
+        };
+
+        audio.onerror = () => {
+          // Fallback to speechSynthesis if network stream fails
+          this.currentAudio = null;
+          this.speakSynthesis(text, options);
+        };
+
+        const playPromise = audio.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            // Autoplay policy or offline -> fallback immediately to speechSynthesis
+            this.currentAudio = null;
+            this.speakSynthesis(text, options);
+          });
+        }
+        return true;
+      } catch {
+        // Fallback to speechSynthesis
+        return this.speakSynthesis(text, options);
+      }
+    }
+
+    return this.speakSynthesis(text, options);
+  }
+
+  /**
+   * Speak using browser SpeechSynthesis with full error recovery & watchdog
+   */
+  public speakSynthesis(text: string, options: SpeechOptions = {}): boolean {
+    const g = getGlobal();
+    const synth: SpeechSynthesis | undefined = g?.speechSynthesis;
+
+    if (!synth) {
       options.onStart?.();
       const fakeDuration = Math.min(2500, Math.max(1000, text.split(' ').length * 300));
       setTimeout(() => {
@@ -138,9 +253,6 @@ class SpeechService {
       }, fakeDuration);
       return false;
     }
-
-    const g = getGlobal();
-    const synth: SpeechSynthesis = g.speechSynthesis;
 
     try {
       // Clear any prior watchdog timer
@@ -162,14 +274,15 @@ class SpeechService {
         synth.resume();
       }
 
+      const targetAccent = options.accent || this.preferredAccent;
       const UtteranceClass = g.SpeechSynthesisUtterance || SpeechSynthesisUtterance;
       const utterance = new UtteranceClass(text.trim());
-      utterance.lang = options.lang || 'en-US';
+      utterance.lang = options.lang || targetAccent;
       utterance.rate = options.rate ?? 0.88;
       utterance.pitch = options.pitch ?? 1.0;
       utterance.volume = options.volume ?? (soundService.isMuted ? 0 : 1.0);
 
-      const voice = this.getEnglishVoice();
+      const voice = this.getEnglishVoice(targetAccent);
       if (voice) {
         utterance.voice = voice;
       }
@@ -232,10 +345,24 @@ class SpeechService {
     }
   }
 
+  private stopAudioElement() {
+    if (this.currentAudio) {
+      try {
+        this.currentAudio.pause();
+        this.currentAudio.currentTime = 0;
+      } catch {
+        // Ignored
+      }
+      this.currentAudio = null;
+    }
+  }
+
   /**
    * Stop any active speech and reset state
    */
   public stop() {
+    this.stopAudioElement();
+
     if (this.watchdogTimer) {
       clearTimeout(this.watchdogTimer);
       this.watchdogTimer = null;
@@ -252,6 +379,7 @@ class SpeechService {
   }
 
   public isSpeaking(): boolean {
+    if (this.currentAudio && !this.currentAudio.paused) return true;
     const g = getGlobal();
     if (!g || !g.speechSynthesis) return false;
     return Boolean(g.speechSynthesis.speaking || this.activeUtterances.size > 0);

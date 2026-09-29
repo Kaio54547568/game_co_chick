@@ -66,6 +66,10 @@ export class BootScene extends Phaser.Scene {
     this.load.image('ho_phap_nguyet_nguyen', '/assets/game/characters/npc/ho_phap_nguyet_nguyen.png');
     this.load.image('ho_phap_nguyet_nguyen_portrait', '/assets/game/characters/npc/portraits/ho_phap_nguyet_nguyen.png');
 
+    // Đại Sư Huynh Tông Môn: Bách Khoa Thư Sinh (Mentor Độc Lập)
+    this.load.image('bach_khoa_thu_sinh', '/assets/game/characters/npc/bach_khoa_thu_sinh_v2.png');
+    this.load.image('bach_khoa_thu_sinh_portrait', '/assets/game/characters/npc/portraits/bach_khoa_thu_sinh_v2.png');
+
     // 2. Kẻ địch & Boss
     this.load.image('sword_disciple', '/assets/game/characters/enemies/sword_disciple.png');
     this.load.image('mist_demon', '/assets/game/characters/enemies/mist_demon.png');

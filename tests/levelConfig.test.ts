@@ -22,21 +22,29 @@ describe('Level Configuration for 30 Units', () => {
     }
   });
 
-  it('should have all 5 NPCs in each unit with correct roles and sprites', () => {
+  it('should have all 6 NPCs in each unit with correct roles and sprites', () => {
     const expectedNpcIds = [
       'bang_chu',
       'ho_phap_phuong_tu',
       'ho_phap_dang_tran_ha',
       'ho_phap_hoang_van',
       'ho_phap_nguyet_nguyen',
+      'bach_khoa_thu_sinh',
     ];
 
     for (const [unitId, config] of Object.entries(ALL_LEVEL_CONFIGS)) {
-      expect(config.npcs.length).toBe(5);
+      expect(config.npcs.length).toBe(6);
       const ids = config.npcs.map((n) => n.id);
       for (const expectedId of expectedNpcIds) {
         expect(ids).toContain(expectedId);
       }
+
+      const seniorMentor = config.npcs.find((n) => n.id === 'bach_khoa_thu_sinh');
+      expect(seniorMentor).toBeDefined();
+      expect(seniorMentor?.title).toBe('Đại Sư Huynh Tông Môn');
+      expect(seniorMentor?.spriteKey).toBe('bach_khoa_thu_sinh');
+      expect(seniorMentor?.x).toBe(740);
+      expect(seniorMentor?.y).toBe(480);
     }
   });
 

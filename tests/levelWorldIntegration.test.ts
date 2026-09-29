@@ -34,21 +34,23 @@ describe('30 Units Level System & 4 Hộ Pháp Integration', () => {
       expect(cfg.mapWidth).toBe(3200);
       expect(cfg.mapHeight).toBe(2000);
       expect(cfg.ground.primaryPath).toBeDefined();
-      expect(cfg.npcs.length).toBe(5);
+      expect(cfg.npcs.length).toBe(6);
       expect(cfg.climax).toBeDefined();
     }
   });
 
-  it('all 5 NPCs (Bang Chủ and 4 Hộ Pháp) are present in every map', () => {
+  it('all 6 NPCs (Hồng y tông chủ, 4 Hộ Pháp, and Bách Khoa thư Sinh Đinh Ngọc Khánh) are present in every map', () => {
     const requiredNpcs = [
       'bang_chu',
       'ho_phap_phuong_tu',
       'ho_phap_dang_tran_ha',
       'ho_phap_hoang_van',
       'ho_phap_nguyet_nguyen',
+      'bach_khoa_thu_sinh',
     ];
 
     for (const [uid, cfg] of Object.entries(ALL_LEVEL_CONFIGS)) {
+      expect(cfg.npcs.length).toBe(6);
       const npcIds = cfg.npcs.map((n) => n.id);
       for (const req of requiredNpcs) {
         expect(npcIds).toContain(req);

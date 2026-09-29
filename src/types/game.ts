@@ -204,6 +204,7 @@ export type GuardianId =
   | 'ho_phap_nguyet_nguyen';
 
 export type GuardianQuestStatus = 'not_started' | 'in_progress' | 'completed' | 'rewarded';
+export type StudentQuestStatus = 'not_started' | 'in_progress' | 'completed' | 'rewarded';
 
 export interface UnitProgressState {
   unitId: string;
@@ -240,6 +241,7 @@ export interface PlayerProfile {
   learnedVocabIds: string[];
   completedPropIds?: string[]; // Stored as "unitId:propId" to prevent duplicate reward farming
   guardianQuestStates?: Record<string, Record<string, GuardianQuestStatus>>; // unitId -> npcId -> status
+  studentQuestStates?: Record<string, StudentQuestStatus>; // questId -> status (independent mentor quests)
   knowledgeMastery: Record<string, KnowledgeMasteryState>;
   lastSavedAt: number;
 
