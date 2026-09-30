@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { DialogueSequence } from './DialogueSequence';
 import { soundService } from '../services/sound';
 import { speechService } from '../services/speechService';
 import {
@@ -160,7 +161,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
       isCorrect = option === questData.exercise.correctAnswer;
       feedback = isCorrect
         ? questData.exercise.explanation
-        : 'Chưa chuẩn xác! Hãy xem lại hướng dẫn yếu quyết võ học và thử lại.';
+        : 'Chưa chuẩn xác! Hãy xem lại mẹo làm bài và thử lại.';
     }
 
     if (isCorrect) {
@@ -172,8 +173,8 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
       }
 
       // Nếu đang trong tiến trình làm quest, tự động cập nhật sang 'completed'
-      if (profile && onUpdateProfile && currentStatus === 'in_progress') {
-        const updated = GuardianService.solveExercise(profile, selectedUnitId, npcId as GuardianId);
+      if (profile && onUpdateProfile && (currentStatus === 'in_progress' || currentStatus === 'not_started')) {
+        const updated = GuardianService.solveExercise(GuardianService.acceptQuest(profile, selectedUnitId, npcId as GuardianId), selectedUnitId, npcId as GuardianId);
         onUpdateProfile(updated);
       }
     } else {
@@ -329,7 +330,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                 } border border-stone-700/60`}
               >
                 {isSeniorMentor ? <GraduationCap className="w-3.5 h-3.5 text-purple-400" /> : <Shield className="w-3 h-3" />}
-                {isSeniorMentor ? seniorMeta?.badgeTitle : guardianMeta?.title || 'Lãnh Tụ Võ Lâm Chính Phái • Hồng Y Tông Chủ'}
+                {isSeniorMentor ? 'Đại Sư Huynh' : isGuardian ? 'Hộ Pháp' : 'Hồng Y Tông Chủ'}
               </span>
 
               {/* Status Badge */}
@@ -345,10 +346,10 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                       : 'bg-purple-950 text-purple-300 border-purple-500'
                   }`}
                 >
-                  {currentStatus === 'not_started' && 'Chưa Tiếp Nhận'}
-                  {currentStatus === 'in_progress' && 'Đang Thực Hiện'}
-                  {currentStatus === 'completed' && 'Đã Hoàn Thành - Chờ Báo Công'}
-                  {currentStatus === 'rewarded' && 'Đã Lĩnh Hội - Sẵn Sàng Ôn Luyện'}
+                  {currentStatus === 'not_started' && 'Chưa bắt đầu'}
+                  {currentStatus === 'in_progress' && 'Đang làm'}
+                  {currentStatus === 'completed' && 'Đã xong'}
+                  {currentStatus === 'rewarded' && 'Có thể ôn lại'}
                 </span>
               )}
 
@@ -357,7 +358,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                 <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-full border bg-purple-950/80 text-purple-300 border-purple-500/60 shadow flex items-center gap-1">
                   <Award className="w-3 h-3 text-amber-400" />
                   <span>
-                    Kỳ Ngộ Đã Đạt:{' '}
+                    Bài đã xong:{' '}
                     {
                       Object.values(profile.studentQuestStates || {}).filter((s) => s === 'rewarded').length
                     }
@@ -375,11 +376,6 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
               {isSeniorMentor ? seniorMeta?.name : guardianMeta?.name || 'Hồng y tông chủ Hà Ánh Phượng'}
             </h2>
 
-            <p className="text-xs text-stone-400 italic mt-0.5">
-              {isSeniorMentor
-                ? seniorMeta?.mainQuote
-                : guardianMeta?.quote || '"Tam Niên Anh Ngữ – Tụ hội hào kiệt, nhất thống giang hồ"'}
-            </p>
           </div>
         </div>
 
@@ -398,7 +394,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
               }`}
             >
               <BookOpen className="w-3.5 h-3.5" />
-              <span>Hội Thoại &amp; Chia Sẻ</span>
+              <span>Trò chuyện</span>
             </button>
 
             <button
@@ -413,7 +409,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
               }`}
             >
               <Zap className="w-3.5 h-3.5 text-yellow-400" />
-              <span>Bí Kíp Săn Điểm</span>
+              <span>Mẹo làm bài</span>
             </button>
 
             <button
@@ -428,7 +424,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
               }`}
             >
               <GraduationCap className="w-3.5 h-3.5 text-purple-300" />
-              <span>Kỳ Ngộ Giới Sinh Viên</span>
+              <span>Chuyện đại học</span>
             </button>
           </div>
         )}
@@ -448,7 +444,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
               }`}
             >
               <BookOpen className="w-3.5 h-3.5" />
-              <span>Hội Thoại &amp; Hướng Dẫn</span>
+              <span>Trò chuyện</span>
             </button>
 
             <button
@@ -465,8 +461,8 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
               <GraduationCap className="w-3.5 h-3.5" />
               <span>
                 {currentStatus === 'rewarded'
-                  ? 'Ôn Luyện Kỹ Năng'
-                  : 'Khảo Thí / Bài Tập Nhiệm Vụ'}
+                  ? 'Ôn lại'
+                  : 'Bài tập'}
               </span>
             </button>
           </div>
@@ -476,29 +472,17 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
         {/* CASE A: HỒNG Y TÔNG CHỦ */}
         {!isGuardian && !isSeniorMentor && (
           <div className="bg-stone-950/80 border border-stone-800 rounded-xl p-4 text-sm leading-relaxed text-stone-200 space-y-2.5">
-            {isBangChuQuest1 ? (
-              <>
-                <p>
-                  <b className="text-amber-300">Hồng y tông chủ:</b> "Chào mừng thiếu hiệp đã bái nhập môn phái! Hiện nay, trong Võ Lâm xuất hiện một tà phái mang tên <b>Vô Ngôn Ma Giáo</b>."
-                </p>
-                <p>
-                  "Chúng luyện tà công khiến con người quên từ ngữ, xáo trộn văn phạm. Khu vực hiện tại là{' '}
-                  <b className="text-amber-300">{level.title}</b> (Chủ đề: <i>{level.topic}</i>)."
-                </p>
-                <p className="text-amber-200">
-                  "Muốn phá tan ma chướng, thiếu hiệp cần thỉnh giáo <b>4 vị Hộ Pháp</b> phụ trách 4 phương pháp học: Phương Tú (Từ vựng), Đặng Trần Hà (Ngữ pháp), Hoàng Vân (Luyện nghe), Nguyệt Nguyên (Đọc hiểu) cùng Đại Sư Huynh <b>Bách Khoa thư Sinh Đinh Ngọc Khánh</b>!"
-                </p>
-              </>
-            ) : (
-              <>
-                <p>
-                  <b className="text-amber-300">Hồng y tông chủ:</b> "Thiếu hiệp hành sự rất quyết đoán! Hãy tiếp tục rèn luyện cùng 4 vị Hộ Pháp và khám phá bản đồ."
-                </p>
-                <p>
-                  "Tại vùng dã ngoại có <b>{level.enemies.length} loại tà binh</b> tuần tra. Hãy tiêu diệt chúng để tích lũy tu vi. Khi tiến độ Unit đạt từ <b>70%</b> trở lên, cổng Cấm Địa sẽ mở ra để quyết chiến!"
-                </p>
-              </>
-            )}
+            <DialogueSequence key={`${selectedUnitId}-${isBangChuQuest1}`} lines={isBangChuQuest1 ? [
+              `Chào thiếu hiệp! Ta là Hồng Y Tông Chủ Hà Ánh Phượng. Giang hồ đang gặp chuyện: Vô Ngôn Ma Giáo giấu từ tiếng Anh, đảo câu, làm cả làng nói "Hello" mà quên lời tiếp theo!`,
+              `Ở bài ${level.title}, đệ hãy giúp tìm lại những con chữ. Kiếm sắc chưa đủ đâu; biết tiếng Anh mới đọc được lời thách đấu của chúng!`,
+              `Trước tiên đến nhà sách học 6 từ, rồi ra sân trả lời đúng ít nhất 2 trong 3 câu để nhận Thanh Phong Kiếm. Sai thì ôn lại và thử tiếp nhé.`,
+              `Sau đó thắng 2 đối thủ trong rừng tre. Khi tiến độ đạt 70%, cổng trận cuối sẽ mở. Bốn Hộ Pháp và Bách Khoa Thư Sinh đều có bài luyện giúp đệ chuẩn bị.`,
+              `Sẵn sàng chưa? Bấm nhận chuyến đi bên dưới. Ta chờ tin vui — và mong Ma Giáo đừng giấu luôn chữ "tea" trước giờ uống trà!`,
+            ] : [
+              `Thiếu hiệp trở lại rồi! Bài ${level.title} còn nhiều chữ cần tìm. Kiếm có thể nghỉ trong vỏ, còn tiếng Anh nhớ dùng một chút mỗi ngày nhé.`,
+              `Xem mục Việc cần làm để biết bước tiếp theo. Gặp bài khó thì hỏi các Hộ Pháp hoặc luyện thêm; thua một trận chưa phải hết chuyến đi.`,
+              `Cổng trận cuối mở ở 70% tiến độ. Cứ chuẩn bị cho chắc — ta thích nghe tin thắng trận hơn lời "Sorry, I forgot my vocabulary"!`,
+            ]} />
           </div>
         )}
 
@@ -508,62 +492,14 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
             {/* Tab 1: Hội Thoại & Chia Sẻ (Dialogue & Quotes) */}
             {mentorTab === 'dialogue' && (
               <div className="space-y-3">
-                {/* Intro greeting */}
-                <div className="bg-stone-950/80 border border-purple-900/50 rounded-xl p-3.5 sm:p-4 text-xs sm:text-sm leading-relaxed text-stone-200 space-y-2">
-                  <p>
-                    <b className="text-purple-300">Bách Khoa thư Sinh Đinh Ngọc Khánh: </b>
-                    "{seniorMeta?.introGreeting}"
-                  </p>
-                </div>
-
-                {/* 3 Required Quotes showcased in authentic narrative context */}
-                <div className="space-y-2.5">
-                  <div className="text-xs font-bold text-purple-300 flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-purple-400" />
-                    <span>Tâm Pháp Đại Sư Huynh Truyền Thụ:</span>
-                  </div>
-
-                  {/* Quote 1: University Reality & Motivation */}
-                  <div className="p-3.5 rounded-xl bg-purple-950/30 border border-purple-600/40 text-xs sm:text-sm text-purple-100 space-y-1.5 shadow-sm">
-                    <div className="flex items-center gap-2 font-bold text-amber-300">
-                      <GraduationCap className="w-4 h-4 text-amber-400" />
-                      <span>Ải Vũ Môn &amp; Chân Trời Mới</span>
-                    </div>
-                    <blockquote className="italic font-semibold text-purple-200 border-l-2 border-purple-400 pl-2.5 py-0.5">
-                      “Đại học không nhàn như giang hồ đồn đâu các đệ... Nhưng qua được ải THPT này, thiên hạ sẽ mở rộng trước mắt!”
-                    </blockquote>
-                    <p className="text-stone-300 text-xs pt-1 leading-relaxed">
-                      Lên đại học các đệ sẽ tự chủ thời gian, tiếp cận tri thức quốc tế và thỏa sức vẫy vùng. Nhưng muốn mở cánh cửa đó, ải thi tốt nghiệp và đại học trước mắt chính là trận quyết chiến định hình tương lai!
-                    </p>
-                  </div>
-
-                  {/* Quote 2: Overcoming Grammar Pitfalls */}
-                  <div className="p-3.5 rounded-xl bg-purple-950/30 border border-purple-600/40 text-xs sm:text-sm text-purple-100 space-y-1.5 shadow-sm">
-                    <div className="flex items-center gap-2 font-bold text-yellow-300">
-                      <Zap className="w-4 h-4 text-yellow-400" />
-                      <span>Kinh Nghiệm Phá Bẫy Ma Chướng</span>
-                    </div>
-                    <blockquote className="italic font-semibold text-purple-200 border-l-2 border-yellow-400 pl-2.5 py-0.5">
-                      “Xưa ta cũng từng bị Loạn Ngữ Kiếm Ma 'bón hành' thì Hiện tại Hoàn thành, nay đỗ đạt trở về truyền lại bí kíp cho sư đệ/sư muội.”
-                    </blockquote>
-                    <p className="text-stone-300 text-xs pt-1 leading-relaxed">
-                      Đừng nản khi làm sai! Những câu hỏi thì động từ, cụm collocations hiểm hóc đều có quy luật phản xạ. Ta đã đúc kết toàn bộ ở mục <b>Bí Kíp Săn Điểm</b>.
-                    </p>
-                  </div>
-
-                  {/* Quote 3: Student Hard Work & Resilience */}
-                  <div className="p-3.5 rounded-xl bg-purple-950/30 border border-purple-600/40 text-xs sm:text-sm text-purple-100 space-y-1.5 shadow-sm">
-                    <div className="flex items-center gap-2 font-bold text-cyan-300">
-                      <BookOpen className="w-4 h-4 text-cyan-400" />
-                      <span>Đồ Án Đêm Muộn &amp; Tôi Luyện Ý Chí</span>
-                    </div>
-                    <blockquote className="italic font-semibold text-purple-200 border-l-2 border-cyan-400 pl-2.5 py-0.5">
-                      “Thức đêm cày đồ án với fix bug võ công mệt hơn luyện Cửu Âm Chân Kinh!”
-                    </blockquote>
-                    <p className="text-stone-300 text-xs pt-1 leading-relaxed">
-                      Nhưng chính những đêm miệt mài gõ phím, nghiên cứu tài liệu tiếng Anh ấy đã rèn giũa bản lĩnh vững vàng nhất. Hãy bắt đầu ngay hôm nay từ những bài tập nhỏ!
-                    </p>
-                  </div>
+                <div className="bg-stone-950/80 border border-purple-900/50 rounded-xl p-4">
+                  <DialogueSequence lines={[
+                    'Chào sư đệ, sư muội! Ta là Bách Khoa Thư Sinh Đinh Ngọc Khánh, vừa từ đại học về. Nghe Ma Giáo quấy rầy môn tiếng Anh, ta mang mấy mẹo học về tiếp sức!',
+                    'Giang hồ đồn lên đại học là nhàn. Ta cũng tin… cho đến khi bài tập đến đông hơn đệ tử môn phái! Biết đọc tiếng Anh sẽ giúp đệ tìm sách và học điều mới dễ hơn.',
+                    'Xưa ta bị Loạn Ngữ Kiếm Ma cho ăn hành vì nhầm thì động từ. Thấy yesterday thì nghĩ quá khứ đơn; gặp since hay for thì đọc kỹ xem việc còn kéo dài không nhé.',
+                    'Có đêm ta sửa lỗi máy tính mệt hơn luyện Cửu Âm Chân Kinh. Cuối cùng chỉ thiếu một dấu chấm! Học tiếng Anh cũng vậy: nhìn kỹ một chút, đỡ làm lại cả bài.',
+                    'Đệ muốn mẹo làm bài hay thử chuyện sinh viên? Chọn bên dưới nhé. Sai thì cùng tìm cách sửa; ta chưa từng gặp cao thủ nào đúng hết từ buổi đầu!',
+                  ]} />
                 </div>
 
                 {/* Quick Navigation Cards */}
@@ -578,10 +514,10 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     <div>
                       <div className="font-bold text-yellow-300 text-xs flex items-center gap-1.5">
                         <Zap className="w-3.5 h-3.5 text-yellow-400" />
-                        <span>Bí Kíp Săn Điểm THPT</span>
+                        <span>Mẹo làm bài</span>
                       </div>
                       <p className="text-[11px] text-stone-400 mt-0.5">
-                        4 tuyệt chiêu phá bẫy thì, collocation &amp; cấu trúc đề thi
+                        4 mẹo nhỏ để tránh lỗi thường gặp
                       </p>
                     </div>
                     <ChevronRight className="w-4 h-4 text-stone-500 group-hover:text-yellow-300 group-hover:translate-x-0.5 transition" />
@@ -597,10 +533,10 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     <div>
                       <div className="font-bold text-purple-300 text-xs flex items-center gap-1.5">
                         <GraduationCap className="w-3.5 h-3.5 text-purple-400" />
-                        <span>Kỳ Ngộ Giới Sinh Viên</span>
+                        <span>Chuyện đại học</span>
                       </div>
                       <p className="text-[11px] text-stone-400 mt-0.5">
-                        3 nhiệm vụ thử thách thực chiến giảng đường đại học
+                        3 bài tập từ đời sống sinh viên
                       </p>
                     </div>
                     <ChevronRight className="w-4 h-4 text-stone-500 group-hover:text-purple-300 group-hover:translate-x-0.5 transition" />
@@ -727,7 +663,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                       >
                         <div className="flex items-center justify-between w-full mb-1">
                           <span className="text-[10px] font-bold text-purple-400">
-                            Kỳ Ngộ {idx + 1}
+                            Bài {idx + 1}
                           </span>
                           <span
                             className={`w-2 h-2 rounded-full ${
@@ -767,7 +703,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                       {activeStudentQuestStatus === 'not_started' && 'Chưa Tiếp Nhận'}
                       {activeStudentQuestStatus === 'in_progress' && 'Đang Thử Thách'}
                       {activeStudentQuestStatus === 'completed' && 'Đã Vượt Qua - Chờ Báo Công'}
-                      {activeStudentQuestStatus === 'rewarded' && 'Đã Lĩnh Hội Phần Thưởng'}
+                      {activeStudentQuestStatus === 'rewarded' && 'Đã nhận quà'}
                     </span>
                   </div>
 
@@ -784,7 +720,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     <span>Mục tiêu: {activeStudentQuest.objective}</span>
                     <span className="text-amber-400 font-bold flex items-center gap-1">
                       <Award className="w-3 h-3" />
-                      +{activeStudentQuest.reward.xp} XP | +{activeStudentQuest.reward.congLuc} Công Lực
+                      +{activeStudentQuest.reward.xp} điểm | +{activeStudentQuest.reward.congLuc} sức mạnh
                     </span>
                   </div>
                 </div>
@@ -886,7 +822,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                           </div>
                           <span className="text-[11px] text-emerald-400">
                             Phần thưởng: +{activeStudentQuest.reward.xp} XP, +
-                            {activeStudentQuest.reward.congLuc} Công Lực &amp; Tín Vật "
+                            {activeStudentQuest.reward.congLuc} sức mạnh và món quà "
                             {activeStudentQuest.reward.itemTitle}"
                           </span>
                         </div>
@@ -919,22 +855,17 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
           <div className="space-y-3">
             {/* Dialogue text by status */}
             <div className="bg-stone-950/80 border border-stone-800 rounded-xl p-3.5 sm:p-4 text-xs sm:text-sm leading-relaxed text-stone-200 space-y-2">
-              {questData.dialogueByStatus[currentStatus].map((line, idx) => (
-                <p key={idx}>
-                  {idx === 0 ? <b className={guardianMeta?.badgeColor}>{guardianMeta?.name}: </b> : null}
-                  "{line}"
-                </p>
-              ))}
+              <DialogueSequence key={`${npcId}-${selectedUnitId}-${currentStatus}`} lines={questData.dialogueByStatus[currentStatus]} />
             </div>
 
             {/* Tutorial Guidance Box (Tuyến Hướng Dẫn Kỹ Năng) */}
-            <div className="p-3 rounded-xl bg-amber-950/20 border border-amber-600/40 text-xs text-amber-100 leading-relaxed">
-              <div className="font-bold text-amber-300 mb-1 flex items-center gap-1.5">
+            <details className="p-3 rounded-xl bg-amber-950/20 border border-amber-600/40 text-xs text-amber-100 leading-relaxed">
+              <summary className="cursor-pointer font-bold text-amber-300 flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                <span>Phương Pháp Tu Luyện: {questData.skillName}</span>
-              </div>
-              <p>{questData.tutorialGuidance}</p>
-            </div>
+                <span>Mẹo làm bài</span>
+              </summary>
+              <p className="mt-2">{questData.tutorialGuidance}</p>
+            </details>
 
             {/* Quest Briefing Card (Hiển thị rõ mục tiêu & nơi cần tới tiếp theo) */}
             <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-800 space-y-2 text-xs">
@@ -999,7 +930,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
             {questData.exercise.passageSentences && (
               <div className="space-y-1">
                 <span className="text-xs text-cyan-400 font-bold block">
-                  Chọn câu dẫn chứng bảo chứng đáp án [1]–[4]:
+                  Chọn câu làm bằng chứng cho đáp án [1]–[4]:
                 </span>
                 <div className="flex gap-2">
                   {[1, 2, 3, 4].map((num) => (
@@ -1074,7 +1005,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     disabled={orderedWords.length === 0}
                     className="px-4 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-stone-100 font-bold text-xs shadow active:scale-95 transition"
                   >
-                    Xác Nhận Kiếm Quyết
+                    Kiểm tra câu
                   </button>
                 </div>
               </div>
@@ -1141,7 +1072,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
             {isSeniorMentor && (
               <span className="text-purple-300 font-semibold flex items-center gap-1">
                 <GraduationCap className="w-3.5 h-3.5 text-purple-400" />
-                <span>Bí Kíp &amp; Kỳ Ngộ Sinh Viên (Độc Lập Không Ảnh Hưởng Đánh Boss)</span>
+                <span>Mẹo học và chuyện đại học</span>
               </span>
             )}
           </div>
@@ -1153,7 +1084,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                 onClick={handleCompleteQuest1}
                 className="px-4 py-2 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs shadow-lg flex items-center gap-1.5 active:scale-95 transition"
               >
-                <span>Lĩnh Ý Tông Chủ &amp; Tiếp Nhận Nhiệm Vụ 2</span>
+                <span>Đã hiểu, mình đi học từ</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             )}
@@ -1183,7 +1114,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     className="px-4 py-2 rounded-xl bg-purple-700 hover:bg-purple-600 text-purple-100 font-bold text-xs shadow flex items-center gap-1.5 transition"
                   >
                     <GraduationCap className="w-3.5 h-3.5 text-purple-300" />
-                    <span>Làm Kỳ Ngộ Sinh Viên</span>
+                    <span>Thử bài học thêm</span>
                   </button>
                 )}
 
@@ -1194,7 +1125,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                         onClick={() => handleAcceptStudentQuest(activeStudentQuest.id)}
                         className="px-4 py-2 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 text-stone-100 font-bold text-xs shadow-lg flex items-center gap-1.5 active:scale-95 transition"
                       >
-                        <span>Tiếp Nhận Kỳ Ngộ Này</span>
+                        <span>Bắt đầu bài này</span>
                         <ChevronRight className="w-4 h-4" />
                       </button>
                     )}
@@ -1233,7 +1164,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                 onClick={handleAcceptQuest}
                 className="px-4 py-2 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 text-stone-950 font-bold text-xs shadow-lg flex items-center gap-1.5 active:scale-95 transition"
               >
-                <span>Tiếp Nhận Nhiệm Vụ Hộ Pháp</span>
+                <span>Nhận bài học</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             )}
@@ -1249,7 +1180,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     }}
                     className="px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 text-stone-100 font-bold text-xs shadow flex items-center gap-1.5 active:scale-95 transition"
                   >
-                    <span>Làm Khảo Thí Ngay Tại Chỗ</span>
+                    <span>Làm bài ngay</span>
                   </button>
                 ) : null}
 
@@ -1264,7 +1195,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     className="px-3.5 py-2 rounded-xl bg-emerald-700 hover:bg-emerald-600 text-stone-100 font-bold text-xs shadow flex items-center gap-1.5 transition"
                   >
                     <BookOpen className="w-3.5 h-3.5" />
-                    <span>Đến Tàng Kinh Các</span>
+                    <span>Đến nhà sách</span>
                   </button>
                 )}
 
@@ -1278,7 +1209,7 @@ export const DialogueModal: React.FC<DialogueModalProps> = ({
                     className="px-3.5 py-2 rounded-xl bg-blue-700 hover:bg-blue-600 text-stone-100 font-bold text-xs shadow flex items-center gap-1.5 transition"
                   >
                     <Zap className="w-3.5 h-3.5" />
-                    <span>Đến Phong Ấn Thạch Trận</span>
+                    <span>Đến sân câu hỏi</span>
                   </button>
                 )}
 

@@ -74,7 +74,7 @@ export const GUARDIAN_METAS: Record<GuardianId, GuardianMeta> = {
   },
   ho_phap_dang_tran_ha: {
     id: 'ho_phap_dang_tran_ha',
-    name: 'Thầy Đặng Trần Hà',
+    name: 'Hộ Pháp Đặng Trần Hà',
     title: 'Hộ Pháp Ngữ Pháp & Thách Đấu',
     domain: 'Phong Ấn Thạch Trận (Trước Tàng Kinh Các)',
     portrait: '/assets/game/characters/npc/portraits/ho_phap_dang_tran_ha.png',
@@ -87,7 +87,7 @@ export const GUARDIAN_METAS: Record<GuardianId, GuardianMeta> = {
   },
   ho_phap_hoang_van: {
     id: 'ho_phap_hoang_van',
-    name: 'Cô Hoàng Vân',
+    name: 'Hộ Pháp Hoàng Vân',
     title: 'Hộ Pháp Nghe & Nhịp Điệu',
     domain: 'Võ Luyện Đài (Khu Vực Phía Đông)',
     portrait: '/assets/game/characters/npc/portraits/ho_phap_hoang_van.png',
@@ -100,7 +100,7 @@ export const GUARDIAN_METAS: Record<GuardianId, GuardianMeta> = {
   },
   ho_phap_nguyet_nguyen: {
     id: 'ho_phap_nguyet_nguyen',
-    name: 'Cô Nguyệt Nguyên',
+    name: 'Hộ Pháp Nguyệt Nguyên',
     title: 'Hộ Pháp Đọc Hiểu & Minh Triết',
     domain: 'Minh Triết Các (Khu Vực Tây Nam)',
     portrait: '/assets/game/characters/npc/portraits/ho_phap_nguyet_nguyen.png',
@@ -179,7 +179,7 @@ export class GuardianService {
     const guardianQuestStates = { ...(profile.guardianQuestStates || {}) };
     const unitStates = { ...(guardianQuestStates[unitId] || {}) };
 
-    if (unitStates[npcId] !== 'rewarded') {
+    if (unitStates[npcId] === 'in_progress') {
       unitStates[npcId] = 'completed';
     }
     guardianQuestStates[unitId] = unitStates;
@@ -209,7 +209,7 @@ export class GuardianService {
     const currentStatus = unitStates[npcId];
 
     // Chặn nhận thưởng lặp
-    if (currentStatus === 'rewarded') {
+    if (currentStatus !== 'completed' || unitId !== profile.selectedUnitId) {
       return {
         profile,
         xpGained: 0,
@@ -307,44 +307,44 @@ export class GuardianService {
     // 1. HỘ PHÁP PHƯƠNG TÚ (TỪ VỰNG)
     if (npcId === 'ho_phap_phuong_tu') {
       const vDistractors = [
-        `hành vi sơ suất lơ đễnh`,
-        `sự do dự thoái chí`,
-        `phù phép hư ảo ma đạo`,
+        `làm việc thiếu cẩn thận`,
+        `ngại thử và bỏ cuộc`,
+        `phép làm người khác nhìn nhầm`,
       ];
 
       return {
         id: `${unitId}_quest_phuong_tu`,
         npcId,
         unitId,
-        title: `Khai Ngộ Từ Vựng: ${unitTitle}`,
+        title: `Tìm lại từ mới: ${unitTitle}`,
         skillName: GUARDIAN_METAS.ho_phap_phuong_tu.skillName,
-        objective: `Lĩnh hội từ vựng then chốt "${v0.word}" (${v0.meaning_vi}) của ${unitTitle} (Unit ${unitNum})`,
+        objective: `Học từ "${v0.word}" (${v0.meaning_vi}) của ${unitTitle} (Unit ${unitNum})`,
         nextLocation: `Tàng Kinh Các (Khu vực góc Tây Bắc)`,
         rewardXp: 60 + unitNum * 5,
         rewardProgressGain: 10,
-        tutorialGuidance: `💡 Yếu Quyết Tu Từ: Đừng học vẹt từ riêng lẻ! Hãy nắm chắc từ loại (${v0.word_type}), phiên âm IPA (${v0.ipa || 'chuẩn'}), và đặt vào câu mẫu: "${v0.example_sentence}". Trong chủ đề ${unitTitle}, mỗi từ vựng là một mắt xích giúp công lực thăng hoa.`,
+        tutorialGuidance: `Học "${v0.word}" cùng nghĩa và câu mẫu: "${v0.example_sentence}". Xem từ loại (${v0.word_type}) rồi thử tự đặt một câu; đừng chỉ nhớ mặt chữ.`,
         dialogueByStatus: {
           not_started: [
-            `Chào thiếu hiệp! Tàng Kinh Các lưu giữ toàn bộ bí tịch từ vựng của môn phái.`,
-            `Tại ải Unit ${unitNum}: ${unitTitle} (${topic}), tà ma đang tìm cách xóa sạch các thuật ngữ cốt lõi như "${v0.word}".`,
-            `Ta muốn giao cho thiếu hiệp nhiệm vụ đả thông căn cơ từ vựng. Thiếu hiệp đã sẵn sàng tiếp nhận chưa?`,
+            `Chào thiếu hiệp! Ở bài ${unitNum}: ${unitTitle}, ta giữ nhà sách. Kiếm có thể cùn, nhưng vốn từ thì đừng để cùn nhé!`,
+            `Vô Ngôn Ma Giáo đang giấu từ "${v0.word}". Nó nghĩa là "${v0.meaning_vi}" — nhớ được từ này là giành lại một trang sách.`,
+            `Đọc câu "${v0.example_sentence}" rồi thử chọn nghĩa đúng. Cứ làm tại đây; ta chưa bắt đệ leo núi tìm sách đâu!`,
           ],
           in_progress: [
-            `Thiếu hiệp vẫn đang trong hành trình đả thông từ vựng "${v0.word}"!`,
-            `Hãy đến Tàng Kinh Các tra cứu kỹ bí điển, hoặc thiếu hiệp có thể thực hiện bài khảo thí từ vựng của ta ngay tại đây để hoàn thành nhiệm vụ!`,
+            `Từ "${v0.word}" vẫn chờ đệ giải cứu. Đừng đoán theo vẻ ngoài: từ tiếng Anh cũng biết cải trang như người trong giang hồ!`,
+            `Mở nhà sách xem nghĩa và câu mẫu, rồi quay lại làm bài ở đây. Sai thì thử lại, ta không thu thêm học phí.`,
           ],
           completed: [
-            `Tốt lắm! Thiếu hiệp đã nắm vững ý nghĩa và ngữ cảnh chuẩn xác của "${v0.word}".`,
-            `Căn cơ từ vựng đã thông suốt, khí lực dồi dào. Hãy thu nhận phần thưởng xứng đáng!`,
+            `Đúng rồi! "${v0.word}" nghĩa là "${v0.meaning_vi}". Một trang sách đã trở về, Ma Giáo chắc đang vò đầu.`,
+            `Nhận thưởng nhé! Muốn nhớ lâu, hãy tự đặt thêm một câu tiếng Anh với từ này.`,
           ],
           rewarded: [
-            `Thiếu hiệp đã hoàn thành xuất sắc nhiệm vụ từ vựng của ${unitTitle}.`,
-            `Bất cứ lúc nào muốn ôn lại từ vựng để chuẩn bị quyết đấu, hãy bấm nút luyện tập bên dưới. Không cần phải đi săn quái chỉ để ôn kiến thức!`,
+            `Bài ${unitTitle} đã có thêm một người giữ chữ. Phần thưởng đã trao rồi, nhưng nhà sách vẫn mở cửa cho đệ.`,
+            `Cần ôn lại thì luyện tập lần nữa. Luyện từ mỗi ngày vài phút cũng được, không cần ngồi thiền với từ điển cả đêm!`,
           ],
         },
         exercise: {
           type: 'vocab',
-          prompt: `Khảo Thí Từ Vựng: Trong chủ đề "${unitTitle}", từ "${v0.word}" (${v0.word_type}) có nghĩa tiếng Việt chuẩn xác nhất là gì?`,
+          prompt: `Chọn nghĩa của từ: Trong chủ đề "${unitTitle}", từ "${v0.word}" (${v0.word_type}) có nghĩa tiếng Việt chuẩn xác nhất là gì?`,
           options: [v0.meaning_vi, ...vDistractors].sort(() => 0.5 - Math.random()),
           correctAnswer: v0.meaning_vi,
           explanation: `Chính xác! "${v0.word}" (${v0.word_type}) nghĩa là "${v0.meaning_vi}". Ví dụ: "${v0.example_sentence}"`,
@@ -365,35 +365,35 @@ export class GuardianService {
         id: `${unitId}_quest_dang_tran_ha`,
         npcId,
         unitId,
-        title: `Phá Phong Ấn Ngữ Pháp: ${unitTitle}`,
+        title: `Xếp lại câu: ${unitTitle}`,
         skillName: GUARDIAN_METAS.ho_phap_dang_tran_ha.skillName,
-        objective: `Giải phá cấu trúc cú pháp "${g0.structure_name}" của ${unitTitle} (Unit ${unitNum})`,
+        objective: `Xếp câu theo "${g0.structure_name}" của ${unitTitle} (Unit ${unitNum})`,
         nextLocation: `Phong Ấn Thạch Trận (Trước Tàng Kinh Các)`,
         rewardXp: 75 + unitNum * 5,
         rewardProgressGain: 10,
-        tutorialGuidance: `💡 Yếu Quyết Cú Pháp: Ngữ pháp chính là khung xương của kiếm chiêu! Trong ${unitTitle}, quy tắc trọng yếu là "${g0.rule_summary}". Hãy sắp xếp các mảnh từ đúng trật tự logic, phân định rõ chủ ngữ, trợ động từ và tân ngữ để kiếm ý không bị đứt đoạn.`,
+        tutorialGuidance: `Quy tắc: ${g0.rule_summary} Đọc nghĩa tiếng Việt, tìm chủ ngữ và động từ, rồi xếp từng từ. Chạm từ đã chọn để lấy ra nếu cần sửa.`,
         dialogueByStatus: {
           not_started: [
-            `Võ học vô chiêu thắng hữu chiêu, nhưng cú pháp là quy luật bất biến của ngôn từ!`,
-            `Tại ải Unit ${unitNum}: ${unitTitle}, Vô Ngôn Ma Giáo đã dùng tà thuật làm hỗn loạn cấu trúc: ${g0.structure_name}.`,
-            `Ta giao cho thiếu hiệp nhiệm vụ sắp xếp lại kiếm quyết ngữ pháp để kích hoạt thạch trận hộ môn!`,
+            `Thiếu hiệp đến đúng lúc! Bài ${unitNum}: ${unitTitle} đang bị Ma Giáo đảo chữ. Kiếm chưa rút mà câu đã rối!`,
+            `Hôm nay ta luyện "${g0.structure_name}". Nhớ nhé: ${g0.rule_summary}`,
+            `Xếp các từ thành câu theo nghĩa tiếng Việt. Từ nào đứng sai chỗ thì chạm để lấy ra; đừng dùng kiếm chém bàn phím!`,
           ],
           in_progress: [
-            `Thiếu hiệp vẫn chưa phá giải xong trận đồ ngữ pháp ${g0.structure_name}!`,
-            `Hãy đến trước Phong Ấn Thạch Trận hoặc thực hiện bài xếp chữ ngay tại đây để mở khóa kinh mạch!`,
+            `Trận xếp chữ "${g0.structure_name}" còn chưa mở. Bình tĩnh, câu tiếng Anh không chạy trốn đâu.`,
+            `Tìm ai làm việc gì trước, rồi xem động từ và các từ còn lại. Có thể làm bài ngay tại đây và thử lại nếu sai.`,
           ],
           completed: [
-            `Tuyệt diệu! Từng câu chữ đã vào đúng vị trí, kiếm khí tuôn trào liền mạch.`,
-            `Thiếu hiệp đã lĩnh hội trọn vẹn quy tắc "${g0.structure_name}". Mau thu nhận phần thưởng tu vi!`,
+            `Hay lắm! Các từ đã đứng đúng hàng, còn ngay ngắn hơn đệ tử môn phái lúc xếp hàng ăn cơm.`,
+            `Đệ đã hiểu "${g0.structure_name}". Nhận thưởng rồi thử tự viết một câu tương tự nhé!`,
           ],
           rewarded: [
-            `Khẩu quyết ngữ pháp của ${unitTitle} đã được khắc sâu.`,
-            `Khi nào muốn trau dồi lại logic câu và phản xạ ngữ pháp, hãy vào luyện tập lại cùng ta bất cứ lúc nào!`,
+            `Bài ${unitTitle} đã xếp lại gọn gàng. Thưởng thì chỉ một lần, luyện câu thì bao nhiêu lần cũng được.`,
+            `Gặp câu khó cứ quay lại. Chậm mà hiểu còn hơn xuất chiêu nhanh rồi quên mất chủ ngữ!`,
           ],
         },
         exercise: {
           type: 'grammar',
-          prompt: `Phá Phong Ấn Ngữ Pháp: Hãy sắp xếp các mảnh từ sau thành câu chuẩn xác theo cấu trúc "${g0.structure_name}":\n"${gSentence.vi}"`,
+          prompt: `Xếp lại câu: Hãy sắp xếp các mảnh từ sau thành câu chuẩn xác theo cấu trúc "${g0.structure_name}":\n"${gSentence.vi}"`,
           options: cleanWords,
           wordsToOrder: cleanWords,
           correctAnswer: cleanWords.join(' '),
@@ -413,35 +413,35 @@ export class GuardianService {
         id: `${unitId}_quest_hoang_van`,
         npcId,
         unitId,
-        title: `Thính Âm Luyện Khí: ${unitTitle} - ${pronData.focusTopic}`,
+        title: `Luyện nghe: ${unitTitle} - ${pronData.focusTopic}`,
         skillName: GUARDIAN_METAS.ho_phap_hoang_van.skillName,
-        objective: `Luyện nghe và lĩnh hội khẩu quyết phát âm "${pronData.focusTopic}" của ${unitTitle} (Unit ${unitNum})`,
+        objective: `Nghe và học cách phát âm "${pronData.focusTopic}" của ${unitTitle} (Unit ${unitNum})`,
         nextLocation: `Võ Luyện Đài (Khu Vực Phía Đông)`,
         rewardXp: 70 + unitNum * 5,
         rewardProgressGain: 10,
-        tutorialGuidance: `💡 Khẩu Quyết Phát Âm Chuẩn SGK (${pronData.focusTopic}): ${pronData.ruleSummary} 👄 Hướng Dẫn Khẩu Hình: ${pronData.mouthGuide}`,
+        tutorialGuidance: `Cách phát âm (${pronData.focusTopic}): ${pronData.ruleSummary} Cách đặt miệng: ${pronData.mouthGuide} Có thể nghe lại nhiều lần trước khi chọn.`,
         dialogueByStatus: {
           not_started: [
-            `Thính âm biện vị! Trên chiến trường vạn biến, phát âm chuẩn chính là chìa khóa để phân biệt chân tướng và ảo ảnh.`,
-            `Tại Unit ${unitNum}: ${unitTitle}, ma chướng đang làm nhiễu loạn khẩu quyết phát âm: ${pronData.focusTopic}.`,
-            `Ta truyền cho thiếu hiệp bí quyết "${pronData.wuxiaSecretName}". Hãy lắng nghe cẩn trọng và tiếp nhận thử thách phát âm!`,
+            `Chào thiếu hiệp! Bài ${unitNum}: ${unitTitle} luyện "${pronData.focusTopic}". Tai nghe tốt cũng là một món võ công đấy.`,
+            `Ma Giáo hay nuốt âm để làm người nghe nhầm. Nghe rõ các âm ${targetSoundList}, đừng để nó đọc một đằng mà đệ chọn một nẻo!`,
+            `Bấm nghe, xem mẹo phát âm rồi chọn đáp án. Có thể nghe lại nhiều lần; ta không bắt đệ nghe tiếng muỗi bằng tiếng Anh đâu.`,
           ],
           in_progress: [
-            `Khẩu quyết phát âm ${pronData.focusTopic} vẫn đang đợi thiếu hiệp tại Võ Luyện Đài!`,
-            `Hãy lắng nghe thật kỹ từng âm tiết khẩu quyết (${targetSoundList}). Thiếu hiệp có thể nghe và đối đáp ngay tại đây!`,
+            `Bài nghe "${pronData.focusTopic}" đang đợi. Tai chưa quen thì nghe lại, cao thủ cũng từng nghe nhầm mà!`,
+            `Chú ý âm ${targetSoundList}. Nếu máy không phát được tiếng, xem phần chữ và mẹo phát âm để tiếp tục.`,
           ],
           completed: [
-            `Nhĩ lực tuyệt đỉnh! Thiếu hiệp đã nghe rõ và phân định chuẩn xác khẩu quyết "${pronData.focusTopic}".`,
-            `Khẩu âm và thính lực tăng tiến vượt bậc! Mau nhận thưởng tu vi xứng đáng!`,
+            `Chuẩn rồi! Đệ nghe ra "${pronData.focusTopic}". Ma Giáo định đánh lừa tai, cuối cùng tự nghe tiếng thua cuộc.`,
+            `Nhận thưởng nhé! Thử đọc lại thật chậm rồi tăng tốc; rõ tiếng trước, oai phong sau.`,
           ],
           rewarded: [
-            `Khẩu quyết phát âm của ${unitTitle} (${pronData.focusTopic}) đã đạt cảnh giới thuần thục.`,
-            `Bất cứ lúc nào cần luyện tai nghe hoặc trau dồi lại các âm ${targetSoundList}, hãy vào luyện tập cùng ta bất cứ lúc nào!`,
+            `Bài ${unitTitle} đã luyện xong. Đệ cứ quay lại nghe và đọc các âm ${targetSoundList} khi cần.`,
+            `Nghe tiếng Anh vài phút mỗi ngày nhé. Nghe xong hiểu được mới là thắng, bật thật to thì chỉ làm hàng xóm giật mình!`,
           ],
         },
         exercise: {
           type: 'listening',
-          prompt: `Thính Âm Biện Vị: ${challenge.prompt}`,
+          prompt: `Nghe và chọn: ${challenge.prompt}`,
           audioScript: challenge.audioScript || v0.example_sentence,
           options: challenge.options,
           correctAnswer: challenge.correctAnswer,
@@ -466,45 +466,45 @@ export class GuardianService {
       id: `${unitId}_quest_nguyet_nguyen`,
       npcId,
       unitId,
-      title: `Minh Triết Phá Ảo: ${unitTitle}`,
+      title: `Tìm bằng chứng: ${unitTitle}`,
       skillName: GUARDIAN_METAS.ho_phap_nguyet_nguyen.skillName,
-      objective: `Phân tích văn bản "${reading?.topic || unitTitle}" và định vị câu dẫn chứng của ${unitTitle} (Unit ${unitNum})`,
+      objective: `Đọc đoạn văn "${reading?.topic || unitTitle}" và tìm câu làm bằng chứng của ${unitTitle} (Unit ${unitNum})`,
       nextLocation: `Minh Triết Các (Khu Vực Tây Nam)`,
       rewardXp: 80 + unitNum * 5,
       rewardProgressGain: 10,
-      tutorialGuidance: `💡 Yếu Quyết Minh Triết: Đọc hiểu là soi tỏ chân tướng sau làn sương mờ! Luôn áp dụng 3 bước: 1. Đọc lướt (Skimming) để nắm ý chính "${reading?.main_idea || topic}"; 2. Đọc quét (Scanning) để dò từ khóa; 3. Neo bằng chứng (Evidence Anchor) - mọi đáp án phải có câu dẫn chứng bảo chứng, tuyệt đối không suy diễn cảm tính!`,
+      tutorialGuidance: `Đọc câu hỏi trước, tìm từ quan trọng trong đoạn văn rồi đọc cả câu chứa từ đó. Chọn đáp án và số câu làm bằng chứng. Không thêm ý ngoài bài.`,
       dialogueByStatus: {
         not_started: [
-          `Minh Triết Các soi rọi chân lý! Tà phái thường tung hỏa mù bằng những thông tin ngụy tạo trong chủ đề ${reading?.topic || unitTitle}.`,
-          `Nhiệm vụ của thiếu hiệp là đọc trích lục văn bản cổ, vạch trần luận điểm sai lệch bằng cách chỉ ra đúng câu dẫn chứng!`,
-          `Thiếu hiệp có dám thắp sáng ngọn đèn minh triết để phá ảo giác ma đạo không?`,
+          `Thiếu hiệp! Bài ${unitNum}: ${unitTitle} có chuyện về "${reading?.topic || topic}". Ma Giáo đang trộn lời thật với lời bịa.`,
+          `Đọc đoạn tiếng Anh, chọn câu trả lời rồi chỉ ra câu làm bằng chứng. Đoán đúng mà không có bằng chứng thì vẫn dễ bị lừa!`,
+          `Cứ đọc từng câu. Sách không phải đối thủ biết chạy, đệ không cần đuổi theo nó bằng khinh công.`,
         ],
         in_progress: [
-          `Ảo ảnh ma đạo vẫn chưa được xóa bỏ!`,
-          `Hãy đọc kỹ đoạn văn bản bên dưới, đối chiếu từng câu để tìm ra bằng chứng xác đáng nhất. Thiếu hiệp có thể luận giải ngay tại đây!`,
+          `Đoạn văn vẫn còn một lời cần kiểm chứng. Đừng tin đáp án chỉ vì nó viết dài và trông có vẻ thông thái.`,
+          `Tìm từ trong câu hỏi ở đoạn văn, đọc cả câu đó rồi chọn đáp án cùng số câu dẫn chứng. Có thể thử lại ngay tại đây.`,
         ],
         completed: [
-          `Minh triết tuyệt luân! Thiếu hiệp đã đối chiếu đúng câu dẫn chứng, phá tan toàn bộ huyễn thuật của kẻ địch!`,
-          `Trí tuệ sáng tỏ như gương đài. Mau thu nhận chiến lợi phẩm tu vi!`,
+          `Đúng cả đáp án lẫn bằng chứng! Lời bịa của Ma Giáo hết chỗ trốn rồi.`,
+          `Nhận thưởng nhé. Nhớ cách này khi đọc tiếng Anh: tìm câu nói rõ điều mình cần, đừng tự thêm ý ngoài bài.`,
         ],
         rewarded: [
-          `Tu vi đọc hiểu của thiếu hiệp tại ${unitTitle} đã khai thông toàn diện.`,
-          `Bất cứ khi nào muốn rèn luyện kỹ năng đọc sâu và trích xuất bằng chứng, hãy quay lại Minh Triết Các luận đạo cùng ta!`,
+          `Bài ${unitTitle} đã rõ thật giả. Thưởng đã trao, còn đoạn văn vẫn ở đây để đệ đọc lại.`,
+          `Đọc đều mỗi ngày nhé. Võ công đọc hiểu không cần áo choàng bay trong gió, chỉ cần mắt tinh và đầu tỉnh!`,
         ],
       },
       exercise: {
         type: 'reading',
-        prompt: `Minh Triết Phá Ảo: Theo văn bản bên dưới, điều gì trực tiếp củng cố "${p1}" của người tu luyện? Hãy chọn đáp án và xác định đúng câu dẫn chứng [1]-[4]!`,
+        prompt: `Tìm bằng chứng: Theo văn bản bên dưới, điều gì trực tiếp củng cố "${p1}" của người tu luyện? Hãy chọn đáp án và xác định đúng câu dẫn chứng [1]-[4]!`,
         readingPassage: passageSentences.map((s, idx) => `[${idx + 1}] ${s}`).join(' '),
         passageSentences,
         evidenceIndex: 2, // 1-indexed
         options: [
-          `Consistent practice (Luyện tập kiên định đều đặn)`,
-          `Disregarding ancient teachings (Phớt lờ giáo huấn cổ xưa)`,
+          `Consistent practice (Luyện tập đều đặn)`,
+          `Disregarding ancient teachings (Bỏ qua lời dạy cũ)`,
           `Succumbing to mental illusions (Đầu hàng trước ảo giác)`,
-          `Wandering aimlessly (Hành động không phương hướng)`,
+          `Wandering aimlessly (Đi lang thang)`,
         ],
-        correctAnswer: `Consistent practice (Luyện tập kiên định đều đặn)`,
+        correctAnswer: `Consistent practice (Luyện tập đều đặn)`,
         explanation: `Chính xác! Đáp án đúng là "Consistent practice", được dẫn chứng rõ ràng ở câu [2]: "${passageSentences[1]}"`,
         knowledgeItemIds: [reading?.id || 'reading_default'],
       },

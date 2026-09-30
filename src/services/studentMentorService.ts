@@ -1,5 +1,6 @@
 import { PlayerProfile, StudentQuestStatus } from '../types/game';
 import { calculateCongLuc } from './storage';
+import { CombatEngine } from './combatEngine';
 
 export const BACH_KHOA_THU_SINH_ID = 'bach_khoa_thu_sinh';
 
@@ -365,12 +366,10 @@ export class StudentMentorService {
       updated.studentQuestStates[questId] = 'rewarded';
 
       // Grant XP and Cong Luc rewards
-      updated.stats.xp += quest.reward.xp;
+      updated.stats = CombatEngine.addXp(updated.stats, updated.equipment, quest.reward.xp).stats;
       updated.stats.congLuc = calculateCongLuc(updated.stats, {
-        hp: 0,
-        atk: 0,
-        def: 0,
-        bonus: quest.reward.congLuc,
+        ...CombatEngine.getEquipmentBonus(updated.equipment),
+        bonus: CombatEngine.getEquipmentBonus(updated.equipment).bonus + quest.reward.congLuc,
       });
 
       // Add item to inventory if not already present

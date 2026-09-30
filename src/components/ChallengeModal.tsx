@@ -25,17 +25,13 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
   onAnswerKnowledge,
   onClose,
 }) => {
-  const [questions, setQuestions] = useState<CombatQuestion[]>(() => {
-    const unitQuestions = selectedUnitId
-      ? UnitContentService.getUnitChallengeQuestions(selectedUnitId)
-      : TANG_KINH_CAC_CHALLENGE_QUESTIONS;
-    const pool = unitQuestions.length >= 3 ? unitQuestions : TANG_KINH_CAC_CHALLENGE_QUESTIONS;
-    return MasteryEngine.selectAdaptiveQuestions(pool, knowledgeMastery || {}, 3);
-  });
+  const unitQuestions = selectedUnitId ? UnitContentService.getUnitChallengeQuestions(selectedUnitId) : TANG_KINH_CAC_CHALLENGE_QUESTIONS;
+  const pool = unitQuestions.length >= 3 ? unitQuestions : TANG_KINH_CAC_CHALLENGE_QUESTIONS;
+  const [questions, setQuestions] = useState<CombatQuestion[]>(() => MasteryEngine.selectAdaptiveQuestions(pool, knowledgeMastery || {}, 3));
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
-  const [timeLeft, setTimeLeft] = useState(12);
+  const [timeLeft, setTimeLeft] = useState(30);
   const [startTime, setStartTime] = useState(Date.now());
   const [isAnswered, setIsAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -99,7 +95,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
     setIsCorrect(false);
     soundService.playError();
     if (onAnswerKnowledge && question?.knowledgeItemIds) {
-      onAnswerKnowledge(question.knowledgeItemIds, false, 12);
+      onAnswerKnowledge(question.knowledgeItemIds, false, 30);
     }
   };
 
@@ -132,7 +128,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
       setCurrentIdx((prev) => prev + 1);
       setSelectedOption(null);
       setIsAnswered(false);
-      setTimeLeft(12);
+      setTimeLeft(30);
       setStartTime(Date.now());
     } else {
       // Đã hết 3 câu: Kiểm tra điều kiện vượt qua (tối thiểu 2/3 câu đúng)
@@ -150,7 +146,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
   const handleRetry = () => {
     setQuestions(
       MasteryEngine.selectAdaptiveQuestions(
-        TANG_KINH_CAC_CHALLENGE_QUESTIONS,
+        pool,
         knowledgeMastery || {},
         3
       )
@@ -162,7 +158,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
     setCorrectCount(0);
     setIsFailed(false);
     setIsSuccess(false);
-    setTimeLeft(12);
+    setTimeLeft(30);
     setStartTime(Date.now());
   };
 
@@ -175,7 +171,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/85 backdrop-blur-sm animate-fadeIn">
-      <div className="relative w-full max-w-xl bg-stone-900/95 border-2 border-emerald-500/80 rounded-2xl shadow-2xl p-5 sm:p-7 text-stone-100 flex flex-col gap-4">
+      <div className="relative w-full max-w-xl bg-stone-900/95 border-2 border-emerald-500/80 rounded-2xl shadow-2xl max-h-[90dvh] overflow-y-auto p-5 sm:p-7 text-stone-100 flex flex-col gap-4">
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -191,7 +187,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-emerald-400" />
                 <h3 className="font-bold text-emerald-300 text-lg font-wuxia">
-                  Phong Ấn Tri Thức — Câu {currentIdx + 1}/{TANG_KINH_CAC_CHALLENGE_QUESTIONS.length}
+                  Câu {currentIdx + 1}/{questions.length}
                 </h3>
               </div>
 
@@ -321,11 +317,11 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
 
             <div>
               <h3 className="text-2xl font-black text-red-400 font-wuxia">
-                Chưa Phá Được Phong Ấn
+                Thử lại nhé
               </h3>
               <p className="text-xs sm:text-sm text-stone-300 mt-2 max-w-sm">
                 Thiếu hiệp chỉ trả lời đúng <b className="text-amber-400">{correctCount}/3</b> câu.
-                Cần đạt tối thiểu <b className="text-emerald-400">2/3</b> câu đúng để khai mở Thần Binh khởi đầu!
+                Trả lời đúng ít nhất <b className="text-emerald-400">2/3</b> câu để nhận kiếm nhé!
               </p>
             </div>
 
@@ -353,10 +349,10 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
 
             <div>
               <h3 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-amber-300 font-wuxia">
-                Phong Ấn Đã Giải Khai!
+                Bạn làm được rồi!
               </h3>
               <p className="text-xs sm:text-sm text-stone-300 mt-1">
-                Thiếu hiệp đã vượt qua khảo hạch ({correctCount}/3 câu đúng). Phong Ấn Thạch Trận mở ra và ban tặng bảo kiếm khởi đầu!
+                Bạn đúng {correctCount}/3 câu và nhận được kiếm mới.
               </p>
             </div>
 
@@ -375,7 +371,7 @@ export const ChallengeModal: React.FC<ChallengeModalProps> = ({
                   {INITIAL_ITEMS.novice_sword.name}
                 </h4>
                 <p className="text-xs text-stone-400">
-                  +18 Tấn Công • +180 Công Lực
+                  +18 đánh mạnh hơn • +180 sức mạnh
                 </p>
               </div>
             </div>

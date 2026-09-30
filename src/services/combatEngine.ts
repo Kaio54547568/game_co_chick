@@ -54,7 +54,7 @@ export class CombatEngine {
     if (!isCorrect) {
       // Trả lời sai hoặc hết giờ: Kẻ địch đánh người chơi
       const enemyMult = modifiers?.enemyAttackMultiplier ?? 1.0;
-      const baseEnemyDmg = Math.max(10, Math.round(enemy.attack * 1.2 - totalDef * 0.5));
+      const baseEnemyDmg = Math.max(7, Math.round(enemy.attack * 0.9 - totalDef * 0.5));
       const enemyDmg = Math.max(5, Math.round(baseEnemyDmg * enemyMult));
       return {
         isCorrect: false,
@@ -63,7 +63,7 @@ export class CombatEngine {
         damageToEnemy: 0,
         damageToPlayer: enemyDmg,
         comboCount: 0,
-        feedbackText: `Kiếm chiêu sai lạc! Kẻ địch phản công gây ${enemyDmg} sát thương!`,
+        feedbackText: `Chưa đúng. Bạn mất ${enemyDmg} máu.`,
       };
     }
 
@@ -98,19 +98,19 @@ export class CombatEngine {
 
     let feedback = '';
     if (isCritical) {
-      feedback = `Bạo kích xuất thế! Trả lời thần tốc trong ${responseTimeSec.toFixed(1)}s, gây ${damageToEnemy} sát thương!`;
+      feedback = `Rất nhanh! Gây ${damageToEnemy} sát thương.`;
     } else if (isWeak) {
-      feedback = `Kiếm thế chậm trễ (${responseTimeSec.toFixed(1)}s), gây ${damageToEnemy} sát thương.`;
+      feedback = `Đúng rồi! Gây ${damageToEnemy} sát thương.`;
     } else {
-      feedback = `Trúng đích chuẩn xác! Gây ${damageToEnemy} sát thương.`;
+      feedback = `Đúng rồi! Gây ${damageToEnemy} sát thương.`;
     }
 
     if (modifiers?.hintUsed) {
-      feedback += ' (Đã dùng gợi ý: -40% uy lực)';
+      feedback += ' (Có dùng gợi ý)';
     }
 
     if (modifiers?.damageMultiplier && modifiers.damageMultiplier > 1) {
-      feedback += ' [Bộc Phát Kiếm Ý!]';
+      feedback += ' Đánh mạnh hơn!';
     }
 
     if (nextCombo >= 3) {

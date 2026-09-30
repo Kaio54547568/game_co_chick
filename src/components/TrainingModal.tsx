@@ -389,7 +389,7 @@ export const TrainingModal: React.FC<TrainingModalProps> = ({
                   </div>
                 </div>
                 <div className="p-2.5 rounded-lg bg-stone-900/90 border border-stone-800">
-                  <div className="text-[11px] text-stone-400">Tu Vi đắc đạo</div>
+                  <div className="text-[11px] text-stone-400">Điểm đã có</div>
                   <div className="text-lg font-black text-emerald-300">+25 XP</div>
                 </div>
               </div>

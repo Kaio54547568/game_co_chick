@@ -38,6 +38,7 @@ import { VirtualJoystickUI } from './components/VirtualJoystickUI';
 import { UnitSelectModal } from './components/UnitSelectModal';
 import { PropActivityModal } from './components/PropActivityModal';
 import { Minimap } from './components/Minimap';
+import { OpeningCutscene } from './components/OpeningCutscene';
 import { Analytics } from '@vercel/analytics/react';
 import { createUnitQuests } from './data/questsData';
 import { evaluateUnitUnlocks } from './data/progressionBalance';
@@ -45,6 +46,7 @@ import { evaluateUnitUnlocks } from './data/progressionBalance';
 export const App: React.FC = () => {
   const [profile, setProfile] = useState<PlayerProfile | null>(() => StorageService.loadProfile());
   const [isGameStarted, setIsGameStarted] = useState<boolean>(false);
+  const [showOpening, setShowOpening] = useState(false);
 
   // Modals
   const [showDialogue, setShowDialogue] = useState<boolean>(false);
@@ -98,6 +100,7 @@ export const App: React.FC = () => {
   // Khóa di chuyển khi có bất kỳ modal nào mở
   const isAnyModalOpen =
     !isGameStarted ||
+    showOpening ||
     showDialogue ||
     showVocabulary ||
     showChallenge ||
@@ -183,7 +186,7 @@ export const App: React.FC = () => {
           setCurrentPropActivity(activity);
           setShowPropActivity(true);
         } else {
-          showNotification(`Không có dữ liệu bài học cho đạo cụ: ${data.propName}`);
+          showNotification(`Chưa có bài học cho ${data.propName}`);
         }
       }
     );
@@ -201,12 +204,12 @@ export const App: React.FC = () => {
   }, []);
 
   // Khởi tạo game Phaser khi người chơi bắt đầu
-  const initGame = (prof: PlayerProfile) => {
+  const initGame = (prof: PlayerProfile, movementLocked = false) => {
     setProfile(prof);
     setIsGameStarted(true);
 
     if (!phaserGameRef.current && gameContainerRef.current) {
-      phaserGameRef.current = createPhaserGame(gameContainerRef.current, prof.gender);
+      phaserGameRef.current = createPhaserGame(gameContainerRef.current, prof.gender, { unitId: prof.selectedUnitId, unitProgress: prof.unitProgress, defeatedEnemyIds: prof.defeatedEnemyIds, movementLocked });
     } else if (phaserGameRef.current) {
       eventBus.emit('changeGender', prof.gender);
     }
@@ -217,8 +220,8 @@ export const App: React.FC = () => {
 
   const handleStartNewGame = (name: string, gender: Gender) => {
     const newProf = createDefaultProfile(name, gender);
-    initGame(newProf);
-    showNotification('Chào mừng thiếu hiệp bước vào thế giới Võ Lâm!');
+    initGame(newProf, true);
+    setShowOpening(true);
   };
 
   const handleResumeGame = () => {
@@ -306,7 +309,7 @@ export const App: React.FC = () => {
       eventBus.emit('updateUnitProgress', targetState.progress);
       eventBus.emit('updateDefeatedEnemyIds', targetState.defeatedEnemyIds);
 
-      showNotification(`Đã chuyển sang ${unitId.toUpperCase()} (Lớp ${grade})!`);
+      showNotification(`Đã mở bài ${uNum} · Lớp ${grade}`);
       return updatedProfile;
     });
   };
@@ -325,12 +328,12 @@ export const App: React.FC = () => {
 
       soundService.playGong();
       showNotification(
-        `Hoàn thành: ${res.questCompletedTitle} (+${res.progressGain}% tiến độ, +${res.xpGained} XP)!`
+        `Xong việc! +${res.progressGain}% bài học · +${res.xpGained} điểm`
       );
 
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`ĐỘT PHÁ CẢNH GIỚI! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
+        showNotification(`Lên cấp ${res.profile.stats.level}!`);
       }
 
       return res.profile;
@@ -346,12 +349,12 @@ export const App: React.FC = () => {
 
       if (res.didCompleteQuest2) {
         soundService.playGong();
-        showNotification(`Hoàn thành: Khai Ngộ Tàng Kinh Các (+20% tiến độ, +80 XP)! Hãy phá Phong Ấn.`);
+        showNotification('Đã học 6 từ! Thử trả lời câu hỏi nhé.');
       }
 
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
+        showNotification(`Lên cấp ${res.profile.stats.level}!`);
       }
 
       return res.profile;
@@ -366,11 +369,11 @@ export const App: React.FC = () => {
       if (res.profile === prev) return prev;
 
       soundService.playGong();
-      showNotification(`Hoàn thành: Phá Giải Phong Ấn Tri Thức (+20% tiến độ, +120 XP)! Nhận Thanh Phong Kiếm.`);
+      showNotification('Trả lời đúng! Bạn nhận được kiếm mới.');
 
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
+        showNotification(`Lên cấp ${res.profile.stats.level}!`);
       }
 
       return res.profile;
@@ -396,19 +399,19 @@ export const App: React.FC = () => {
 
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`Đột phá cảnh giới! Cấp ${res.profile.stats.level}! Sinh lực hồi phục đầy đủ.`);
+        showNotification(`Lên cấp ${res.profile.stats.level}! Máu đã đầy.`);
       }
 
       if (res.didCompleteQuest4) {
         soundService.playGong();
-        showNotification(`Hoàn thành: Thanh Trừng Trúc Lâm (+25% tiến độ)! Nhận Ngọc Bội & Bí Điển. Cổng Boss đã giải phong ấn!`);
+        showNotification('Đường đến trận cuối đã mở!');
       }
 
       if (res.didCompleteBoss) {
         soundService.playVictory();
         setShowVictory(true);
       } else if (!res.didCompleteQuest4) {
-        showNotification(`Chiến thắng ${enemy.name}! Nhận +${enemy.xpReward} XP.`);
+        showNotification(`Thắng rồi! +${enemy.xpReward} điểm`);
       }
 
       return res.profile;
@@ -445,9 +448,9 @@ export const App: React.FC = () => {
       const res = ProgressionEngine.completeTrainingSession(prev, 25);
       if (res.didLevelUp) {
         soundService.playLevelUp();
-        showNotification(`Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`);
+        showNotification(`Lên cấp ${res.profile.stats.level}!`);
       } else {
-        showNotification('Hoàn thành buổi Luyện Công (+25 Tu Vi)!');
+        showNotification('Tập xong! +25 điểm');
       }
       return res.profile;
     });
@@ -468,12 +471,12 @@ export const App: React.FC = () => {
 
       if (res.isFirstCompletion) {
         showNotification(
-          `Lĩnh hội ${activity.propName}: +${res.xpGained} Tu Vi và +${res.progressGain}% Tiến độ Unit!`
+          `Đã khám phá ${activity.propName}! +${res.xpGained} điểm`
         );
         if (res.didLevelUp) {
           soundService.playLevelUp();
           showNotification(
-            `Đột phá cảnh giới! Chúc mừng thăng cấp ${res.profile.stats.level}!`
+            `Lên cấp ${res.profile.stats.level}!`
           );
         }
       }
@@ -486,7 +489,7 @@ export const App: React.FC = () => {
     setProfile((prev) => {
       if (!prev) return prev;
       const updated = ProgressionEngine.equipItem(prev, item);
-      showNotification(`Đã trang bị ${item.name}! Công Lực tăng lên ${updated.stats.congLuc}.`);
+      showNotification(`Đã dùng ${item.name}. Sức mạnh: ${updated.stats.congLuc}`);
       return updated;
     });
   };
@@ -504,7 +507,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-[#0c0d10] font-sans">
+    <div className="game-shell relative w-screen overflow-hidden bg-[#0c0d10] font-sans">
       {/* Phaser Canvas Root */}
       <div ref={gameContainerRef} id="game-container" className="w-full h-full absolute inset-0 z-0" />
 
@@ -542,8 +545,8 @@ export const App: React.FC = () => {
 
       {/* Toast Notification */}
       {notification && (
-        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-50 pointer-events-none animate-fadeIn">
-          <div className="px-4 py-2 rounded-xl bg-amber-950/90 border border-amber-500/80 shadow-wuxia-gold text-amber-200 text-xs sm:text-sm font-bold backdrop-blur-md">
+        <div className="game-toast fixed left-1/2 -translate-x-1/2 z-50 pointer-events-none animate-fadeIn" role="status" aria-live="polite">
+          <div className="max-w-[min(88vw,28rem)] px-4 py-2.5 rounded-2xl bg-stone-950/88 border border-white/15 shadow-xl text-stone-100 text-xs sm:text-sm font-medium text-center backdrop-blur-md">
             {notification}
           </div>
         </div>
@@ -556,6 +559,10 @@ export const App: React.FC = () => {
           onStartNewGame={handleStartNewGame}
           onResumeGame={handleResumeGame}
         />
+      )}
+
+      {showOpening && profile && (
+        <OpeningCutscene playerName={profile.name} onFinish={() => setShowOpening(false)} />
       )}
 
       {/* Dialogue Modal */}

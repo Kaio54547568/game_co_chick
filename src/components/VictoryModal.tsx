@@ -33,7 +33,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
         <div>
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-bold mb-2">
             <Sparkles className="w-3.5 h-3.5" />
-            Đại Thắng Võ Lâm • Vertical Slice Hoàn Thành!
+            Bạn đã thắng!
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 font-wuxia">
             Bình Định Ma Giáo
@@ -51,7 +51,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
           </div>
 
           <div className="bg-stone-950/80 border border-stone-800 rounded-xl p-3">
-            <span className="text-[11px] text-stone-400 block">Công Lực</span>
+            <span className="text-[11px] text-stone-400 block">Sức mạnh</span>
             <span className="text-base font-extrabold text-yellow-300">{profile.stats.congLuc}</span>
           </div>
 
@@ -76,7 +76,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
               Rương Chiến Lợi Phẩm Ma Giáo
             </h4>
             <p className="text-xs text-stone-400">
-              Đã tự động chuyển vào Hành Trang của thiếu hiệp.
+              Đồ mới đã nằm trong túi của bạn.
             </p>
           </div>
         </div>
@@ -90,7 +90,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
             }}
             className="flex-1 py-3 px-4 rounded-xl bg-stone-800 hover:bg-stone-700 text-amber-300 font-bold text-xs border border-amber-600/50 active:scale-95 transition"
           >
-            Mở Hành Trang Xem Đồ
+            Xem đồ mới
           </button>
 
           <button

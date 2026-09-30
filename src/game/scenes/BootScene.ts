@@ -2,12 +2,14 @@ import Phaser from 'phaser';
 
 export class BootScene extends Phaser.Scene {
   private playerGender: string = 'male';
+  private initialState: { unitId?: string; unitProgress?: number; defeatedEnemyIds?: string[]; movementLocked?: boolean } = {};
 
   constructor() {
     super('BootScene');
   }
 
-  init(data: { gender?: string }) {
+  init(data: { gender?: string; unitId?: string; unitProgress?: number; defeatedEnemyIds?: string[]; movementLocked?: boolean }) {
+    this.initialState = data || {};
     if (data?.gender) {
       this.playerGender = data.gender;
     }
@@ -23,7 +25,7 @@ export class BootScene extends Phaser.Scene {
     progressBox.fillStyle(0x221c16, 0.8);
     progressBox.fillRect(width / 2 - 160, height / 2 - 25, 320, 50);
 
-    const loadingText = this.add.text(width / 2, height / 2 - 50, 'Đang chuẩn bị bước vào Võ Lâm...', {
+    const loadingText = this.add.text(width / 2, height / 2 - 50, 'Đang chuẩn bị chuyến đi...', {
       font: '16px "Be Vietnam Pro", -apple-system, sans-serif',
       color: '#e6b349',
     }).setOrigin(0.5);
@@ -49,6 +51,12 @@ export class BootScene extends Phaser.Scene {
       frameWidth: 160,
       frameHeight: 192,
     });
+    for (const gender of ['male', 'female']) {
+      this.load.spritesheet(`player_${gender}_walk`, `/assets/game/characters/player/walking/${gender}_walk.png`, {
+        frameWidth: 160,
+        frameHeight: 192,
+      });
+    }
 
     // Avatar tĩnh
     this.load.image('player_male_idle', '/assets/game/characters/player/male_idle.png');
@@ -106,6 +114,22 @@ export class BootScene extends Phaser.Scene {
   }
 
   create() {
-    this.scene.start('WorldScene', { gender: this.playerGender });
+    for (const gender of ['male', 'female']) {
+      ['down', 'up', 'left', 'right'].forEach((direction, row) => {
+        const key = `player_${gender}_walk_${direction}`;
+        if (!this.anims.exists(key)) {
+          this.anims.create({
+            key,
+            frames: this.anims.generateFrameNumbers(`player_${gender}_walk`, {
+              start: row * 4,
+              end: row * 4 + 3,
+            }),
+            frameRate: 7,
+            repeat: -1,
+          });
+        }
+      });
+    }
+    this.scene.start('WorldScene', { ...this.initialState, gender: this.playerGender });
   }
 }

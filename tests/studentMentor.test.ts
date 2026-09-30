@@ -131,6 +131,7 @@ describe('Senior Mentor (Bách Khoa Thư Sinh) Test Suite', () => {
       let profile: PlayerProfile = createDefaultProfile('Hero');
       const questId = STUDENT_QUESTS[0].id;
       const initialXp = profile.stats.xp;
+      const firstLevelCost = profile.stats.xpToNextLevel;
       const initialCongLuc = profile.stats.congLuc;
       const initialInventoryCount = profile.inventory.length;
 
@@ -151,7 +152,9 @@ describe('Senior Mentor (Bách Khoa Thư Sinh) Test Suite', () => {
 
       expect(StudentMentorService.getQuestStatus(profile, questId)).toBe('rewarded');
       expect(claimResult.reward).not.toBeNull();
-      expect(profile.stats.xp).toBe(initialXp + STUDENT_QUESTS[0].reward.xp);
+      expect(profile.stats.level).toBe(2);
+      expect(profile.stats.xp).toBe(initialXp + STUDENT_QUESTS[0].reward.xp - firstLevelCost);
+      expect(profile.stats.xp).toBeLessThan(profile.stats.xpToNextLevel);
       expect(profile.stats.congLuc).toBeGreaterThan(initialCongLuc);
       expect(profile.inventory.length).toBe(initialInventoryCount + 1);
       expect(profile.inventory.some((i) => i.name === STUDENT_QUESTS[0].reward.itemTitle)).toBe(true);

@@ -259,10 +259,10 @@ export class RemediationAdvisor {
     ) {
       return {
         guardianId: 'ho_phap_hoang_van',
-        guardianName: 'Cô Hoàng Vân',
+        guardianName: 'Hộ Pháp Hoàng Vân',
         guardianLocation: 'Võ Luyện Đài (Khu Vực Phía Đông)',
         skillCategory: 'Luyện nghe',
-        actionPrompt: 'Đến gặp Cô Hoàng Vân tại Võ Luyện Đài để luyện nghe khẩu quyết trọng tâm.',
+        actionPrompt: 'Đến gặp Hộ Pháp Hoàng Vân tại Võ Luyện Đài để luyện nghe khẩu quyết trọng tâm.',
         pedagogicalAdvice:
           'Tập trung lắng nghe trọng âm từ khóa, các âm nối tự nhiên và ngữ điệu câu. Bấm nút loa phát âm nhiều lần trước khi chọn đáp án.',
       };
@@ -282,10 +282,10 @@ export class RemediationAdvisor {
     ) {
       return {
         guardianId: 'ho_phap_dang_tran_ha',
-        guardianName: 'Thầy Đặng Trần Hà',
+        guardianName: 'Hộ Pháp Đặng Trần Hà',
         guardianLocation: 'Phong Ấn Thạch Trận (Trước Tàng Kinh Các)',
         skillCategory: 'Ngữ pháp',
-        actionPrompt: 'Đến gặp Thầy Đặng Trần Hà để giải phá quy tắc cấu trúc ngữ pháp.',
+        actionPrompt: 'Đến gặp Hộ Pháp Đặng Trần Hà để giải phá quy tắc cấu trúc ngữ pháp.',
         pedagogicalAdvice:
           'Xác định rõ trật tự: Chủ ngữ (Subject) + Trợ động từ (Auxiliary) + Động từ chính (Main Verb) + Tân ngữ (Object). Chú ý thì của động từ và sự hòa hợp chủ vị.',
       };
@@ -302,10 +302,10 @@ export class RemediationAdvisor {
     ) {
       return {
         guardianId: 'ho_phap_nguyet_nguyen',
-        guardianName: 'Cô Nguyệt Nguyên',
+        guardianName: 'Hộ Pháp Nguyệt Nguyên',
         guardianLocation: 'Minh Triết Các (Khu Vực Tây Nam)',
         skillCategory: 'Đọc hiểu',
-        actionPrompt: 'Đến gặp Cô Nguyệt Nguyên tại Minh Triết Các để rèn luyện kỹ năng định vị dẫn chứng.',
+        actionPrompt: 'Đến gặp Hộ Pháp Nguyệt Nguyên tại Minh Triết Các để rèn luyện kỹ năng định vị dẫn chứng.',
         pedagogicalAdvice:
           'Áp dụng nguyên tắc "Neo Dẫn Chứng": Đọc lướt (Skimming) để nắm ý chính, quét từ khóa (Scanning), và chọn đáp án có câu trích dẫn bảo chứng trong đoạn.',
       };
@@ -314,10 +314,10 @@ export class RemediationAdvisor {
     // 4. MẶC ĐỊNH: TỪ VỰNG & CĂN CƠ (Vocabulary Mastery)
     return {
       guardianId: 'ho_phap_phuong_tu',
-      guardianName: 'Cô Phương Tú',
+      guardianName: 'Hộ Pháp Phương Tú',
       guardianLocation: 'Tàng Kinh Các (Tây Bắc Sơn Môn)',
       skillCategory: 'Từ vựng',
-      actionPrompt: 'Đến Tàng Kinh Các gặp Cô Phương Tú hoặc mở Bí Điển Tri Thức để trau dồi từ vựng.',
+      actionPrompt: 'Đến Tàng Kinh Các gặp Hộ Pháp Phương Tú hoặc mở Bí Điển Tri Thức để trau dồi từ vựng.',
       pedagogicalAdvice:
         `Ghi nhớ từ vựng theo ngữ cảnh của ${unitTopic || 'bài học'}. Chú ý từ loại (danh từ, tính từ, động từ) và các tiền tố / hậu tố biến đổi nghĩa.`,
     };

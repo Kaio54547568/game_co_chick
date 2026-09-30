@@ -2,7 +2,7 @@ import Phaser from 'phaser';
 import { BootScene } from './scenes/BootScene';
 import { WorldScene } from './scenes/WorldScene';
 
-export function createPhaserGame(parent: HTMLElement, playerGender: 'male' | 'female' = 'male'): Phaser.Game {
+export function createPhaserGame(parent: HTMLElement, playerGender: 'male' | 'female' = 'male', initialState: { unitId?: string; unitProgress?: number; defeatedEnemyIds?: string[]; movementLocked?: boolean } = {}): Phaser.Game {
   const config: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
     parent,
@@ -25,6 +25,6 @@ export function createPhaserGame(parent: HTMLElement, playerGender: 'male' | 'fe
   };
 
   const game = new Phaser.Game(config);
-  game.scene.start('BootScene', { gender: playerGender });
+  game.scene.start('BootScene', { gender: playerGender, ...initialState });
   return game;
 }

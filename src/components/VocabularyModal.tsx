@@ -155,7 +155,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h2 className="text-base sm:text-lg font-black text-emerald-200 font-wuxia">
-                  Bí Điển Tri Thức — Võ Lâm Anh Ngữ
+                  Học từ tiếng Anh
                 </h2>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
                   {activeUnitId.toUpperCase()}
@@ -218,7 +218,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
               }`}
             >
               <BookOpen className="w-4 h-4" />
-              <span>Bí Điển Từ Vựng &amp; Ngữ Pháp</span>
+              <span>Từ và cách dùng</span>
               <span className="text-[10px] px-1.5 py-0.2 rounded bg-emerald-950 text-emerald-300 border border-emerald-800">
                 {counts.all}
               </span>
@@ -548,7 +548,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
                       </span>
                     ) : (
                       <span>
-                        Học 6 từ khởi đầu ({learnedVocabIds.length}/6) để mở Thử Thách Phong Ấn.
+                        Học 6 từ ({learnedVocabIds.length}/6) để mở câu hỏi.
                       </span>
                     )}
                   </div>
@@ -559,7 +559,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
                         disabled
                         className="flex-1 sm:flex-initial px-4 py-2 rounded-xl bg-stone-800 text-stone-500 font-bold text-xs tracking-wide border border-stone-700 cursor-not-allowed"
                       >
-                        ✓ Phong Ấn Đã Khai Mở (Đã nhận kiếm)
+                        ✓ Đã mở và nhận kiếm
                       </button>
                     ) : (
                       <button
@@ -573,7 +573,7 @@ export const VocabularyModal: React.FC<VocabularyModalProps> = ({
                       >
                         <span>
                           {allInitialLearned
-                            ? 'Phá Phong Ấn Tri Thức'
+                            ? 'Trả lời câu hỏi'
                             : `Cần học 6 từ khởi đầu (${learnedVocabIds.length}/6)`}
                         </span>
                         <ChevronRight className="w-4 h-4" />

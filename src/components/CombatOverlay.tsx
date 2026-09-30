@@ -102,6 +102,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     questionPool.current[questionIdx % questionPool.current.length] || allUnitQuestions[0];
 
   const currentMode: CombatMode = currentQuestion.combatMode || initialEnemy.combatMode || 'standard';
+  const questionTimeLimit = bossPhase === 2 ? 20 : Math.max(currentMode === 'triple_combo' ? 45 : 30, currentQuestion.timeLimit || 0);
 
   // Tactical Briefing before combat begins
   const [showBriefing, setShowBriefing] = useState<boolean>(
@@ -109,7 +110,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
   );
 
   // Combat State
-  const [timeLeft, setTimeLeft] = useState<number>(currentQuestion.timeLimit || 15);
+  const [timeLeft, setTimeLeft] = useState<number>(questionTimeLimit);
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -166,8 +167,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     setSelectedEvidenceIndex(null);
     setComboStepIndex(0);
 
-    const initialTime = bossPhase === 2 ? 8 : currentQuestion.timeLimit || 15;
-    setTimeLeft(initialTime);
+    setTimeLeft(questionTimeLimit);
     setStartTime(Date.now());
 
     // Word order setup for Mode 1
@@ -269,7 +269,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
   }, [showBriefing]);
 
   const handleTimeout = () => {
-    processAnswerResult(false, currentQuestion.timeLimit, null);
+    processAnswerResult(false, questionTimeLimit, null);
   };
 
   // --- MODE 1: Phá Phong Ấn (Unseal) Handlers ---
@@ -617,7 +617,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     setShowTranscript(false);
     setSelectedEvidenceIndex(null);
     setComboStepIndex(0);
-    setTimeLeft(bossPhase === 2 ? 8 : currentQuestion.timeLimit || 15);
+    setTimeLeft(questionTimeLimit);
     setStartTime(Date.now());
 
     if (currentMode === 'unseal' && currentQuestion.wordsToOrder) {
@@ -670,7 +670,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
     setSelectedOption(null);
     setTurnResult(null);
     setCombo(0);
-    setTimeLeft(currentQuestion.timeLimit || 15);
+    setTimeLeft(questionTimeLimit);
     setStartTime(Date.now());
   };
 
@@ -883,7 +883,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
                 <span>Thời gian: {timeLeft}s</span>
                 {isAudioPlaying && (
                   <span className="text-cyan-400 text-[11px] animate-pulse ml-2 font-bold">
-                    🔊 Đang truyền khẩu quyết... (Đồng hồ tạm dừng)
+                    🔊 Đang phát tiếng... (tạm dừng)
                   </span>
                 )}
               </div>
@@ -894,7 +894,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
                     timeLeft <= 3 ? 'bg-red-500' : timeLeft <= 6 ? 'bg-yellow-500' : 'bg-emerald-500'
                   }`}
                   style={{
-                    width: `${(timeLeft / (bossPhase === 2 ? 8 : currentQuestion.timeLimit || 15)) * 100}%`,
+                    width: `${(timeLeft / questionTimeLimit) * 100}%`,
                   }}
                 />
               </div>
@@ -1518,7 +1518,7 @@ export const CombatOverlay: React.FC<CombatOverlayProps> = ({
 
               <div className="w-full bg-stone-950/80 border border-stone-800 rounded-xl p-3 flex justify-around text-xs">
                 <div>
-                  <span className="text-stone-400 block">Tu Vi (XP)</span>
+                  <span className="text-stone-400 block">Điểm</span>
                   <span className="font-bold text-amber-300">+{initialEnemy.xpReward} XP</span>
                 </div>
                 {isBoss && (

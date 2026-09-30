@@ -1,8 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import { eventBus } from '../game/EventBus';
 
 export const VirtualJoystickUI: React.FC = () => {
-  const [touchActive, setTouchActive] = useState(false);
   const [knobPos, setKnobPos] = useState({ x: 0, y: 0 });
   const baseRef = useRef<HTMLDivElement>(null);
   const touchIdRef = useRef<number | null>(null);
@@ -12,12 +11,11 @@ export const VirtualJoystickUI: React.FC = () => {
   const handleTouchStart = (e: React.TouchEvent) => {
     const touch = e.changedTouches[0];
     touchIdRef.current = touch.identifier;
-    setTouchActive(true);
     updateVector(touch.clientX, touch.clientY);
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    if (!touchActive) return;
+    if (touchIdRef.current === null) return;
     for (let i = 0; i < e.changedTouches.length; i++) {
       if (e.changedTouches[i].identifier === touchIdRef.current) {
         updateVector(e.changedTouches[i].clientX, e.changedTouches[i].clientY);
@@ -29,7 +27,6 @@ export const VirtualJoystickUI: React.FC = () => {
   const handleTouchEnd = (e: React.TouchEvent) => {
     for (let i = 0; i < e.changedTouches.length; i++) {
       if (e.changedTouches[i].identifier === touchIdRef.current) {
-        setTouchActive(false);
         setKnobPos({ x: 0, y: 0 });
         touchIdRef.current = null;
         eventBus.emit('setJoystick', { x: 0, y: 0 });
@@ -61,7 +58,7 @@ export const VirtualJoystickUI: React.FC = () => {
   };
 
   return (
-    <div className="absolute bottom-6 left-6 z-40 sm:hidden">
+    <div className="game-joystick absolute z-40">
       {/* Joystick Base */}
       <div
         ref={baseRef}
@@ -69,7 +66,7 @@ export const VirtualJoystickUI: React.FC = () => {
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
         onTouchCancel={handleTouchEnd}
-        className="relative w-32 h-32 rounded-full bg-stone-900/60 border-2 border-amber-600/40 backdrop-blur-sm flex items-center justify-center touch-none select-none"
+        className="relative h-28 w-28 rounded-full bg-stone-900/60 border-2 border-amber-300/35 backdrop-blur-sm flex items-center justify-center touch-none select-none"
       >
         <img
           src="/assets/game/ui/controls/joystick_base.png"

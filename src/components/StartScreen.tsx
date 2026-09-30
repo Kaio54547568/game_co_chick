@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Gender, PlayerProfile } from '../types/game';
 import { soundService } from '../services/sound';
-import { Sparkles, Shield, Sword, Play, RotateCcw } from 'lucide-react';
+import { ArrowRight, RotateCcw } from 'lucide-react';
 
 interface StartScreenProps {
   existingProfile: PlayerProfile | null;
@@ -9,189 +9,55 @@ interface StartScreenProps {
   onResumeGame: () => void;
 }
 
-export const StartScreen: React.FC<StartScreenProps> = ({
-  existingProfile,
-  onStartNewGame,
-  onResumeGame,
-}) => {
-  const [selectedGender, setSelectedGender] = useState<Gender>('male');
-  const [playerName, setPlayerName] = useState('Tiểu Thiếu Hiệp');
-  const [showNewGameForm, setShowNewGameForm] = useState(!existingProfile);
-
-  const handleStart = () => {
+export const StartScreen: React.FC<StartScreenProps> = ({ existingProfile, onStartNewGame, onResumeGame }) => {
+  const [gender, setGender] = useState<Gender>('male');
+  const [name, setName] = useState('Tiểu Thiếu Hiệp');
+  const [showForm, setShowForm] = useState(!existingProfile);
+  const start = () => {
     soundService.playGong();
-    onStartNewGame(playerName, selectedGender);
-  };
-
-  const handleResume = () => {
-    soundService.playGong();
-    onResumeGame();
+    onStartNewGame(name.trim() || 'Tiểu Thiếu Hiệp', gender);
   };
 
   return (
-    <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/90 p-4 select-none overflow-y-auto">
-      {/* Background decoration with arena art */}
-      <div
-        className="absolute inset-0 bg-cover bg-center opacity-30 filter blur-sm"
-        style={{ backgroundImage: 'url(/assets/game/combat/courtyard_arena.jpg)' }}
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/60" />
-
-      {/* Main Container */}
-      <div className="relative z-10 w-full max-w-xl bg-stone-900/90 border-2 border-amber-600/70 rounded-2xl p-6 sm:p-8 shadow-2xl backdrop-blur-md text-stone-100 flex flex-col items-center">
-        {/* Title */}
-        <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold mb-2">
-            <Sparkles className="w-3.5 h-3.5" />
-            Bản Thử Nghiệm • 30 Unit Võ Lâm
-          </div>
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 font-wuxia drop-shadow-md">
-            Global Success
-          </h1>
-          <h2 className="text-xl sm:text-3xl font-bold text-amber-300 font-wuxia mt-0.5">
-            Wulin
-          </h2>
-          <p className="text-xs sm:text-sm text-stone-400 italic mt-1">
-            "Tam Niên Anh Ngữ – Nhất Thống Võ Lâm"
-          </p>
-        </div>
-
-        {/* Existing save option */}
-        {existingProfile && !showNewGameForm ? (
-          <div className="w-full flex flex-col items-center gap-4 py-4">
-            <div className="w-full bg-stone-800/80 border border-amber-500/40 rounded-xl p-4 flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <img
-                  src={
-                    existingProfile.gender === 'female'
-                      ? '/assets/game/characters/player/female_idle.png'
-                      : '/assets/game/characters/player/male_idle.png'
-                  }
-                  alt="Avatar"
-                  className="w-14 h-14 rounded-lg bg-stone-900 border border-amber-500/50 object-contain p-1"
-                />
-                <div>
-                  <h3 className="font-bold text-amber-200 text-lg">{existingProfile.name}</h3>
-                  <div className="flex items-center gap-3 text-xs text-stone-400 mt-0.5">
-                    <span>Cấp độ: <b className="text-amber-400">{existingProfile.stats.level}</b></span>
-                    <span>Công Lực: <b className="text-yellow-400">{existingProfile.stats.congLuc}</b></span>
-                    <span>Tiến độ Unit: <b className="text-emerald-400">{existingProfile.unitProgress}%</b></span>
-                  </div>
-                </div>
+    <main className="start-screen fixed inset-0 z-50 overflow-y-auto text-white">
+      <img src="/assets/game/story/opening-path.png" alt="Con đường dẫn đến ngôi làng" className="fixed inset-0 h-full w-full object-cover" />
+      <div className="fixed inset-0 bg-gradient-to-r from-[#07110f]/95 via-[#07110f]/78 to-[#07110f]/25 max-sm:bg-gradient-to-t max-sm:from-[#07110f] max-sm:via-[#07110f]/85 max-sm:to-[#07110f]/20" />
+      <div className="relative mx-auto flex min-h-full w-full max-w-6xl items-center px-5 py-12 sm:px-10" style={{ paddingBottom: 'max(3rem, env(safe-area-inset-bottom))' }}>
+        <div className="w-full max-w-lg">
+          <span className="text-xs font-bold uppercase tracking-[.2em] text-amber-200">Học tiếng Anh qua chuyến đi</span>
+          <h1 className="mt-3 text-4xl font-bold leading-tight sm:text-6xl">Global Success<br /><span className="text-amber-300">Wulin</span></h1>
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-stone-200 sm:text-base">Đi qua từng vùng đất, gặp gỡ bạn mới và học một chút mỗi ngày.</p>
+          {existingProfile && !showForm ? (
+            <div className="mt-8 space-y-3">
+              <div className="flex items-center gap-3 rounded-2xl border border-white/15 bg-black/40 p-3 backdrop-blur-md">
+                <img src={`/assets/game/characters/player/${existingProfile.gender === 'female' ? 'female' : 'male'}_idle.png`} alt="Nhân vật của bạn" className="h-14 w-14 rounded-xl bg-white/10 object-contain" />
+                <div><strong className="block">{existingProfile.name}</strong><span className="text-xs text-stone-300">Lớp {existingProfile.selectedGrade || 10} · Bài {parseInt((existingProfile.selectedUnitId || 'g10-u01').split('-u')[1] || '1', 10)}</span></div>
               </div>
+              <button onClick={() => { soundService.playGong(); onResumeGame(); }} className="flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-amber-300 px-5 font-bold text-stone-950 active:scale-[.98]">Chơi tiếp <ArrowRight size={18} /></button>
+              <button onClick={() => setShowForm(true)} className="flex min-h-11 items-center gap-2 text-sm text-stone-200"><RotateCcw size={15} /> Chơi lại từ đầu</button>
             </div>
-
-            <button
-              onClick={handleResume}
-              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500 text-stone-900 font-bold text-lg shadow-lg flex items-center justify-center gap-2 transform active:scale-98 transition duration-150"
-            >
-              <Play className="w-5 h-5 fill-current" />
-              Tiếp Tục Hành Trình
-            </button>
-
-            <button
-              onClick={() => setShowNewGameForm(true)}
-              className="text-xs text-stone-400 hover:text-amber-300 underline flex items-center gap-1.5 transition"
-            >
-              <RotateCcw className="w-3.5 h-3.5" /> Tạo nhân vật mới (Chơi lại từ đầu)
-            </button>
-          </div>
-        ) : (
-          /* Character creation */
-          <div className="w-full flex flex-col items-center gap-5">
-            <p className="text-xs sm:text-sm text-stone-300 text-center max-w-md">
-              Vô Ngôn Ma Giáo đang mưu đồ đảo lộn trật tự văn phạm và xóa sạch tri thức tiếng Anh. Hãy chọn diện mạo thiếu hiệp và bắt đầu bước vào giang hồ!
-            </p>
-
-            {/* Avatar choice */}
-            <div className="grid grid-cols-2 gap-4 w-full">
-              {/* Male option */}
-              <div
-                onClick={() => {
-                  setSelectedGender('male');
-                  soundService.playClick();
-                }}
-                className={`relative flex flex-col items-center p-3 rounded-xl border-2 cursor-pointer transition-all ${
-                  selectedGender === 'male'
-                    ? 'border-amber-400 bg-amber-950/40 shadow-wuxia-gold'
-                    : 'border-stone-700 bg-stone-800/50 hover:border-stone-500'
-                }`}
-              >
-                <div className="w-24 h-28 flex items-center justify-center overflow-hidden">
-                  <img
-                    src="/assets/game/characters/player/male_idle.png"
-                    alt="Nam Tiêu Dao"
-                    className="h-full object-contain filter drop-shadow"
-                  />
+          ) : (
+            <div className="mt-7 space-y-4">
+              <div>
+                <p className="mb-2 text-sm font-semibold text-stone-200">Chọn nhân vật</p>
+                <div className="grid w-full grid-cols-2 gap-3">
+                  {(['male', 'female'] as Gender[]).map((choice) => (
+                    <button key={choice} onClick={() => setGender(choice)} aria-pressed={gender === choice} className={`flex min-h-28 min-w-0 flex-col items-center justify-center rounded-2xl border p-2 text-center backdrop-blur-md transition ${gender === choice ? 'border-amber-300 bg-amber-300/20' : 'border-white/20 bg-black/35'}`}>
+                      <img src={`/assets/game/characters/player/${choice}_idle.png`} alt="" className="h-20 w-16 object-contain" />
+                      <span className="text-sm font-semibold">{choice === 'male' ? 'Nam Tiêu Dao' : 'Nữ Linh Lung'}</span>
+                    </button>
+                  ))}
                 </div>
-                <span className="font-bold text-sm mt-2 text-amber-200">Nam Tiêu Dao</span>
-                <span className="text-[11px] text-stone-400">Kiếm khí cương trực</span>
               </div>
-
-              {/* Female option */}
-              <div
-                onClick={() => {
-                  setSelectedGender('female');
-                  soundService.playClick();
-                }}
-                className={`relative flex flex-col items-center p-3 rounded-xl border-2 cursor-pointer transition-all ${
-                  selectedGender === 'female'
-                    ? 'border-amber-400 bg-amber-950/40 shadow-wuxia-gold'
-                    : 'border-stone-700 bg-stone-800/50 hover:border-stone-500'
-                }`}
-              >
-                <div className="w-24 h-28 flex items-center justify-center overflow-hidden">
-                  <img
-                    src="/assets/game/characters/player/female_idle.png"
-                    alt="Nữ Linh Lung"
-                    className="h-full object-contain filter drop-shadow"
-                  />
-                </div>
-                <span className="font-bold text-sm mt-2 text-amber-200">Nữ Linh Lung</span>
-                <span className="text-[11px] text-stone-400">Tâm trí thông tuệ</span>
-              </div>
-            </div>
-
-            {/* Name input */}
-            <div className="w-full">
-              <label className="block text-xs font-semibold text-amber-300 mb-1">
-                Danh Xưng Thiếu Hiệp
+              <label className="block text-sm font-semibold">Tên của bạn
+                <input value={name} onChange={(e) => setName(e.target.value)} maxLength={20} className="mt-2 min-h-12 w-full rounded-xl border border-white/25 bg-black/45 px-4 text-base text-white outline-none focus:border-amber-300" placeholder="Nhập tên" />
               </label>
-              <input
-                type="text"
-                value={playerName}
-                onChange={(e) => setPlayerName(e.target.value)}
-                maxLength={20}
-                className="w-full px-4 py-2.5 rounded-lg bg-stone-950/80 border border-stone-600 focus:border-amber-500 focus:outline-none text-stone-100 text-sm font-semibold"
-                placeholder="Nhập tên nhân vật..."
-              />
+              <button onClick={start} className="flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-amber-300 px-5 font-bold text-stone-950 active:scale-[.98]">Bắt đầu <ArrowRight size={18} /></button>
+              {existingProfile && <button onClick={() => setShowForm(false)} className="min-h-10 text-sm text-stone-200">Quay lại</button>}
             </div>
-
-            {/* Start Button */}
-            <button
-              onClick={handleStart}
-              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500 text-stone-900 font-bold text-lg shadow-lg flex items-center justify-center gap-2 transform active:scale-98 transition duration-150 mt-1"
-            >
-              <Play className="w-5 h-5 fill-current" />
-              Bước Vào Giang Hồ
-            </button>
-
-            {existingProfile && (
-              <button
-                onClick={() => setShowNewGameForm(false)}
-                className="text-xs text-stone-400 hover:text-stone-200 transition"
-              >
-                Quay lại tài khoản cũ
-              </button>
-            )}
-          </div>
-        )}
-
-        {/* Note */}
-        <div className="mt-6 text-center text-[11px] text-stone-500 border-t border-stone-800 pt-3 w-full">
-          Phát triển bởi đội ngũ Global Success Wulin • Lưu tiến độ tự động trên trình duyệt
+          )}
         </div>
       </div>
-    </div>
+    </main>
   );
 };

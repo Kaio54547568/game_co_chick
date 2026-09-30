@@ -57,10 +57,10 @@ export const UnitSelectModal: React.FC<UnitSelectModalProps> = ({
             </div>
             <div>
               <h2 className="text-lg sm:text-xl font-black text-amber-200 font-wuxia">
-                Bản Đồ Giang Hồ - 30 Unit Global Success
+                Chọn bài học
               </h2>
               <p className="text-xs text-stone-400">
-                Lựa chọn Unit (Lớp 10, 11, 12) để rèn luyện võ học. Cần đạt tối thiểu 70% để giải khai Unit kế tiếp!
+                Chọn lớp và bài. Học đến 70% để mở bài sau.
               </p>
             </div>
           </div>
@@ -265,7 +265,7 @@ export const UnitSelectModal: React.FC<UnitSelectModalProps> = ({
             </b>
           </span>
           <span className="text-[11px] italic">
-            Người chơi có thể tự do quay lại các Unit đã mở khóa để ôn tập và nâng cao Tu Vi!
+            Bạn có thể quay lại bài cũ để ôn tập.
           </span>
         </div>
       </div>

@@ -59,6 +59,7 @@ export class WorldScene extends Phaser.Scene {
   private qKey?: Phaser.Input.Keyboard.Key;
   private f2Key?: Phaser.Input.Keyboard.Key;
   private playerFacing: { x: number; y: number } = { x: 0, y: 1 };
+  private playerDirection: number = 0;
 
   private playerGender: Gender = 'male';
   private currentUnitId: string = 'g10-u01';
@@ -100,7 +101,10 @@ export class WorldScene extends Phaser.Scene {
     super('WorldScene');
   }
 
-  init(data: { gender?: Gender; unitId?: string }) {
+  init(data: { gender?: Gender; unitId?: string; unitProgress?: number; defeatedEnemyIds?: string[]; movementLocked?: boolean }) {
+    this.unitProgress = data?.unitProgress || 0;
+    this.defeatedEnemyIds = data?.defeatedEnemyIds || [];
+    this.isMovementLocked = Boolean(data?.movementLocked);
     if (data?.gender) {
       this.playerGender = data.gender;
     }
@@ -178,6 +182,12 @@ export class WorldScene extends Phaser.Scene {
 
     // 6. Build level for current unit
     this.loadAndBuildLevel(this.currentUnitId);
+    this.scale.on(Phaser.Scale.Events.RESIZE, this.updateCameraZoom, this);
+  }
+
+  private updateCameraZoom() {
+    const { width, height } = this.scale;
+    this.cameras.main.setZoom(width < 700 ? (height > width ? 0.82 : 0.92) : 1);
   }
 
   private setupEventBusListeners() {
@@ -186,6 +196,7 @@ export class WorldScene extends Phaser.Scene {
       if (locked) {
         if (this.player && this.player.body) {
           this.player.setVelocity(0, 0);
+          this.stopPlayerWalking();
         }
         this.promptText?.setVisible(false);
         this.selectionRingGraphics?.setVisible(false);
@@ -230,9 +241,8 @@ export class WorldScene extends Phaser.Scene {
 
     eventBus.on('changeGender', (gender: Gender) => {
       this.playerGender = gender;
-      const key = gender === 'female' ? 'player_female_4dir' : 'player_male_4dir';
       if (this.player) {
-        this.player.setTexture(key, 0);
+        this.stopPlayerWalking();
       }
     });
 
@@ -538,7 +548,7 @@ export class WorldScene extends Phaser.Scene {
     this.levelObjects.push(trainingDummy);
 
     const dummyText = this.add
-      .text(2700, 610, '🎯 Cọc Luyện Công (Võ Luyện Đài)', {
+      .text(2700, 610, '🎯 Tập luyện', {
         font: 'bold 13px "Be Vietnam Pro", -apple-system, sans-serif',
         color: '#fbbf24',
         backgroundColor: '#1b140fcc',
@@ -646,6 +656,7 @@ export class WorldScene extends Phaser.Scene {
     const npcSprites: Phaser.Physics.Arcade.Sprite[] = [];
 
     npcs.forEach((npc) => {
+      const friendlyName = npc.name;
       // Glow behind NPC
       const glowColor =
         npc.id === 'ho_phap_phuong_tu'
@@ -709,7 +720,7 @@ export class WorldScene extends Phaser.Scene {
           : '💎';
 
       const tag = this.add
-        .text(npc.x, npc.y - 180, `${icon} [!] ${npc.name}`, {
+        .text(npc.x, npc.y - 180, `${icon} ${friendlyName}`, {
           font: 'bold 14px "Be Vietnam Pro", -apple-system, sans-serif',
           color: npc.elementColor || '#fbe285',
           backgroundColor: '#1b140fee',
@@ -730,13 +741,13 @@ export class WorldScene extends Phaser.Scene {
       // Interactive zone
       this.interactiveZones.push({
         id: npc.id,
-        name: npc.name,
+        name: friendlyName,
         type: 'npc',
         x: npc.x,
         y: npc.y,
-        radius: 105,
+        radius: 140,
         icon: icon,
-        prompt: npc.prompt,
+        prompt: `Nói chuyện với ${friendlyName}`,
       });
     });
 
@@ -871,12 +882,13 @@ export class WorldScene extends Phaser.Scene {
       // Reposition player to starting spawn if level switched
       this.player.setPosition(450, 560);
       this.player.setVelocity(0, 0);
+      this.stopPlayerWalking();
     }
 
     // 9. Camera Follow
     this.cameras.main.setBounds(0, 0, mapWidth, mapHeight);
     this.cameras.main.startFollow(this.player, true, 0.08, 0.08);
-    this.cameras.main.setZoom(1.0);
+    this.updateCameraZoom();
 
     // 10. Colliders
     this.levelColliders.push(this.physics.add.collider(this.player, sonMon));
@@ -978,7 +990,7 @@ export class WorldScene extends Phaser.Scene {
     } else {
       eventBus.emit(
         'showNotification',
-        `Đã hướng về ${zone.name}. Hãy tiến lại gần thêm một chút để tương tác [E]!`
+        `Đi gần ${zone.name} hơn một chút nhé.`
       );
     }
   }
@@ -995,7 +1007,7 @@ export class WorldScene extends Phaser.Scene {
       if (this.unitProgress < 70) {
         eventBus.emit(
           'showNotification',
-          `Phong ấn chưa giải khai! Cần đạt 70% tiến độ Unit (Hiện tại: ${Math.round(
+          `Học đến 70% để mở trận cuối (hiện có ${Math.round(
             this.unitProgress
           )}%).`
         );
@@ -1004,7 +1016,7 @@ export class WorldScene extends Phaser.Scene {
       if (this.defeatedEnemyIds.includes(climax.encounterId)) {
         eventBus.emit(
           'showNotification',
-          'Trận chiến đỉnh điểm đã hoàn tất! Unit đã hoàn toàn bình định.'
+          'Bạn đã xong trận cuối rồi!'
         );
         return;
       }
@@ -1096,6 +1108,7 @@ export class WorldScene extends Phaser.Scene {
     // Locked movement check
     if (this.isMovementLocked) {
       this.player.setVelocity(0, 0);
+      this.stopPlayerWalking();
       this.promptText.setVisible(false);
       this.selectionRingGraphics.setVisible(false);
       this.selectionPointer.setVisible(false);
@@ -1150,24 +1163,20 @@ export class WorldScene extends Phaser.Scene {
       const normVy = (vy / len) * speed;
       this.player.setVelocity(normVx, normVy);
 
-      // Frame 0: down, 1: up, 2: left, 3: right & update player facing vector
+      // Walk animation uses the same directional order as the standing sprites.
       if (Math.abs(normVx) > Math.abs(normVy)) {
         this.playerFacing = { x: normVx > 0 ? 1 : -1, y: 0 };
-        if (normVx < 0) {
-          this.player.setFrame(2);
-        } else {
-          this.player.setFrame(3);
-        }
+        this.playerDirection = normVx < 0 ? 2 : 3;
       } else {
         this.playerFacing = { x: 0, y: normVy > 0 ? 1 : -1 };
-        if (normVy < 0) {
-          this.player.setFrame(1);
-        } else {
-          this.player.setFrame(0);
-        }
+        this.playerDirection = normVy < 0 ? 1 : 0;
       }
+      const direction = ['down', 'up', 'left', 'right'][this.playerDirection];
+      this.player.anims.timeScale = isSprinting ? 1.35 : 1;
+      this.player.play(`player_${this.playerGender}_walk_${direction}`, true);
     } else {
       this.player.setVelocity(0, 0);
+      this.stopPlayerWalking();
     }
 
     // Interactive zone proximity check & dynamic multi-target selection
@@ -1187,6 +1196,16 @@ export class WorldScene extends Phaser.Scene {
     // Development visual debug overlay
     if (this.isDebugMode) {
       this.renderDebugOverlay();
+    }
+  }
+
+  private stopPlayerWalking() {
+    if (!this.player) return;
+    this.player.anims.stop();
+    this.player.anims.timeScale = 1;
+    const textureKey = `player_${this.playerGender}_4dir`;
+    if (this.player.texture.key !== textureKey || this.player.frame.name !== String(this.playerDirection)) {
+      this.player.setTexture(textureKey, this.playerDirection);
     }
   }
 
@@ -1384,7 +1403,7 @@ export class WorldScene extends Phaser.Scene {
     }
     this.promptText.setText(bannerPrompt);
     this.promptText.setPosition(this.player.x, this.player.y - 120);
-    this.promptText.setVisible(true);
+    this.promptText.setVisible(this.scale.width >= 700 && !window.matchMedia('(pointer: coarse)').matches);
 
     // 4. Smart Overhead Name Tags (highlight active, suppress crowd clutter)
     for (const item of this.entityLabels) {

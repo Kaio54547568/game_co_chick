@@ -1,6 +1,7 @@
 import React from 'react';
 import { Quest, PlayerProfile } from '../types/game';
 import { ScrollText, CheckCircle2, Lock, Sparkles, X, ChevronRight } from 'lucide-react';
+import { questTitle, questAction } from '../utils/questCopy';
 
 interface QuestListModalProps {
   profile: PlayerProfile;
@@ -19,10 +20,10 @@ export const QuestListModal: React.FC<QuestListModalProps> = ({ profile, onClose
             </div>
             <div>
               <h2 className="text-lg sm:text-xl font-bold text-amber-200 font-wuxia">
-                Sơn Môn Nhiệm Vụ Thư
+                Việc cần làm
               </h2>
               <p className="text-xs text-stone-400">
-                Tiến độ nhiệm vụ • Cần tối thiểu 70% để mở phong ấn Ma Giáo Cấm Địa
+                Học đến 70% để mở trận cuối.
               </p>
             </div>
           </div>
@@ -40,7 +41,7 @@ export const QuestListModal: React.FC<QuestListModalProps> = ({ profile, onClose
           <div className="flex justify-between items-center text-xs font-bold mb-1.5">
             <span className="text-amber-300 flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              Tổng Tiến Độ Unit:
+              Đã học
             </span>
             <span
               className={`font-black text-sm ${
@@ -63,11 +64,11 @@ export const QuestListModal: React.FC<QuestListModalProps> = ({ profile, onClose
           </div>
 
           <div className="mt-2 text-[11px] text-stone-400 flex items-center justify-between">
-            <span>Mục tiêu: Hoàn thành các nhiệm vụ giang hồ</span>
+            <span>Cứ đi từng bước nhé</span>
             {profile.unitProgress >= 70 ? (
-              <span className="text-emerald-400 font-bold">✓ Cổng Boss đã giải phong ấn!</span>
+              <span className="text-emerald-400 font-bold">✓ Trận cuối đã mở</span>
             ) : (
-              <span className="text-amber-400">Thiếu {70 - profile.unitProgress}% để mở Cổng Boss</span>
+              <span className="text-amber-400">Còn {70 - profile.unitProgress}%</span>
             )}
           </div>
         </div>
@@ -108,22 +109,22 @@ export const QuestListModal: React.FC<QuestListModalProps> = ({ profile, onClose
                           : 'text-stone-500'
                       }`}
                     >
-                      Nhiệm Vụ #{quest.step}: {quest.title}
+                      Bước {quest.step}: {questTitle(quest)}
                     </span>
                   </div>
 
                   <span className="text-[11px] px-2 py-0.5 rounded bg-stone-900 border border-stone-800 font-semibold text-stone-300">
-                    +{quest.unitProgressGain}% Tiến độ
+                    +{quest.unitProgressGain}%
                   </span>
                 </div>
 
                 <p className="text-xs sm:text-sm font-semibold text-stone-200">
-                  {quest.objective}
+                  {questAction(quest)}
                 </p>
 
                 <div className="flex items-center justify-between text-[11px] text-stone-400 border-t border-stone-800/60 pt-2">
-                  <span>Địa điểm: <b className="text-stone-300">{quest.location}</b></span>
-                  <span>Thưởng: <b className="text-amber-300">+{quest.rewards.xp} XP</b></span>
+                  <span>Nơi đến: <b className="text-stone-300">{quest.location}</b></span>
+                  <span>+{quest.rewards.xp} điểm</span>
                 </div>
               </div>
             );

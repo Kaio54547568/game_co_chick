@@ -3,6 +3,7 @@ import { PlayerProfile, Quest } from '../types/game';
 import { getLevelConfig } from '../game/levels/levelConfig';
 import { eventBus } from '../game/EventBus';
 import { soundService } from '../services/sound';
+import { questTitle } from '../utils/questCopy';
 import {
   Compass,
   MapPin,
@@ -28,7 +29,7 @@ export const Minimap: React.FC<MinimapProps> = ({
   onOpenQuestModal,
 }) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
-  const [isCollapsed, setIsCollapsed] = useState<boolean>(() => typeof window !== 'undefined' && window.innerWidth < 768);
+  const [isCollapsed, setIsCollapsed] = useState<boolean>(() => typeof window !== 'undefined' && (window.matchMedia('(pointer: coarse)').matches || window.innerWidth < 768));
   const [playerPos, setPlayerPos] = useState<{ x: number; y: number }>({ x: 550, y: 560 });
 
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -202,28 +203,28 @@ export const Minimap: React.FC<MinimapProps> = ({
 
   // Compute distance and direction to active quest objective target
   const getNextWaypointHint = () => {
-    if (!currentQuest) return { targetName: 'Sơn Môn', distance: 0, dir: '' };
+    if (!currentQuest) return { targetName: 'Đầu làng', distance: 0, dir: '' };
 
     let targetX = 550;
     let targetY = 560;
-    let targetName = 'Sơn Môn (Bang Chủ)';
+    let targetName = 'Hồng Y Tông Chủ';
 
     if (currentQuest.step === 2) {
       targetX = 920;
       targetY = 560;
-      targetName = 'Tàng Kinh Các (Cô Phương Tú)';
+      targetName = 'Nhà sách';
     } else if (currentQuest.step === 3) {
       targetX = 1850;
       targetY = 560;
-      targetName = 'Phong Ấn Thạch Trận (Thầy Đặng Trần Hà)';
+      targetName = 'Sân câu hỏi';
     } else if (currentQuest.step === 4) {
       targetX = 1600;
       targetY = 1000;
-      targetName = 'Dã Ngoại Trúc Lâm (Trảm Ma)';
+      targetName = 'Rừng tre';
     } else if (currentQuest.step === 5) {
       targetX = 1600;
       targetY = 1720;
-      targetName = 'Ma Giáo Cấm Địa (Quyết Chiến)';
+      targetName = 'Cổng cuối đường';
     }
 
     const dx = targetX - playerPos.x;
@@ -231,9 +232,9 @@ export const Minimap: React.FC<MinimapProps> = ({
     const dist = Math.round(Math.hypot(dx, dy));
 
     let dir = '';
-    if (Math.abs(dy) > 100) dir += dy > 0 ? 'Nam ' : 'Bắc ';
-    if (Math.abs(dx) > 100) dir += dx > 0 ? 'Đông' : 'Tây';
-    if (!dir) dir = 'Gần kề';
+    if (Math.abs(dy) > 100) dir += dy > 0 ? 'xuống ' : 'lên ';
+    if (Math.abs(dx) > 100) dir += dx > 0 ? 'phải' : 'trái';
+    if (!dir) dir = 'gần đây';
 
     return { targetName, distance: dist, dir: dir.trim() };
   };
@@ -241,7 +242,7 @@ export const Minimap: React.FC<MinimapProps> = ({
   const waypoint = getNextWaypointHint();
 
   return (
-    <div className="absolute top-28 sm:top-36 right-2 sm:right-4 z-40 flex flex-col items-end gap-1.5 pointer-events-none select-none">
+    <div className="absolute top-16 sm:top-28 right-2 sm:right-4 z-40 flex flex-col items-end gap-1.5 pointer-events-none select-none" style={{ marginTop: 'env(safe-area-inset-top)' }}>
       {/* Floating Toggle Pill */}
       <div className="pointer-events-auto flex items-center gap-1.5">
         <button
@@ -252,7 +253,7 @@ export const Minimap: React.FC<MinimapProps> = ({
           className="px-2.5 py-1 rounded-xl bg-stone-900/90 hover:bg-stone-800 border border-amber-600/50 text-amber-300 text-[11px] font-bold shadow-lg backdrop-blur-md flex items-center gap-1 active:scale-95 transition"
         >
           <Compass className="w-3.5 h-3.5 text-amber-400" />
-          <span>{isCollapsed ? 'Mở Bản Đồ [M]' : 'Bản Đồ'}</span>
+          <span>{isCollapsed ? 'Bản đồ' : 'Đóng bản đồ'}</span>
           {isCollapsed ? <ChevronDown className="w-3 h-3" /> : <ChevronUp className="w-3 h-3" />}
         </button>
 
@@ -280,10 +281,10 @@ export const Minimap: React.FC<MinimapProps> = ({
           {/* Header */}
           <div className="px-2.5 py-1.5 bg-stone-900/90 border-b border-stone-800 flex items-center justify-between text-[11px] font-bold text-amber-200">
             <span className="truncate max-w-[150px] sm:max-w-[200px]">
-              {levelConfig.title || 'Bản Đồ Giang Hồ'}
+              Bản đồ
             </span>
             <span className="text-[10px] text-stone-400 font-mono">
-              ({playerPos.x}, {playerPos.y})
+              Lớp {profile.selectedGrade || 10}
             </span>
           </div>
 
@@ -323,13 +324,13 @@ export const Minimap: React.FC<MinimapProps> = ({
             <div className="flex items-center justify-between text-[10px] text-amber-400 font-bold mb-0.5">
               <span className="flex items-center gap-1">
                 <Target className="w-3 h-3 text-amber-400 shrink-0" />
-                <span>{currentQuest ? `Mục tiêu #${currentQuest.step}` : 'Tự do hành tẩu'}</span>
+                <span>{currentQuest ? `Bước ${currentQuest.step}` : 'Đi dạo'}</span>
               </span>
               <span className="text-stone-400 group-hover:text-amber-300">Chi tiết &gt;</span>
             </div>
 
             <div className="text-[11px] font-bold text-stone-200 line-clamp-1 group-hover:text-amber-200">
-              {currentQuest?.title || 'Khám phá giang hồ và rèn luyện'}
+              {currentQuest ? questTitle(currentQuest) : 'Khám phá quanh làng'}
             </div>
 
             {/* Direction & Distance Hint */}
@@ -339,7 +340,7 @@ export const Minimap: React.FC<MinimapProps> = ({
                 <span className="truncate">{waypoint.targetName}</span>
               </span>
               <span className="font-mono text-stone-300 font-bold shrink-0">
-                {waypoint.distance}px ({waypoint.dir})
+                {waypoint.dir}
               </span>
             </div>
           </div>

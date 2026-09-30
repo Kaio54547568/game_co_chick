@@ -60,10 +60,10 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
             </div>
             <div>
               <h2 className="text-lg sm:text-xl font-bold text-amber-200 font-wuxia">
-                Hành Trang &amp; Thần Binh Trang Bị
+                Đồ của bạn
               </h2>
               <p className="text-xs text-stone-400">
-                Quản lý vũ khí, bảo vật và bí tịch nâng cao Công Lực
+                Chọn đồ để tăng sức mạnh.
               </p>
             </div>
           </div>
@@ -109,7 +109,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
               <div className="pt-2 border-t border-stone-800 flex items-center justify-between">
                 <span className="text-xs font-bold text-amber-400 flex items-center gap-1">
                   <Sparkles className="w-3.5 h-3.5" />
-                  Công Lực:
+                  Sức mạnh:
                 </span>
                 <span className="text-base font-extrabold text-amber-200">
                   {profile.stats.congLuc}
@@ -198,7 +198,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
                       {profile.equipment.manual ? profile.equipment.manual.name : 'Bí Tịch (Trống)'}
                     </span>
                     <span className="text-[10px] text-emerald-400">
-                      {profile.equipment.manual ? `+${profile.equipment.manual.stats.congLucBonus} Công Lực` : 'Chưa trang bị'}
+                      {profile.equipment.manual ? `+${profile.equipment.manual.stats.congLucBonus} sức mạnh` : 'Chưa dùng'}
                     </span>
                   </div>
                 </div>
@@ -287,7 +287,7 @@ export const InventoryModal: React.FC<InventoryModalProps> = ({
                         <span className="text-rose-400">+{selectedItem.stats.hpBonus} Sinh Lực</span>
                       )}
                       {selectedItem.stats.congLucBonus && (
-                        <span className="text-yellow-400">+{selectedItem.stats.congLucBonus} Công Lực</span>
+                        <span className="text-yellow-400">+{selectedItem.stats.congLucBonus} sức mạnh</span>
                       )}
                     </div>
                   </div>

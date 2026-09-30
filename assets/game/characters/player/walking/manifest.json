@@ -1,0 +1,22 @@
+{
+  "frameWidth": 160,
+  "frameHeight": 192,
+  "columns": 4,
+  "rows": [
+    "down",
+    "up",
+    "left",
+    "right"
+  ],
+  "frameRate": 7,
+  "characters": {
+    "male": {
+      "frames": 16,
+      "file": "male_walk.png"
+    },
+    "female": {
+      "frames": 16,
+      "file": "female_walk.png"
+    }
+  }
+}
